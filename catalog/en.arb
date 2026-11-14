@@ -149670,6 +149670,18 @@
       "web"
     ]
   },
+  "web.reader.search.truncated": "{count, plural, one {Showing the first # match.} other {Showing the first # matches.}}",
+  "@web.reader.search.truncated": {
+    "description": "Web ebook reader: note under the Search tab's search box when the book has more matches than the reader lists. Search stops after a fixed number of matches (currently 1,000), in reading order. {count}: that number.",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    },
+    "x-platforms": [
+      "web"
+    ]
+  },
   "web.reader.settings.brightness": "Brightness",
   "@web.reader.settings.brightness": {
     "description": "Web ebook reader: label of the slider that sets the page brightness as a percentage.",
