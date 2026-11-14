@@ -2531,11 +2531,31 @@
     "by": "opus",
     "model": "claude-opus-5-5"
   },
+  "catalog.sort.bitrate": {
+    "source": "25e8017b404dd0bf",
+    "value": "0b2b7f69b8eff531",
+    "by": "human"
+  },
   "catalog.sort.collectionOrder": {
     "source": "3738f454cd2b603b",
     "value": "e7ae2e5ac02978c1",
     "by": "opus",
     "model": "claude-opus-5-5"
+  },
+  "catalog.sort.contentRating": {
+    "source": "eb60a2e95535d859",
+    "value": "ca76535259d54914",
+    "by": "human"
+  },
+  "catalog.sort.dateRead": {
+    "source": "f30397ae24f7ebbd",
+    "value": "45ea8e663f1fbcf3",
+    "by": "human"
+  },
+  "catalog.sort.dateViewed": {
+    "source": "b992980a6a48b9dc",
+    "value": "7c0dde8b0a6e5a5d",
+    "by": "human"
   },
   "catalog.sort.direction.highestFirst": {
     "source": "5164ace211d0396f",
@@ -2573,11 +2593,26 @@
     "by": "opus",
     "model": "claude-opus-5-5"
   },
+  "catalog.sort.duration": {
+    "source": "6c7f097c67f407fc",
+    "value": "668cbe316167110b",
+    "by": "human"
+  },
   "catalog.sort.imdbRating": {
-    "source": "26cfe4836912b3ed",
+    "source": "cb72246e8c67a7ce",
     "value": "31414881217103c9",
     "by": "opus",
     "model": "claude-opus-5-5"
+  },
+  "catalog.sort.latestEpisodeAdded": {
+    "source": "92b32246bbfc235a",
+    "value": "c6763cfe2ace3c61",
+    "by": "human"
+  },
+  "catalog.sort.latestEpisodeAirDate": {
+    "source": "0ef5a4838230423b",
+    "value": "1af62df2b83e349c",
+    "by": "human"
   },
   "catalog.sort.listOrder": {
     "source": "a9b13f71f739b46d",
@@ -2591,11 +2626,26 @@
     "by": "opus",
     "model": "claude-opus-5-5"
   },
+  "catalog.sort.plays": {
+    "source": "861136b29c5ee2b5",
+    "value": "6ab2f87203d49635",
+    "by": "human"
+  },
+  "catalog.sort.progress": {
+    "source": "7b0267a0829b1179",
+    "value": "abfc3f29bb604493",
+    "by": "human"
+  },
   "catalog.sort.rating": {
     "source": "6682897afc24d86c",
     "value": "5c98ce9258f84101",
     "by": "opus",
     "model": "claude-opus-5-5"
+  },
+  "catalog.sort.reads": {
+    "source": "767e7b686d6c9f94",
+    "value": "9c36bc7b7c43e443",
+    "by": "human"
   },
   "catalog.sort.recentlyAdded": {
     "source": "09bc5cb445fdc701",
@@ -2627,6 +2677,16 @@
     "by": "opus",
     "model": "claude-opus-5-5"
   },
+  "catalog.sort.rtAudienceRating": {
+    "source": "f047db9c13aa50bd",
+    "value": "39d8834270577d22",
+    "by": "human"
+  },
+  "catalog.sort.rtCriticRating": {
+    "source": "3684d75cb4d3c53b",
+    "value": "3b3721d5fb720f33",
+    "by": "human"
+  },
   "catalog.sort.runtime": {
     "source": "d60e28a67a2ceaae",
     "value": "956ba2f5f97188e6",
@@ -2644,6 +2704,11 @@
     "value": "abcafc82daaf011f",
     "by": "opus",
     "model": "claude-opus-5-5"
+  },
+  "catalog.sort.tmdbRating": {
+    "source": "45ee711eafb4e87e",
+    "value": "a30296167dc7e0b9",
+    "by": "human"
   },
   "catalog.sort.year": {
     "source": "e5404b7cc2c15dc4",
@@ -12529,6 +12594,12 @@
     "by": "opus",
     "model": "claude-opus-5-5"
   },
+  "library.direction.fewest": {
+    "source": "8c2cfb565d382fe3",
+    "value": "38c0e100771847de",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
   "library.direction.highest": {
     "source": "e40d6b17c29b6977",
     "value": "b9470ef4b2ffc6ec",
@@ -12544,6 +12615,12 @@
   "library.direction.lowest": {
     "source": "87a52188684a9887",
     "value": "bd03332dcc6c7dff",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
+  "library.direction.most": {
+    "source": "4da29c4984531592",
+    "value": "b173c9c9097e6b30",
     "by": "opus",
     "model": "claude-opus-5-5"
   },
