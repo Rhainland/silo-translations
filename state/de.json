@@ -94028,6 +94028,12 @@
     "by": "opus",
     "model": "claude-opus-5-5"
   },
+  "web.common.toast.watchProviders.authDeclined": {
+    "source": "900b5a28abeee86f",
+    "value": "0870110a8f8c7108",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
   "web.common.toast.watchProviders.authNotApproved": {
     "source": "83c37d17ea9dff98",
     "value": "55d42c17c05cc2fb",

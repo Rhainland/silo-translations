@@ -15676,6 +15676,7 @@
   "web.common.toast.subtitles.savePreferenceFailed": "No se pudo guardar la preferencia de subtítulos",
   "web.common.toast.subtitles.uploadFailed": "No se pudo subir el subtítulo",
   "web.common.toast.subtitles.uploaded": "Subtítulo subido",
+  "web.common.toast.watchProviders.authDeclined": "Se rechazó la conexión en el sitio del proveedor. Selecciona Conectar para volver a intentarlo.",
   "web.common.toast.watchProviders.authNotApproved": "Primero aprueba el código en el sitio del proveedor y vuelve a intentarlo.",
   "web.common.toast.watchProviders.connectFailed": "No se pudo conectar el proveedor",
   "web.common.toast.watchProviders.connected": "Proveedor de visualización conectado",
