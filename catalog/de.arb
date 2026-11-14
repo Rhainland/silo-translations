@@ -436,7 +436,7 @@
   "catalog.sort.duration": "Dauer",
   "catalog.sort.imdbRating": "IMDb-Bewertung",
   "catalog.sort.latestEpisodeAdded": "Neueste Folge hinzugefügt",
-  "catalog.sort.latestEpisodeAirDate": "Ausstrahlung der neuesten Folge",
+  "catalog.sort.latestEpisodeAirDate": "Sendedatum der neuesten Folge",
   "catalog.sort.listOrder": "Listenreihenfolge",
   "catalog.sort.narrator": "Sprecher",
   "catalog.sort.plays": "Wiedergaben",

@@ -436,7 +436,7 @@
   "catalog.sort.duration": "Durée",
   "catalog.sort.imdbRating": "Note IMDb",
   "catalog.sort.latestEpisodeAdded": "Dernier épisode ajouté",
-  "catalog.sort.latestEpisodeAirDate": "Date de diffusion du dernier épisode",
+  "catalog.sort.latestEpisodeAirDate": "Diffusion du dernier épisode",
   "catalog.sort.listOrder": "Ordre de la liste",
   "catalog.sort.narrator": "Narrateur",
   "catalog.sort.plays": "Nombre de lectures",
