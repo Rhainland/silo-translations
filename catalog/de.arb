@@ -17868,6 +17868,7 @@
   "web.reader.ruler.valueText": "{percent} %",
   "web.reader.search.input": "Text suchen",
   "web.reader.search.run": "Suche starten",
+  "web.reader.search.truncated": "{count, plural, one {Der erste Treffer wird angezeigt.} other {Die ersten # Treffer werden angezeigt.}}",
   "web.reader.settings.brightness": "Helligkeit",
   "web.reader.settings.flow": "Seitenfluss",
   "web.reader.settings.font": "Schrift",
