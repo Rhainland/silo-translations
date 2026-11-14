@@ -3932,21 +3932,23 @@
   },
   "catalog.sort.latestEpisodeAdded": "Latest Episode Added",
   "@catalog.sort.latestEpisodeAdded": {
-    "description": "Sort option in a library's sort menu on Apple iOS, iPadOS, macOS and tvOS, Android phone and TV, and Roku: order series by when their newest episode was added to the library. Offered for TV libraries.",
+    "description": "Sort option in a library's sort menu on Apple iOS, iPadOS, macOS and tvOS, Android phone and TV, and Roku: order series by when their newest episode was added to the library. Offered for TV libraries. Roku's sort menu row has room for about 30 characters.",
     "x-platforms": [
       "apple",
       "android",
       "roku"
-    ]
+    ],
+    "x-maxLength": 30
   },
   "catalog.sort.latestEpisodeAirDate": "Latest Episode Air Date",
   "@catalog.sort.latestEpisodeAirDate": {
-    "description": "Sort option in a library's sort menu on Apple iOS, iPadOS, macOS and tvOS, Android phone and TV, and Roku: order series by the air date of their newest episode. Offered for TV libraries.",
+    "description": "Sort option in a library's sort menu on Apple iOS, iPadOS, macOS and tvOS, Android phone and TV, and Roku: order series by the air date of their newest episode. Offered for TV libraries. Roku's sort menu row has room for about 30 characters.",
     "x-platforms": [
       "apple",
       "android",
       "roku"
-    ]
+    ],
+    "x-maxLength": 30
   },
   "catalog.sort.listOrder": "List Order",
   "@catalog.sort.listOrder": {
