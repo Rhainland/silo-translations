@@ -131492,9 +131492,16 @@
       "web"
     ]
   },
+  "web.common.toast.watchProviders.authNotApproved": "Approve the code on the provider's site first, then try again.",
+  "@web.common.toast.watchProviders.authNotApproved": {
+    "description": "Web, Settings → Watch providers (Simkl and similar services): explanation under the 'Failed to finish auth' toast when the person clicked to finish connecting before approving the shown code on the provider's website.",
+    "x-platforms": [
+      "web"
+    ]
+  },
   "web.common.toast.watchProviders.connectFailed": "Failed to connect provider",
   "@web.common.toast.watchProviders.connectFailed": {
-    "description": "Web, Settings → Watch providers (Trakt and similar services): toast when connecting the provider fails without a server reason.",
+    "description": "Web, Settings → Watch providers (Trakt and similar services): toast when connecting the provider fails; the reason appears below it.",
     "x-platforms": [
       "web"
     ]
@@ -131508,7 +131515,7 @@
   },
   "web.common.toast.watchProviders.disconnectFailed": "Failed to disconnect provider",
   "@web.common.toast.watchProviders.disconnectFailed": {
-    "description": "Web, Settings → Watch providers (Trakt and similar services): toast when disconnecting the provider fails without a server reason.",
+    "description": "Web, Settings → Watch providers (Trakt and similar services): toast when disconnecting the provider fails; the reason appears below it.",
     "x-platforms": [
       "web"
     ]
@@ -131522,7 +131529,7 @@
   },
   "web.common.toast.watchProviders.finishAuthFailed": "Failed to finish auth",
   "@web.common.toast.watchProviders.finishAuthFailed": {
-    "description": "Web, Settings → Watch providers (Trakt and similar services): toast when completing sign-in with the provider fails without a server reason.",
+    "description": "Web, Settings → Watch providers (Trakt and similar services): toast when completing sign-in with the provider fails; the reason appears below it.",
     "x-platforms": [
       "web"
     ]
@@ -131536,7 +131543,7 @@
   },
   "web.common.toast.watchProviders.startAuthFailed": "Failed to start auth",
   "@web.common.toast.watchProviders.startAuthFailed": {
-    "description": "Web, Settings → Watch providers (Trakt and similar services): toast when starting sign-in with the provider fails without a server reason.",
+    "description": "Web, Settings → Watch providers (Trakt and similar services): toast when starting sign-in with the provider fails; the reason appears below it.",
     "x-platforms": [
       "web"
     ]
@@ -131607,7 +131614,7 @@
   },
   "web.common.toast.watchProviders.syncFailed": "Failed to start sync",
   "@web.common.toast.watchProviders.syncFailed": {
-    "description": "Web, Settings → Watch providers (Trakt and similar services): toast when starting a manual sync fails without a server reason.",
+    "description": "Web, Settings → Watch providers (Trakt and similar services): toast when starting a manual sync fails; the reason appears below it.",
     "x-platforms": [
       "web"
     ]
@@ -131621,7 +131628,7 @@
   },
   "web.common.toast.watchProviders.updateFailed": "Failed to update provider",
   "@web.common.toast.watchProviders.updateFailed": {
-    "description": "Web, Settings → Watch providers (Trakt and similar services): toast when saving provider settings fails without a server reason.",
+    "description": "Web, Settings → Watch providers (Trakt and similar services): toast when saving provider settings fails; the reason appears below it.",
     "x-platforms": [
       "web"
     ]
