@@ -6478,6 +6478,7 @@
   "web.admin.autoscan.activity.reason.libraryRootOffline": "La racine de stockage de la bibliothèque n’est pas disponible.",
   "web.admin.autoscan.activity.reason.noLibraryMatch": "Aucun dossier de bibliothèque Silo ne contient ce chemin. Ajoutez une correspondance de chemin pour cette source ou vérifiez les dossiers de la bibliothèque.",
   "web.admin.autoscan.activity.reason.pathAmbiguous": "Ce chemin correspond à plusieurs bibliothèques.",
+  "web.admin.autoscan.activity.reason.pathIgnored": "Les fichiers d’exclusion de la bibliothèque écartent ce fichier ; il n’a donc pas été analysé.",
   "web.admin.autoscan.activity.reason.pathNotFileOrDir": "Ce chemin n’est ni un fichier ni un dossier.",
   "web.admin.autoscan.activity.reason.pathNotInspectable": "Silo n’a pas pu inspecter ce chemin.",
   "web.admin.autoscan.activity.reason.pathOutsideLibrary": "Ce chemin est en dehors de la bibliothèque correspondante.",

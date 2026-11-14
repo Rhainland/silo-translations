@@ -38854,6 +38854,12 @@
     "by": "opus",
     "model": "claude-opus-5-5"
   },
+  "web.admin.autoscan.activity.reason.pathIgnored": {
+    "source": "83c493200aa2e030",
+    "value": "5c5f2ca4402300aa",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
   "web.admin.autoscan.activity.reason.pathNotFileOrDir": {
     "source": "c93764329589799e",
     "value": "e72cb495bfc3da27",
