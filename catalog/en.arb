@@ -131492,6 +131492,13 @@
       "web"
     ]
   },
+  "web.common.toast.watchProviders.authDeclined": "The connection was declined on the provider's site. Select Connect to try again.",
+  "@web.common.toast.watchProviders.authDeclined": {
+    "description": "Web, Settings → Watch providers (Simkl and similar services): explanation under the 'Failed to finish auth' toast when the person declined Silo's access on the provider's website. 'Connect' is the button that starts connecting the provider.",
+    "x-platforms": [
+      "web"
+    ]
+  },
   "web.common.toast.watchProviders.authNotApproved": "Approve the code on the provider's site first, then try again.",
   "@web.common.toast.watchProviders.authNotApproved": {
     "description": "Web, Settings → Watch providers (Simkl and similar services): explanation under the 'Failed to finish auth' toast when the person clicked to finish connecting before approving the shown code on the provider's website.",
