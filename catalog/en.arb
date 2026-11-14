@@ -54036,6 +54036,13 @@
       "web"
     ]
   },
+  "web.admin.autoscan.activity.reason.pathIgnored": "The library's ignore files exclude this file, so it was not scanned.",
+  "@web.admin.autoscan.activity.reason.pathIgnored": {
+    "description": "Web admin, Autoscan Activity page: event details: why a changed path was not scanned. Ignore files are the .ignore, .siloignore and .nomedia files an admin puts in library folders.",
+    "x-platforms": [
+      "web"
+    ]
+  },
   "web.admin.autoscan.activity.reason.pathNotFileOrDir": "This path is not a file or directory.",
   "@web.admin.autoscan.activity.reason.pathNotFileOrDir": {
     "description": "Web admin, Autoscan Activity page: event details: why a changed path was not scanned.",
