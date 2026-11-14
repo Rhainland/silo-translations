@@ -17867,6 +17867,7 @@
   "web.reader.ruler.valueText": "{percent}%",
   "web.reader.search.input": "نص البحث",
   "web.reader.search.run": "تنفيذ البحث",
+  "web.reader.search.truncated": "{count, plural, zero {يتم عرض أول # تطابق.} one {يتم عرض التطابق الأول.} two {يتم عرض أول تطابقين.} few {يتم عرض أول # تطابقات.} many {يتم عرض أول # تطابقًا.} other {يتم عرض أول # تطابق.}}",
   "web.reader.settings.brightness": "السطوع",
   "web.reader.settings.flow": "طريقة العرض",
   "web.reader.settings.font": "الخط",

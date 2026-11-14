@@ -17867,6 +17867,7 @@
   "web.reader.ruler.valueText": "{percent}%",
   "web.reader.search.input": "検索するテキスト",
   "web.reader.search.run": "検索を実行",
+  "web.reader.search.truncated": "{count, plural, other {最初の#件の一致を表示しています。}}",
   "web.reader.settings.brightness": "明るさ",
   "web.reader.settings.flow": "表示方式",
   "web.reader.settings.font": "フォント",
