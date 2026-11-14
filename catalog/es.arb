@@ -5492,6 +5492,7 @@
   "upNext.almostFinished": "Casi terminado",
   "upNext.autoPlayOff": "Reproducción automática desactivada",
   "upNext.autoPlayOn": "Reproducción automática activada",
+  "upNext.close": "Cerrar",
   "upNext.creditsEndAutoPlayOff": "Los créditos terminan en {time} · la reproducción automática está desactivada",
   "upNext.creditsEndThenPlays": "Los créditos terminan en {time} · luego se reproduce",
   "upNext.endOfPlayback": "Fin de la reproducción",

@@ -5492,6 +5492,7 @@
   "upNext.almostFinished": "أوشك على الانتهاء",
   "upNext.autoPlayOff": "التشغيل التلقائي معطّل",
   "upNext.autoPlayOn": "التشغيل التلقائي مفعّل",
+  "upNext.close": "إغلاق",
   "upNext.creditsEndAutoPlayOff": "تنتهي شارة النهاية خلال {time} · التشغيل التلقائي معطّل",
   "upNext.creditsEndThenPlays": "تنتهي شارة النهاية خلال {time} · ثم تبدأ الحلقة التالية",
   "upNext.endOfPlayback": "انتهى التشغيل",

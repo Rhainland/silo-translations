@@ -5492,6 +5492,7 @@
   "upNext.almostFinished": "まもなく終了",
   "upNext.autoPlayOff": "自動再生：オフ",
   "upNext.autoPlayOn": "自動再生：オン",
+  "upNext.close": "閉じる",
   "upNext.creditsEndAutoPlayOff": "クレジット終了まで{time} · 自動再生はオフ",
   "upNext.creditsEndThenPlays": "クレジット終了まで{time} · その後に再生",
   "upNext.endOfPlayback": "再生終了",

@@ -4742,7 +4742,7 @@
   },
   "common.back": "Back",
   "@common.back": {
-    "description": "Back button that returns to the previous screen or panel. Roku: for example in the Up Next panel and on screens that cannot load content. Android phone: screen reader label of the back chevron in a player menu panel, the ebook reader's back arrow, and back buttons in Remote Control and Downloads. Android TV: the Back button of the player's Up Next panel, the server address screen, and the secondary button of the audiobook player's error screen. Apple iOS and tvOS: button in the subtitle search sheet or panel after a search failed, returning to the language list, and Back button on the player's Up Next screen. Web: back buttons in admin pages such as backup restore and AI providers."
+    "description": "Back button that returns to the previous screen or panel. Roku: for example in the Up Next panel and on screens that cannot load content. Android phone: screen reader label of the back chevron in a player menu panel, the ebook reader's back arrow, and back buttons in Remote Control and Downloads. Android TV: the Back button of the player's Up Next panel, the server address screen, and the secondary button of the audiobook player's error screen. Apple iOS and tvOS: button in the subtitle search sheet or panel after a search failed, returning to the language list. Web: back buttons in admin pages such as backup restore and AI providers."
   },
   "common.cancel": "Cancel",
   "@common.cancel": {
@@ -45792,6 +45792,13 @@
       "apple",
       "android",
       "roku"
+    ]
+  },
+  "upNext.close": "Close",
+  "@upNext.close": {
+    "description": "Apple iOS and tvOS: button on the player's Up Next screen that closes the player and returns to the screen playback started from. The Keep Watching button beside it returns to the video.",
+    "x-platforms": [
+      "apple"
     ]
   },
   "upNext.creditsEndAutoPlayOff": "Credits end in {time} · auto-play is off",
