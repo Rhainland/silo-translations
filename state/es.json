@@ -93995,8 +93995,14 @@
     "by": "opus",
     "model": "claude-opus-5-5"
   },
+  "web.common.toast.watchProviders.authNotApproved": {
+    "source": "83c37d17ea9dff98",
+    "value": "8bdea4a84593cc2c",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
   "web.common.toast.watchProviders.connectFailed": {
-    "source": "cd84673c99c88fe1",
+    "source": "80798fb48e909d53",
     "value": "d84cb1d0ebaf40ce",
     "by": "opus",
     "model": "claude-opus-5-5"
@@ -94008,7 +94014,7 @@
     "model": "claude-opus-5-5"
   },
   "web.common.toast.watchProviders.disconnectFailed": {
-    "source": "19fb9ce4acd52d82",
+    "source": "cb29c783e4f04c1e",
     "value": "71ae3cb6497b2b7e",
     "by": "opus",
     "model": "claude-opus-5-5"
@@ -94020,7 +94026,7 @@
     "model": "claude-opus-5-5"
   },
   "web.common.toast.watchProviders.finishAuthFailed": {
-    "source": "9c31a71efc6c86c4",
+    "source": "341a664c0d3d993b",
     "value": "55af4c39e4dd27ef",
     "by": "opus",
     "model": "claude-opus-5-5"
@@ -94032,7 +94038,7 @@
     "model": "claude-opus-5-5"
   },
   "web.common.toast.watchProviders.startAuthFailed": {
-    "source": "9e2da14ee180cb68",
+    "source": "649d2cb3cf90da32",
     "value": "66acc39fdfddae53",
     "by": "opus",
     "model": "claude-opus-5-5"
@@ -94068,7 +94074,7 @@
     "model": "claude-opus-5-5"
   },
   "web.common.toast.watchProviders.syncFailed": {
-    "source": "2c3427be5b10bd15",
+    "source": "a7d46eb9ed607f3f",
     "value": "33a4ed046e165a18",
     "by": "opus",
     "model": "claude-opus-5-5"
@@ -94080,7 +94086,7 @@
     "model": "claude-opus-5-5"
   },
   "web.common.toast.watchProviders.updateFailed": {
-    "source": "0f5c65602bcfaf8c",
+    "source": "5ef3916667a7b278",
     "value": "69713b30e5a4405c",
     "by": "opus",
     "model": "claude-opus-5-5"

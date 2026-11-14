@@ -15676,6 +15676,7 @@
   "web.common.toast.subtitles.savePreferenceFailed": "Impossible d’enregistrer la préférence de sous-titres",
   "web.common.toast.subtitles.uploadFailed": "Impossible d’envoyer le sous-titre",
   "web.common.toast.subtitles.uploaded": "Sous-titre envoyé",
+  "web.common.toast.watchProviders.authNotApproved": "Approuvez d’abord le code sur le site du fournisseur, puis réessayez.",
   "web.common.toast.watchProviders.connectFailed": "Impossible de connecter le fournisseur",
   "web.common.toast.watchProviders.connected": "Fournisseur de suivi connecté",
   "web.common.toast.watchProviders.disconnectFailed": "Impossible de déconnecter le fournisseur",
