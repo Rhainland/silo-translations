@@ -15676,6 +15676,8 @@
   "web.common.toast.subtitles.savePreferenceFailed": "无法保存字幕偏好",
   "web.common.toast.subtitles.uploadFailed": "无法上传字幕",
   "web.common.toast.subtitles.uploaded": "字幕已上传",
+  "web.common.toast.watchProviders.authDeclined": "连接已在提供商网站上被拒绝。请选择“连接”重试。",
+  "web.common.toast.watchProviders.authNotApproved": "请先在提供商网站上批准代码，然后重试。",
   "web.common.toast.watchProviders.connectFailed": "无法连接提供商",
   "web.common.toast.watchProviders.connected": "观看提供商已连接",
   "web.common.toast.watchProviders.disconnectFailed": "无法断开提供商",

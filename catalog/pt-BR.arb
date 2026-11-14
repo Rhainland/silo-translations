@@ -15676,6 +15676,8 @@
   "web.common.toast.subtitles.savePreferenceFailed": "Não foi possível salvar a preferência de legenda",
   "web.common.toast.subtitles.uploadFailed": "Não foi possível enviar a legenda",
   "web.common.toast.subtitles.uploaded": "Legenda enviada",
+  "web.common.toast.watchProviders.authDeclined": "A conexão foi recusada no site do provedor. Selecione Conectar para tentar novamente.",
+  "web.common.toast.watchProviders.authNotApproved": "Primeiro aprove o código no site do provedor e depois tente novamente.",
   "web.common.toast.watchProviders.connectFailed": "Não foi possível conectar o provedor",
   "web.common.toast.watchProviders.connected": "Provedor de exibição conectado",
   "web.common.toast.watchProviders.disconnectFailed": "Não foi possível desconectar o provedor",

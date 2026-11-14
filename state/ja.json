@@ -94042,8 +94042,20 @@
     "by": "opus",
     "model": "claude-opus-5-5"
   },
+  "web.common.toast.watchProviders.authDeclined": {
+    "source": "900b5a28abeee86f",
+    "value": "c08d0da0c87e0b27",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
+  "web.common.toast.watchProviders.authNotApproved": {
+    "source": "83c37d17ea9dff98",
+    "value": "59ffe4376b951267",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
   "web.common.toast.watchProviders.connectFailed": {
-    "source": "cd84673c99c88fe1",
+    "source": "80798fb48e909d53",
     "value": "e34e587abfc431bd",
     "by": "opus",
     "model": "claude-opus-5-5"
@@ -94055,7 +94067,7 @@
     "model": "claude-opus-5-5"
   },
   "web.common.toast.watchProviders.disconnectFailed": {
-    "source": "19fb9ce4acd52d82",
+    "source": "cb29c783e4f04c1e",
     "value": "fb7141fdb446fa49",
     "by": "opus",
     "model": "claude-opus-5-5"
@@ -94067,7 +94079,7 @@
     "model": "claude-opus-5-5"
   },
   "web.common.toast.watchProviders.finishAuthFailed": {
-    "source": "9c31a71efc6c86c4",
+    "source": "341a664c0d3d993b",
     "value": "9e3b83a9d6a05765",
     "by": "opus",
     "model": "claude-opus-5-5"
@@ -94079,7 +94091,7 @@
     "model": "claude-opus-5-5"
   },
   "web.common.toast.watchProviders.startAuthFailed": {
-    "source": "9e2da14ee180cb68",
+    "source": "649d2cb3cf90da32",
     "value": "0cc69d1690932acc",
     "by": "opus",
     "model": "claude-opus-5-5"
@@ -94115,7 +94127,7 @@
     "model": "claude-opus-5-5"
   },
   "web.common.toast.watchProviders.syncFailed": {
-    "source": "2c3427be5b10bd15",
+    "source": "a7d46eb9ed607f3f",
     "value": "ad215e8d03c4e148",
     "by": "opus",
     "model": "claude-opus-5-5"
@@ -94127,7 +94139,7 @@
     "model": "claude-opus-5-5"
   },
   "web.common.toast.watchProviders.updateFailed": {
-    "source": "0f5c65602bcfaf8c",
+    "source": "5ef3916667a7b278",
     "value": "92a4bc4eeb5931c3",
     "by": "opus",
     "model": "claude-opus-5-5"

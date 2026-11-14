@@ -15676,6 +15676,8 @@
   "web.common.toast.subtitles.savePreferenceFailed": "فشل حفظ تفضيل الترجمة",
   "web.common.toast.subtitles.uploadFailed": "فشل رفع الترجمة",
   "web.common.toast.subtitles.uploaded": "تم رفع الترجمة",
+  "web.common.toast.watchProviders.authDeclined": "رُفض الاتصال في موقع المزود. اختر «ربط» للمحاولة مرة أخرى.",
+  "web.common.toast.watchProviders.authNotApproved": "وافق على الرمز في موقع المزود أولًا، ثم حاول مرة أخرى.",
   "web.common.toast.watchProviders.connectFailed": "فشل ربط المزود",
   "web.common.toast.watchProviders.connected": "تم ربط مزود المشاهدة",
   "web.common.toast.watchProviders.disconnectFailed": "فشل فصل المزود",
