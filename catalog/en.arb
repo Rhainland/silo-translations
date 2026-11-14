@@ -148409,6 +148409,20 @@
       "web"
     ]
   },
+  "web.profiles.editor.requestsAllowed": "Allow requests",
+  "@web.profiles.editor.requestsAllowed": {
+    "description": "Web profile editor dialog, Access section: switch that lets the profile browse and request titles that are not in the library. Only the household manager sees it.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.profiles.editor.requestsAllowedHint": "Lets this profile browse titles that are not in the library and request them. The content rating limits those titles by their US rating only, and the advisory-age limit does not apply to them.",
+  "@web.profiles.editor.requestsAllowedHint": {
+    "description": "Web profile editor dialog, Access section: help text under the Allow requests switch.",
+    "x-platforms": [
+      "web"
+    ]
+  },
   "web.profiles.editor.restrictLibraries": "Restrict libraries",
   "@web.profiles.editor.restrictLibraries": {
     "description": "Web profile editor dialog: label of the switch that limits the profile to chosen libraries.",
@@ -148514,6 +148528,13 @@
         "type": "String"
       }
     },
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.profiles.helpers.access.noRequests": "No requests",
+  "@web.profiles.helpers.access.noRequests": {
+    "description": "Web Settings → Profiles: part of the access summary under a profile's name, joined with \" · \". Shown when the household manager turned requests off for the profile.",
     "x-platforms": [
       "web"
     ]
@@ -150598,6 +150619,13 @@
       "web"
     ]
   },
+  "web.requests.hub.blockedIntro": "Requests are turned off for this profile. You can still see and cancel the requests it made.",
+  "@web.requests.hub.blockedIntro": {
+    "description": "Web Requests page for a profile the household manager blocked from requests: explanation under the page title. The page lists only that profile's own requests.",
+    "x-platforms": [
+      "web"
+    ]
+  },
   "web.requests.hub.browseDiscover": "Browse Discover",
   "@web.requests.hub.browseDiscover": {
     "description": "Web Requests page, Yours tab: button under the empty state that opens the Discover tab.",
@@ -150820,6 +150848,13 @@
   "web.requests.hub.yoursIntro": "Requests from your account, grouped by what happens next.",
   "@web.requests.hub.yoursIntro": {
     "description": "Web Requests page, Yours tab: explanation over the list.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.requests.hub.yoursIntroProfile": "Requests this profile made, grouped by what happens next.",
+  "@web.requests.hub.yoursIntroProfile": {
+    "description": "Web Requests page for a profile blocked from requests: explanation over its list, which holds only the requests this profile made.",
     "x-platforms": [
       "web"
     ]

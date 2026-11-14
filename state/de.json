@@ -106238,6 +106238,18 @@
     "by": "opus",
     "model": "claude-opus-5-5"
   },
+  "web.profiles.editor.requestsAllowed": {
+    "source": "b738cc27cfba1286",
+    "value": "927b4f19cba231fa",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
+  "web.profiles.editor.requestsAllowedHint": {
+    "source": "51507a75690c299e",
+    "value": "b4e5815cc679e7de",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
   "web.profiles.editor.restrictLibraries": {
     "source": "30afad1b808e3743",
     "value": "0ed3272ac76f33fe",
@@ -106313,6 +106325,12 @@
   "web.profiles.helpers.access.libraries": {
     "source": "8441e2f156b894ba",
     "value": "febe8e5436f7f0fb",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
+  "web.profiles.helpers.access.noRequests": {
+    "source": "3c78bf6264667b1a",
+    "value": "f8c99c12a64024b0",
     "by": "opus",
     "model": "claude-opus-5-5"
   },
@@ -107912,6 +107930,12 @@
     "by": "opus",
     "model": "claude-opus-5-5"
   },
+  "web.requests.hub.blockedIntro": {
+    "source": "54910648073f9624",
+    "value": "a673946a1f93e256",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
   "web.requests.hub.browseDiscover": {
     "source": "38aaa5053c901dfe",
     "value": "f5cd93b765b23987",
@@ -108083,6 +108107,12 @@
   "web.requests.hub.yoursIntro": {
     "source": "d75d1538fc7b2c43",
     "value": "03a5aa15130c3fb2",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
+  "web.requests.hub.yoursIntroProfile": {
+    "source": "5ea9d5aea57cd536",
+    "value": "9bd9b337fd188e21",
     "by": "opus",
     "model": "claude-opus-5-5"
   },
