@@ -131112,6 +131112,13 @@
       "web"
     ]
   },
+  "web.common.toast.collections.created": "Collection created",
+  "@web.common.toast.collections.created": {
+    "description": "Web, collection editor: toast when Create collection worked and the editor returns to the collections list, which may be filtered so the new collection isn't in view.",
+    "x-platforms": [
+      "web"
+    ]
+  },
   "web.common.toast.collections.deleteFailed": "Failed to delete",
   "@web.common.toast.collections.deleteFailed": {
     "description": "Web, collections (collection pages and the collection editor): toast when deleting a collection fails without a server reason.",
@@ -131122,6 +131129,13 @@
   "web.common.toast.collections.deleted": "Collection deleted",
   "@web.common.toast.collections.deleted": {
     "description": "Web, collections (collection pages and the collection editor): toast after a collection is deleted.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.common.toast.collections.saved": "Collection saved",
+  "@web.common.toast.collections.saved": {
+    "description": "Web, collection editor: toast when Save worked and the editor returns to the collections list, which may be filtered so the collection isn't in view.",
     "x-platforms": [
       "web"
     ]

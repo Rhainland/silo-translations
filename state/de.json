@@ -93716,6 +93716,12 @@
     "by": "opus",
     "model": "claude-opus-5-5"
   },
+  "web.common.toast.collections.created": {
+    "source": "b0e031e777d16dac",
+    "value": "4862c86d25dac07c",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
   "web.common.toast.collections.deleteFailed": {
     "source": "4ee5adde3be310f0",
     "value": "8ef5d06188f11fbc",
@@ -93725,6 +93731,12 @@
   "web.common.toast.collections.deleted": {
     "source": "cd182d8b10391325",
     "value": "cb0a5564b84b320d",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
+  "web.common.toast.collections.saved": {
+    "source": "af94378c4eb461cb",
+    "value": "29141070a698d600",
     "by": "opus",
     "model": "claude-opus-5-5"
   },
