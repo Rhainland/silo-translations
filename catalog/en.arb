@@ -3828,11 +3828,45 @@
       "android"
     ]
   },
+  "catalog.sort.bitrate": "Bitrate",
+  "@catalog.sort.bitrate": {
+    "description": "Sort option in a library's sort menu on Apple iOS, iPadOS, macOS and tvOS, Android phone and TV, and Roku: order titles by the video file's bitrate.",
+    "x-platforms": [
+      "apple",
+      "android",
+      "roku"
+    ]
+  },
   "catalog.sort.collectionOrder": "Collection Order",
   "@catalog.sort.collectionOrder": {
     "description": "Android TV: sort option on a collection page that keeps the order the collection defines (manual, list or smart order).",
     "x-platforms": [
       "android"
+    ]
+  },
+  "catalog.sort.contentRating": "Content Rating",
+  "@catalog.sort.contentRating": {
+    "description": "Sort option in a library's sort menu on Apple iOS, iPadOS, macOS and tvOS, Android phone and TV, and Roku: order titles by content rating (age rating such as PG or TV-MA).",
+    "x-platforms": [
+      "apple",
+      "android",
+      "roku"
+    ]
+  },
+  "catalog.sort.dateRead": "Date Read",
+  "@catalog.sort.dateRead": {
+    "description": "Android phone and TV: sort option in an ebook or manga library's sort menu: order titles by when the reader last read them (shown instead of Date Viewed).",
+    "x-platforms": [
+      "android"
+    ]
+  },
+  "catalog.sort.dateViewed": "Date Viewed",
+  "@catalog.sort.dateViewed": {
+    "description": "Sort option in a library's sort menu on Apple iOS, iPadOS, macOS and tvOS, Android phone and TV, and Roku: order titles by when the viewer last watched them.",
+    "x-platforms": [
+      "apple",
+      "android",
+      "roku"
     ]
   },
   "catalog.sort.direction.highestFirst": "Highest first",
@@ -3877,12 +3911,41 @@
       "android"
     ]
   },
+  "catalog.sort.duration": "Duration",
+  "@catalog.sort.duration": {
+    "description": "Sort option in a library's sort menu on Apple iOS, iPadOS, macOS and tvOS, Android phone and TV, and Roku: order titles by running time.",
+    "x-platforms": [
+      "apple",
+      "android",
+      "roku"
+    ]
+  },
   "catalog.sort.imdbRating": "IMDb Rating",
   "@catalog.sort.imdbRating": {
-    "description": "Android phone: sort option in the library browse sort menu: order titles by their IMDb rating.",
+    "description": "Sort option in a library's sort menu on the web, Apple iOS, iPadOS, macOS and tvOS, Android phone and TV, and Roku: order titles by their IMDb rating.",
     "x-platforms": [
       "web",
-      "android"
+      "apple",
+      "android",
+      "roku"
+    ]
+  },
+  "catalog.sort.latestEpisodeAdded": "Latest Episode Added",
+  "@catalog.sort.latestEpisodeAdded": {
+    "description": "Sort option in a library's sort menu on Apple iOS, iPadOS, macOS and tvOS, Android phone and TV, and Roku: order series by when their newest episode was added to the library. Offered for TV libraries.",
+    "x-platforms": [
+      "apple",
+      "android",
+      "roku"
+    ]
+  },
+  "catalog.sort.latestEpisodeAirDate": "Latest Episode Air Date",
+  "@catalog.sort.latestEpisodeAirDate": {
+    "description": "Sort option in a library's sort menu on Apple iOS, iPadOS, macOS and tvOS, Android phone and TV, and Roku: order series by the air date of their newest episode. Offered for TV libraries.",
+    "x-platforms": [
+      "apple",
+      "android",
+      "roku"
     ]
   },
   "catalog.sort.listOrder": "List Order",
@@ -3901,6 +3964,24 @@
       "android"
     ]
   },
+  "catalog.sort.plays": "Plays",
+  "@catalog.sort.plays": {
+    "description": "Sort option in a library's sort menu on Apple iOS, iPadOS, macOS and tvOS, Android phone and TV, and Roku: order titles by how many times the viewer has played them.",
+    "x-platforms": [
+      "apple",
+      "android",
+      "roku"
+    ]
+  },
+  "catalog.sort.progress": "Progress",
+  "@catalog.sort.progress": {
+    "description": "Sort option in a library's sort menu on Apple iOS, iPadOS, macOS and tvOS, Android phone and TV, and Roku: order titles by how far the viewer has watched or read them.",
+    "x-platforms": [
+      "apple",
+      "android",
+      "roku"
+    ]
+  },
   "catalog.sort.rating": "Rating",
   "@catalog.sort.rating": {
     "description": "Sort option on library and saved-list screens: order items by community rating.",
@@ -3908,6 +3989,13 @@
       "apple",
       "android",
       "roku"
+    ]
+  },
+  "catalog.sort.reads": "Reads",
+  "@catalog.sort.reads": {
+    "description": "Android phone and TV: sort option in an ebook or manga library's sort menu: order titles by how many times the reader has read them (shown instead of Plays).",
+    "x-platforms": [
+      "android"
     ]
   },
   "catalog.sort.recentlyAdded": "Recently Added",
@@ -3939,6 +4027,24 @@
   "@catalog.sort.resolution": {
     "description": "Sort option on a library screen: order items by video resolution."
   },
+  "catalog.sort.rtAudienceRating": "RT Audience Rating",
+  "@catalog.sort.rtAudienceRating": {
+    "description": "Sort option in a library's sort menu on Apple iOS, iPadOS, macOS and tvOS, Android phone and TV, and Roku: order titles by their Rotten Tomatoes audience score (RT is the abbreviation for Rotten Tomatoes).",
+    "x-platforms": [
+      "apple",
+      "android",
+      "roku"
+    ]
+  },
+  "catalog.sort.rtCriticRating": "RT Critic Rating",
+  "@catalog.sort.rtCriticRating": {
+    "description": "Sort option in a library's sort menu on Apple iOS, iPadOS, macOS and tvOS, Android phone and TV, and Roku: order titles by their Rotten Tomatoes critic score (RT is the abbreviation for Rotten Tomatoes).",
+    "x-platforms": [
+      "apple",
+      "android",
+      "roku"
+    ]
+  },
   "catalog.sort.runtime": "Runtime",
   "@catalog.sort.runtime": {
     "description": "Sort option on library and saved-list screens: order items by running time.",
@@ -3960,6 +4066,15 @@
   "catalog.sort.title": "Title",
   "@catalog.sort.title": {
     "description": "Sort option on library and saved-list screens: order items alphabetically by title."
+  },
+  "catalog.sort.tmdbRating": "TMDB Rating",
+  "@catalog.sort.tmdbRating": {
+    "description": "Sort option in a library's sort menu on Apple iOS, iPadOS, macOS and tvOS, Android phone and TV, and Roku: order titles by their TMDB user rating.",
+    "x-platforms": [
+      "apple",
+      "android",
+      "roku"
+    ]
   },
   "catalog.sort.year": "Year",
   "@catalog.sort.year": {
@@ -17280,6 +17395,15 @@
       "android"
     ]
   },
+  "library.direction.fewest": "Fewest",
+  "@library.direction.fewest": {
+    "description": "Sort order label for fewest first (play and read counts), shown next to the sort field in the library sort menu or sort button and spoken by the screen reader.",
+    "x-platforms": [
+      "apple",
+      "android",
+      "roku"
+    ]
+  },
   "library.direction.highest": "Highest",
   "@library.direction.highest": {
     "description": "Sort order label for highest first (rating, resolution), shown in the library sort menu or sort button and spoken by the screen reader.",
@@ -17301,6 +17425,15 @@
   "library.direction.lowest": "Lowest",
   "@library.direction.lowest": {
     "description": "Sort order label for lowest first (rating, resolution), shown in the library sort menu or sort button and spoken by the screen reader.",
+    "x-platforms": [
+      "apple",
+      "android",
+      "roku"
+    ]
+  },
+  "library.direction.most": "Most",
+  "@library.direction.most": {
+    "description": "Sort order label for most first (play and read counts), shown next to the sort field in the library sort menu or sort button and spoken by the screen reader.",
     "x-platforms": [
       "apple",
       "android",
