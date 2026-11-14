@@ -38853,6 +38853,12 @@
     "by": "opus",
     "model": "claude-opus-5-5"
   },
+  "web.admin.autoscan.activity.reason.pathIgnored": {
+    "source": "83c493200aa2e030",
+    "value": "2a8814c97159d683",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
   "web.admin.autoscan.activity.reason.pathNotFileOrDir": {
     "source": "c93764329589799e",
     "value": "eb36cc1db6a99019",

@@ -6478,6 +6478,7 @@
   "web.admin.autoscan.activity.reason.libraryRootOffline": "A raiz de armazenamento da biblioteca não está disponível.",
   "web.admin.autoscan.activity.reason.noLibraryMatch": "Nenhuma pasta de biblioteca do Silo contém este caminho. Adicione um mapeamento de caminho para esta origem ou verifique as pastas da biblioteca.",
   "web.admin.autoscan.activity.reason.pathAmbiguous": "Este caminho corresponde a mais de uma biblioteca.",
+  "web.admin.autoscan.activity.reason.pathIgnored": "Os arquivos de exclusão da biblioteca excluem este arquivo, então ele não foi verificado.",
   "web.admin.autoscan.activity.reason.pathNotFileOrDir": "Este caminho não é um arquivo nem um diretório.",
   "web.admin.autoscan.activity.reason.pathNotInspectable": "O Silo não conseguiu inspecionar este caminho.",
   "web.admin.autoscan.activity.reason.pathOutsideLibrary": "Este caminho está fora da biblioteca correspondente.",

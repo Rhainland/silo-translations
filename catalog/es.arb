@@ -6478,6 +6478,7 @@
   "web.admin.autoscan.activity.reason.libraryRootOffline": "La raíz de almacenamiento de la biblioteca no está disponible.",
   "web.admin.autoscan.activity.reason.noLibraryMatch": "Ninguna carpeta de biblioteca de Silo contiene esta ruta. Añade una asignación de rutas para este origen o revisa las carpetas de la biblioteca.",
   "web.admin.autoscan.activity.reason.pathAmbiguous": "Esta ruta coincide con más de una biblioteca.",
+  "web.admin.autoscan.activity.reason.pathIgnored": "Los archivos de exclusión de la biblioteca excluyen este archivo, así que no se escaneó.",
   "web.admin.autoscan.activity.reason.pathNotFileOrDir": "Esta ruta no es un archivo ni un directorio.",
   "web.admin.autoscan.activity.reason.pathNotInspectable": "Silo no pudo inspeccionar esta ruta.",
   "web.admin.autoscan.activity.reason.pathOutsideLibrary": "Esta ruta está fuera de la biblioteca correspondiente.",
