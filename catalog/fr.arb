@@ -5492,6 +5492,7 @@
   "upNext.almostFinished": "Presque terminé",
   "upNext.autoPlayOff": "Lecture automatique : Désactivé",
   "upNext.autoPlayOn": "Lecture automatique : Activé",
+  "upNext.close": "Fermer",
   "upNext.creditsEndAutoPlayOff": "Fin du générique dans {time} · lecture automatique désactivée",
   "upNext.creditsEndThenPlays": "Fin du générique dans {time} · puis il démarre",
   "upNext.endOfPlayback": "Fin de la lecture",

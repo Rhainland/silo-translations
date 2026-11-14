@@ -3205,7 +3205,7 @@
     "model": "claude-opus-5-5"
   },
   "common.back": {
-    "source": "c871decaa95c4a2f",
+    "source": "56877f58d67a0455",
     "value": "ef23a5940244e0f5",
     "by": "opus",
     "model": "claude-opus-5-5"
@@ -32936,6 +32936,12 @@
   "upNext.autoPlayOn": {
     "source": "5e3609912453f73d",
     "value": "84f23bad14607eea",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
+  "upNext.close": {
+    "source": "c475149ca0c21b61",
+    "value": "711e5f2e198df1b6",
     "by": "opus",
     "model": "claude-opus-5-5"
   },

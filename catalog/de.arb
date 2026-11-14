@@ -5492,6 +5492,7 @@
   "upNext.almostFinished": "Fast zu Ende",
   "upNext.autoPlayOff": "Automatische Wiedergabe: Aus",
   "upNext.autoPlayOn": "Automatische Wiedergabe: Ein",
+  "upNext.close": "Schließen",
   "upNext.creditsEndAutoPlayOff": "Abspann endet in {time} · automatische Wiedergabe ist aus",
   "upNext.creditsEndThenPlays": "Abspann endet in {time} · dann startet die Folge",
   "upNext.endOfPlayback": "Ende der Wiedergabe",
