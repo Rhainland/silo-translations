@@ -40,6 +40,11 @@ test("apple fallback: Russian one spans 1 and 21, and other (fractions only) is 
   assert.deepEqual(forms(PARTS, "ru"), { one: "# parts", few: "# parts", many: "# parts", other: "# parts" });
 });
 
+test("apple fallback: a category no whole number reaches (Polish other) takes English other", () => {
+  assert.deepEqual(forms(PARTS, "pl"), { one: "# part", few: "# parts", many: "# parts", other: "# parts" });
+  assert.deepEqual(forms(DELETE, "pl"), { one: "Delete download", few: "Delete # downloads", many: "Delete # downloads", other: "Delete # downloads" });
+});
+
 test("apple fallback: a non-plural message is unchanged", () => {
   const a = analyze("Cancel", true);
   assert.equal(englishFor(a, "ja", "en"), a);
