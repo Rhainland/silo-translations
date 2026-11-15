@@ -5,7 +5,7 @@
 Most translations here were written by a model (Claude Opus) and nobody has reviewed them
 yet. Corrections from people who speak the language are the most useful contribution.
 
-1. Open `catalog/<lang>.arb` for your language: `es`, `de`, `fr`, `pt-BR`, `nl`, `ja`,
+1. Open `catalog/<lang>.arb` for your language: `es`, `de`, `fr`, `pt-BR`, `nl`, `uk`, `ja`,
    `zh-Hans` or `ar`. Each line is a key and its translation.
 2. Find the English and the context in `catalog/en.arb`: the same key, plus
    `@key.description`, which says where the text appears and what each `{placeholder}` holds.
@@ -25,6 +25,7 @@ Rules the check enforces:
   | `de`, `nl` | `one other` |
   | `es`, `fr`, `pt-BR` | `one many other` (`many` is for whole millions: “1 000 000 de saisons”) |
   | `ja`, `zh-Hans` | `other` |
+  | `uk` | `one few many other` (`one` is also 21, 31, 101: always print `#`) |
   | `ar` | `zero one two few many other` |
 
   Write `#` where the number goes: `{count, plural, one {# temporada} many {# de temporadas} other {# temporadas}}`.
