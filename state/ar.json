@@ -37630,6 +37630,12 @@
     "by": "opus",
     "model": "claude-opus-5-5"
   },
+  "web.admin.activity.panel.decision": {
+    "source": "9954a1fef0b1a54f",
+    "value": "a881a87897ba730f",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
   "web.admin.activity.panel.event": {
     "source": "fae23075ae6f67d9",
     "value": "94ea0ec5be85c5c6",
@@ -37657,6 +37663,12 @@
   "web.admin.activity.panel.openFfmpegLogs": {
     "source": "f97726f6f0587757",
     "value": "16233495714e72b2",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
+  "web.admin.activity.panel.reasons": {
+    "source": "ec7d1b31fad50f18",
+    "value": "4b5f25c9e158700d",
     "by": "opus",
     "model": "claude-opus-5-5"
   },
@@ -37711,6 +37723,210 @@
   "web.admin.activity.realtime.live": {
     "source": "c82675ddc58e16b0",
     "value": "84c5675c02525f79",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
+  "web.admin.activity.reason.audioChannelsUnsupported.description": {
+    "source": "01012c72f6fbbd3d",
+    "value": "e96ea90c6a15370a",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
+  "web.admin.activity.reason.audioChannelsUnsupported.label": {
+    "source": "c899cf53ef41b927",
+    "value": "1c2ca94f85064322",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
+  "web.admin.activity.reason.audioCodecUnsupported.description": {
+    "source": "703b94256375e5f0",
+    "value": "8584743d3ad59c1a",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
+  "web.admin.activity.reason.audioCodecUnsupported.label": {
+    "source": "0629351fed0933f1",
+    "value": "80aa6635fd578c71",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
+  "web.admin.activity.reason.audioTrackSelection.description": {
+    "source": "11a30caaf101136a",
+    "value": "4add7069efcc30fa",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
+  "web.admin.activity.reason.audioTrackSelection.label": {
+    "source": "ef44e85b980bda63",
+    "value": "a3d15fa1f8885eae",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
+  "web.admin.activity.reason.bandwidthCap.description": {
+    "source": "60124fe6117a56e6",
+    "value": "2726d4b4b423db8f",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
+  "web.admin.activity.reason.bandwidthCap.label": {
+    "source": "ae2a027b85420abd",
+    "value": "250b5744961f4f57",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
+  "web.admin.activity.reason.bandwidthLimit.description": {
+    "source": "586977228c09d38c",
+    "value": "abfcf143c8b517e8",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
+  "web.admin.activity.reason.bandwidthLimit.label": {
+    "source": "0e3c8f96d1188b91",
+    "value": "80e88423bfbf8425",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
+  "web.admin.activity.reason.buffering.description": {
+    "source": "fb3e4cb0f027e8f4",
+    "value": "d6ec9a82139c49f5",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
+  "web.admin.activity.reason.buffering.label": {
+    "source": "172c707c6221acd0",
+    "value": "8c3ad8b940a78681",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
+  "web.admin.activity.reason.containerUnsupported.description": {
+    "source": "fb76bb899cb68ac7",
+    "value": "dfadc3fafdb37e35",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
+  "web.admin.activity.reason.containerUnsupported.label": {
+    "source": "cf9aef4ec1e7e200",
+    "value": "1c3e963a50dc17e0",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
+  "web.admin.activity.reason.deviceWorkaround.description": {
+    "source": "f7af5c5de6383771",
+    "value": "1eea85c9a142c79b",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
+  "web.admin.activity.reason.deviceWorkaround.label": {
+    "source": "e1248c423251692c",
+    "value": "9bd91384571abc9f",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
+  "web.admin.activity.reason.directPlayFailed.description": {
+    "source": "8ba7ed2eec7f7c0e",
+    "value": "ce0d5cacc20eae10",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
+  "web.admin.activity.reason.directPlayFailed.label": {
+    "source": "c7943abbdcf201ce",
+    "value": "13f00c4f5d694870",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
+  "web.admin.activity.reason.dynamicRangeUnsupported.description": {
+    "source": "4e1c1a8283007a6b",
+    "value": "2421609895ab564e",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
+  "web.admin.activity.reason.dynamicRangeUnsupported.label": {
+    "source": "a194cf459d935510",
+    "value": "06816263886f413a",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
+  "web.admin.activity.reason.qualitySelected.description": {
+    "source": "59cf8d4ca1b6701b",
+    "value": "cb4395c822084c22",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
+  "web.admin.activity.reason.qualitySelected.label": {
+    "source": "4ec44f12a86da599",
+    "value": "9f39c77ce4fc477d",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
+  "web.admin.activity.reason.resolutionLimit.description": {
+    "source": "0b1950bb3d2f6cae",
+    "value": "0632c6dd42a7877f",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
+  "web.admin.activity.reason.resolutionLimit.label": {
+    "source": "73eb5a0aaf4801e8",
+    "value": "bb21c1a069aa2ec0",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
+  "web.admin.activity.reason.serverBitrateLimit.description": {
+    "source": "22f07752a69a1e65",
+    "value": "7a5405e293695036",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
+  "web.admin.activity.reason.serverBitrateLimit.label": {
+    "source": "50b0c6bd0d93df57",
+    "value": "314c9001d47b48d3",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
+  "web.admin.activity.reason.subtitleBurnIn.description": {
+    "source": "4201377ef04b51fb",
+    "value": "5b691aec7d229f08",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
+  "web.admin.activity.reason.subtitleBurnIn.label": {
+    "source": "7dc766430167695c",
+    "value": "4e0755c477bddca6",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
+  "web.admin.activity.reason.subtitleUnsupported.description": {
+    "source": "c01f7fa5af33450a",
+    "value": "374e47437b9e9f28",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
+  "web.admin.activity.reason.subtitleUnsupported.label": {
+    "source": "5154feedd98d4572",
+    "value": "8f0389521328b030",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
+  "web.admin.activity.reason.videoCapabilityUnconfirmed.description": {
+    "source": "2fc6a81732eb2bf0",
+    "value": "1db2255a1c8d30c7",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
+  "web.admin.activity.reason.videoCapabilityUnconfirmed.label": {
+    "source": "45734a09ba5ee450",
+    "value": "fc30cd1fdd4bd8fc",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
+  "web.admin.activity.reason.videoCodecUnsupported.description": {
+    "source": "3a781c49c8c26c5e",
+    "value": "d6f38a24dabf8ba5",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
+  "web.admin.activity.reason.videoCodecUnsupported.label": {
+    "source": "2e013a0839db1d6f",
+    "value": "78622e6ec388a0f1",
     "by": "opus",
     "model": "claude-opus-5-5"
   },
@@ -37804,6 +38020,18 @@
     "by": "opus",
     "model": "claude-opus-5-5"
   },
+  "web.admin.activity.row.moreReasons": {
+    "source": "8ab8931ba8d30fa3",
+    "value": "5baf5eaf4fc95b8c",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
+  "web.admin.activity.row.moreReasonsLabel": {
+    "source": "a86f0ab11ef04b9c",
+    "value": "4b73b1b12f8539b1",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
   "web.admin.activity.row.paused": {
     "source": "d63b4c4f32265c9e",
     "value": "cacda677b3764a51",
@@ -37846,6 +38074,12 @@
     "by": "opus",
     "model": "claude-opus-5-5"
   },
+  "web.admin.activity.summary.bandwidth": {
+    "source": "8497609b067152f2",
+    "value": "910d371ee3c2dbd9",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
   "web.admin.activity.summary.byNode": {
     "source": "d5bfe789a3c893ff",
     "value": "6c3193e40e22d8e9",
@@ -37882,6 +38116,18 @@
     "by": "opus",
     "model": "claude-opus-5-5"
   },
+  "web.admin.activity.summary.paused": {
+    "source": "12b143155f01127a",
+    "value": "60aef297557574d4",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
+  "web.admin.activity.summary.remote": {
+    "source": "3f83926edaa60869",
+    "value": "9b372903bb0fe6cd",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
   "web.admin.activity.summary.unknownOutputContainer": {
     "source": "83204f790160727c",
     "value": "530a2a471fc8979c",
@@ -37891,6 +38137,12 @@
   "web.admin.activity.summary.unknownSource": {
     "source": "597ead1a8a3428ad",
     "value": "e27cb8449757894f",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
+  "web.admin.activity.summary.videoTranscodes": {
+    "source": "4f3dbb7ab8afc342",
+    "value": "f33dc171cfbd2fdc",
     "by": "opus",
     "model": "claude-opus-5-5"
   },
