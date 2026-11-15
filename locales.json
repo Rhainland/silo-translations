@@ -13,6 +13,7 @@
     { "tag": "sv", "name": "Svenska", "dir": "ltr", "cldr": "sv", "android": "values-sv", "roku": "sv" },
     { "tag": "da", "name": "Dansk", "dir": "ltr", "cldr": "da", "android": "values-da", "roku": "da" },
     { "tag": "nb", "name": "Norsk bokmål", "dir": "ltr", "cldr": "nb", "android": "values-nb", "roku": "nb" },
+    { "tag": "fi", "name": "Suomi", "dir": "ltr", "cldr": "fi", "android": "values-fi", "roku": "fi" },
     { "tag": "cs", "name": "Čeština", "dir": "ltr", "cldr": "cs", "android": "values-cs", "roku": "cs" },
     { "tag": "hr", "name": "Hrvatski", "dir": "ltr", "cldr": "hr", "android": "values-hr", "roku": "hr" },
     { "tag": "ru", "name": "Русский", "dir": "ltr", "cldr": "ru", "android": "values-ru", "roku": "ru" },
