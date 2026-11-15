@@ -85278,12 +85278,6 @@
     "by": "opus",
     "model": "claude-opus-5-5"
   },
-  "web.audiobooks.chapters.count": {
-    "source": "a4ee4b5e2109163d",
-    "value": "3c697dfc8184ce13",
-    "by": "opus",
-    "model": "claude-opus-5-5"
-  },
   "web.audiobooks.chapters.duration": {
     "source": "8f5486203ab7fab0",
     "value": "1a40b43b23f38c9e",
@@ -85296,33 +85290,51 @@
     "by": "opus",
     "model": "claude-opus-5-5"
   },
-  "web.audiobooks.chapters.listening": {
-    "source": "cb32c93e91db1f03",
-    "value": "977399a6163efa8d",
+  "web.audiobooks.chapters.leftInChapter": {
+    "source": "b8a4a691f1fd0b54",
+    "value": "548b7424f5a1f013",
     "by": "opus",
     "model": "claude-opus-5-5"
   },
-  "web.audiobooks.chapters.sort": {
-    "source": "c3ae6b63a992d85a",
-    "value": "a96c9a854190874d",
+  "web.audiobooks.chapters.showAll": {
+    "source": "55630960a273a608",
+    "value": "970fa6d56b92cd06",
     "by": "opus",
     "model": "claude-opus-5-5"
   },
-  "web.audiobooks.chapters.sortAria": {
-    "source": "6d8aa14063458d12",
-    "value": "ecabc2acb0d9c422",
+  "web.audiobooks.chapters.showFewer": {
+    "source": "5aa92804e6341376",
+    "value": "afd4b783536b8297",
     "by": "opus",
     "model": "claude-opus-5-5"
   },
-  "web.audiobooks.chapters.sortLongest": {
-    "source": "1be593239153cc42",
-    "value": "c425c1db34b605b4",
+  "web.audiobooks.detail.finished": {
+    "source": "959c07c27aa15aba",
+    "value": "3b1c8f6c83f3e8b1",
     "by": "opus",
     "model": "claude-opus-5-5"
   },
-  "web.audiobooks.chapters.sortPosition": {
-    "source": "4cb5be0de8afabbe",
-    "value": "16dfc3bfdaabf3fe",
+  "web.audiobooks.detail.length": {
+    "source": "3b1304a02a8afac2",
+    "value": "04a95e0654d3cec7",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
+  "web.audiobooks.detail.publisher": {
+    "source": "ab22997e3dedb83b",
+    "value": "7b84fa8cbdff6252",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
+  "web.audiobooks.detail.released": {
+    "source": "efcdf933c0fbc375",
+    "value": "703d2fb0baef4f50",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
+  "web.audiobooks.detail.seriesBook": {
+    "source": "61af2343a8a0b073",
+    "value": "96ecbfc71a283341",
     "by": "opus",
     "model": "claude-opus-5-5"
   },
@@ -85434,6 +85446,12 @@
     "by": "opus",
     "model": "claude-opus-5-5"
   },
+  "web.audiobooks.hero.alsoListening": {
+    "source": "c9b12840f8d4e624",
+    "value": "235ab3425a2d31d8",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
   "web.audiobooks.hero.ariaLabel": {
     "source": "823367b02efe750a",
     "value": "9a6de87b57cf5fe6",
@@ -85449,18 +85467,6 @@
   "web.audiobooks.hero.chapterPosition": {
     "source": "70639d9baaed34bb",
     "value": "2a23b364adcd4cbc",
-    "by": "opus",
-    "model": "claude-opus-5-5"
-  },
-  "web.audiobooks.hero.chapterPositionTitled": {
-    "source": "873d0eef0c716a81",
-    "value": "b6ed429327a88f8e",
-    "by": "opus",
-    "model": "claude-opus-5-5"
-  },
-  "web.audiobooks.hero.eyebrow": {
-    "source": "c982e6137985ed97",
-    "value": "9a6de87b57cf5fe6",
     "by": "opus",
     "model": "claude-opus-5-5"
   },
@@ -85494,12 +85500,6 @@
     "by": "opus",
     "model": "claude-opus-5-5"
   },
-  "web.audiobooks.narrator.heading": {
-    "source": "9a057d52aefa33eb",
-    "value": "d2d765cdfd74044e",
-    "by": "opus",
-    "model": "claude-opus-5-5"
-  },
   "web.audiobooks.narrator.narrationCount": {
     "source": "274f3edf05f31be8",
     "value": "e410e88bebf4f542",
@@ -85518,15 +85518,15 @@
     "by": "opus",
     "model": "claude-opus-5-5"
   },
-  "web.audiobooks.player.chapterNumber": {
-    "source": "8115ae54b1763dd4",
-    "value": "63ffaa22e46eaea5",
-    "by": "opus",
-    "model": "claude-opus-5-5"
-  },
   "web.audiobooks.player.close": {
     "source": "809dfa399c327584",
     "value": "bc5cf63a431bb389",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
+  "web.audiobooks.player.comingUp": {
+    "source": "497ce7d0c360096b",
+    "value": "f2f5516bf28163bc",
     "by": "opus",
     "model": "claude-opus-5-5"
   },
