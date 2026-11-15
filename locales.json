@@ -10,6 +10,7 @@
     { "tag": "pl", "name": "Polski", "dir": "ltr", "cldr": "pl", "android": "values-pl", "roku": "pl" },
     { "tag": "tr", "name": "Türkçe", "dir": "ltr", "cldr": "tr", "android": "values-tr", "roku": "tr" },
     { "tag": "cs", "name": "Čeština", "dir": "ltr", "cldr": "cs", "android": "values-cs", "roku": "cs" },
+    { "tag": "hr", "name": "Hrvatski", "dir": "ltr", "cldr": "hr", "android": "values-hr", "roku": "hr" },
     { "tag": "ru", "name": "Русский", "dir": "ltr", "cldr": "ru", "android": "values-ru", "roku": "ru" },
     { "tag": "uk", "name": "Українська", "dir": "ltr", "cldr": "uk", "android": "values-uk", "roku": "uk" },
     { "tag": "ja", "name": "日本語", "dir": "ltr", "cldr": "ja", "android": "values-ja", "roku": "ja", "platforms": ["web", "apple", "android"] },
