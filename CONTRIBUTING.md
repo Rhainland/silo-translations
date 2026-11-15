@@ -6,7 +6,7 @@ Most translations here were written by a model (Claude Opus) and nobody has revi
 yet. Corrections from people who speak the language are the most useful contribution.
 
 1. Open `catalog/<lang>.arb` for your language: `es`, `de`, `fr`, `pt-BR`, `nl`, `ja`,
-   `zh-Hans` or `ar`. Each line is a key and its translation.
+   `zh-Hans`, `ar` or `sv`. Each line is a key and its translation.
 2. Find the English and the context in `catalog/en.arb`: the same key, plus
    `@key.description`, which says where the text appears and what each `{placeholder}` holds.
 3. Read `style/<lang>.md` (tone, formality) and the language's column in `glossary.csv`
@@ -22,7 +22,7 @@ Rules the check enforces:
 
   | Language | Categories |
   |---|---|
-  | `de`, `nl` | `one other` |
+  | `de`, `nl`, `sv` | `one other` |
   | `es`, `fr`, `pt-BR` | `one many other` (`many` is for whole millions: “1 000 000 de saisons”) |
   | `ja`, `zh-Hans` | `other` |
   | `ar` | `zero one two few many other` |
