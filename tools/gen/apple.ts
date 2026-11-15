@@ -113,7 +113,8 @@ export function englishFor(english: Analysis, targetCldr: string, sourceCldr: st
   for (const cat of categoriesFor(targetCldr)) {
     const numbers = [...Array.from({ length: 1001 }, (_, n) => n), ...integerSamples(targetCldr, cat)];
     const used = new Set(numbers.filter((n) => categoryOf(targetCldr, n) === cat).map((n) => categoryOf(sourceCldr, n) as string));
-    let chosen = [...used][0]!;
+    // No whole number in the category (uk "other" is fractions only): use English "other".
+    let chosen = [...used][0] ?? "other";
     if (used.size > 1) chosen = ["other", ...used].find((c) => used.has(c) && printsCount(form(c), shape.arg)) ?? "other";
     forms.set(cat, form(chosen));
   }
