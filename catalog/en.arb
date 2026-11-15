@@ -118945,18 +118945,6 @@
       "web"
     ]
   },
-  "web.audiobooks.chapters.count": "({count})",
-  "@web.audiobooks.chapters.count": {
-    "description": "Web: chapter count beside the Chapters heading on an audiobook's detail page. {count}: the number of chapters.",
-    "placeholders": {
-      "count": {
-        "type": "String"
-      }
-    },
-    "x-platforms": [
-      "web"
-    ]
-  },
   "web.audiobooks.chapters.duration": "{minutes}m {seconds}s",
   "@web.audiobooks.chapters.duration": {
     "description": "Web: a chapter's length in the chapter list on an audiobook's detail page. {minutes}: whole minutes. {seconds}: remaining seconds, two digits.",
@@ -118979,40 +118967,79 @@
       "web"
     ]
   },
-  "web.audiobooks.chapters.listening": "listening",
-  "@web.audiobooks.chapters.listening": {
-    "description": "Web: marker at the end of the chapter row the profile is currently listening to, in the chapter list on an audiobook's detail page. Lowercase in English.",
+  "web.audiobooks.chapters.leftInChapter": "{time} left in this chapter",
+  "@web.audiobooks.chapters.leftInChapter": {
+    "description": "Web: second line under the chapter the profile is listening to, in the chapter list on an audiobook's detail page. {time}: the time remaining in that chapter, already formatted, such as \"18m 26s\".",
+    "x-platforms": [
+      "web"
+    ],
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "web.audiobooks.chapters.showAll": "Show all {count}",
+  "@web.audiobooks.chapters.showAll": {
+    "description": "Web: button beside the Chapters heading on an audiobook's detail page that expands the list from the chapters around the current one to every chapter. {count}: the number of chapters, as digits.",
+    "x-platforms": [
+      "web"
+    ],
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "web.audiobooks.chapters.showFewer": "Show fewer",
+  "@web.audiobooks.chapters.showFewer": {
+    "description": "Web: button beside the Chapters heading on an audiobook's detail page that collapses the full chapter list back to the chapters around the current one.",
     "x-platforms": [
       "web"
     ]
   },
-  "web.audiobooks.chapters.sort": "Sort",
-  "@web.audiobooks.chapters.sort": {
-    "description": "Web: button over the chapter list on an audiobook's detail page that opens the sort menu.",
+  "web.audiobooks.detail.finished": "Finished",
+  "@web.audiobooks.detail.finished": {
+    "description": "Web: line under a book's title in the series, Also by and You might also like rows of an audiobook's detail page, when the profile has listened to that book to the end.",
     "x-platforms": [
       "web"
     ]
   },
-  "web.audiobooks.chapters.sortAria": "Sort chapters",
-  "@web.audiobooks.chapters.sortAria": {
-    "description": "Web: accessible label of the Sort button over the chapter list on an audiobook's detail page.",
+  "web.audiobooks.detail.length": "Length",
+  "@web.audiobooks.detail.length": {
+    "description": "Web: label above an audiobook's total listening time in the facts row of its detail page, such as \"11 hr 42 min\".",
     "x-platforms": [
       "web"
     ]
   },
-  "web.audiobooks.chapters.sortLongest": "Longest first",
-  "@web.audiobooks.chapters.sortLongest": {
-    "description": "Web: option in the chapter list sort menu on an audiobook's detail page: longest chapters first.",
+  "web.audiobooks.detail.publisher": "Publisher",
+  "@web.audiobooks.detail.publisher": {
+    "description": "Web: label above the name of the company that published an audiobook, in the facts row of its detail page.",
     "x-platforms": [
       "web"
     ]
   },
-  "web.audiobooks.chapters.sortPosition": "By position",
-  "@web.audiobooks.chapters.sortPosition": {
-    "description": "Web: option in the chapter list sort menu on an audiobook's detail page: book order.",
+  "web.audiobooks.detail.released": "Released",
+  "@web.audiobooks.detail.released": {
+    "description": "Web: label above the year an audiobook was published, in the facts row of its detail page.",
     "x-platforms": [
       "web"
     ]
+  },
+  "web.audiobooks.detail.seriesBook": "{series}, book {number}",
+  "@web.audiobooks.detail.seriesBook": {
+    "description": "Web: link above an audiobook's title on its detail page, naming the series it belongs to and its place in it; it opens the series' books in the library. {series}: the series name. {number}: the book's position in the series (may be a decimal such as 1.5).",
+    "x-platforms": [
+      "web"
+    ],
+    "placeholders": {
+      "series": {
+        "type": "String"
+      },
+      "number": {
+        "type": "String"
+      }
+    }
   },
   "web.audiobooks.duration.hours": "{hours} hr",
   "@web.audiobooks.duration.hours": {
@@ -119246,6 +119273,13 @@
       "web"
     ]
   },
+  "web.audiobooks.hero.alsoListening": "Also listening",
+  "@web.audiobooks.hero.alsoListening": {
+    "description": "Web: heading of the panel beside the Now Listening hero on an audiobook library's home tab, listing the other audiobooks the profile is partway through.",
+    "x-platforms": [
+      "web"
+    ]
+  },
   "web.audiobooks.hero.ariaLabel": "Now listening",
   "@web.audiobooks.hero.ariaLabel": {
     "description": "Web: accessible label of the resume deck at the top of an audiobook library's home, showing the most recent in-progress book.",
@@ -119279,31 +119313,6 @@
         "type": "String"
       }
     },
-    "x-platforms": [
-      "web"
-    ]
-  },
-  "web.audiobooks.hero.chapterPositionTitled": "Chapter {index} of {total} · {chapter}",
-  "@web.audiobooks.hero.chapterPositionTitled": {
-    "description": "Web: position line under the progress bar in the audiobook resume deck, when the chapter has its own title. {index}: the current chapter's number. {total}: the number of chapters. {chapter}: the chapter's title.",
-    "placeholders": {
-      "index": {
-        "type": "String"
-      },
-      "total": {
-        "type": "String"
-      },
-      "chapter": {
-        "type": "String"
-      }
-    },
-    "x-platforms": [
-      "web"
-    ]
-  },
-  "web.audiobooks.hero.eyebrow": "Now Listening",
-  "@web.audiobooks.hero.eyebrow": {
-    "description": "Web: small heading above the book title in the resume deck at the top of an audiobook library's home.",
     "x-platforms": [
       "web"
     ]
@@ -119348,13 +119357,6 @@
       "web"
     ]
   },
-  "web.audiobooks.narrator.heading": "Narrator",
-  "@web.audiobooks.narrator.heading": {
-    "description": "Web: heading of the narrator card on an audiobook's detail page.",
-    "x-platforms": [
-      "web"
-    ]
-  },
   "web.audiobooks.narrator.narrationCount": "{count, plural, one {# narration} other {# narrations}}",
   "@web.audiobooks.narrator.narrationCount": {
     "description": "Web: header of the narrator menu on an audiobook's detail page that switches between narrations of the same book. {count}: the number of narrations.",
@@ -119381,21 +119383,16 @@
       "web"
     ]
   },
-  "web.audiobooks.player.chapterNumber": "Chapter {number}",
-  "@web.audiobooks.player.chapterNumber": {
-    "description": "Web audiobook player: small heading above the current chapter's title in the full-screen Now Listening view. {number}: the chapter's number, starting at 1.",
-    "placeholders": {
-      "number": {
-        "type": "String"
-      }
-    },
+  "web.audiobooks.player.close": "Close player",
+  "@web.audiobooks.player.close": {
+    "description": "Web audiobook player: accessible label of the X button in the mini player bar that stops the book and closes the player.",
     "x-platforms": [
       "web"
     ]
   },
-  "web.audiobooks.player.close": "Close player",
-  "@web.audiobooks.player.close": {
-    "description": "Web audiobook player: accessible label of the X button in the mini player bar that stops the book and closes the player.",
+  "web.audiobooks.player.comingUp": "Coming up",
+  "@web.audiobooks.player.comingUp": {
+    "description": "Web: heading of the list of the next few chapters beside the controls in the full-screen audiobook player (Now Listening). Selecting a chapter jumps to it.",
     "x-platforms": [
       "web"
     ]
