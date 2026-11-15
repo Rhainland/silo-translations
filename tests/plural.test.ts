@@ -40,6 +40,9 @@ test("plural: CLDR integer samples", () => {
   assert.equal(categoryOf("ar", 102), "other");
   assert.equal(categoryOf("ar", 111), "many");
   assert.equal(categoryOf("ar", -3), "few");
+  assert.equal(categoryOf("ru", 21), "one");
+  assert.equal(categoryOf("ru", 12), "many");
+  assert.equal(categoryOf("ru", 104), "few");
 });
 
 test("plural: generated pluralRules.bs compiles with bsc and matches under brs-node", () => {
