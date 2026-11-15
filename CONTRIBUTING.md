@@ -5,7 +5,7 @@
 Most translations here were written by a model (Claude Opus) and nobody has reviewed them
 yet. Corrections from people who speak the language are the most useful contribution.
 
-1. Open `catalog/<lang>.arb` for your language: `es`, `de`, `fr`, `pt-BR`, `nl`, `cs`, `ja`,
+1. Open `catalog/<lang>.arb` for your language: `es`, `de`, `fr`, `pt-BR`, `nl`, `cs`, `ru`, `ja`,
    `zh-Hans` or `ar`. Each line is a key and its translation.
 2. Find the English and the context in `catalog/en.arb`: the same key, plus
    `@key.description`, which says where the text appears and what each `{placeholder}` holds.
@@ -27,6 +27,7 @@ Rules the check enforces:
   | `ja`, `zh-Hans` | `other` |
   | `ar` | `zero one two few many other` |
   | `cs` | `one few many other` (`few` is 2–4, `many` is for fractions: “1,5 dílu”) |
+  | `ru` | `one few many other` (`other` is only for fractions) |
 
   Write `#` where the number goes: `{count, plural, one {# temporada} many {# de temporadas} other {# temporadas}}`.
 - Use the typographic apostrophe `’`, not `'`.
@@ -105,7 +106,7 @@ untranslated", run the pass again (it sends only those keys) until none are left
 allows missing translations, so it won't catch them. Then, in `<pr>`:
 
 ```sh
-git add catalog state && git commit -m "chore(translations): <what the keys are> in nine languages"
+git add catalog state && git commit -m "chore(translations): <what the keys are> in ten languages"
 ```
 
 Put the per-language table from `out/translate-pr-body.md` in the pull request description.

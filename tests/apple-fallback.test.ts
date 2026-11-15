@@ -36,6 +36,10 @@ test("apple fallback: Czech many, which no whole number reaches, takes English o
   assert.deepEqual(forms(PARTS, "cs"), { one: "# part", few: "# parts", many: "# parts", other: "# parts" });
 });
 
+test("apple fallback: Russian one spans 1 and 21, and other (fractions only) is English other", () => {
+  assert.deepEqual(forms(PARTS, "ru"), { one: "# parts", few: "# parts", many: "# parts", other: "# parts" });
+});
+
 test("apple fallback: a non-plural message is unchanged", () => {
   const a = analyze("Cancel", true);
   assert.equal(englishFor(a, "ja", "en"), a);
