@@ -29,6 +29,11 @@ test("plural: CLDR integer samples", () => {
   for (const l of languages) {
     for (const cat of categoriesFor(l.cldr)) {
       const samples = integerSamples(l.cldr, cat);
+      // CLDR may give `other` only decimal samples (Polish): then no whole number may reach it.
+      if (cat === "other" && samples.length === 0) {
+        for (let n = 0; n <= 1000; n++) assert.notEqual(categoryOf(l.cldr, n), "other", `${l.tag} ${n}`);
+        continue;
+      }
       assert.ok(samples.length > 0, `${l.tag} ${cat} has samples`);
       for (const n of samples) assert.equal(categoryOf(l.cldr, n), cat, `${l.tag} ${n}`);
     }
