@@ -50166,6 +50166,12 @@
     "by": "opus",
     "model": "claude-opus-5-5"
   },
+  "web.admin.dashboard.widgets.concurrentStreams.otherMethod": {
+    "source": "fb41e908475cf395",
+    "value": "f13156650ea41e28",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
   "web.admin.dashboard.widgets.concurrentStreams.peak": {
     "source": "0bf7e4f9ee229d98",
     "value": "8f24d573034c7b7d",
@@ -50181,6 +50187,42 @@
   "web.admin.dashboard.widgets.concurrentStreams.title": {
     "source": "9cdf060aa1b56f6b",
     "value": "e81b52b7475c1339",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
+  "web.admin.dashboard.widgets.concurrentStreams.viewLines": {
+    "source": "e851738a8fc98c1f",
+    "value": "e280d3b109b16b16",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
+  "web.admin.dashboard.widgets.concurrentStreams.viewLinesLabel": {
+    "source": "9fcc9329ab671f37",
+    "value": "a52ca3ec68f9ed20",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
+  "web.admin.dashboard.widgets.concurrentStreams.viewStacked": {
+    "source": "0933658258cd3931",
+    "value": "568f94e47c8d7e75",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
+  "web.admin.dashboard.widgets.concurrentStreams.viewStackedLabel": {
+    "source": "a0c0f0a0ba2af12d",
+    "value": "d48981c1d1217b3d",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
+  "web.admin.dashboard.widgets.concurrentStreams.viewTotal": {
+    "source": "d62af1618bc2d5b2",
+    "value": "01fc1c55333cf931",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
+  "web.admin.dashboard.widgets.concurrentStreams.viewTotalLabel": {
+    "source": "5a8c0c60cf5607dc",
+    "value": "5e95c7f00fb65f68",
     "by": "opus",
     "model": "claude-opus-5-5"
   },
