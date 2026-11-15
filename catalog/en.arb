@@ -157985,6 +157985,43 @@
       "web"
     ]
   },
+  "web.settings.overlays.badge.availability.description": "Complete seasons on a series, or episodes in the library on a season",
+  "@web.settings.overlays.badge.availability.description": {
+    "description": "Web Settings → Navigation & Cards → Badges, and admin Settings → Appearance: explanation under the Availability badge's name in the badge list. A series badge counts seasons that have aired and have every episode in the library; a season badge counts that season's episodes in the library.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.settings.overlays.badge.availability.label": "Availability",
+  "@web.settings.overlays.badge.availability.label": {
+    "description": "Web Settings → Navigation & Cards → Badges, and admin Settings → Appearance: name of a card badge in the badge list (the badge's id is availability). It says how much of a series or season is in the library.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.settings.overlays.badge.availability.value.complete": "Complete",
+  "@web.settings.overlays.badge.availability.value.complete": {
+    "description": "Web poster cards: text of the Availability badge when every episode of a season, or every released season of a series, is in the library. Shown next to a check mark in a small badge, so keep it short.",
+    "x-platforms": [
+      "web"
+    ],
+    "x-maxLength": 12
+  },
+  "web.settings.overlays.badge.availability.value.fraction": "{have}/{total}",
+  "@web.settings.overlays.badge.availability.value.fraction": {
+    "description": "Web poster cards: text of the Availability badge while something is missing, such as 8/10. On a season, {have}: episodes in the library; {total}: episodes the season lists. On a series, {have}: released seasons that are complete; {total}: released seasons. Keep it as short as the English.",
+    "placeholders": {
+      "have": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    },
+    "x-platforms": [
+      "web"
+    ]
+  },
   "web.settings.overlays.badge.container.description": "File container (MKV, MP4, etc.)",
   "@web.settings.overlays.badge.container.description": {
     "description": "Web Settings → Navigation & Cards → Badges, and admin Settings → Appearance: explanation under the Container badge's name in the badge list.",
