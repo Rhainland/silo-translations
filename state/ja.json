@@ -5251,7 +5251,7 @@
     "model": "claude-opus-5-5"
   },
   "detail.more.showSeriesInfo": {
-    "source": "9d349006c7b4ff43",
+    "source": "0d1270196de0f24b",
     "value": "7acfaa48eff96171",
     "by": "opus",
     "model": "claude-opus-5-5"
@@ -5625,12 +5625,6 @@
   "detail.seriesDownloaded": {
     "source": "f10767fb7fd87d1e",
     "value": "48a7d692a229c17c",
-    "by": "opus",
-    "model": "claude-opus-5-5"
-  },
-  "detail.seriesShowTab": {
-    "source": "7370b8732ea36eef",
-    "value": "5281855f5a033c3e",
     "by": "opus",
     "model": "claude-opus-5-5"
   },

@@ -940,7 +940,6 @@
   "detail.seasonEpisodes": "{season}のエピソード",
   "detail.seasonsLoading": "シーズンを読み込み中",
   "detail.seriesDownloaded": "シリーズはダウンロード済み",
-  "detail.seriesShowTab": "シリーズ",
   "detail.seriesStatus.continuing": "放送中のシリーズ",
   "detail.seriesStatus.ended": "完結済みシリーズ",
   "detail.seriesStatus.inProduction": "新シーズン制作中",

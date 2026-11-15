@@ -940,7 +940,6 @@
   "detail.seasonEpisodes": "حلقات {season}",
   "detail.seasonsLoading": "جارٍ تحميل المواسم",
   "detail.seriesDownloaded": "تم تنزيل المسلسل",
-  "detail.seriesShowTab": "المسلسل",
   "detail.seriesStatus.continuing": "مسلسل مستمر",
   "detail.seriesStatus.ended": "مسلسل مكتمل",
   "detail.seriesStatus.inProduction": "موسم جديد قادم",

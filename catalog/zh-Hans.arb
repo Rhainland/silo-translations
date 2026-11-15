@@ -940,7 +940,6 @@
   "detail.seasonEpisodes": "{season}各集",
   "detail.seasonsLoading": "正在加载季",
   "detail.seriesDownloaded": "剧集已下载",
-  "detail.seriesShowTab": "剧集",
   "detail.seriesStatus.continuing": "连载中",
   "detail.seriesStatus.ended": "已完结",
   "detail.seriesStatus.inProduction": "新季即将推出",
