@@ -51853,6 +51853,45 @@
       "web"
     ]
   },
+  "web.admin.activity.bitrate.limit": "limit {rate}",
+  "@web.admin.activity.bitrate.limit": {
+    "description": "Web: admin Activity page, Bitrate column and stream details: the bitrate ceiling a transcode encodes to. {rate}: a bitrate with its unit, such as 8.0 Mbps.",
+    "placeholders": {
+      "rate": {
+        "type": "String"
+      }
+    },
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.activity.bitrate.limitAndSource": "limit {limit} · source {source}",
+  "@web.admin.activity.bitrate.limitAndSource": {
+    "description": "Web: admin Activity page, Bitrate column: a transcode's bitrate ceiling and the source file's bitrate, shown under the rate the viewer receives now. {limit} and {source}: bitrates with their units, such as 8.0 Mbps.",
+    "placeholders": {
+      "limit": {
+        "type": "String"
+      },
+      "source": {
+        "type": "String"
+      }
+    },
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.activity.bitrate.source": "source {rate}",
+  "@web.admin.activity.bitrate.source": {
+    "description": "Web: admin Activity page, Bitrate column: the source file's bitrate, shown under the rate the viewer receives now. {rate}: a bitrate with its unit, such as 58.2 Mbps.",
+    "placeholders": {
+      "rate": {
+        "type": "String"
+      }
+    },
+    "x-platforms": [
+      "web"
+    ]
+  },
   "web.admin.activity.client.agent": "Agent",
   "@web.admin.activity.client.agent": {
     "description": "Web: admin Activity page, stream details client card: label for the raw user agent string.",
@@ -51863,6 +51902,13 @@
   "web.admin.activity.client.app": "App",
   "@web.admin.activity.client.app": {
     "description": "Web: admin Activity page, stream details client card: label for the app name and version.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.activity.client.device": "Device",
+  "@web.admin.activity.client.device": {
+    "description": "Web: admin Activity page, stream details client block: label for the platform and identifier of the device that is playing.",
     "x-platforms": [
       "web"
     ]
@@ -51884,6 +51930,13 @@
   "web.admin.activity.column.actions": "Actions",
   "@web.admin.activity.column.actions": {
     "description": "Web: admin Activity page: stream list column header for the per-stream buttons.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.activity.column.bitrate": "Bitrate",
+  "@web.admin.activity.column.bitrate": {
+    "description": "Web: admin Activity page: stream table column heading, and the row label in a stream's details table, for how many bits per second the source file has and the viewer receives.",
     "x-platforms": [
       "web"
     ]
@@ -52317,13 +52370,6 @@
   "web.admin.activity.panel.event": "event",
   "@web.admin.activity.panel.event": {
     "description": "Web: admin Activity page: tag on an FFmpeg output line that records a transcoder event.",
-    "x-platforms": [
-      "web"
-    ]
-  },
-  "web.admin.activity.panel.heading": "Playback",
-  "@web.admin.activity.panel.heading": {
-    "description": "Web: admin Activity page: tag at the top of a stream's expanded details.",
     "x-platforms": [
       "web"
     ]
@@ -52840,6 +52886,82 @@
   "web.admin.activity.row.viewLogs": "View Logs",
   "@web.admin.activity.row.viewLogs": {
     "description": "Web: admin Activity and Playback History pages: link to the server logs for one playback session.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.activity.session.heading": "Session",
+  "@web.admin.activity.session.heading": {
+    "description": "Web: admin Activity page, stream details: heading of the block about the playback session itself (start time, last report, remote control, identifier).",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.activity.session.id": "Session ID",
+  "@web.admin.activity.session.id": {
+    "description": "Web: admin Activity page, stream details session block: label for the playback session's identifier.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.activity.session.lastReport": "Last report",
+  "@web.admin.activity.session.lastReport": {
+    "description": "Web: admin Activity page, stream details session block: label for how long ago the server last heard from this playback session.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.activity.session.lastReportAgo": "{elapsed} ago",
+  "@web.admin.activity.session.lastReportAgo": {
+    "description": "Web: admin Activity page, stream details session block: how long ago the server last heard from this playback session. {elapsed}: a clock duration, such as 0:03.",
+    "placeholders": {
+      "elapsed": {
+        "type": "String"
+      }
+    },
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.activity.session.remoteControl": "Remote control",
+  "@web.admin.activity.session.remoteControl": {
+    "description": "Web: admin Activity page, stream details session block: label for whether an admin can pause, resume or stop this playback session from the page.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.activity.session.remoteControlAvailable": "Available",
+  "@web.admin.activity.session.remoteControlAvailable": {
+    "description": "Web: admin Activity page, stream details session block: the serving node accepts remote control of this playback session.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.activity.session.remoteControlUnavailable": "Not available",
+  "@web.admin.activity.session.remoteControlUnavailable": {
+    "description": "Web: admin Activity page, stream details session block: the serving node does not accept remote control of this playback session.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.activity.session.started": "Started",
+  "@web.admin.activity.session.started": {
+    "description": "Web: admin Activity page, stream details session block: label for when the playback session began.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.activity.session.startedAgo": "{time} · {elapsed} ago",
+  "@web.admin.activity.session.startedAgo": {
+    "description": "Web: admin Activity page, stream details session block: when the playback session began. {time}: clock time it started. {elapsed}: time since then as a clock duration, such as 2:44.",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      },
+      "elapsed": {
+        "type": "String"
+      }
+    },
     "x-platforms": [
       "web"
     ]
