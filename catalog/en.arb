@@ -50926,6 +50926,13 @@
       "web"
     ]
   },
+  "web.admin.access.policy.editor.compileIssueFallback": "Policy compile error",
+  "@web.admin.access.policy.editor.compileIssueFallback": {
+    "description": "Message on a policy editor diagnostic (the red marker in the Rego source) when the server reported a compile issue without any message text.",
+    "x-platforms": [
+      "web"
+    ]
+  },
   "web.admin.access.policy.editor.compileIssues": "Compile issues",
   "@web.admin.access.policy.editor.compileIssues": {
     "description": "Web: admin Policy page, override editor: heading of the list of compile errors in the draft.",
@@ -68985,6 +68992,62 @@
       "web"
     ]
   },
+  "web.admin.common.units.gigabytes": "GB",
+  "@web.admin.common.units.gigabytes": {
+    "description": "Web admin: a unit shown after a number input on admin settings pages and in the backup upload progress: gigabytes.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.common.units.hourRange": "0-23",
+  "@web.admin.common.units.hourRange": {
+    "description": "Web admin: a unit shown after a number input on admin settings pages: the allowed range for an hour of the day (0 to 23). Keep the digits; use your language's range separator if it differs.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.common.units.kilobytes": "KB",
+  "@web.admin.common.units.kilobytes": {
+    "description": "Web admin: a unit shown after a number input on admin settings pages and in the backup upload progress: kilobytes.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.common.units.megabitsPerSecond": "Mbps",
+  "@web.admin.common.units.megabitsPerSecond": {
+    "description": "Web admin: a unit shown after a number input on admin settings pages: megabits per second.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.common.units.megabytes": "MB",
+  "@web.admin.common.units.megabytes": {
+    "description": "Web admin: a unit shown after a number input on admin settings pages and in the backup upload progress: megabytes.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.common.units.milliseconds": "ms",
+  "@web.admin.common.units.milliseconds": {
+    "description": "Web admin: a unit shown after a number input on admin settings pages: milliseconds.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.common.units.percent": "%",
+  "@web.admin.common.units.percent": {
+    "description": "Web admin: a unit shown after a number input on admin settings pages: percent.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.common.units.pixels": "px",
+  "@web.admin.common.units.pixels": {
+    "description": "Web admin: a unit shown after a number input on admin settings pages: pixels.",
+    "x-platforms": [
+      "web"
+    ]
+  },
   "web.admin.common.userProfiles.createFailed": "Couldn't create the profile",
   "@web.admin.common.userProfiles.createFailed": {
     "description": "Web admin, user detail Profiles tab: toast when adding a profile fails without a server reason.",
@@ -69241,6 +69304,99 @@
       "web"
     ]
   },
+  "web.admin.dashboard.format.duration.days": "{days}d",
+  "@web.admin.dashboard.format.duration.days": {
+    "description": "Admin dashboard uptime of whole days. {days} is the number of days.",
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    },
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.dashboard.format.duration.daysHours": "{days}d {hours}h",
+  "@web.admin.dashboard.format.duration.daysHours": {
+    "description": "Admin dashboard uptime in days and hours.",
+    "placeholders": {
+      "days": {
+        "type": "int"
+      },
+      "hours": {
+        "type": "int"
+      }
+    },
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.dashboard.format.duration.hours": "{hours}h",
+  "@web.admin.dashboard.format.duration.hours": {
+    "description": "Admin dashboard scan duration or uptime of whole hours. {hours} is the number of hours.",
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    },
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.dashboard.format.duration.hoursMinutes": "{hours}h {minutes}m",
+  "@web.admin.dashboard.format.duration.hoursMinutes": {
+    "description": "Admin dashboard scan duration or uptime in hours and minutes.",
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      },
+      "minutes": {
+        "type": "int"
+      }
+    },
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.dashboard.format.duration.minutes": "{minutes}m",
+  "@web.admin.dashboard.format.duration.minutes": {
+    "description": "Admin dashboard scan duration or uptime of whole minutes. {minutes} is the number of minutes. Also used for total watch time on the dashboard.",
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    },
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.dashboard.format.duration.minutesSeconds": "{minutes}m {seconds}s",
+  "@web.admin.dashboard.format.duration.minutesSeconds": {
+    "description": "Admin dashboard scan duration or uptime in minutes and seconds.",
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      },
+      "seconds": {
+        "type": "int"
+      }
+    },
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.dashboard.format.duration.seconds": "{seconds}s",
+  "@web.admin.dashboard.format.duration.seconds": {
+    "description": "Admin dashboard scan duration or uptime under a minute. {seconds} is the number of seconds.",
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    },
+    "x-platforms": [
+      "web"
+    ]
+  },
   "web.admin.dashboard.format.fileCount": "{count, plural, one {{count_text} file} other {{count_text} files}}",
   "@web.admin.dashboard.format.fileCount": {
     "description": "Web admin, Dashboard widgets: file count under a library stat tile. {count}: number of files (selects the plural). {count_text}: the same number, already formatted.",
@@ -69249,6 +69405,18 @@
         "type": "int"
       },
       "count_text": {
+        "type": "String"
+      }
+    },
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.dashboard.format.latencyMs": "{value} ms",
+  "@web.admin.dashboard.format.latencyMs": {
+    "description": "Admin dashboard health strip: a dependency round trip in milliseconds. {value} is the already formatted number.",
+    "placeholders": {
+      "value": {
         "type": "String"
       }
     },
@@ -69319,6 +69487,18 @@
   "web.admin.dashboard.format.scanWaitingForCapacity": "Waiting for capacity",
   "@web.admin.dashboard.format.scanWaitingForCapacity": {
     "description": "Web admin, Dashboard widgets: detail for a queued library scan that has not started because other scans are using the capacity.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.dashboard.format.watchTimeHours": "{hours}h",
+  "@web.admin.dashboard.format.watchTimeHours": {
+    "description": "Web admin: total watch time on the dashboard, in hours. {hours}: the number of hours, already formatted with at most one decimal, such as 12.5.",
+    "placeholders": {
+      "hours": {
+        "type": "String"
+      }
+    },
     "x-platforms": [
       "web"
     ]
@@ -129727,6 +129907,13 @@
       "web"
     ]
   },
+  "web.common.collections.posterUpdateFailed": "Poster update failed",
+  "@web.common.collections.posterUpdateFailed": {
+    "description": "Warning shown when saving a collection succeeded but updating its poster failed.",
+    "x-platforms": [
+      "web"
+    ]
+  },
   "web.common.date.daysAgo": "{count, plural, one {{count_text}d ago} other {{count_text}d ago}}",
   "@web.common.date.daysAgo": {
     "description": "Web, relative times in lists and status lines (last sync, last seen, requested): days ago, short form (\"d\" for days). {count}: days (selects the plural). {count_text}: the same number, unformatted.",
@@ -129821,6 +130008,306 @@
       "web"
     ]
   },
+  "web.common.errors.accessGroupIdUnsupported": "This group contains an unsupported ID.",
+  "@web.common.errors.accessGroupIdUnsupported": {
+    "description": "Error shown when an access group from the server carries an ID the web app cannot use.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.common.errors.accessGroupPaginationInvalid": "Invalid group pagination. Reload the list.",
+  "@web.common.errors.accessGroupPaginationInvalid": {
+    "description": "Error shown when the access group list pages from the server are malformed.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.common.errors.accessGroupReloadBeforeSaving": "Reload this group before saving: a strong ETag is required.",
+  "@web.common.errors.accessGroupReloadBeforeSaving": {
+    "description": "Error shown when an access group cannot be saved because its version tag is missing or weak.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.common.errors.collectionVersionUnavailable": "Reload this collection before editing; its version is unavailable.",
+  "@web.common.errors.collectionVersionUnavailable": {
+    "description": "Error shown when a collection cannot be edited because its version tag is missing.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.common.errors.downloadUnavailable": "Download unavailable ({status}).",
+  "@web.common.errors.downloadUnavailable": {
+    "description": "Error shown when the server refuses a direct download. {status} is the HTTP status code.",
+    "placeholders": {
+      "status": {
+        "type": "int"
+      }
+    },
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.common.errors.fileIdInvalid": "Invalid file ID.",
+  "@web.common.errors.fileIdInvalid": {
+    "description": "Error shown when a download is requested for a file ID that is not valid.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.common.errors.invitationAcceptanceUnavailable": "Invitation acceptance is unavailable.",
+  "@web.common.errors.invitationAcceptanceUnavailable": {
+    "description": "Error shown when this server does not allow accepting invitations.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.common.errors.invitationPaginationInvalid": "Invalid invitation pagination. Reload the list.",
+  "@web.common.errors.invitationPaginationInvalid": {
+    "description": "Error shown when the invitation list pages from the server are malformed.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.common.errors.invitationResponseIncomplete": "Invitation may have been created, but its response was incomplete. Reload history before continuing.",
+  "@web.common.errors.invitationResponseIncomplete": {
+    "description": "Error shown when creating an invitation returns an incomplete response.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.common.errors.joinedRoomIdentityInvalid": "Invalid joined room identity.",
+  "@web.common.errors.joinedRoomIdentityInvalid": {
+    "description": "Error shown when joining a Watch Party returns an unusable room identity.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.common.errors.memberIdentityInvalid": "Invalid member identity.",
+  "@web.common.errors.memberIdentityInvalid": {
+    "description": "Error shown when a Watch Party member has an unusable identity.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.common.errors.memberStateLimit": "Member state reads are limited to {max} items.",
+  "@web.common.errors.memberStateLimit": {
+    "description": "Error shown when too many Watch Party members are requested at once. {max} is the maximum count.",
+    "placeholders": {
+      "max": {
+        "type": "int"
+      }
+    },
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.common.errors.notificationDestinationContinuationInvalid": "Invalid notification destination continuation.",
+  "@web.common.errors.notificationDestinationContinuationInvalid": {
+    "description": "Error shown when the notification destination list continuation is malformed or repeats.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.common.errors.notificationDestinationPageInvalid": "Invalid notification destination page.",
+  "@web.common.errors.notificationDestinationPageInvalid": {
+    "description": "Error shown when a page of notification destinations from the server is malformed.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.common.errors.notificationDestinationsTooMany": "Too many notification destinations to display. Reload the list.",
+  "@web.common.errors.notificationDestinationsTooMany": {
+    "description": "Error shown when the notification destination list is longer than the web app will load.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.common.errors.notificationLibraryIdUnsupported": "Unsupported library ID in notification.",
+  "@web.common.errors.notificationLibraryIdUnsupported": {
+    "description": "Error shown when a notification refers to a library ID the web app cannot use.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.common.errors.notificationPageInvalid": "Invalid notification page. Reload notifications.",
+  "@web.common.errors.notificationPageInvalid": {
+    "description": "Error shown when a page of notifications from the server is malformed.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.common.errors.notificationSeriesPageInvalid": "Invalid series page. Reload notifications.",
+  "@web.common.errors.notificationSeriesPageInvalid": {
+    "description": "Error shown when a page of notification series from the server is malformed.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.common.errors.notificationsReloadBeforeMarkingRead": "Reload notifications before marking them read.",
+  "@web.common.errors.notificationsReloadBeforeMarkingRead": {
+    "description": "Error shown when notifications cannot be marked read because the list is stale.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.common.errors.onboardingProgressNoRevision": "Onboarding progress has no revision. Reload to continue.",
+  "@web.common.errors.onboardingProgressNoRevision": {
+    "description": "Error shown when the saved onboarding progress response has no version tag.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.common.errors.onboardingReloadTour": "Reload the tour before continuing.",
+  "@web.common.errors.onboardingReloadTour": {
+    "description": "Error shown when the onboarding tour progress cannot be saved because the tour is stale.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.common.errors.onboardingStateNoRevision": "Onboarding state has no revision. Reload to continue.",
+  "@web.common.errors.onboardingStateNoRevision": {
+    "description": "Error shown when the onboarding state from the server has no version tag.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.common.errors.onboardingStillSaving": "Onboarding progress is still being saved.",
+  "@web.common.errors.onboardingStillSaving": {
+    "description": "Error shown when onboarding progress is changed while a save is in flight.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.common.errors.playbackControlCredentialInvalid": "Invalid playback control credential.",
+  "@web.common.errors.playbackControlCredentialInvalid": {
+    "description": "Error shown when the server returns an unusable credential for the playback control connection.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.common.errors.realtimeCredentialInvalid": "Invalid realtime handshake credential.",
+  "@web.common.errors.realtimeCredentialInvalid": {
+    "description": "Error shown when the server returns an unusable credential for the realtime event connection.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.common.errors.roomIdentityInvalid": "Invalid room identity.",
+  "@web.common.errors.roomIdentityInvalid": {
+    "description": "Error shown when a Watch Party room has an unusable identity.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.common.errors.roomSelectionIdentityInvalid": "Invalid room selection identity.",
+  "@web.common.errors.roomSelectionIdentityInvalid": {
+    "description": "Error shown when a Watch Party selection has an unusable identity.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.common.errors.roomSnapshotInvalid": "Invalid room snapshot.",
+  "@web.common.errors.roomSnapshotInvalid": {
+    "description": "Error shown when the server returns a malformed Watch Party room state.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.common.errors.roomSocketCredentialInvalid": "Invalid room socket credential.",
+  "@web.common.errors.roomSocketCredentialInvalid": {
+    "description": "Error shown when the server returns an unusable credential for the Watch Party connection.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.common.errors.roomSuggestionInvalid": "Invalid room suggestion.",
+  "@web.common.errors.roomSuggestionInvalid": {
+    "description": "Error shown when a Watch Party suggestion from the server is malformed.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.common.errors.roomSuggestionsTooMany": "Too many room suggestions. Reload the room.",
+  "@web.common.errors.roomSuggestionsTooMany": {
+    "description": "Error shown when the Watch Party suggestion list is longer than the web app will load.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.common.errors.sessionRefreshUnavailable": "The session could not be refreshed because the server did not answer.",
+  "@web.common.errors.sessionRefreshUnavailable": {
+    "description": "Error shown when the sign-in session cannot be refreshed because the server did not answer.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.common.errors.sourceFallbackIdentityInvalid": "Invalid source fallback identity.",
+  "@web.common.errors.sourceFallbackIdentityInvalid": {
+    "description": "Error shown when a Watch Party source fallback has an unusable identity.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.common.errors.suggestionContinuationInvalid": "Invalid suggestion continuation.",
+  "@web.common.errors.suggestionContinuationInvalid": {
+    "description": "Error shown when the Watch Party suggestion list continuation is malformed or repeats.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.common.errors.suggestionContinuationMissing": "Missing suggestion continuation.",
+  "@web.common.errors.suggestionContinuationMissing": {
+    "description": "Error shown when the Watch Party suggestion list is missing its paging information.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.common.errors.suggestionReceiptInvalid": "Invalid suggestion receipt.",
+  "@web.common.errors.suggestionReceiptInvalid": {
+    "description": "Error shown when the server's receipt for a Watch Party suggestion does not match.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.common.errors.verificationReceiptMismatch": "Verification receipt does not match the submitted request.",
+  "@web.common.errors.verificationReceiptMismatch": {
+    "description": "Error shown when the server's email verification receipt does not match what was submitted.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.common.errors.watchlistPageRepeated": "The watchlist titles list repeated a page cursor.",
+  "@web.common.errors.watchlistPageRepeated": {
+    "description": "Error shown when the watchlist titles list from the server repeats a page.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.common.format.bitrate.bps": "{rate} bps",
+  "@web.common.format.bitrate.bps": {
+    "description": "A network rate in bits per second, shown when the rate is under one kilobit per second. {rate} is the whole number of bits per second as a string.",
+    "placeholders": {
+      "rate": {
+        "type": "String"
+      }
+    },
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.common.format.bitrate.gbps": "{rate} Gbps",
+  "@web.common.format.bitrate.gbps": {
+    "description": "A network rate in gigabits per second, such as a node's network throughput. {rate} is the number already formatted for the interface language, such as 1.2.",
+    "placeholders": {
+      "rate": {
+        "type": "String"
+      }
+    },
+    "x-platforms": [
+      "web"
+    ]
+  },
   "web.common.format.bitrate.kbps": "{rate} kbps",
   "@web.common.format.bitrate.kbps": {
     "description": "Web, media info on item details, item cards sorted by bitrate and the player's stats: a bitrate in kilobits per second. {rate}: the rounded number, grouped for the language (1,234).",
@@ -129906,6 +130393,18 @@
         "type": "String"
       },
       "chapter": {
+        "type": "String"
+      }
+    },
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.common.format.percent": "{percent}%",
+  "@web.common.format.percent": {
+    "description": "Web, a percentage shown as a number with a percent sign (download progress, admin dashboard shares and rates, search index progress, marker provider rates). {percent}: the number, already formatted, such as 42 or 3.5. Put the sign where your language puts it, with its usual spacing.",
+    "placeholders": {
+      "percent": {
         "type": "String"
       }
     },
@@ -130030,6 +130529,42 @@
   "web.common.format.size.mib": "{size} MiB",
   "@web.common.format.size.mib": {
     "description": "Web, memory and storage sizes on admin node pages: a size in mebibytes (IEC unit). {size}: the size with one decimal.",
+    "placeholders": {
+      "size": {
+        "type": "String"
+      }
+    },
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.common.format.size.pb": "{size} PB",
+  "@web.common.format.size.pb": {
+    "description": "Web, file and storage sizes on admin pages: a size in petabytes. {size}: the number, already formatted, such as 1.5.",
+    "placeholders": {
+      "size": {
+        "type": "String"
+      }
+    },
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.common.format.size.tb": "{size} TB",
+  "@web.common.format.size.tb": {
+    "description": "Web, file and storage sizes on admin pages: a size in terabytes. {size}: the number, already formatted, such as 1.5.",
+    "placeholders": {
+      "size": {
+        "type": "String"
+      }
+    },
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.common.format.size.tib": "{size} TiB",
+  "@web.common.format.size.tib": {
+    "description": "A data size in binary terabytes (tebibytes), shown in the admin diagnostics report list and detail. {size} is the already formatted number, such as 1.5.",
     "placeholders": {
       "size": {
         "type": "String"
@@ -130236,6 +130771,13 @@
   "web.common.genres.western": "Western",
   "@web.common.genres.western": {
     "description": "Web, request rule editor and Discover filter row (admin): name of TMDB's genre \"Western\", as a choice and inside rule descriptions. Use the usual genre name in your language.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.common.job.cancellationRequested": "Cancellation requested",
+  "@web.common.job.cancellationRequested": {
+    "description": "Status text on a library job that is being cancelled.",
     "x-platforms": [
       "web"
     ]
@@ -137225,6 +137767,18 @@
       "web"
     ]
   },
+  "web.home.layout.transfer.pageTooLarge": "this page would have more than {max} saved section changes",
+  "@web.home.layout.transfer.pageTooLarge": {
+    "description": "Reason one page of a home layout import failed, shown after the page name in the list of failures: the import would leave more saved section changes on the page than allowed. {max} is that limit.",
+    "placeholders": {
+      "max": {
+        "type": "int"
+      }
+    },
+    "x-platforms": [
+      "web"
+    ]
+  },
   "web.home.layout.transfer.preferencesFailed": "Couldn't read this profile's Home preferences, so the export would be incomplete. Reload the page and try again.",
   "@web.home.layout.transfer.preferencesFailed": {
     "description": "Web: Settings > Home Screen, More > Export layout: error toast when the profile's Home preferences didn't load.",
@@ -137968,6 +138522,18 @@
   "web.home.rows.describe.ownWatchlist": "What you saved to watch",
   "@web.home.rows.describe.ownWatchlist": {
     "description": "Web: Settings > Home Screen, row list: description of a Watchlist row, speaking to the viewer.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.home.rows.describe.pageNameLibrary": "{label} page",
+  "@web.home.rows.describe.pageNameLibrary": {
+    "description": "A library's page named in a sentence, after \"my\" in Settings > Home Screen's \"Remove from my {page}…\" menu item. {label} is the library's name, such as \"Movies\".",
+    "placeholders": {
+      "label": {
+        "type": "String"
+      }
+    },
     "x-platforms": [
       "web"
     ]
@@ -140858,6 +141424,41 @@
         "type": "String"
       }
     }
+  },
+  "web.item.card.mangaStatus.cancelled": "Cancelled",
+  "@web.item.card.mangaStatus.cancelled": {
+    "description": "Top-left publication-status pill on a manga library card when the series was cancelled before it finished. The server sends the English value Cancelled.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.item.card.mangaStatus.completed": "Completed",
+  "@web.item.card.mangaStatus.completed": {
+    "description": "Top-left publication-status pill on a manga library card when the series has finished publishing. The server sends the English value Completed.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.item.card.mangaStatus.hiatus": "Hiatus",
+  "@web.item.card.mangaStatus.hiatus": {
+    "description": "Top-left publication-status pill on a manga library card when publication is paused. The server sends the English value Hiatus.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.item.card.mangaStatus.ongoing": "Ongoing",
+  "@web.item.card.mangaStatus.ongoing": {
+    "description": "Top-left publication-status pill on a manga library card when the series is still being published. The server sends the English value Ongoing; the pill is shown in uppercase by styling.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.item.card.mangaStatus.upcoming": "Upcoming",
+  "@web.item.card.mangaStatus.upcoming": {
+    "description": "Top-left publication-status pill on a manga library card when the series has not started publishing yet. The server sends the English value Upcoming.",
+    "x-platforms": [
+      "web"
+    ]
   },
   "web.item.card.mangaVolumes": "{count} Vol",
   "@web.item.card.mangaVolumes": {
@@ -146031,6 +146632,25 @@
       "web"
     ]
   },
+  "web.player.error.unknownMediaError": "Unknown media element error",
+  "@web.player.error.unknownMediaError": {
+    "description": "Detail shown after \"Playback error:\" in the video player when the browser's media element reports an error with no message of its own.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.player.error.updateFailed": "Playback update failed ({status})",
+  "@web.player.error.updateFailed": {
+    "description": "Error shown when the server rejects a playback progress or stop update without explaining why. {status} is the HTTP status code.",
+    "placeholders": {
+      "status": {
+        "type": "int"
+      }
+    },
+    "x-platforms": [
+      "web"
+    ]
+  },
   "web.player.error.upgradeRequired.message": "This server speaks a newer playback protocol than this app. Reload the page to pick up the current version.",
   "@web.player.error.upgradeRequired.message": {
     "description": "Web player: on the Playback unavailable screen (or the error notice over the video), explanation under the heading when the server needs a newer web app than the one loaded in the page.",
@@ -149445,6 +150065,13 @@
       "web"
     ]
   },
+  "web.reader.document.fallbackTitle": "Document",
+  "@web.reader.document.fallbackTitle": {
+    "description": "Title the ebook reader gives a plain-text book whose file name has no base name.",
+    "x-platforms": [
+      "web"
+    ]
+  },
   "web.reader.endOfBook.nextChapter": "Next: {chapter}",
   "@web.reader.endOfBook.nextChapter": {
     "description": "Web ebook reader: button shown at the bottom of the screen at the end of a manga chapter that opens the next chapter. {chapter}: the next chapter's label, such as \"Chapter 12\".",
@@ -149454,6 +150081,13 @@
         "example": "Chapter 12"
       }
     },
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.reader.error.fileEmpty": "File is empty",
+  "@web.reader.error.fileEmpty": {
+    "description": "Error shown in the ebook reader when the book file has no content.",
     "x-platforms": [
       "web"
     ]
@@ -149475,6 +150109,20 @@
   "web.reader.error.tooLarge": "This file is too large to open in the browser. Download it instead.",
   "@web.reader.error.tooLarge": {
     "description": "Web ebook reader: error shown in place of the book when the file is too large for the browser to open.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.reader.error.unsupportedFormat": "Unsupported book format",
+  "@web.reader.error.unsupportedFormat": {
+    "description": "Error shown in the ebook reader when the file is not in a format the reader can open.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.reader.error.unsupportedOrCorrupted": "Unsupported or corrupted book file",
+  "@web.reader.error.unsupportedOrCorrupted": {
+    "description": "Error shown in the ebook reader when the book file is not a valid archive.",
     "x-platforms": [
       "web"
     ]
@@ -157416,6 +158064,13 @@
       "web"
     ]
   },
+  "web.settings.overlays.badge.multiSub.value": "CC",
+  "@web.settings.overlays.badge.multiSub.value": {
+    "description": "The short text on a poster badge for a title that has several subtitle tracks; the abbreviation for closed captions or subtitles.",
+    "x-platforms": [
+      "web"
+    ]
+  },
   "web.settings.overlays.badge.network.description": "Primary network (series)",
   "@web.settings.overlays.badge.network.description": {
     "description": "Web Settings → Navigation & Cards → Badges, and admin Settings → Appearance: explanation under the Network badge's name in the badge list.",
@@ -159112,6 +159767,13 @@
   "web.settings.playbackConnection.transport.wifi": "Wi-Fi",
   "@web.settings.playbackConnection.transport.wifi": {
     "description": "Web Settings → Playback, Connection group: network type a speed was measured on, inserted as {transport} in \"… measured … on {transport}\".",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.settings.plexAuth.homeUserFallbackName": "Plex user",
+  "@web.settings.plexAuth.homeUserFallbackName": {
+    "description": "Name shown for a Plex Home member in the history import's user picker when plex.tv returns neither a title nor a username for that member.",
     "x-platforms": [
       "web"
     ]
