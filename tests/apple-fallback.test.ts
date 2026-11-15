@@ -32,6 +32,19 @@ test("apple fallback: Arabic one is English one; zero, two, few, many and other 
   assert.deepEqual(forms(PARTS, "ar"), { zero: "# parts", one: "# part", two: "# parts", few: "# parts", many: "# parts", other: "# parts" });
 });
 
+test("apple fallback: Czech many, which no whole number reaches, takes English other", () => {
+  assert.deepEqual(forms(PARTS, "cs"), { one: "# part", few: "# parts", many: "# parts", other: "# parts" });
+});
+
+test("apple fallback: Russian one spans 1 and 21, and other (fractions only) is English other", () => {
+  assert.deepEqual(forms(PARTS, "ru"), { one: "# parts", few: "# parts", many: "# parts", other: "# parts" });
+});
+
+test("apple fallback: a category no whole number reaches (Polish other) takes English other", () => {
+  assert.deepEqual(forms(PARTS, "pl"), { one: "# part", few: "# parts", many: "# parts", other: "# parts" });
+  assert.deepEqual(forms(DELETE, "pl"), { one: "Delete download", few: "Delete # downloads", many: "Delete # downloads", other: "Delete # downloads" });
+});
+
 test("apple fallback: Ukrainian other, which has no whole numbers, is English other", () => {
   // uk one is 1, 21, 31…, so it spans English one and other and takes the form that prints the count.
   assert.deepEqual(forms(PARTS, "uk"), { one: "# parts", few: "# parts", many: "# parts", other: "# parts" });

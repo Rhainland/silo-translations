@@ -29,8 +29,10 @@ test("plural: CLDR integer samples", () => {
   for (const l of languages) {
     for (const cat of categoriesFor(l.cldr)) {
       const samples = integerSamples(l.cldr, cat);
-      // CLDR may give "other" only decimal samples (uk: every whole number is one, few or many).
-      assert.ok(samples.length > 0 || cat === "other", `${l.tag} ${cat} has samples`);
+      // A category may cover fractions only (Czech many); then no whole number reaches it.
+      if (samples.length === 0) {
+        for (let n = 0; n <= 1000; n++) assert.notEqual(categoryOf(l.cldr, n), cat, `${l.tag} ${cat} has no whole number`);
+      }
       for (const n of samples) assert.equal(categoryOf(l.cldr, n), cat, `${l.tag} ${n}`);
     }
   }
@@ -41,10 +43,9 @@ test("plural: CLDR integer samples", () => {
   assert.equal(categoryOf("ar", 102), "other");
   assert.equal(categoryOf("ar", 111), "many");
   assert.equal(categoryOf("ar", -3), "few");
-  assert.equal(categoryOf("uk", 21), "one");
-  assert.equal(categoryOf("uk", 11), "many");
-  assert.equal(categoryOf("uk", 22), "few");
-  assert.equal(categoryOf("uk", 0), "many");
+  assert.deepEqual(integerSamples("cs", "many"), []);
+  assert.equal(categoryOf("cs", 3), "few");
+  assert.equal(categoryOf("cs", 5), "other");
 });
 
 test("plural: generated pluralRules.bs compiles with bsc and matches under brs-node", () => {
