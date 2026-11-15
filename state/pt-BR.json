@@ -113420,6 +113420,30 @@
     "by": "opus",
     "model": "claude-opus-5-5"
   },
+  "web.settings.overlays.badge.availability.description": {
+    "source": "ca8919b7c4fdb3c2",
+    "value": "0d04ad7475b0f287",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
+  "web.settings.overlays.badge.availability.label": {
+    "source": "d3854a369075f36f",
+    "value": "6f9b1b25ab437b0c",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
+  "web.settings.overlays.badge.availability.value.complete": {
+    "source": "2093475751d7e227",
+    "value": "e13942698a59f950",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
+  "web.settings.overlays.badge.availability.value.fraction": {
+    "source": "3ebe96b782388b7e",
+    "value": "cf61045a51165211",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
   "web.settings.overlays.badge.container.description": {
     "source": "c046acabe2f3fdee",
     "value": "4a498d0db91271ce",
