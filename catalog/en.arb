@@ -143607,6 +143607,66 @@
       "web"
     ]
   },
+  "web.library.browse.countBooks": "{count, plural, one {{shown} book} other {{shown} books}}",
+  "@web.library.browse.countBooks": {
+    "description": "Web library page, Library tab: number of audiobooks or ebooks the current filters match, shown in the filter bar beside the Filters button. {count}: number of titles. {shown}: the same number as printed.",
+    "x-platforms": [
+      "web"
+    ],
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "shown": {
+        "type": "String"
+      }
+    }
+  },
+  "web.library.browse.countEpisodes": "{count, plural, one {{shown} episode} other {{shown} episodes}}",
+  "@web.library.browse.countEpisodes": {
+    "description": "Web library page, Library tab: number of episodes the current filters match, shown in the filter bar beside the Filters button. {count}: number of titles. {shown}: the same number as printed.",
+    "x-platforms": [
+      "web"
+    ],
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "shown": {
+        "type": "String"
+      }
+    }
+  },
+  "web.library.browse.countMovies": "{count, plural, one {{shown} movie} other {{shown} movies}}",
+  "@web.library.browse.countMovies": {
+    "description": "Web library page, Library tab: number of movies the current filters match, shown in the filter bar beside the Filters button. {count}: number of titles. {shown}: the same number as printed.",
+    "x-platforms": [
+      "web"
+    ],
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "shown": {
+        "type": "String"
+      }
+    }
+  },
+  "web.library.browse.countSeries": "{count, plural, one {{shown} series} other {{shown} series}}",
+  "@web.library.browse.countSeries": {
+    "description": "Web library page, Library tab: number of TV series the current filters match, shown in the filter bar beside the Filters button. {count}: number of titles. {shown}: the same number as printed.",
+    "x-platforms": [
+      "web"
+    ],
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "shown": {
+        "type": "String"
+      }
+    }
+  },
   "web.library.browse.lettersRefreshFailed": "Couldn't refresh the letter bar, so a jump may land a little off.",
   "@web.library.browse.lettersRefreshFailed": {
     "description": "Web: notice above a library's grid when reloading the A–Z jump bar failed.",

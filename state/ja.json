@@ -102622,6 +102622,30 @@
     "by": "opus",
     "model": "claude-opus-5-5"
   },
+  "web.library.browse.countBooks": {
+    "source": "964dc22823637dc8",
+    "value": "4c6b82b8e2ccaffd",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
+  "web.library.browse.countEpisodes": {
+    "source": "a28bfa0ea22dc092",
+    "value": "aa455b6bd23a30df",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
+  "web.library.browse.countMovies": {
+    "source": "10f21821f06f6572",
+    "value": "6246d2a786e1c733",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
+  "web.library.browse.countSeries": {
+    "source": "3fc63c68785c9514",
+    "value": "7505c3343953e1bf",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
   "web.library.browse.lettersRefreshFailed": {
     "source": "6202518ab7573b5e",
     "value": "fcf224283ed227b2",
