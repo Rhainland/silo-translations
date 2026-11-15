@@ -70626,6 +70626,13 @@
       "web"
     ]
   },
+  "web.admin.dashboard.widgets.concurrentStreams.otherMethod": "Other",
+  "@web.admin.dashboard.widgets.concurrentStreams.otherMethod": {
+    "description": "Web admin, Dashboard page, Concurrent streams widget: legend name of the stacked band for streams whose playback method is not direct play, direct stream, or transcode.",
+    "x-platforms": [
+      "web"
+    ]
+  },
   "web.admin.dashboard.widgets.concurrentStreams.peak": "Peak {value}",
   "@web.admin.dashboard.widgets.concurrentStreams.peak": {
     "description": "Web admin, Dashboard page, Concurrent streams widget: highest number of simultaneous streams in the window. {value}: the number, already formatted.",
@@ -70648,6 +70655,48 @@
   "web.admin.dashboard.widgets.concurrentStreams.title": "Concurrent streams",
   "@web.admin.dashboard.widgets.concurrentStreams.title": {
     "description": "Web admin, Dashboard page, Concurrent streams widget: card title; a time-window suffix such as \"· last 24 h\" is appended.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.dashboard.widgets.concurrentStreams.viewLines": "Lines",
+  "@web.admin.dashboard.widgets.concurrentStreams.viewLines": {
+    "description": "Web admin, Dashboard page, Concurrent streams widget: toggle button that draws the total and each playback method (direct play, direct stream, transcode) as separate lines.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.dashboard.widgets.concurrentStreams.viewLinesLabel": "Show each playback method as a line",
+  "@web.admin.dashboard.widgets.concurrentStreams.viewLinesLabel": {
+    "description": "Web admin, Dashboard page, Concurrent streams widget: accessible name of the Lines toggle button.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.dashboard.widgets.concurrentStreams.viewStacked": "Stacked",
+  "@web.admin.dashboard.widgets.concurrentStreams.viewStacked": {
+    "description": "Web admin, Dashboard page, Concurrent streams widget: toggle button that stacks the playback methods into bands that add up to the total.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.dashboard.widgets.concurrentStreams.viewStackedLabel": "Show playback methods stacked",
+  "@web.admin.dashboard.widgets.concurrentStreams.viewStackedLabel": {
+    "description": "Web admin, Dashboard page, Concurrent streams widget: accessible name of the Stacked toggle button.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.dashboard.widgets.concurrentStreams.viewTotal": "Total",
+  "@web.admin.dashboard.widgets.concurrentStreams.viewTotal": {
+    "description": "Web admin, Dashboard page, Concurrent streams widget: toggle button that shows only the total number of streams as one line.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.dashboard.widgets.concurrentStreams.viewTotalLabel": "Show total streams only",
+  "@web.admin.dashboard.widgets.concurrentStreams.viewTotalLabel": {
+    "description": "Web admin, Dashboard page, Concurrent streams widget: accessible name of the Total toggle button.",
     "x-platforms": [
       "web"
     ]
