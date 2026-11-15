@@ -51,7 +51,8 @@ function pluralRules(input: GenInput): string {
   for (const l of languages) groups.set(l.cldr, [...(groups.get(l.cldr) ?? []), l.roku]);
   const branches: string[] = [];
   for (const [cldr, folders] of groups) {
-    const cats = categoriesFor(cldr).filter((c) => c !== "other");
+    // A category no whole number reaches (Czech many: fractions only) has no branch.
+    const cats = categoriesFor(cldr).filter((c) => c !== "other" && brightScriptCondition(cldr, c) !== "false");
     if (!cats.length) continue; // "other" for every count, the fallback below.
     const test = folders.map((f) => `language = "${f}"`).join(" or ");
     const lines = cats.map((c) => `            if ${brightScriptCondition(cldr, c)} then return "${c}"`);
