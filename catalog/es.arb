@@ -940,7 +940,6 @@
   "detail.seasonEpisodes": "Episodios de {season}",
   "detail.seasonsLoading": "Cargando temporadas",
   "detail.seriesDownloaded": "Serie descargada",
-  "detail.seriesShowTab": "Serie",
   "detail.seriesStatus.continuing": "Serie en emisión",
   "detail.seriesStatus.ended": "Serie completa",
   "detail.seriesStatus.inProduction": "Nueva temporada en camino",

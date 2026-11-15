@@ -7996,9 +7996,11 @@
   },
   "detail.more.showSeriesInfo": "Show Series Info",
   "@detail.more.showSeriesInfo": {
-    "description": "Apple tvOS: action in a series page's More menu that switches the hero from the focused episode back to the series' own description and details.",
+    "description": "TV: action in a series page's More menu that switches the hero from the focused episode back to the series' own description and details.",
     "x-platforms": [
-      "apple"
+      "apple",
+      "android",
+      "roku"
     ]
   },
   "detail.more.shuffleSeason": "Shuffle {season}",
@@ -8571,13 +8573,6 @@
   "detail.seriesDownloaded": "Series downloaded",
   "@detail.seriesDownloaded": {
     "description": "Android phone: disabled item in a series page's download menu when every episode is already downloaded.",
-    "x-platforms": [
-      "android"
-    ]
-  },
-  "detail.seriesShowTab": "Show",
-  "@detail.seriesShowTab": {
-    "description": "Android TV: first tab in the row of season tabs on a series page; selecting it shows the series overview instead of a season. Means the TV show as a whole.",
     "x-platforms": [
       "android"
     ]

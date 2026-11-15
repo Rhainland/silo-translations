@@ -5628,12 +5628,6 @@
     "by": "opus",
     "model": "claude-opus-5-5"
   },
-  "detail.seriesShowTab": {
-    "source": "7370b8732ea36eef",
-    "value": "5281855f5a033c3e",
-    "by": "opus",
-    "model": "claude-opus-5-5"
-  },
   "detail.seriesStatus.continuing": {
     "source": "0e9dfd0cd49ebe74",
     "value": "554f103e9201d63b",
