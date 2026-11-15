@@ -52307,6 +52307,13 @@
       "web"
     ]
   },
+  "web.admin.activity.panel.decision": "Decision",
+  "@web.admin.activity.panel.decision": {
+    "description": "Web: admin Activity page, a session's expanded details: label of the row that states how the server delivers the stream (Direct Play, Remux, Direct Stream or Transcode) with a one-line explanation. Same style as the Client and Route labels.",
+    "x-platforms": [
+      "web"
+    ]
+  },
   "web.admin.activity.panel.event": "event",
   "@web.admin.activity.panel.event": {
     "description": "Web: admin Activity page: tag on an FFmpeg output line that records a transcoder event.",
@@ -52338,6 +52345,13 @@
   "web.admin.activity.panel.openFfmpegLogs": "Open full FFmpeg logs",
   "@web.admin.activity.panel.openFfmpegLogs": {
     "description": "Web: admin Activity page: link from a stream's FFmpeg output to the full logs page.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.activity.panel.reasons": "Reasons",
+  "@web.admin.activity.panel.reasons": {
+    "description": "Web: admin Activity page, a session's expanded details: label of the row listing why the server converts or repackages the stream instead of playing the original file, each with a one-sentence explanation.",
     "x-platforms": [
       "web"
     ]
@@ -52406,6 +52420,244 @@
   "web.admin.activity.realtime.live": "Live",
   "@web.admin.activity.realtime.live": {
     "description": "Web: admin Activity page: live-update connection status when connected.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.activity.reason.audioChannelsUnsupported.description": "The audio has more channels than the device's output supports.",
+  "@web.admin.activity.reason.audioChannelsUnsupported.description": {
+    "description": "Web: admin Activity page, a live playback session, expanded details and tooltip: one-sentence explanation of the reason tagged \"Too many audio channels\": the audio has more channels than the output supports.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.activity.reason.audioChannelsUnsupported.label": "Too many audio channels",
+  "@web.admin.activity.reason.audioChannelsUnsupported.label": {
+    "description": "Web: admin Activity page, a live playback session: short tag naming one reason the stream is converted or repackaged: the audio has more channels than the output supports. Several tags can appear on one line, separated by dots.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.activity.reason.audioCodecUnsupported.description": "The device, or the stream format it needs, can't play this audio codec.",
+  "@web.admin.activity.reason.audioCodecUnsupported.description": {
+    "description": "Web: admin Activity page, a live playback session, expanded details and tooltip: one-sentence explanation of the reason tagged \"Audio codec not supported\": the device cannot play the audio format.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.activity.reason.audioCodecUnsupported.label": "Audio codec not supported",
+  "@web.admin.activity.reason.audioCodecUnsupported.label": {
+    "description": "Web: admin Activity page, a live playback session: short tag naming one reason the stream is converted or repackaged: the device cannot play the audio format. Several tags can appear on one line, separated by dots.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.activity.reason.audioTrackSelection.description": "The selected audio track can't be played from the original file directly.",
+  "@web.admin.activity.reason.audioTrackSelection.description": {
+    "description": "Web: admin Activity page, a live playback session, expanded details and tooltip: one-sentence explanation of the reason tagged \"Audio track selection\": the selected audio track needs repackaging.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.activity.reason.audioTrackSelection.label": "Audio track selection",
+  "@web.admin.activity.reason.audioTrackSelection.label": {
+    "description": "Web: admin Activity page, a live playback session: short tag naming one reason the stream is converted or repackaged: the selected audio track needs repackaging. Several tags can appear on one line, separated by dots.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.activity.reason.bandwidthCap.description": "The profile's or device's Maximum bitrate setting is below the original bitrate.",
+  "@web.admin.activity.reason.bandwidthCap.description": {
+    "description": "Web: admin Activity page, a live playback session, expanded details and tooltip: one-sentence explanation of the reason tagged \"Maximum bitrate setting\": the viewer's Maximum bitrate playback setting, for the profile or the device, is below the original bitrate; use the same name as that setting.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.activity.reason.bandwidthCap.label": "Maximum bitrate setting",
+  "@web.admin.activity.reason.bandwidthCap.label": {
+    "description": "Web: admin Activity page, a live playback session: short tag naming one reason the stream is converted or repackaged: the viewer's Maximum bitrate playback setting, for the profile or the device, is below the original bitrate; use the same name as that setting. Several tags can appear on one line, separated by dots.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.activity.reason.bandwidthLimit.description": "The app measured this connection as too slow for the original bitrate.",
+  "@web.admin.activity.reason.bandwidthLimit.description": {
+    "description": "Web: admin Activity page, a live playback session, expanded details and tooltip: one-sentence explanation of the reason tagged \"Connection too slow\": the app measured the connection as too slow for the original bitrate.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.activity.reason.bandwidthLimit.label": "Connection too slow",
+  "@web.admin.activity.reason.bandwidthLimit.label": {
+    "description": "Web: admin Activity page, a live playback session: short tag naming one reason the stream is converted or repackaged: the app measured the connection as too slow for the original bitrate. Several tags can appear on one line, separated by dots.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.activity.reason.buffering.description": "Playback buffered earlier on this device and connection, in this session or a recent one, so the server lowered the quality.",
+  "@web.admin.activity.reason.buffering.description": {
+    "description": "Web: admin Activity page, a live playback session, expanded details and tooltip: one-sentence explanation of the reason tagged \"Earlier buffering\": quality was lowered because of earlier buffering on this device and connection (in this play or a recent one), not buffering happening now.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.activity.reason.buffering.label": "Earlier buffering",
+  "@web.admin.activity.reason.buffering.label": {
+    "description": "Web: admin Activity page, a live playback session: short tag naming one reason the stream is converted or repackaged: quality was lowered because of earlier buffering on this device and connection (in this play or a recent one), not buffering happening now. Several tags can appear on one line, separated by dots.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.activity.reason.containerUnsupported.description": "The device can't open this file's container.",
+  "@web.admin.activity.reason.containerUnsupported.description": {
+    "description": "Web: admin Activity page, a live playback session, expanded details and tooltip: one-sentence explanation of the reason tagged \"Container not supported\": the device cannot open the file container (for example MKV).",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.activity.reason.containerUnsupported.label": "Container not supported",
+  "@web.admin.activity.reason.containerUnsupported.label": {
+    "description": "Web: admin Activity page, a live playback session: short tag naming one reason the stream is converted or repackaged: the device cannot open the file container (for example MKV). Several tags can appear on one line, separated by dots.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.activity.reason.deviceWorkaround.description": "The audio is converted to avoid a known playback bug on this device.",
+  "@web.admin.activity.reason.deviceWorkaround.description": {
+    "description": "Web: admin Activity page, a live playback session, expanded details and tooltip: one-sentence explanation of the reason tagged \"Device audio workaround\": audio is converted to avoid a known bug on the device.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.activity.reason.deviceWorkaround.label": "Device audio workaround",
+  "@web.admin.activity.reason.deviceWorkaround.label": {
+    "description": "Web: admin Activity page, a live playback session: short tag naming one reason the stream is converted or repackaged: audio is converted to avoid a known bug on the device. Several tags can appear on one line, separated by dots.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.activity.reason.directPlayFailed.description": "The original stream failed to play on the device, so the server converts it.",
+  "@web.admin.activity.reason.directPlayFailed.description": {
+    "description": "Web: admin Activity page, a live playback session, expanded details and tooltip: one-sentence explanation of the reason tagged \"Direct play failed\": playing the original stream failed on the device.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.activity.reason.directPlayFailed.label": "Direct play failed",
+  "@web.admin.activity.reason.directPlayFailed.label": {
+    "description": "Web: admin Activity page, a live playback session: short tag naming one reason the stream is converted or repackaged: playing the original stream failed on the device. Several tags can appear on one line, separated by dots.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.activity.reason.dynamicRangeUnsupported.description": "The display can't show this HDR or Dolby Vision video as it is.",
+  "@web.admin.activity.reason.dynamicRangeUnsupported.description": {
+    "description": "Web: admin Activity page, a live playback session, expanded details and tooltip: one-sentence explanation of the reason tagged \"HDR not supported\": the display cannot show the HDR or Dolby Vision video as it is.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.activity.reason.dynamicRangeUnsupported.label": "HDR not supported",
+  "@web.admin.activity.reason.dynamicRangeUnsupported.label": {
+    "description": "Web: admin Activity page, a live playback session: short tag naming one reason the stream is converted or repackaged: the display cannot show the HDR or Dolby Vision video as it is. Several tags can appear on one line, separated by dots.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.activity.reason.qualitySelected.description": "The viewer picked a quality lower than the original.",
+  "@web.admin.activity.reason.qualitySelected.description": {
+    "description": "Web: admin Activity page, a live playback session, expanded details and tooltip: one-sentence explanation of the reason tagged \"Quality chosen by viewer\": the viewer picked a lower quality in the player.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.activity.reason.qualitySelected.label": "Quality chosen by viewer",
+  "@web.admin.activity.reason.qualitySelected.label": {
+    "description": "Web: admin Activity page, a live playback session: short tag naming one reason the stream is converted or repackaged: the viewer picked a lower quality in the player. Several tags can appear on one line, separated by dots.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.activity.reason.resolutionLimit.description": "The video's resolution is higher than the device supports.",
+  "@web.admin.activity.reason.resolutionLimit.description": {
+    "description": "Web: admin Activity page, a live playback session, expanded details and tooltip: one-sentence explanation of the reason tagged \"Above device resolution\": the video resolution is above the device maximum.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.activity.reason.resolutionLimit.label": "Above device resolution",
+  "@web.admin.activity.reason.resolutionLimit.label": {
+    "description": "Web: admin Activity page, a live playback session: short tag naming one reason the stream is converted or repackaged: the video resolution is above the device maximum. Several tags can appear on one line, separated by dots.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.activity.reason.serverBitrateLimit.description": "The user's access group allows a lower bitrate than the original for this local or remote stream.",
+  "@web.admin.activity.reason.serverBitrateLimit.description": {
+    "description": "Web: admin Activity page, a live playback session, expanded details and tooltip: one-sentence explanation of the reason tagged \"Access group limit\": the administrator's Max local or remote stream bitrate on the user's access group is below the original bitrate.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.activity.reason.serverBitrateLimit.label": "Access group limit",
+  "@web.admin.activity.reason.serverBitrateLimit.label": {
+    "description": "Web: admin Activity page, a live playback session: short tag naming one reason the stream is converted or repackaged: the administrator's Max local or remote stream bitrate on the user's access group is below the original bitrate. Several tags can appear on one line, separated by dots.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.activity.reason.subtitleBurnIn.description": "The selected subtitles are drawn into the video because the device can't show them.",
+  "@web.admin.activity.reason.subtitleBurnIn.description": {
+    "description": "Web: admin Activity page, a live playback session, expanded details and tooltip: one-sentence explanation of the reason tagged \"Subtitles burned in\": subtitles are rendered into the video picture.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.activity.reason.subtitleBurnIn.label": "Subtitles burned in",
+  "@web.admin.activity.reason.subtitleBurnIn.label": {
+    "description": "Web: admin Activity page, a live playback session: short tag naming one reason the stream is converted or repackaged: subtitles are rendered into the video picture. Several tags can appear on one line, separated by dots.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.activity.reason.subtitleUnsupported.description": "The selected subtitles can't be delivered with the original file.",
+  "@web.admin.activity.reason.subtitleUnsupported.description": {
+    "description": "Web: admin Activity page, a live playback session, expanded details and tooltip: one-sentence explanation of the reason tagged \"Subtitles not supported\": the selected subtitles cannot be delivered with the original file.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.activity.reason.subtitleUnsupported.label": "Subtitles not supported",
+  "@web.admin.activity.reason.subtitleUnsupported.label": {
+    "description": "Web: admin Activity page, a live playback session: short tag naming one reason the stream is converted or repackaged: the selected subtitles cannot be delivered with the original file. Several tags can appear on one line, separated by dots.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.activity.reason.videoCapabilityUnconfirmed.description": "The app couldn't confirm the device decodes this video, so the server converts it to be safe.",
+  "@web.admin.activity.reason.videoCapabilityUnconfirmed.description": {
+    "description": "Web: admin Activity page, a live playback session, expanded details and tooltip: one-sentence explanation of the reason tagged \"Video support unconfirmed\": the app could not confirm the device supports the video.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.activity.reason.videoCapabilityUnconfirmed.label": "Video support unconfirmed",
+  "@web.admin.activity.reason.videoCapabilityUnconfirmed.label": {
+    "description": "Web: admin Activity page, a live playback session: short tag naming one reason the stream is converted or repackaged: the app could not confirm the device supports the video. Several tags can appear on one line, separated by dots.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.activity.reason.videoCodecUnsupported.description": "The device can't decode this video's codec, profile or bit depth.",
+  "@web.admin.activity.reason.videoCodecUnsupported.description": {
+    "description": "Web: admin Activity page, a live playback session, expanded details and tooltip: one-sentence explanation of the reason tagged \"Video codec not supported\": the device cannot decode the video format.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.activity.reason.videoCodecUnsupported.label": "Video codec not supported",
+  "@web.admin.activity.reason.videoCodecUnsupported.label": {
+    "description": "Web: admin Activity page, a live playback session: short tag naming one reason the stream is converted or repackaged: the device cannot decode the video format. Several tags can appear on one line, separated by dots.",
     "x-platforms": [
       "web"
     ]
@@ -52525,6 +52777,33 @@
       "web"
     ]
   },
+  "web.admin.activity.row.moreReasons": "+{count_text}",
+  "@web.admin.activity.row.moreReasons": {
+    "description": "Web: admin Activity page, a session row: compact button after the first reason a stream is converted, showing how many more reasons the expanded details list. {count_text}: the number as shown.",
+    "placeholders": {
+      "count_text": {
+        "type": "String"
+      }
+    },
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.activity.row.moreReasonsLabel": "{count, plural, one {Show {count_text} more reason} other {Show {count_text} more reasons}}",
+  "@web.admin.activity.row.moreReasonsLabel": {
+    "description": "Web: admin Activity page, a session row: accessible name of the compact \"+N\" button that opens the session's details, where the remaining reasons the stream is converted are listed. {count}: the number; {count_text}: the same number as shown.",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "count_text": {
+        "type": "String"
+      }
+    },
+    "x-platforms": [
+      "web"
+    ]
+  },
   "web.admin.activity.row.paused": "Paused",
   "@web.admin.activity.row.paused": {
     "description": "Web: admin Activity page: status badge for a paused stream.",
@@ -52575,6 +52854,18 @@
   "web.admin.activity.sort.heading": "Sort",
   "@web.admin.activity.sort.heading": {
     "description": "Web: admin Activity page: small label in front of the sort buttons on narrow screens.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.activity.summary.bandwidth": "{rate} out",
+  "@web.admin.activity.summary.bandwidth": {
+    "description": "Web: admin Activity page, summary under the title: the total bitrate the server is sending to viewers right now. {rate}: a formatted rate such as \"42.5 Mbps\".",
+    "placeholders": {
+      "rate": {
+        "type": "String"
+      }
+    },
     "x-platforms": [
       "web"
     ]
@@ -52642,6 +52933,30 @@
       "web"
     ]
   },
+  "web.admin.activity.summary.paused": "{count_text} paused",
+  "@web.admin.activity.summary.paused": {
+    "description": "Web: admin Activity page, summary under the title: how many live sessions are paused. {count_text}: the number as shown.",
+    "placeholders": {
+      "count_text": {
+        "type": "String"
+      }
+    },
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.activity.summary.remote": "{count_text} remote",
+  "@web.admin.activity.summary.remote": {
+    "description": "Web: admin Activity page, summary under the title: how many live sessions stream to viewers outside the local network. {count_text}: the number as shown.",
+    "placeholders": {
+      "count_text": {
+        "type": "String"
+      }
+    },
+    "x-platforms": [
+      "web"
+    ]
+  },
   "web.admin.activity.summary.unknownOutputContainer": "Unknown output container",
   "@web.admin.activity.summary.unknownOutputContainer": {
     "description": "Web: admin Activity page (also dashboard stream cards, Server Activity popover and other admin playback views): shown when the server did not report the container it streams.",
@@ -52652,6 +52967,21 @@
   "web.admin.activity.summary.unknownSource": "Unknown source",
   "@web.admin.activity.summary.unknownSource": {
     "description": "Web: admin Activity page (also dashboard stream cards, Server Activity popover and other admin playback views): shown instead of the source file's container, video or audio format when the server did not report it.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.activity.summary.videoTranscodes": "{count, plural, one {{count_text} video transcode} other {{count_text} video transcodes}}",
+  "@web.admin.activity.summary.videoTranscodes": {
+    "description": "Web: admin Activity page, summary under the title: how many live sessions re-encode their video. {count}: the number; {count_text}: the same number as shown. Joined to the other summary parts with dots.",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "count_text": {
+        "type": "String"
+      }
+    },
     "x-platforms": [
       "web"
     ]
