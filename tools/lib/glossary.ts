@@ -63,10 +63,15 @@ function fold(s: string, tag: string): string {
 /**
  * Whether a translation uses a glossary rendering. A rendering may list accepted forms separated
  * by "|" (singular and plural, "colección|colecciones"); comparison ignores case and accents.
+ * Text is also compared with language-neutral case folding, so an ASCII identifier such as
+ * SILO_URL still matches "Silo" in Turkish, where I lowercases to dotless ı.
  */
 export function usesRendering(message: string, rendering: string, tag: string): boolean {
-  const text = fold(message, tag);
-  return rendering.split("|").some((form) => form.trim() !== "" && text.includes(fold(form.trim(), tag)));
+  const forms = rendering.split("|").map((form) => form.trim()).filter((form) => form !== "");
+  return [tag, "und"].some((t) => {
+    const text = fold(message, t);
+    return forms.some((form) => text.includes(fold(form, t)));
+  });
 }
 
 function escapeRegExp(s: string): string {
