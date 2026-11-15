@@ -32,6 +32,10 @@ test("apple fallback: Arabic one is English one; zero, two, few, many and other 
   assert.deepEqual(forms(PARTS, "ar"), { zero: "# parts", one: "# part", two: "# parts", few: "# parts", many: "# parts", other: "# parts" });
 });
 
+test("apple fallback: Czech many, which no whole number reaches, takes English other", () => {
+  assert.deepEqual(forms(PARTS, "cs"), { one: "# part", few: "# parts", many: "# parts", other: "# parts" });
+});
+
 test("apple fallback: a non-plural message is unchanged", () => {
   const a = analyze("Cancel", true);
   assert.equal(englishFor(a, "ja", "en"), a);
