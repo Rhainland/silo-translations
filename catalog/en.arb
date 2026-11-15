@@ -42556,14 +42556,15 @@
   },
   "signIn.withProvider": "Sign in with {provider}",
   "@signIn.withProvider": {
-    "description": "Android phone sign-in screen: button for an external sign-in provider (opens a browser sign-in), also an option in the Use a different account dialog. 1: the provider's name, such as Google.",
+    "description": "Sign-in screen on the web and Android phone: button for an external sign-in provider (opens the provider's sign-in page); on Android also an option in the Use a different account dialog. {provider}: the provider's name as the administrator set it, such as Google.",
     "placeholders": {
       "provider": {
         "type": "String"
       }
     },
     "x-platforms": [
-      "android"
+      "android",
+      "web"
     ]
   },
   "signInTv.accountUnconfirmed": "Couldn't confirm the account on {server}.",
