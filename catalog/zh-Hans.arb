@@ -17945,6 +17945,7 @@
   "web.reader.ruler.valueText": "{percent}%",
   "web.reader.search.input": "搜索文本",
   "web.reader.search.run": "搜索",
+  "web.reader.search.truncated": "{count, plural, other {仅显示前#个匹配项。}}",
   "web.reader.settings.brightness": "亮度",
   "web.reader.settings.flow": "排版方式",
   "web.reader.settings.font": "字体",

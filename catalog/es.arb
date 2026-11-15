@@ -17945,6 +17945,7 @@
   "web.reader.ruler.valueText": "{percent}%",
   "web.reader.search.input": "Buscar texto",
   "web.reader.search.run": "Buscar",
+  "web.reader.search.truncated": "{count, plural, one {Se muestra la primera coincidencia.} many {Se muestran las primeras # de coincidencias.} other {Se muestran las primeras # coincidencias.}}",
   "web.reader.settings.brightness": "Brillo",
   "web.reader.settings.flow": "Flujo",
   "web.reader.settings.font": "Fuente",

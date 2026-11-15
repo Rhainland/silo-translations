@@ -17945,6 +17945,7 @@
   "web.reader.ruler.valueText": "{percent} %",
   "web.reader.search.input": "Texte à rechercher",
   "web.reader.search.run": "Lancer la recherche",
+  "web.reader.search.truncated": "{count, plural, one {Affichage limité à # résultat.} many {Affichage limité à # de résultats.} other {Affichage limité à # résultats.}}",
   "web.reader.settings.brightness": "Luminosité",
   "web.reader.settings.flow": "Défilement",
   "web.reader.settings.font": "Police",

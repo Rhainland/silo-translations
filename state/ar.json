@@ -107655,6 +107655,12 @@
     "by": "opus",
     "model": "claude-opus-5-5"
   },
+  "web.reader.search.truncated": {
+    "source": "a4f2aa8aace40b20",
+    "value": "eb09dfcee9988010",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
   "web.reader.settings.brightness": {
     "source": "a57f28b30357028f",
     "value": "1961442f7d5c9d67",
