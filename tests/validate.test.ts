@@ -232,6 +232,18 @@ const cases: Case[] = [
     tr: { es: { "a.b": "Fíjalo en la barra lateral" } },
     glossary: "term,note,es\nPIN,,PIN\n",
   },
+  {
+    name: "glossary matches an upper-case identifier in Turkish (dotted and dotless i)",
+    en: entry("a.b", "Set by SILO_URL"),
+    tr: { tr: { "a.b": "SILO_URL tarafından ayarlandı" } },
+    glossary: "term,note,tr\nSilo,,Silo\n",
+  },
+  {
+    name: "glossary keeps Turkish case folding for Turkish words",
+    en: entry("a.b", "Open the Library"),
+    tr: { tr: { "a.b": "KİTAPLIĞI aç" } },
+    glossary: "term,note,tr\nLibrary,,kitaplı\n",
+  },
 ];
 
 for (const c of cases) {
