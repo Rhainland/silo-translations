@@ -85840,6 +85840,225 @@
       "web"
     ]
   },
+  "web.admin.nodes.key.close": "Close",
+  "@web.admin.nodes.key.close": {
+    "description": "Web admin, Stream Nodes page: closes the key dialog after issuing failed.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.nodes.key.copied": "Copied",
+  "@web.admin.nodes.key.copied": {
+    "description": "Web admin, Stream Nodes page: toast after copying the node key or settings.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.nodes.key.copyFailed": "Could not copy. Select the text and copy it by hand.",
+  "@web.admin.nodes.key.copyFailed": {
+    "description": "Web admin, Stream Nodes page: error in the key dialog when copying to the clipboard fails.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.nodes.key.copyKey": "Copy key",
+  "@web.admin.nodes.key.copyKey": {
+    "description": "Web admin, Stream Nodes page: accessible name of the button that copies the node key.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.nodes.key.copySettings": "Copy settings",
+  "@web.admin.nodes.key.copySettings": {
+    "description": "Web admin, Stream Nodes page: accessible name of the button that copies the node settings.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.nodes.key.coreUrlHelp": "The address the node calls to reach this server. With several API servers, use their load-balanced address.",
+  "@web.admin.nodes.key.coreUrlHelp": {
+    "description": "Web admin, Stream Nodes page: help under the server address field in the key dialog.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.nodes.key.coreUrlLabel": "Server address for the node",
+  "@web.admin.nodes.key.coreUrlLabel": {
+    "description": "Web admin, Stream Nodes page: label of the field in the key dialog holding the address the node uses to reach this server (SILO_CORE_URL).",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.nodes.key.coreUrlMissing": "Enter the server address to complete the settings.",
+  "@web.admin.nodes.key.coreUrlMissing": {
+    "description": "Web admin, Stream Nodes page: shown in the key dialog while the server address field is empty, so the node settings cannot be copied yet.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.nodes.key.dialogTitle": "Key for {name}",
+  "@web.admin.nodes.key.dialogTitle": {
+    "description": "Web admin, Stream Nodes page: title of the dialog that issues a transcode node's key and shows it once. {name}: node name.",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    },
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.nodes.key.issue": "Issue key",
+  "@web.admin.nodes.key.issue": {
+    "description": "Web admin, Stream Nodes page: button on a transcode node without a key; issues one and shows it once.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.nodes.key.issueFor": "Issue a key for {name}",
+  "@web.admin.nodes.key.issueFor": {
+    "description": "Web admin, Stream Nodes page: accessible name of the Issue key button. {name}: node name.",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    },
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.nodes.key.issued": "Key issued",
+  "@web.admin.nodes.key.issued": {
+    "description": "Web admin, Stream Nodes page: status on a transcode node that has been issued its own key.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.nodes.key.issuing": "Issuing a key…",
+  "@web.admin.nodes.key.issuing": {
+    "description": "Web admin, Stream Nodes page: shown in the key dialog while the server issues the key.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.nodes.key.keyLabel": "Node key",
+  "@web.admin.nodes.key.keyLabel": {
+    "description": "Web admin, Stream Nodes page: label of the newly issued key in the key dialog.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.nodes.key.later": "Not now",
+  "@web.admin.nodes.key.later": {
+    "description": "Web admin, Stream Nodes page: dismisses the offer to issue a key for a node that was just added.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.nodes.key.missing": "No key: this node takes no work until a key is issued",
+  "@web.admin.nodes.key.missing": {
+    "description": "Web admin, Stream Nodes page: warning on a transcode node that has no key yet. The server sends no transcodes to it until an admin issues one.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.nodes.key.notShownAgain": "Copy the key now. It is not shown again; if you lose it, rotate the key and restart the node with the new one.",
+  "@web.admin.nodes.key.notShownAgain": {
+    "description": "Web admin, Stream Nodes page: warning above a newly issued transcode node key.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.nodes.key.offer": "{name} takes no work until it has a key. Issue one now to get the settings the node starts with.",
+  "@web.admin.nodes.key.offer": {
+    "description": "Web admin, Stream Nodes page: shown right after an admin adds a transcode node, offering to issue its key. {name}: node name.",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    },
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.nodes.key.rotate": "Rotate key",
+  "@web.admin.nodes.key.rotate": {
+    "description": "Web admin, Stream Nodes page: button on a transcode node that has a key, and the confirm button of the rotation dialog; replaces the key with a new one.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.nodes.key.rotateDescription": "The current key stops working immediately. The node loses its connection to this server: its running streams fail, and it takes no work until you restart it with the new key.",
+  "@web.admin.nodes.key.rotateDescription": {
+    "description": "Web admin, Stream Nodes page: body of the confirmation before replacing a transcode node's key.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.nodes.key.rotateDrainHint": "To avoid cutting streams, drain the node first and rotate the key once it shows Drained.",
+  "@web.admin.nodes.key.rotateDrainHint": {
+    "description": "Web admin, Stream Nodes page: advice in the key rotation confirmation. \"Drained\" is the node status shown when a drained node has no work left.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.nodes.key.rotateFor": "Rotate the key for {name}",
+  "@web.admin.nodes.key.rotateFor": {
+    "description": "Web admin, Stream Nodes page: accessible name of the Rotate key button. {name}: node name.",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    },
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.nodes.key.rotateTitle": "Rotate the key for {name}?",
+  "@web.admin.nodes.key.rotateTitle": {
+    "description": "Web admin, Stream Nodes page: title of the confirmation before replacing a transcode node's key. {name}: node name.",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    },
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.nodes.key.saved": "I saved the key",
+  "@web.admin.nodes.key.saved": {
+    "description": "Web admin, Stream Nodes page: button that closes the key dialog after the key is shown.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.nodes.key.settingsHelp": "Start the node with these two settings. A node that is already running keeps its old key until you restart it.",
+  "@web.admin.nodes.key.settingsHelp": {
+    "description": "Web admin, Stream Nodes page: help under the node settings in the key dialog.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.nodes.key.settingsLabel": "Node settings",
+  "@web.admin.nodes.key.settingsLabel": {
+    "description": "Web admin, Stream Nodes page: label of the two environment settings (SILO_CORE_URL and SILO_NODE_KEY) a transcode node starts with.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.nodes.key.unconfirmed": "Could not confirm a new key for {name}. Refresh the page before trying again: if a key was issued, the previous one has already stopped working.",
+  "@web.admin.nodes.key.unconfirmed": {
+    "description": "Web admin, Stream Nodes page: error in the key dialog when the server's answer to issuing a key was lost or failed. {name}: node name.",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    },
+    "x-platforms": [
+      "web"
+    ]
+  },
   "web.admin.nodes.memory.noReading": "This sample carries no memory reading.",
   "@web.admin.nodes.memory.noReading": {
     "description": "Web admin, Stream Nodes page and Server Resources dashboard widget: tooltip of the RAM reading.",
