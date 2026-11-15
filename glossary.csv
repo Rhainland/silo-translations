@@ -1,94 +1,94 @@
-term,note,es,de,fr,pt-BR,ja,zh-Hans,ar,nl
-Silo,Product name. Never translate or transliterate.,Silo,Silo,Silo,Silo,Silo,Silo,Silo,Silo
-Jellyfin,Product name of another media server. Never translate.,Jellyfin,Jellyfin,Jellyfin,Jellyfin,Jellyfin,Jellyfin,Jellyfin,Jellyfin
-Roku,Device brand. Never translate.,Roku,Roku,Roku,Roku,Roku,Roku,Roku,Roku
-Apple TV,Device brand. Never translate.,Apple TV,Apple TV|Apple-TV,Apple TV,Apple TV,Apple TV,Apple TV,Apple TV,Apple TV
-Continue Watching,Home row of items a profile started and has not finished.,Seguir viendo,Weiterschauen,Reprendre la lecture,Continuar assistindo,視聴を続ける,继续观看,متابعة المشاهدة,Verder kijken
-Next Up,Home row and setting for the next episode of each show in progress (Next up episodes). Not the Up Next panel.,Próximos,Nächste Folgen,Prochains épisodes,Próximos episódios,次のエピソード,接下来,الحلقات التالية,Volgende afleveringen
-Watch Together,Feature where several people watch the same item in sync.,Ver juntos,Gemeinsam schauen,Regarder ensemble|Regardez ensemble,Assistir juntos,一緒に見る,一起看,المشاهدة الجماعية,Samen kijken
-Profile,One person's space on an account (history and settings). Not the account itself.,perfil|perfiles,Profil,profil|profils,perfil|perfis,プロフィール|プロファイル,个人资料|配置文件|Profile,الملف الشخصي|ملف شخصي|ملفات شخصية|شخصي|ملف التعريف,profiel
-Server,The Silo server the app connects to.,servidor|servidores,Server,serveur|serveurs,servidor|servidores,サーバー,服务器,الخادم|خادم|خوادم,server
-Library,A collection of media on the server (Movies or Shows).,biblioteca|bibliotecas,Mediathek,bibliothèque|bibliothèques,biblioteca|bibliotecas,ライブラリ,媒体库,المكتبة|مكتبة|مكتبات|مكتبت,bibliotheek
-Subtitles,Text track shown over video.,subtítulos|subtítulo,Untertitel,sous-titres|sous-titre,legendas|legenda,字幕,字幕,الترجمة|ترجمة|ترجمات,ondertitel
-Audiobook,Spoken-word book in a library.,audiolibro|audiolibros,Hörbuch|Hörbücher,livre audio|livres audio,audiolivro|audiolivros,オーディオブック,有声书,كتاب صوتي|الكتاب الصوتي|كتب صوتية|الكتب الصوتية|كتابا صوتيا|لكتاب الصوتي|لكتب الصوتية,luisterboek
-Plex,Product name. Never translate.,Plex,Plex,Plex,Plex,Plex,Plex,Plex,Plex
-Emby,Product name. Never translate.,Emby,Emby,Emby,Emby,Emby,Emby,Emby,Emby
-Android TV,Platform name. Never translate.,Android TV,Android TV|Android-TV,Android TV,Android TV,Android TV,Android TV,Android TV,Android TV
-Chromecast,Product name. Never translate.,Chromecast,Chromecast,Chromecast,Chromecast,Chromecast,Chromecast,Chromecast,Chromecast
-Tailscale,Product name. Never translate.,Tailscale,Tailscale,Tailscale,Tailscale,Tailscale,Tailscale,Tailscale,Tailscale
-TMDB,Service name (The Movie Database). Never translate.,TMDB,TMDB,TMDB,TMDB,TMDB,TMDB,TMDB,TMDB
-TVDB,Service name. Never translate.,TVDB,TVDB,TVDB,TVDB,TVDB,TVDB,TVDB,TVDB
-IMDb,Service name. Never translate.,IMDb,IMDb,IMDb,IMDb,IMDb,IMDb,IMDb,IMDb
-Rotten Tomatoes,Service name. Never translate.,Rotten Tomatoes,Rotten Tomatoes|Rotten-Tomatoes,Rotten Tomatoes,Rotten Tomatoes,Rotten Tomatoes,Rotten Tomatoes,Rotten Tomatoes,Rotten Tomatoes
-Sonarr,Product name. Never translate.,Sonarr,Sonarr,Sonarr,Sonarr,Sonarr,Sonarr,Sonarr,Sonarr
-Radarr,Product name. Never translate.,Radarr,Radarr,Radarr,Radarr,Radarr,Radarr,Radarr,Radarr
-Audiobookshelf,Product name. Never translate.,Audiobookshelf,Audiobookshelf,Audiobookshelf,Audiobookshelf,Audiobookshelf,Audiobookshelf,Audiobookshelf,Audiobookshelf
-OpenSubtitles,Service name. Never translate.,OpenSubtitles,OpenSubtitles,OpenSubtitles,OpenSubtitles,OpenSubtitles,OpenSubtitles,OpenSubtitles,OpenSubtitles
-Discord,Product name. Never translate.,Discord,Discord,Discord,Discord,Discord,Discord,Discord,Discord
-ChatGPT,Product name. Never translate.,ChatGPT,ChatGPT,ChatGPT,ChatGPT,ChatGPT,ChatGPT,ChatGPT,ChatGPT
-OpenAI,Company name. Never translate.,OpenAI,OpenAI,OpenAI,OpenAI,OpenAI,OpenAI,OpenAI,OpenAI
-Cloudflare,Company name. Never translate.,Cloudflare,Cloudflare,Cloudflare,Cloudflare,Cloudflare,Cloudflare,Cloudflare,Cloudflare
-Dolby Vision,Format name. Never translate.,Dolby Vision,Dolby Vision|Dolby-Vision,Dolby Vision,Dolby Vision,Dolby Vision,Dolby Vision,Dolby Vision,Dolby Vision
-Dolby Atmos,Format name. Never translate.,Dolby Atmos,Dolby Atmos|Dolby-Atmos,Dolby Atmos,Dolby Atmos,Dolby Atmos,Dolby Atmos,Dolby Atmos,Dolby Atmos
-HDR10,Format name. Never translate.,HDR10,HDR10,HDR10,HDR10,HDR10,HDR10,HDR10,HDR10
-DTS,Format name. Never translate.,DTS,DTS,DTS,DTS,DTS,DTS,DTS,DTS
-TrueHD,Format name. Never translate.,TrueHD,TrueHD,TrueHD,TrueHD,TrueHD,TrueHD,TrueHD,TrueHD
-FFmpeg,Program name. Never translate.,FFmpeg,FFmpeg,FFmpeg,FFmpeg,FFmpeg,FFmpeg,FFmpeg,FFmpeg
-NVENC,Encoder name. Never translate.,NVENC,NVENC,NVENC,NVENC,NVENC,NVENC,NVENC,NVENC
-Wi-Fi,"Technical term, written as is. Never translate.",Wi-Fi,Wi-Fi,Wi-Fi,Wi-Fi,Wi-Fi,Wi-Fi,Wi-Fi,Wi-Fi
-LDAP,Protocol name. Never translate.,LDAP,LDAP,LDAP,LDAP,LDAP,LDAP,LDAP,LDAP
-Infuse,App name. Never translate.,Infuse,Infuse,Infuse,Infuse,Infuse,Infuse,Infuse,Infuse
-Swiftfin,App name. Never translate.,Swiftfin,Swiftfin,Swiftfin,Swiftfin,Swiftfin,Swiftfin,Swiftfin,Swiftfin
-Findroid,App name. Never translate.,Findroid,Findroid,Findroid,Findroid,Findroid,Findroid,Findroid,Findroid
-Docker,Product name. Never translate.,Docker,Docker,Docker,Docker,Docker,Docker,Docker,Docker
-PostgreSQL,Product name. Never translate.,PostgreSQL,PostgreSQL,PostgreSQL,PostgreSQL,PostgreSQL,PostgreSQL,PostgreSQL,PostgreSQL
-Redis,Product name. Never translate.,Redis,Redis,Redis,Redis,Redis,Redis,Redis,Redis
-S3,Storage service name. Never translate.,S3,S3,S3,S3,S3,S3,S3,S3
-Autoscan,Silo feature name (automatic library scans triggered by other apps). Keep in English. Never translate.,Autoscan,Autoscan,Autoscan,Autoscan,Autoscan,Autoscan,Autoscan,Autoscan
-PIN,Keep the abbreviation. Never translate.,PIN,PIN,PIN,PIN,PIN,PIN,PIN,PIN
-Watch Party,Silo's watch-together feature name in the apps. Keep in English. Never translate.,Watch Party,Watch Party|Watch-Party,Watch Party,Watch Party,Watch Party,Watch Party,Watch Party,Watch Party
-Up Next,Panel and badge for what plays next after the current item. Not the Next Up row.,a continuación,Als Nächstes,À suivre,A seguir,次に再生,即将播放,التالي,Hierna
-Collection,A group of titles someone made or a server keeps.,colección|colecciones,Sammlung|Sammlungen,collection|collections,coleção|coleções,コレクション,合集,مجموعة|المجموعة|مجموعات,collectie
-Box set,Films of one franchise grouped together (from TMDB). Not a collection.,saga|sagas,Filmreihe|Filmreihen,saga|sagas,coletânea|coletâneas,ボックスセット,系列电影,سلسلة أفلام|سلاسل أفلام|سلسلة|سلاسل,filmreeks
-Watchlist,The user's saved titles to watch later.,lista para ver|listas para ver,Merkliste|Merklisten,liste à voir|listes à voir,lista para assistir|listas para assistir,ウォッチリスト,待看清单,قائمة المشاهدة|قوائم المشاهدة,kijklijst
-Favorites,Titles the user marked as favorites.,favoritos|favorito,Favoriten|Favorit,favoris|favori,favoritos|favorito,お気に入り,收藏,المفضلة|مفضل,favoriet
-Episode,,episodio|episodios,Folge|Folgen,épisode|épisodes,episódio|episódios,エピソード|話,集,حلقة|الحلقة|حلقات|الحلقات|حلقتان|حلقتين,aflevering
-Season,,temporada|temporadas,Staffel|Staffeln,saison|saisons,temporada|temporadas,シーズン,季,موسم|الموسم|مواسم|موسمان|موسمين,seizoen
-Movie,,película|películas,Film|Filme,film|films,filme|filmes,映画,电影,فيلم|الفيلم|أفلام|الأفلام|فيلمان|فيلمين,film
-Series,A TV series; a TV show is a series too.,serie|series,Serie|Serien,série|séries,série|séries,シリーズ|番組,剧集|电视剧|系列,مسلسل|المسلسل|مسلسلات|المسلسلات|سلسل,serie
-Home,"The app's start screen (a proper name), not a home address or network.",Inicio,Startseite,Accueil,Início,ホーム,首页,الرئيسية,Home|startscherm
-Row,A horizontal row of titles on Home or a library.,fila|filas,Reihe|Reihen|Zeile|Eintr,rangée|rangées|ligne,fileira|fileiras|linha|registro,行,行,صف|الصف|صفوف|الصفوف,rij|rijen
-Section,A section of Home or a library.,sección|secciones,Bereich|Bereiche,section|sections,seção|seções,セクション,版块,قسم|القسم|أقسام|الأقسام,sectie|onderdeel|onderdelen
-Request,"A media request, or an HTTP or API request; also the verb (to request).",solicitud|solicitudes|solicitar|solicita|solicites|solicite,Anfrage|anfrag|angefragt|anforder|anzufrag|forder,demande|demander|demandé,solicitação|solicitações|solicit,リクエスト,请求,طلب|الطلب|طلبات|الطلبات,aanvra|aangevraagd|aan te vrag|verzoek
-Node,A server machine that handles playback or tasks.,nodo|nodos,Knoten,nœud|nœuds,nó|nós,ノード,节点,عقدة|العقدة|عقد|العقد,node
-Task,A scheduled or background job on the server.,tarea|tareas,Aufgabe|Aufgaben,tâche|tâches,tarefa|tarefas,タスク,任务,مهمة|المهمة|مهام|المهام,taak|taken
-Job,"A unit of background work, such as an export or a transcode.",trabajo|trabajos,Auftrag|Aufträge,travail|travaux,trabalho|trabalhos,ジョブ,作业,عملية|العملية|عمليات|العمليات,job|opdracht
-Plugin,An add-on for the server.,complemento|complementos,Plugin|Plug-in,extension|extensions,plugin|plugins,プラグイン,插件,مكون إضافي|المكون الإضافي|مكونات إضافية|المكونات الإضافية|مكون,plug-in|plugin
-Backup,,copia de seguridad|copias de seguridad,Sicherung|Sicherungen|Backup,sauvegarde|sauvegardes,backup|backups,バックアップ,备份,نسخة احتياطية|النسخة الاحتياطية|نسخ احتياطية|احتياطي,back-up|backup
-Restore,,restaurar|restauración|restaura,wiederherst|wiederhergestellt|zurücksetz|zurückgesetzt,restaur,restaur,復元,恢复,استعادة|استعد|استعاد,herstel|terugzet|teruggezet|zet terug
-Transcode,Converting video while it plays.,transcodificar|transcodificación|transcodifica,transkodier,transcod,transcodific,トランスコード,转码,تحويل الترميز|ترميز,transcod
-Remux,Repackaging without re-encoding. Keep the English term.,remux,Remux,remux,remux,Remux,Remux,Remux,Remux
-Direct play,,reproducción directa,Direktwiedergabe,lecture directe,reprodução direta,ダイレクト再生,直接播放,التشغيل المباشر|تشغيل مباشر,direct afspelen|direct afgespeeld|direct afspeelt
-Direct stream,,transmisión directa,Direktstream,streaming direct,transmissão direta,ダイレクトストリーム,直接串流,التدفق المباشر|تدفق مباشر,direct stream|directe stream
-Metadata,,metadatos,Metadaten,métadonnées,metadados,メタデータ,元数据,البيانات الوصفية|بيانات وصفية|الوصفية,metadata
-Provider,"A metadata, sign-in or AI service Silo uses.",proveedor|proveedores,Anbieter,fournisseur|fournisseurs,provedor|provedores,プロバイダー,提供商,مزود|المزود|مزودي|مزودو,provider|aanbieder
-Download,,descarga|descargas|descargar|descarga,Download|herunter,télécharg,download|baix,ダウンロード,下载,تنزيل|التنزيل|تنزيلات|نزل,download
-Sign in,,iniciar sesión|inicia sesión|inicio de sesión|inicias sesión|inicie sesión|inicies sesión|inicien sesión|inician sesión|iniciarás sesión|iniciaste sesión|iniciado sesión|sesión iniciada,anmeld|melde dich an|angemeldet|meldest|melde dich|melde einen|meldet sich|melden sich|anzumeld,connect|connexion,entrar|entre|entra|entram|login|conect,サインイン|ログイン,登录,تسجيل الدخول|سجل الدخول|الدخول,inlog|log in|log je in|logt in|logde in|ingelogd|log opnieuw in|log hier in|aanmeld|meld je aan|aangemeld
-Sign out,,cerrar sesión|cierra sesión|cerrar la sesión|cierra la sesión|cierres sesión|cerrar esta sesión|cierra cualquier sesión,abmeld|melde dich ab|abgemeldet|melde jede|melde einen,déconnect|déconnexion,sair|saia|desconect|logout,サインアウト|ログアウト,退出登录|退出,تسجيل الخروج|الخروج,uitlog|log uit|log je uit|logt uit|logde uit|uitgelogd|afmeld|meld je af|afgemeld
-Settings,"The Settings screen, tab or menu. A single setting in a sentence may use the language's word for a setting or option.",configuración|ajuste|ajustes|opción|opciones,Einstellungen|Einstellung,paramètres|paramètre|réglage,configurações|configuração|ajuste,設定,设置,الإعدادات|إعداد,instelling|optie
-Account,,cuenta|cuentas,Konto|Konten,compte|comptes,conta|contas,アカウント,账户|帐户|账号,حساب|الحساب|حسابات|الحسابات,account
-User,,usuario|usuarios,Benutzer|Nutzer,utilisat,usuário,ユーザー,用户,مستخدم|المستخدم,gebruiker
-Password,,contraseña|contraseñas,Passwort|Kennwort,mot de passe|mots de passe,senha,パスワード,密码,كلمة المرور|كلمة مرور|كلمات المرور|المرور,wachtwoord
-Device,,dispositivo|dispositivos,Gerät|Geräte,appareil,dispositivo|aparelho,デバイス,设备,جهاز|الجهاز|أجهزة|الأجهزة|أجهز,apparaat|apparaten
-Discover,,descubrir|descubre,Entdecken|entdeck,Découvrir|découv,Descobrir|descob|descub,ディスカバー|発見,发现,استكشاف|استكشف,ontdek
-For You,Personalised recommendations tab.,Para ti,Für dich,Pour vous,Para você,おすすめ,为你推荐,لك,Voor jou
-Trending,,tendencias|tendencia,Im Trend|Trend|angesagt,tendances|tendance,em alta|tendência,トレンド|話題,热门|趋势,الرائج|رائج,trending|populair
-Shuffle,,aleatorio|aleatoria,Zufallswiedergabe|zufällig|Zufall,aléatoire,aleatóri,シャッフル,随机,عشوائي|عشوائ,shuffle|willekeurig
-Trailer,,tráiler|tráileres,Trailer,bande-annonce|bandes-annonces,trailer|trailers,予告編|トレーラー,预告片,الإعلان الترويجي|إعلان|دعائي,trailer
-Add,"To add something (a library, a row, a webhook).",añadir|añad,hinzufüg|hinzugefügt|hinzu,ajout,adicion,追加,添加,إضافة|إضاف|أضف|أضاف|يضيف|أضيف,toevoeg|toegevoegd|voeg
-Connect a Phone,Roku menu row that opens the screen for controlling the TV app from a phone; text that names it uses the same label.,Conectar un teléfono,Smartphone verbinden,Connecter un téléphone,Conectar um celular,スマートフォンを接続,连接手机,توصيل هاتف,Telefoon verbinden
-Media Requests,Admin user-policy permission for media requests; text that names it uses the same label.,Solicitudes de contenido,Medienanfragen,Demandes de contenu,Solicitações de mídia,メディアリクエスト,媒体请求,طلبات الوسائط,Media-aanvragen
-On Deck,Row on the Up Next panel and Playing Next screen with in-progress and next-up titles; text that names it uses the same label.,En curso,Laufend,En cours,Em andamento,視聴中,进行中,قيد المشاهدة,Bezig
-Sync online markers,Scheduled task name; text that names it uses the same label.,Sincronizar marcadores en línea,Online-Marker synchronisieren,Synchroniser les marqueurs en ligne,Sincronizar marcadores online,オンラインマーカーを同期,同步在线标记,مزامنة العلامات عبر الإنترنت,Online markeringen synchroniseren
-TV,The television as a device; a short form fits TV screens. TV as content (TV shows) is a series.,TV|serie,Fernseher|TV|Serie,TV|téléviseur|série,TV|série,テレビ|TV|シリーズ|番組,电视|剧集|TV,التلفزيون|تلفزيون|مسلسل|TV,tv|televisie|serie
-Watch progress,"How far a profile has watched an item, synced across devices.",progreso de visualización,Wiedergabefortschritt|Fortschritt,progression de visionnage|progression,progresso de exibição|progresso,視聴状況|進捗,观看进度|进度,تقدم المشاهدة|التقدم|تقدم,kijkvoortgang|voortgang
+term,note,es,de,fr,pt-BR,ja,zh-Hans,ar,nl,cs
+Silo,Product name. Never translate or transliterate.,Silo,Silo,Silo,Silo,Silo,Silo,Silo,Silo,Silo
+Jellyfin,Product name of another media server. Never translate.,Jellyfin,Jellyfin,Jellyfin,Jellyfin,Jellyfin,Jellyfin,Jellyfin,Jellyfin,Jellyfin
+Roku,Device brand. Never translate.,Roku,Roku,Roku,Roku,Roku,Roku,Roku,Roku,Roku
+Apple TV,Device brand. Never translate.,Apple TV,Apple TV|Apple-TV,Apple TV,Apple TV,Apple TV,Apple TV,Apple TV,Apple TV,Apple TV
+Continue Watching,Home row of items a profile started and has not finished.,Seguir viendo,Weiterschauen,Reprendre la lecture,Continuar assistindo,視聴を続ける,继续观看,متابعة المشاهدة,Verder kijken,Pokračovat ve sledování|Pokračovat v přehrávání
+Next Up,Home row and setting for the next episode of each show in progress (Next up episodes). Not the Up Next panel.,Próximos,Nächste Folgen,Prochains épisodes,Próximos episódios,次のエピソード,接下来,الحلقات التالية,Volgende afleveringen,Další díly|další díl
+Watch Together,Feature where several people watch the same item in sync.,Ver juntos,Gemeinsam schauen,Regarder ensemble|Regardez ensemble,Assistir juntos,一緒に見る,一起看,المشاهدة الجماعية,Samen kijken,Společné sledování|společně sledovat|sledovat společně
+Profile,One person's space on an account (history and settings). Not the account itself.,perfil|perfiles,Profil,profil|profils,perfil|perfis,プロフィール|プロファイル,个人资料|配置文件|Profile,الملف الشخصي|ملف شخصي|ملفات شخصية|شخصي|ملف التعريف,profiel,profil
+Server,The Silo server the app connects to.,servidor|servidores,Server,serveur|serveurs,servidor|servidores,サーバー,服务器,الخادم|خادم|خوادم,server,server
+Library,A collection of media on the server (Movies or Shows).,biblioteca|bibliotecas,Mediathek,bibliothèque|bibliothèques,biblioteca|bibliotecas,ライブラリ,媒体库,المكتبة|مكتبة|مكتبات|مكتبت,bibliotheek,knihovna|knihovn|knihoven
+Subtitles,Text track shown over video.,subtítulos|subtítulo,Untertitel,sous-titres|sous-titre,legendas|legenda,字幕,字幕,الترجمة|ترجمة|ترجمات,ondertitel,titulky|titulk
+Audiobook,Spoken-word book in a library.,audiolibro|audiolibros,Hörbuch|Hörbücher,livre audio|livres audio,audiolivro|audiolivros,オーディオブック,有声书,كتاب صوتي|الكتاب الصوتي|كتب صوتية|الكتب الصوتية|كتابا صوتيا|لكتاب الصوتي|لكتب الصوتية,luisterboek,audiokniha|audiokni|audiokniz
+Plex,Product name. Never translate.,Plex,Plex,Plex,Plex,Plex,Plex,Plex,Plex,Plex
+Emby,Product name. Never translate.,Emby,Emby,Emby,Emby,Emby,Emby,Emby,Emby,Emby
+Android TV,Platform name. Never translate.,Android TV,Android TV|Android-TV,Android TV,Android TV,Android TV,Android TV,Android TV,Android TV,Android TV
+Chromecast,Product name. Never translate.,Chromecast,Chromecast,Chromecast,Chromecast,Chromecast,Chromecast,Chromecast,Chromecast,Chromecast
+Tailscale,Product name. Never translate.,Tailscale,Tailscale,Tailscale,Tailscale,Tailscale,Tailscale,Tailscale,Tailscale,Tailscale
+TMDB,Service name (The Movie Database). Never translate.,TMDB,TMDB,TMDB,TMDB,TMDB,TMDB,TMDB,TMDB,TMDB
+TVDB,Service name. Never translate.,TVDB,TVDB,TVDB,TVDB,TVDB,TVDB,TVDB,TVDB,TVDB
+IMDb,Service name. Never translate.,IMDb,IMDb,IMDb,IMDb,IMDb,IMDb,IMDb,IMDb,IMDb
+Rotten Tomatoes,Service name. Never translate.,Rotten Tomatoes,Rotten Tomatoes|Rotten-Tomatoes,Rotten Tomatoes,Rotten Tomatoes,Rotten Tomatoes,Rotten Tomatoes,Rotten Tomatoes,Rotten Tomatoes,Rotten Tomatoes
+Sonarr,Product name. Never translate.,Sonarr,Sonarr,Sonarr,Sonarr,Sonarr,Sonarr,Sonarr,Sonarr,Sonarr
+Radarr,Product name. Never translate.,Radarr,Radarr,Radarr,Radarr,Radarr,Radarr,Radarr,Radarr,Radarr
+Audiobookshelf,Product name. Never translate.,Audiobookshelf,Audiobookshelf,Audiobookshelf,Audiobookshelf,Audiobookshelf,Audiobookshelf,Audiobookshelf,Audiobookshelf,Audiobookshelf
+OpenSubtitles,Service name. Never translate.,OpenSubtitles,OpenSubtitles,OpenSubtitles,OpenSubtitles,OpenSubtitles,OpenSubtitles,OpenSubtitles,OpenSubtitles,OpenSubtitles
+Discord,Product name. Never translate.,Discord,Discord,Discord,Discord,Discord,Discord,Discord,Discord,Discord
+ChatGPT,Product name. Never translate.,ChatGPT,ChatGPT,ChatGPT,ChatGPT,ChatGPT,ChatGPT,ChatGPT,ChatGPT,ChatGPT
+OpenAI,Company name. Never translate.,OpenAI,OpenAI,OpenAI,OpenAI,OpenAI,OpenAI,OpenAI,OpenAI,OpenAI
+Cloudflare,Company name. Never translate.,Cloudflare,Cloudflare,Cloudflare,Cloudflare,Cloudflare,Cloudflare,Cloudflare,Cloudflare,Cloudflare
+Dolby Vision,Format name. Never translate.,Dolby Vision,Dolby Vision|Dolby-Vision,Dolby Vision,Dolby Vision,Dolby Vision,Dolby Vision,Dolby Vision,Dolby Vision,Dolby Vision
+Dolby Atmos,Format name. Never translate.,Dolby Atmos,Dolby Atmos|Dolby-Atmos,Dolby Atmos,Dolby Atmos,Dolby Atmos,Dolby Atmos,Dolby Atmos,Dolby Atmos,Dolby Atmos
+HDR10,Format name. Never translate.,HDR10,HDR10,HDR10,HDR10,HDR10,HDR10,HDR10,HDR10,HDR10
+DTS,Format name. Never translate.,DTS,DTS,DTS,DTS,DTS,DTS,DTS,DTS,DTS
+TrueHD,Format name. Never translate.,TrueHD,TrueHD,TrueHD,TrueHD,TrueHD,TrueHD,TrueHD,TrueHD,TrueHD
+FFmpeg,Program name. Never translate.,FFmpeg,FFmpeg,FFmpeg,FFmpeg,FFmpeg,FFmpeg,FFmpeg,FFmpeg,FFmpeg
+NVENC,Encoder name. Never translate.,NVENC,NVENC,NVENC,NVENC,NVENC,NVENC,NVENC,NVENC,NVENC
+Wi-Fi,"Technical term, written as is. Never translate.",Wi-Fi,Wi-Fi,Wi-Fi,Wi-Fi,Wi-Fi,Wi-Fi,Wi-Fi,Wi-Fi,Wi-Fi
+LDAP,Protocol name. Never translate.,LDAP,LDAP,LDAP,LDAP,LDAP,LDAP,LDAP,LDAP,LDAP
+Infuse,App name. Never translate.,Infuse,Infuse,Infuse,Infuse,Infuse,Infuse,Infuse,Infuse,Infuse
+Swiftfin,App name. Never translate.,Swiftfin,Swiftfin,Swiftfin,Swiftfin,Swiftfin,Swiftfin,Swiftfin,Swiftfin,Swiftfin
+Findroid,App name. Never translate.,Findroid,Findroid,Findroid,Findroid,Findroid,Findroid,Findroid,Findroid,Findroid
+Docker,Product name. Never translate.,Docker,Docker,Docker,Docker,Docker,Docker,Docker,Docker,Docker
+PostgreSQL,Product name. Never translate.,PostgreSQL,PostgreSQL,PostgreSQL,PostgreSQL,PostgreSQL,PostgreSQL,PostgreSQL,PostgreSQL,PostgreSQL
+Redis,Product name. Never translate.,Redis,Redis,Redis,Redis,Redis,Redis,Redis,Redis,Redis
+S3,Storage service name. Never translate.,S3,S3,S3,S3,S3,S3,S3,S3,S3
+Autoscan,Silo feature name (automatic library scans triggered by other apps). Keep in English. Never translate.,Autoscan,Autoscan,Autoscan,Autoscan,Autoscan,Autoscan,Autoscan,Autoscan,Autoscan
+PIN,Keep the abbreviation. Never translate.,PIN,PIN,PIN,PIN,PIN,PIN,PIN,PIN,PIN
+Watch Party,Silo's watch-together feature name in the apps. Keep in English. Never translate.,Watch Party,Watch Party|Watch-Party,Watch Party,Watch Party,Watch Party,Watch Party,Watch Party,Watch Party,Watch Party
+Up Next,Panel and badge for what plays next after the current item. Not the Next Up row.,a continuación,Als Nächstes,À suivre,A seguir,次に再生,即将播放,التالي,Hierna,Následuje|Další na řadě
+Collection,A group of titles someone made or a server keeps.,colección|colecciones,Sammlung|Sammlungen,collection|collections,coleção|coleções,コレクション,合集,مجموعة|المجموعة|مجموعات,collectie,kolekce|kolekc
+Box set,Films of one franchise grouped together (from TMDB). Not a collection.,saga|sagas,Filmreihe|Filmreihen,saga|sagas,coletânea|coletâneas,ボックスセット,系列电影,سلسلة أفلام|سلاسل أفلام|سلسلة|سلاسل,filmreeks,filmová série|filmové série|filmovou sérii|filmových sérií|filmové sérii
+Watchlist,The user's saved titles to watch later.,lista para ver|listas para ver,Merkliste|Merklisten,liste à voir|listes à voir,lista para assistir|listas para assistir,ウォッチリスト,待看清单,قائمة المشاهدة|قوائم المشاهدة,kijklijst,seznam ke zhlédnutí|seznamu ke zhlédnutí|seznamem ke zhlédnutí|ke zhlédnutí
+Favorites,Titles the user marked as favorites.,favoritos|favorito,Favoriten|Favorit,favoris|favori,favoritos|favorito,お気に入り,收藏,المفضلة|مفضل,favoriet,oblíbené|oblíben
+Episode,,episodio|episodios,Folge|Folgen,épisode|épisodes,episódio|episódios,エピソード|話,集,حلقة|الحلقة|حلقات|الحلقات|حلقتان|حلقتين,aflevering,díl|díly|dílů|dílu
+Season,,temporada|temporadas,Staffel|Staffeln,saison|saisons,temporada|temporadas,シーズン,季,موسم|الموسم|مواسم|موسمان|موسمين,seizoen,řada|řad
+Movie,,película|películas,Film|Filme,film|films,filme|filmes,映画,电影,فيلم|الفيلم|أفلام|الأفلام|فيلمان|فيلمين,film,film
+Series,A TV series; a TV show is a series too.,serie|series,Serie|Serien,série|séries,série|séries,シリーズ|番組,剧集|电视剧|系列,مسلسل|المسلسل|مسلسلات|المسلسلات|سلسل,serie,seriál|série|sérii|sérií
+Home,"The app's start screen (a proper name), not a home address or network.",Inicio,Startseite,Accueil,Início,ホーム,首页,الرئيسية,Home|startscherm,Domů|domovsk
+Row,A horizontal row of titles on Home or a library.,fila|filas,Reihe|Reihen|Zeile|Eintr,rangée|rangées|ligne,fileira|fileiras|linha|registro,行,行,صف|الصف|صفوف|الصفوف,rij|rijen,řádek|řádk|řad
+Section,A section of Home or a library.,sección|secciones,Bereich|Bereiche,section|sections,seção|seções,セクション,版块,قسم|القسم|أقسام|الأقسام,sectie|onderdeel|onderdelen,sekce|sekc|oddíl
+Request,"A media request, or an HTTP or API request; also the verb (to request).",solicitud|solicitudes|solicitar|solicita|solicites|solicite,Anfrage|anfrag|angefragt|anforder|anzufrag|forder,demande|demander|demandé,solicitação|solicitações|solicit,リクエスト,请求,طلب|الطلب|طلبات|الطلبات,aanvra|aangevraagd|aan te vrag|verzoek,žádost|žádos|vyžád|požad|požád
+Node,A server machine that handles playback or tasks.,nodo|nodos,Knoten,nœud|nœuds,nó|nós,ノード,节点,عقدة|العقدة|عقد|العقد,node,uzel|uzl
+Task,A scheduled or background job on the server.,tarea|tareas,Aufgabe|Aufgaben,tâche|tâches,tarefa|tarefas,タスク,任务,مهمة|المهمة|مهام|المهام,taak|taken,úloha|úloh
+Job,"A unit of background work, such as an export or a transcode.",trabajo|trabajos,Auftrag|Aufträge,travail|travaux,trabalho|trabalhos,ジョブ,作业,عملية|العملية|عمليات|العمليات,job|opdracht,úloha|úloh|úkol|job
+Plugin,An add-on for the server.,complemento|complementos,Plugin|Plug-in,extension|extensions,plugin|plugins,プラグイン,插件,مكون إضافي|المكون الإضافي|مكونات إضافية|المكونات الإضافية|مكون,plug-in|plugin,plugin|zásuvn
+Backup,,copia de seguridad|copias de seguridad,Sicherung|Sicherungen|Backup,sauvegarde|sauvegardes,backup|backups,バックアップ,备份,نسخة احتياطية|النسخة الاحتياطية|نسخ احتياطية|احتياطي,back-up|backup,záloha|záloh|záloze
+Restore,,restaurar|restauración|restaura,wiederherst|wiederhergestellt|zurücksetz|zurückgesetzt,restaur,restaur,復元,恢复,استعادة|استعد|استعاد,herstel|terugzet|teruggezet|zet terug,obnovit|obnov
+Transcode,Converting video while it plays.,transcodificar|transcodificación|transcodifica,transkodier,transcod,transcodific,トランスコード,转码,تحويل الترميز|ترميز,transcod,překódovat|překód
+Remux,Repackaging without re-encoding. Keep the English term.,remux,Remux,remux,remux,Remux,Remux,Remux,Remux,remux
+Direct play,,reproducción directa,Direktwiedergabe,lecture directe,reprodução direta,ダイレクト再生,直接播放,التشغيل المباشر|تشغيل مباشر,direct afspelen|direct afgespeeld|direct afspeelt,přímé přehrávání|přímém přehrávání|přímého přehrávání|přímým přehráváním|přímo přehr
+Direct stream,,transmisión directa,Direktstream,streaming direct,transmissão direta,ダイレクトストリーム,直接串流,التدفق المباشر|تدفق مباشر,direct stream|directe stream,přímý stream|přímého streamu|přímém streamu|přímým streamem|přímé streamování|přímého streamování
+Metadata,,metadatos,Metadaten,métadonnées,metadados,メタデータ,元数据,البيانات الوصفية|بيانات وصفية|الوصفية,metadata,metadata|metadat
+Provider,"A metadata, sign-in or AI service Silo uses.",proveedor|proveedores,Anbieter,fournisseur|fournisseurs,provedor|provedores,プロバイダー,提供商,مزود|المزود|مزودي|مزودو,provider|aanbieder,poskytovatel
+Download,,descarga|descargas|descargar|descarga,Download|herunter,télécharg,download|baix,ダウンロード,下载,تنزيل|التنزيل|تنزيلات|نزل,download,stáhnout|stáh|stažen|stahov|download
+Sign in,,iniciar sesión|inicia sesión|inicio de sesión|inicias sesión|inicie sesión|inicies sesión|inicien sesión|inician sesión|iniciarás sesión|iniciaste sesión|iniciado sesión|sesión iniciada,anmeld|melde dich an|angemeldet|meldest|melde dich|melde einen|meldet sich|melden sich|anzumeld,connect|connexion,entrar|entre|entra|entram|login|conect,サインイン|ログイン,登录,تسجيل الدخول|سجل الدخول|الدخول,inlog|log in|log je in|logt in|logde in|ingelogd|log opnieuw in|log hier in|aanmeld|meld je aan|aangemeld,přihlásit se|přihlás|přihláš
+Sign out,,cerrar sesión|cierra sesión|cerrar la sesión|cierra la sesión|cierres sesión|cerrar esta sesión|cierra cualquier sesión,abmeld|melde dich ab|abgemeldet|melde jede|melde einen,déconnect|déconnexion,sair|saia|desconect|logout,サインアウト|ログアウト,退出登录|退出,تسجيل الخروج|الخروج,uitlog|log uit|log je uit|logt uit|logde uit|uitgelogd|afmeld|meld je af|afgemeld,odhlásit se|odhlás|odhláš
+Settings,"The Settings screen, tab or menu. A single setting in a sentence may use the language's word for a setting or option.",configuración|ajuste|ajustes|opción|opciones,Einstellungen|Einstellung,paramètres|paramètre|réglage,configurações|configuração|ajuste,設定,设置,الإعدادات|إعداد,instelling|optie,Nastavení|nastavení|možnost
+Account,,cuenta|cuentas,Konto|Konten,compte|comptes,conta|contas,アカウント,账户|帐户|账号,حساب|الحساب|حسابات|الحسابات,account,účet|účt
+User,,usuario|usuarios,Benutzer|Nutzer,utilisat,usuário,ユーザー,用户,مستخدم|المستخدم,gebruiker,uživatel
+Password,,contraseña|contraseñas,Passwort|Kennwort,mot de passe|mots de passe,senha,パスワード,密码,كلمة المرور|كلمة مرور|كلمات المرور|المرور,wachtwoord,heslo|hesl
+Device,,dispositivo|dispositivos,Gerät|Geräte,appareil,dispositivo|aparelho,デバイス,设备,جهاز|الجهاز|أجهزة|الأجهزة|أجهز,apparaat|apparaten,zařízení|zaříz
+Discover,,descubrir|descubre,Entdecken|entdeck,Découvrir|découv,Descobrir|descob|descub,ディスカバー|発見,发现,استكشاف|استكشف,ontdek,Objevovat|objev|Procházet
+For You,Personalised recommendations tab.,Para ti,Für dich,Pour vous,Para você,おすすめ,为你推荐,لك,Voor jou,Pro vás
+Trending,,tendencias|tendencia,Im Trend|Trend|angesagt,tendances|tendance,em alta|tendência,トレンド|話題,热门|趋势,الرائج|رائج,trending|populair,Trendy|trend|populár|oblíben
+Shuffle,,aleatorio|aleatoria,Zufallswiedergabe|zufällig|Zufall,aléatoire,aleatóri,シャッフル,随机,عشوائي|عشوائ,shuffle|willekeurig,náhodně|náhodn|zamícha|shuffle
+Trailer,,tráiler|tráileres,Trailer,bande-annonce|bandes-annonces,trailer|trailers,予告編|トレーラー,预告片,الإعلان الترويجي|إعلان|دعائي,trailer,trailer|upoutávk
+Add,"To add something (a library, a row, a webhook).",añadir|añad,hinzufüg|hinzugefügt|hinzu,ajout,adicion,追加,添加,إضافة|إضاف|أضف|أضاف|يضيف|أضيف,toevoeg|toegevoegd|voeg,přidat|přid
+Connect a Phone,Roku menu row that opens the screen for controlling the TV app from a phone; text that names it uses the same label.,Conectar un teléfono,Smartphone verbinden,Connecter un téléphone,Conectar um celular,スマートフォンを接続,连接手机,توصيل هاتف,Telefoon verbinden,Připojit telefon
+Media Requests,Admin user-policy permission for media requests; text that names it uses the same label.,Solicitudes de contenido,Medienanfragen,Demandes de contenu,Solicitações de mídia,メディアリクエスト,媒体请求,طلبات الوسائط,Media-aanvragen,Žádosti o média
+On Deck,Row on the Up Next panel and Playing Next screen with in-progress and next-up titles; text that names it uses the same label.,En curso,Laufend,En cours,Em andamento,視聴中,进行中,قيد المشاهدة,Bezig,Rozkoukané|rozkoukan
+Sync online markers,Scheduled task name; text that names it uses the same label.,Sincronizar marcadores en línea,Online-Marker synchronisieren,Synchroniser les marqueurs en ligne,Sincronizar marcadores online,オンラインマーカーを同期,同步在线标记,مزامنة العلامات عبر الإنترنت,Online markeringen synchroniseren,Synchronizovat online značky
+TV,The television as a device; a short form fits TV screens. TV as content (TV shows) is a series.,TV|serie,Fernseher|TV|Serie,TV|téléviseur|série,TV|série,テレビ|TV|シリーズ|番組,电视|剧集|TV,التلفزيون|تلفزيون|مسلسل|TV,tv|televisie|serie,televize|televiz|TV|seriál
+Watch progress,"How far a profile has watched an item, synced across devices.",progreso de visualización,Wiedergabefortschritt|Fortschritt,progression de visionnage|progression,progresso de exibição|progresso,視聴状況|進捗,观看进度|进度,تقدم المشاهدة|التقدم|تقدم,kijkvoortgang|voortgang,průběh sledování|průběhu sledování|průběh|průběhu
