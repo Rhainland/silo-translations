@@ -5124,7 +5124,7 @@
   "signIn.title": "Kirjaudu sisään",
   "signIn.useDifferentServer": "Käytä toista palvelinta",
   "signIn.username": "Käyttäjätunnus",
-  "signIn.withProvider": "Kirjaudu sisään palvelulla {provider}",
+  "signIn.withProvider": "Kirjaudu sisään palvelun {provider} kautta",
   "signInTv.accountUnconfirmed": "Tilin vahvistaminen palvelimella {server} epäonnistui.",
   "signInTv.addAccount": "Lisää tili: {server}",
   "signInTv.approve": "Hyväksy tv:n kirjautuminen",
