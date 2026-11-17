@@ -167167,7 +167167,7 @@
       "web"
     ]
   },
-  "web.setup.storage.restartSlowBody": "Silo comes back on its own when Docker, Kubernetes or systemd runs it. Otherwise, start Silo again yourself. Setup continues when it’s back.",
+  "web.setup.storage.restartSlowBody": "Silo comes back on its own only if Docker, Kubernetes or systemd is set to restart it. Otherwise, start Silo again yourself. Setup continues when it’s back.",
   "@web.setup.storage.restartSlowBody": {
     "description": "Web setup wizard, Storage step: text under \"Silo hasn’t restarted yet\". Docker, Kubernetes and systemd are product names (service managers that restart programs). The wizard keeps checking and moves on by itself once the server answers again.",
     "x-platforms": [
