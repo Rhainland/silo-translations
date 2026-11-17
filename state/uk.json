@@ -88534,6 +88534,12 @@
     "by": "opus",
     "model": "claude-opus-5-5"
   },
+  "web.catalog.sort.relevance": {
+    "source": "1f0cea1ed9f64d41",
+    "value": "16d82f3033dc05b9",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
   "web.catalog.sort.sortBy": {
     "source": "d967518fdf6e4e69",
     "value": "bea5cf731c964ed2",
@@ -110443,6 +110449,78 @@
   "web.search.placeholderRequest": {
     "source": "3a22a042e3f9d99a",
     "value": "8a9bbee5d33b8f72",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
+  "web.search.results.allInLibrary": {
+    "source": "f984cac42f686adf",
+    "value": "fa5c69c66c4a3745",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
+  "web.search.results.atLeastCount": {
+    "source": "eb4d322736aaa86d",
+    "value": "4af395b8d907e1cc",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
+  "web.search.results.backToRelevance": {
+    "source": "489be3fdbcf69e76",
+    "value": "979eb42da5862a10",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
+  "web.search.results.bestMatches": {
+    "source": "477fd48a0e7b0c8f",
+    "value": "fe8d783670b97685",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
+  "web.search.results.inLibrary": {
+    "source": "af516f0180e3ba60",
+    "value": "d959e1667233ffcc",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
+  "web.search.results.moreResults": {
+    "source": "ecfdda4e07931a62",
+    "value": "15aaf003e56cc9ac",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
+  "web.search.results.notInLibrary": {
+    "source": "920ff199f63d60e9",
+    "value": "dadf35fc89287597",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
+  "web.search.results.overview": {
+    "source": "f77c9d15d7a72c65",
+    "value": "6ce85a18746848d2",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
+  "web.search.results.requestToAdd": {
+    "source": "2a0446802f9348e8",
+    "value": "1ca2d18c4cac5476",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
+  "web.search.results.showAll": {
+    "source": "94e2645a11837aa7",
+    "value": "e6220411263c0206",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
+  "web.search.results.sortedBy": {
+    "source": "85fd8dc65bb96879",
+    "value": "befd258f198e4e05",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
+  "web.search.results.viewsLabel": {
+    "source": "a3f2862bb65d0804",
+    "value": "3beb653cb8d9e661",
     "by": "opus",
     "model": "claude-opus-5-5"
   },
