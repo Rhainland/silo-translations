@@ -123573,6 +123573,13 @@
       "web"
     ]
   },
+  "web.catalog.sort.relevance": "Relevance",
+  "@web.catalog.sort.relevance": {
+    "description": "Web: sort menu choice on the search results page that orders titles by how well they match the search. It is the default for a search.",
+    "x-platforms": [
+      "web"
+    ]
+  },
   "web.catalog.sort.sortBy": "Sort by",
   "@web.catalog.sort.sortBy": {
     "description": "Web: placeholder or label of the menu that picks which field a list of titles is sorted by.",
@@ -154210,6 +154217,100 @@
   "web.search.placeholderRequest": "Search library or find titles to request...",
   "@web.search.placeholderRequest": {
     "description": "Web: placeholder in the search dialog's text field when the person can also request titles not on the server.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.search.results.allInLibrary": "All results in your library",
+  "@web.search.results.allInLibrary": {
+    "description": "Web: heading of the full list of library results on the search results page.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.search.results.atLeastCount": "{count}+",
+  "@web.search.results.atLeastCount": {
+    "description": "Web: result count on the search results page when only a lower bound is known, as in \"60+\". {count}: the number of results loaded so far, already formatted.",
+    "x-platforms": [
+      "web"
+    ],
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "web.search.results.backToRelevance": "Back to relevance",
+  "@web.search.results.backToRelevance": {
+    "description": "Web: link beside the sort line on the search results page that sorts the results by relevance again.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.search.results.bestMatches": "Best matches",
+  "@web.search.results.bestMatches": {
+    "description": "Web: heading of the first rows of library results on the search results page, the titles that match the search best.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.search.results.inLibrary": "In your library",
+  "@web.search.results.inLibrary": {
+    "description": "Web: on the search results page, the button that shows every library title matching the search, and the heading above library results when they are sorted by something other than relevance.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.search.results.moreResults": "More results",
+  "@web.search.results.moreResults": {
+    "description": "Web: heading of the rows of further library results on the search results page, below the best matches.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.search.results.notInLibrary": "Not in your library",
+  "@web.search.results.notInLibrary": {
+    "description": "Web: heading of the row of matching titles on the search results page that are not in the library and can be requested.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.search.results.overview": "Overview",
+  "@web.search.results.overview": {
+    "description": "Web: button on the search results page that shows a few rows of each kind of result: library matches, titles to request and people.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.search.results.requestToAdd": "Request to add",
+  "@web.search.results.requestToAdd": {
+    "description": "Web: button on the search results page that shows every matching title that is not in the library yet and can be requested.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.search.results.showAll": "Show all results",
+  "@web.search.results.showAll": {
+    "description": "Web: button on the search results page that opens the full list of library results.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.search.results.sortedBy": "Sorted by {sort}",
+  "@web.search.results.sortedBy": {
+    "description": "Web: line under the library results heading on the search results page when they are sorted by something other than relevance. {sort}: the sort's name, such as \"Title\".",
+    "x-platforms": [
+      "web"
+    ],
+    "placeholders": {
+      "sort": {
+        "type": "String"
+      }
+    }
+  },
+  "web.search.results.viewsLabel": "Result views",
+  "@web.search.results.viewsLabel": {
+    "description": "Web: accessible name of the row of buttons on the search results page that switches between the overview, the full library list and the full request list.",
     "x-platforms": [
       "web"
     ]
