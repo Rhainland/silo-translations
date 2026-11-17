@@ -20056,7 +20056,7 @@
   "web.setup.storage.redisManagedDescription": "Gedeelde wachtrij en cache. Deze server leest REDIS_URL uit zijn omgeving.",
   "web.setup.storage.redisUnreachable": "Geconfigureerd, maar niet bereikbaar",
   "web.setup.storage.redisUrlLabel": "Verbindings-URL",
-  "web.setup.storage.restartSlowBody": "Silo start vanzelf weer op als Docker, Kubernetes of systemd het uitvoert. Start Silo anders zelf opnieuw. De installatie gaat verder zodra Silo weer actief is.",
+  "web.setup.storage.restartSlowBody": "Silo komt alleen vanzelf terug als Docker, Kubernetes of systemd is ingesteld om Silo opnieuw op te starten. Start Silo anders zelf opnieuw. De installatie gaat verder zodra Silo weer actief is.",
   "web.setup.storage.restartSlowTitle": "Silo is nog niet opnieuw opgestart",
   "web.setup.storage.saveFailed": "Opslaan van opslaginstellingen is mislukt",
   "web.setup.storage.seconds": "seconden",

@@ -20056,7 +20056,7 @@
   "web.setup.storage.redisManagedDescription": "Ortak kuyruk ve önbellek. Bu sunucu REDIS_URL değerini ortamından okur.",
   "web.setup.storage.redisUnreachable": "Yapılandırıldı ancak erişilemiyor",
   "web.setup.storage.redisUrlLabel": "Bağlantı URL’si",
-  "web.setup.storage.restartSlowBody": "Silo’yu Docker, Kubernetes veya systemd çalıştırıyorsa Silo kendiliğinden yeniden açılır. Aksi takdirde Silo’yu kendiniz yeniden başlatın. Silo yeniden açıldığında kurulum devam eder.",
+  "web.setup.storage.restartSlowBody": "Silo, yalnızca Docker, Kubernetes veya systemd onu yeniden başlatacak şekilde ayarlanmışsa kendiliğinden yeniden açılır. Aksi takdirde Silo’yu kendiniz yeniden başlatın. Silo yeniden açıldığında kurulum devam eder.",
   "web.setup.storage.restartSlowTitle": "Silo henüz yeniden başlamadı",
   "web.setup.storage.saveFailed": "Depolama ayarları kaydedilemedi",
   "web.setup.storage.seconds": "saniye",

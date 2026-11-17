@@ -20056,7 +20056,7 @@
   "web.setup.storage.redisManagedDescription": "Gemeinsame Warteschlange und Cache. Dieser Server liest REDIS_URL aus seiner Umgebung.",
   "web.setup.storage.redisUnreachable": "Konfiguriert, aber nicht erreichbar",
   "web.setup.storage.redisUrlLabel": "Verbindungs-URL",
-  "web.setup.storage.restartSlowBody": "Silo startet von selbst wieder, wenn es über Docker, Kubernetes oder systemd läuft. Andernfalls starte Silo selbst neu. Die Einrichtung geht weiter, sobald Silo wieder da ist.",
+  "web.setup.storage.restartSlowBody": "Silo startet nur dann von selbst neu, wenn Docker, Kubernetes oder systemd so eingerichtet ist, dass es Silo neu startet. Andernfalls starte Silo selbst wieder. Die Einrichtung geht weiter, sobald Silo wieder da ist.",
   "web.setup.storage.restartSlowTitle": "Silo wurde noch nicht neu gestartet",
   "web.setup.storage.saveFailed": "Speicher-Einstellungen konnten nicht gespeichert werden",
   "web.setup.storage.seconds": "Sekunden",

@@ -20056,7 +20056,7 @@
   "web.setup.storage.redisManagedDescription": "Cola y caché compartidas. Este servidor lee REDIS_URL de su entorno.",
   "web.setup.storage.redisUnreachable": "Configurado, pero no accesible",
   "web.setup.storage.redisUrlLabel": "URL de conexión",
-  "web.setup.storage.restartSlowBody": "Silo vuelve a iniciarse por sí solo cuando lo ejecutan Docker, Kubernetes o systemd. Si no es así, inicia Silo de nuevo tú mismo. La configuración inicial continuará cuando vuelva a estar disponible.",
+  "web.setup.storage.restartSlowBody": "Silo solo se reinicia automáticamente si Docker, Kubernetes o systemd están configurados para reiniciarlo. Si no, vuelve a iniciar Silo manualmente. La configuración inicial continuará cuando vuelva a estar disponible.",
   "web.setup.storage.restartSlowTitle": "Silo aún no se ha reiniciado",
   "web.setup.storage.saveFailed": "No se pudo guardar la configuración de almacenamiento",
   "web.setup.storage.seconds": "segundos",

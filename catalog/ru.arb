@@ -20056,7 +20056,7 @@
   "web.setup.storage.redisManagedDescription": "Общая очередь и кеш. Этот сервер читает REDIS_URL из своего окружения.",
   "web.setup.storage.redisUnreachable": "Настроено, но недоступно",
   "web.setup.storage.redisUrlLabel": "URL подключения",
-  "web.setup.storage.restartSlowBody": "Если Silo работает под управлением Docker, Kubernetes или systemd, сервер запустится снова автоматически. В противном случае запустите Silo вручную. Настройка продолжится, когда сервер снова станет доступен.",
+  "web.setup.storage.restartSlowBody": "Silo запустится снова сам, только если в Docker, Kubernetes или systemd настроен его автоматический перезапуск. В противном случае запустите Silo вручную. Настройка продолжится, когда сервер снова станет доступен.",
   "web.setup.storage.restartSlowTitle": "Перезапуск Silo ещё не завершён",
   "web.setup.storage.saveFailed": "Не удалось сохранить настройки хранилища",
   "web.setup.storage.seconds": "с",

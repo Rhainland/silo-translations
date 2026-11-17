@@ -20056,7 +20056,7 @@
   "web.setup.storage.redisManagedDescription": "Delt kø og cache. Denne serveren leser REDIS_URL fra miljøet sitt.",
   "web.setup.storage.redisUnreachable": "Konfigurert, men ikke tilgjengelig",
   "web.setup.storage.redisUrlLabel": "Tilkoblings-URL",
-  "web.setup.storage.restartSlowBody": "Silo starter igjen av seg selv når den kjøres av Docker, Kubernetes eller systemd. Ellers må du starte Silo igjen selv. Oppsettet fortsetter når Silo er tilbake.",
+  "web.setup.storage.restartSlowBody": "Silo kommer bare tilbake av seg selv hvis Docker, Kubernetes eller systemd er satt opp til å starte den på nytt. Ellers må du starte Silo igjen selv. Oppsettet fortsetter når Silo er tilbake.",
   "web.setup.storage.restartSlowTitle": "Silo har ikke startet på nytt ennå",
   "web.setup.storage.saveFailed": "Kunne ikke lagre lagringsinnstillingene",
   "web.setup.storage.seconds": "sekunder",

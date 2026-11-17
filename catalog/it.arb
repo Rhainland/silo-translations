@@ -20056,7 +20056,7 @@
   "web.setup.storage.redisManagedDescription": "Coda e cache condivise. Questo server legge REDIS_URL dal proprio ambiente.",
   "web.setup.storage.redisUnreachable": "Configurato, ma non raggiungibile",
   "web.setup.storage.redisUrlLabel": "URL di connessione",
-  "web.setup.storage.restartSlowBody": "Silo torna disponibile da solo se viene eseguito da Docker, Kubernetes o systemd. Altrimenti, avvia di nuovo Silo manualmente. La configurazione prosegue quando torna disponibile.",
+  "web.setup.storage.restartSlowBody": "Silo torna disponibile da solo solo se Docker, Kubernetes o systemd sono configurati per riavviarlo. Altrimenti, avvia di nuovo Silo manualmente. La configurazione prosegue quando torna disponibile.",
   "web.setup.storage.restartSlowTitle": "Silo non si è ancora riavviato",
   "web.setup.storage.saveFailed": "Impossibile salvare le impostazioni di archiviazione",
   "web.setup.storage.seconds": "secondi",

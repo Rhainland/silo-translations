@@ -20056,7 +20056,7 @@
   "web.setup.storage.redisManagedDescription": "공유 대기열 및 캐시예요. 이 서버는 환경에서 REDIS_URL을 읽어요.",
   "web.setup.storage.redisUnreachable": "구성됐지만 연결할 수 없음",
   "web.setup.storage.redisUrlLabel": "연결 URL",
-  "web.setup.storage.restartSlowBody": "Docker, Kubernetes 또는 systemd에서 실행하는 경우 Silo가 자동으로 다시 시작돼요. 그렇지 않으면 Silo를 직접 다시 시작하세요. Silo가 다시 실행되면 설정이 계속돼요.",
+  "web.setup.storage.restartSlowBody": "Docker, Kubernetes 또는 systemd에서 Silo를 다시 시작하도록 설정한 경우에만 Silo가 자동으로 다시 실행돼요. 그렇지 않으면 Silo를 직접 다시 시작하세요. Silo가 다시 실행되면 설정이 계속돼요.",
   "web.setup.storage.restartSlowTitle": "Silo가 아직 다시 시작되지 않았어요",
   "web.setup.storage.saveFailed": "저장소 설정을 저장하지 못했어요",
   "web.setup.storage.seconds": "초",

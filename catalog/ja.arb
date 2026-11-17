@@ -20056,7 +20056,7 @@
   "web.setup.storage.redisManagedDescription": "共有のキューとキャッシュです。このサーバーは環境変数からREDIS_URLを読み込みます。",
   "web.setup.storage.redisUnreachable": "設定済みですが、接続できません",
   "web.setup.storage.redisUrlLabel": "接続URL",
-  "web.setup.storage.restartSlowBody": "Docker、Kubernetes、systemdで実行している場合、Siloは自動的に再起動します。それ以外の場合は、Siloを手動で起動し直してください。再起動が完了すると、セットアップが続行されます。",
+  "web.setup.storage.restartSlowBody": "Siloが自動的に復帰するのは、Docker、Kubernetes、またはsystemdで再起動するよう設定されている場合のみです。それ以外の場合は、Siloを手動で起動し直してください。再起動が完了すると、セットアップが続行されます。",
   "web.setup.storage.restartSlowTitle": "Siloはまだ再起動していません",
   "web.setup.storage.saveFailed": "ストレージの設定を保存できませんでした",
   "web.setup.storage.seconds": "秒",

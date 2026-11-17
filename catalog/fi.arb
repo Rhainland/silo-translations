@@ -20056,7 +20056,7 @@
   "web.setup.storage.redisManagedDescription": "Jaettu jono ja välimuisti. Tämä palvelin lukee muuttujan REDIS_URL ympäristöstään.",
   "web.setup.storage.redisUnreachable": "Määritetty, mutta ei tavoitettavissa",
   "web.setup.storage.redisUrlLabel": "Yhteyden URL-osoite",
-  "web.setup.storage.restartSlowBody": "Silo käynnistyy uudelleen itsestään, kun sitä hallitsee Docker, Kubernetes tai systemd. Muussa tapauksessa käynnistä Silo itse uudelleen. Määritys jatkuu, kun Silo on taas käytettävissä.",
+  "web.setup.storage.restartSlowBody": "Silo käynnistyy uudelleen itsestään vain, jos Docker, Kubernetes tai systemd on määritetty käynnistämään se uudelleen. Muussa tapauksessa käynnistä Silo itse uudelleen. Määritys jatkuu, kun Silo on taas käytettävissä.",
   "web.setup.storage.restartSlowTitle": "Silo ei ole vielä käynnistynyt uudelleen",
   "web.setup.storage.saveFailed": "Tallennusasetusten tallentaminen epäonnistui",
   "web.setup.storage.seconds": "sekuntia",

@@ -20056,7 +20056,7 @@
   "web.setup.storage.redisManagedDescription": "File d’attente et cache partagés. Ce serveur lit REDIS_URL depuis son environnement.",
   "web.setup.storage.redisUnreachable": "Configuré, mais injoignable",
   "web.setup.storage.redisUrlLabel": "URL de connexion",
-  "web.setup.storage.restartSlowBody": "Silo redémarre de lui-même lorsqu’il est exécuté par Docker, Kubernetes ou systemd. Sinon, relancez Silo vous-même. La configuration reprendra à son retour.",
+  "web.setup.storage.restartSlowBody": "Silo ne redémarre de lui-même que si Docker, Kubernetes ou systemd est configuré pour le relancer. Sinon, relancez Silo vous-même. La configuration reprendra à son retour.",
   "web.setup.storage.restartSlowTitle": "Silo n’a pas encore redémarré",
   "web.setup.storage.saveFailed": "Impossible d’enregistrer les paramètres de stockage",
   "web.setup.storage.seconds": "secondes",

@@ -20056,7 +20056,7 @@
   "web.setup.storage.redisManagedDescription": "Wspólna kolejka i cache. Ten serwer odczytuje REDIS_URL ze swojego środowiska.",
   "web.setup.storage.redisUnreachable": "Skonfigurowano, ale brak połączenia",
   "web.setup.storage.redisUrlLabel": "URL połączenia",
-  "web.setup.storage.restartSlowBody": "Silo uruchomi się ponownie samoczynnie, jeśli zarządza nim Docker, Kubernetes lub systemd. W przeciwnym razie uruchom Silo ponownie samodzielnie. Konfiguracja wznowi się, gdy serwer znów będzie dostępny.",
+  "web.setup.storage.restartSlowBody": "Silo uruchomi się ponownie samoczynnie tylko wtedy, gdy Docker, Kubernetes lub systemd są skonfigurowane tak, aby je ponownie uruchamiać. W przeciwnym razie uruchom Silo ponownie samodzielnie. Konfiguracja wznowi się, gdy serwer znów będzie dostępny.",
   "web.setup.storage.restartSlowTitle": "Serwer Silo jeszcze nie uruchomił się ponownie",
   "web.setup.storage.saveFailed": "Nie udało się zapisać ustawień przechowywania",
   "web.setup.storage.seconds": "s",

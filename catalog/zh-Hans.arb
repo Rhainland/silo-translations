@@ -20056,7 +20056,7 @@
   "web.setup.storage.redisManagedDescription": "共享队列和缓存。此服务器从其环境中读取REDIS_URL。",
   "web.setup.storage.redisUnreachable": "已配置，但无法连接",
   "web.setup.storage.redisUrlLabel": "连接URL",
-  "web.setup.storage.restartSlowBody": "如果Silo由Docker、Kubernetes或systemd运行，它会自动恢复。否则，请自行重新启动Silo。Silo恢复后将继续设置。",
+  "web.setup.storage.restartSlowBody": "只有在Docker、Kubernetes或systemd设置为自动重启Silo时，Silo才会自行恢复。否则，请手动重新启动Silo。Silo恢复后将继续设置。",
   "web.setup.storage.restartSlowTitle": "Silo尚未重启",
   "web.setup.storage.saveFailed": "无法保存存储设置",
   "web.setup.storage.seconds": "秒",
