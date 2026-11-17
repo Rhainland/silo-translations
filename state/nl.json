@@ -120041,6 +120041,18 @@
     "by": "opus",
     "model": "claude-opus-5-5"
   },
+  "web.setup.storage.applyingBody": {
+    "source": "4aaef34e3828cfd5",
+    "value": "03833f92ca374473",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
+  "web.setup.storage.applyingTitle": {
+    "source": "df032c2a5b646fd9",
+    "value": "f356abde4227c099",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
   "web.setup.storage.authCloudflare": {
     "source": "61734b91373205ad",
     "value": "58d4d44f1e749646",
@@ -120320,6 +120332,18 @@
   "web.setup.storage.redisUrlLabel": {
     "source": "f180a9ccd5db20d5",
     "value": "841b6ae6245b1f9e",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
+  "web.setup.storage.restartSlowBody": {
+    "source": "0fa10cd57f23a51c",
+    "value": "69d81f0df1df038a",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
+  "web.setup.storage.restartSlowTitle": {
+    "source": "a52ba27345d4ba35",
+    "value": "c0dfcbd63422ea37",
     "by": "opus",
     "model": "claude-opus-5-5"
   },
