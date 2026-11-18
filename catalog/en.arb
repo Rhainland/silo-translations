@@ -34202,15 +34202,16 @@
   },
   "settings.nextUp.atEnd": "At end",
   "@settings.nextUp.atEnd": {
-    "description": "Android phone and TV. Phone: Show Next Up choice on Settings → Playback: show the next-episode prompt when the episode ends. TV: Settings > Playback > Show Next Up: choice that shows the next-episode prompt when the episode ends.",
+    "description": "Android phone and TV. Phone: Show Next Up choice on Settings → Playback: show the next-episode prompt when the episode ends. TV: Settings > Playback > Show Next Up: choice that shows the next-episode prompt when the episode ends. Web: Settings > Playback > Show Next Up: choice that opens Next Up when the episode ends.",
     "x-platforms": [
       "apple",
-      "android"
+      "android",
+      "web"
     ]
   },
   "settings.nextUp.minutesBeforeEnd": "{count, plural, one {# minute before end} other {# minutes before end}}",
   "@settings.nextUp.minutesBeforeEnd": {
-    "description": "Android phone and TV. Phone: Show Next Up choice on Settings → Playback: show the next-episode prompt this many minutes before the episode ends. {count}: the number of minutes. TV: Settings > Playback > Show Next Up: choice that shows the next-episode prompt this many minutes before the episode ends. {count}: minutes.",
+    "description": "Android phone and TV. Phone: Show Next Up choice on Settings → Playback: show the next-episode prompt this many minutes before the episode ends. {count}: the number of minutes. TV: Settings > Playback > Show Next Up: choice that shows the next-episode prompt this many minutes before the episode ends. {count}: minutes. Web: Settings > Playback > Show Next Up: choice that opens Next Up this many minutes before the episode ends. {count}: minutes.",
     "placeholders": {
       "count": {
         "type": "int"
@@ -34218,12 +34219,13 @@
     },
     "x-platforms": [
       "apple",
-      "android"
+      "android",
+      "web"
     ]
   },
   "settings.nextUp.secondsBeforeEnd": "{count, plural, one {# second before end} other {# seconds before end}}",
   "@settings.nextUp.secondsBeforeEnd": {
-    "description": "Android phone and TV. Phone: Show Next Up choice on Settings → Playback: show the next-episode prompt this many seconds before the episode ends. {count}: the number of seconds. TV: Settings > Playback > Show Next Up: choice that shows the next-episode prompt this many seconds before the episode ends. {count}: seconds.",
+    "description": "Android phone and TV. Phone: Show Next Up choice on Settings → Playback: show the next-episode prompt this many seconds before the episode ends. {count}: the number of seconds. TV: Settings > Playback > Show Next Up: choice that shows the next-episode prompt this many seconds before the episode ends. {count}: seconds. Web: Settings > Playback > Show Next Up: choice that opens Next Up this many seconds before the episode ends. {count}: seconds.",
     "placeholders": {
       "count": {
         "type": "int"
@@ -34231,15 +34233,17 @@
     },
     "x-platforms": [
       "apple",
-      "android"
+      "android",
+      "web"
     ]
   },
   "settings.nextUp.title": "Show Next Up",
   "@settings.nextUp.title": {
-    "description": "Android phone and TV. Phone: row on Settings → Playback that picks when the next-episode prompt appears. TV: Settings > Playback > Episodes: row label and picker title for when the next-episode prompt appears. Apple Settings > Playback (iPhone, iPad, Mac) and Apple TV Settings > Playback: row and picker title.",
+    "description": "Android phone and TV. Phone: row on Settings → Playback that picks when the next-episode prompt appears. TV: Settings > Playback > Episodes: row label and picker title for when the next-episode prompt appears. Apple Settings > Playback (iPhone, iPad, Mac) and Apple TV Settings > Playback: row and picker title. Web: Settings > Playback > Episodes: row label for when the Next Up screen opens.",
     "x-platforms": [
       "apple",
-      "android"
+      "android",
+      "web"
     ]
   },
   "settings.noLimit": "No limit",
