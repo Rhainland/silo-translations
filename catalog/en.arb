@@ -34299,11 +34299,12 @@
   },
   "settings.off": "Off",
   "@settings.off": {
-    "description": "Value shown on a settings row or option when the option is disabled or set to none. Shown on Roku toggle rows, Android values and options such as Rewind on Resume Off, and Apple TV settings toggle rows.",
+    "description": "Value shown on a settings row or option when the option is disabled or set to none. Shown on Roku toggle rows, Android values and options such as Rewind on Resume Off, and Apple TV settings toggle rows. Web: Settings > Playback > Show Next Up: choice that turns Next Up off.",
     "x-platforms": [
       "apple",
       "android",
-      "roku"
+      "roku",
+      "web"
     ]
   },
   "settings.on": "On",
