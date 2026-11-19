@@ -4247,6 +4247,12 @@
     "by": "opus",
     "model": "claude-opus-5-5"
   },
+  "detail.alsoIn": {
+    "source": "a4a81225ed0b9e12",
+    "value": "710d53811ad45bb3",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
   "detail.audio": {
     "source": "994cd2717814d4fb",
     "value": "ec1c964bdfff29e4",
@@ -97394,6 +97400,12 @@
   "web.detail.seasons.watchedProgress": {
     "source": "4ae8c2fb16a30a8c",
     "value": "d5d6d9463b5c0baa",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
+  "web.detail.sections.alsoIn": {
+    "source": "e1e2c8d88777e861",
+    "value": "710d53811ad45bb3",
     "by": "opus",
     "model": "claude-opus-5-5"
   },
