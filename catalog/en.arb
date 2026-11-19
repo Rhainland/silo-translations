@@ -6408,6 +6408,14 @@
       "roku"
     ]
   },
+  "detail.alsoIn": "Also in",
+  "@detail.alsoIn": {
+    "description": "Heading of the row on a movie or series page that lists the collections holding that title when more than one does; each card opens a collection (Android phone and TV, Apple iOS, iPadOS, macOS and tvOS).",
+    "x-platforms": [
+      "apple",
+      "android"
+    ]
+  },
   "detail.audio": "Audio",
   "@detail.audio": {
     "description": "Label of the audio track control on a title page, and title of its picker, for choosing the audio track before playback.",
@@ -136520,6 +136528,13 @@
         "type": "String"
       }
     }
+  },
+  "web.detail.sections.alsoIn": "Also in",
+  "@web.detail.sections.alsoIn": {
+    "description": "Web: heading of the row on a movie or series detail page that lists the collections holding that title when more than one does; each card opens a collection.",
+    "x-platforms": [
+      "web"
+    ]
   },
   "web.detail.sections.cast": "Cast",
   "@web.detail.sections.cast": {
