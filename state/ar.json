@@ -109815,18 +109815,6 @@
     "by": "opus",
     "model": "claude-opus-5-5"
   },
-  "web.requests.card.becauseYouWatched": {
-    "source": "ed694c2ecddf2c7f",
-    "value": "938982d0542dc67b",
-    "by": "opus",
-    "model": "claude-opus-5-5"
-  },
-  "web.requests.card.becauseYouWatchedTwo": {
-    "source": "1ae4379fd6a2bdd9",
-    "value": "aae2ee5d768ca85b",
-    "by": "opus",
-    "model": "claude-opus-5-5"
-  },
   "web.requests.card.label": {
     "source": "3137fbf6de8e2739",
     "value": "6c84db738e5d1a3f",
@@ -109860,6 +109848,18 @@
   "web.requests.card.sendingFor": {
     "source": "322bff9a381f9588",
     "value": "c1e614a15c0cd43d",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
+  "web.requests.card.similarTo": {
+    "source": "32d7f84a4bd8caf8",
+    "value": "9af2a384d9cc5993",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
+  "web.requests.card.similarToTwo": {
+    "source": "ee4fa558f25d22a9",
+    "value": "4caeb5141a754cd0",
     "by": "opus",
     "model": "claude-opus-5-5"
   },
