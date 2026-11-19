@@ -14425,6 +14425,10 @@
   "@error.email_in_use": {
     "description": "Error message shown when the server answers with the v2 problem type `email_in_use` (server title: \"Email in use\"). Clients show it instead of the server's English detail in a translated interface, so it must make sense on its own, without the request's specifics."
   },
+  "error.field.duplicate": "This is already in use.",
+  "@error.field.duplicate": {
+    "description": "Error shown next to or about one request field when the server reports the field-error code `duplicate`: the value, such as a name, is already taken by another item of the same kind. Clients show it instead of the server's English detail in a translated interface."
+  },
   "error.field.invalid": "This value isn’t valid.",
   "@error.field.invalid": {
     "description": "Error shown next to or about one request field when the server reports the field-error code `invalid`. Clients show it instead of the server's English detail in a translated interface."
@@ -159682,6 +159686,13 @@
       "web"
     ]
   },
+  "web.settings.notifications.destinations.clearSecret": "Clear saved secret",
+  "@web.settings.notifications.destinations.clearSecret": {
+    "description": "Web Settings → Notifications: Other destinations (notification destinations that plugins provide, such as ntfy or Pushover): destination dialog when editing: button next to an optional secret field (a password or token) that has a saved value; pressing it removes the saved value when the dialog is saved.",
+    "x-platforms": [
+      "web"
+    ]
+  },
   "web.settings.notifications.destinations.createInProgress": "Destination creation is already in progress.",
   "@web.settings.notifications.destinations.createInProgress": {
     "description": "Web Settings → Notifications: Other destinations (notification destinations that plugins provide, such as ntfy or Pushover): error toast when the add button is pressed again while a destination is still being added.",
@@ -159727,6 +159738,13 @@
   "web.settings.notifications.destinations.empty": "No destinations yet.",
   "@web.settings.notifications.destinations.empty": {
     "description": "Web Settings → Notifications: Other destinations (notification destinations that plugins provide, such as ntfy or Pushover): shown when the profile has no destinations.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.settings.notifications.destinations.keepSecret": "Keep saved secret",
+  "@web.settings.notifications.destinations.keepSecret": {
+    "description": "Web Settings → Notifications: Other destinations (notification destinations that plugins provide, such as ntfy or Pushover): destination dialog when editing: the same button after Clear saved secret was pressed; pressing it undoes that, so the saved value stays.",
     "x-platforms": [
       "web"
     ]
