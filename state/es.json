@@ -24821,27 +24821,28 @@
     "by": "human"
   },
   "settings.nextUp.atEnd": {
-    "source": "45b3352674454c37",
+    "source": "03c3e6deb51235cd",
     "value": "7856801f0053b08c",
     "by": "opus",
     "model": "claude-opus-5-5"
   },
   "settings.nextUp.minutesBeforeEnd": {
-    "source": "e72106ecb4e16318",
+    "source": "880dd8236387dd8d",
     "value": "484f5ec8182e24ae",
     "by": "opus",
     "model": "claude-opus-5-5"
   },
   "settings.nextUp.secondsBeforeEnd": {
-    "source": "e4be9de1ebfd9b7f",
+    "source": "7ae4a6b001311232",
     "value": "d27a07ab8938805c",
     "by": "opus",
     "model": "claude-opus-5-5"
   },
   "settings.nextUp.title": {
-    "source": "dfe601ea4fe32ba4",
-    "value": "d5d981a18db8a32f",
-    "by": "human"
+    "source": "63e80f8dbac47aeb",
+    "value": "c3f9d737ff90f739",
+    "by": "opus",
+    "model": "claude-opus-5-5"
   },
   "settings.noLimit": {
     "source": "14e0dbfd56ef8859",
@@ -24886,7 +24887,7 @@
     "model": "claude-opus-5-5"
   },
   "settings.off": {
-    "source": "7325716aaf73d3af",
+    "source": "a11c60b48c9974f7",
     "value": "e252efe6974743f6",
     "by": "opus",
     "model": "claude-opus-5-5"

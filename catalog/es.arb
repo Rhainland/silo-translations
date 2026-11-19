@@ -4146,7 +4146,7 @@
   "settings.nextUp.atEnd": "Al final",
   "settings.nextUp.minutesBeforeEnd": "{count, plural, one {# minuto antes del final} many {# de minutos antes del final} other {# minutos antes del final}}",
   "settings.nextUp.secondsBeforeEnd": "{count, plural, one {# segundo antes del final} many {# de segundos antes del final} other {# segundos antes del final}}",
-  "settings.nextUp.title": "Aviso del siguiente episodio",
+  "settings.nextUp.title": "Mostrar Próximos",
   "settings.noLimit": "Sin límite",
   "settings.noPreference": "Sin preferencia",
   "settings.notifications.inApp": "Notificaciones en la app",

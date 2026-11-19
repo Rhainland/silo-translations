@@ -4146,7 +4146,7 @@
   "settings.nextUp.atEnd": "आखिर में",
   "settings.nextUp.minutesBeforeEnd": "{count, plural, one {खत्म होने से # मिनट पहले} other {खत्म होने से # मिनट पहले}}",
   "settings.nextUp.secondsBeforeEnd": "{count, plural, one {खत्म होने से # सेकंड पहले} other {खत्म होने से # सेकंड पहले}}",
-  "settings.nextUp.title": "अगला एपिसोड दिखाएँ",
+  "settings.nextUp.title": "अगले एपिसोड दिखाना",
   "settings.noLimit": "कोई सीमा नहीं",
   "settings.noPreference": "कोई पसंद नहीं",
   "settings.notifications.inApp": "ऐप में सूचनाएँ",

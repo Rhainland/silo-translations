@@ -4144,7 +4144,7 @@
   "settings.monthDay": "{day} {month}",
   "settings.navigation": "يفتح السهم الأيمن لوحة الإعدادات. يعيدك زر الرجوع إلى التصفح.",
   "settings.nextUp.atEnd": "عند النهاية",
-  "settings.nextUp.minutesBeforeEnd": "{count, plural, zero {# دقيقة قبل النهاية} one {دقيقة واحدة قبل النهاية} two {دقيقتان قبل النهاية} few {# دقائق قبل النهاية} many {# دقيقة قبل النهاية} other {# دقيقة قبل النهاية}}",
+  "settings.nextUp.minutesBeforeEnd": "{count, plural, zero {# دقائق قبل النهاية} one {دقيقة واحدة قبل النهاية} two {دقيقتان قبل النهاية} few {# دقائق قبل النهاية} many {# دقيقة قبل النهاية} other {# دقيقة قبل النهاية}}",
   "settings.nextUp.secondsBeforeEnd": "{count, plural, zero {# ثانية قبل النهاية} one {ثانية واحدة قبل النهاية} two {ثانيتان قبل النهاية} few {# ثوانٍ قبل النهاية} many {# ثانية قبل النهاية} other {# ثانية قبل النهاية}}",
   "settings.nextUp.title": "عرض الحلقات التالية",
   "settings.noLimit": "بلا حد",
