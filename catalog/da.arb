@@ -13477,6 +13477,8 @@
   "web.admin.tasks.task.autoscan_poll.name": "Autoscan-polling",
   "web.admin.tasks.task.autoscan_webhook_retry.description": "Prøver Autoscan-webhookleveringer, der er modtaget og gemt varigt, igen",
   "web.admin.tasks.task.autoscan_webhook_retry.name": "Autoscan-webhookgenforsøg",
+  "web.admin.tasks.task.backfill_attachment_bitrate.description": "Genlæser headeren i MKV-filer med ASS-undertekster, der blev scannet, før Silo holdt indlejrede skrifttyper uden for bitraten, så de ikke transkodes på grund af en bitrate, de ikke streamer med.",
+  "web.admin.tasks.task.backfill_attachment_bitrate.name": "Ret bitrate for filer med indlejrede skrifttyper",
   "web.admin.tasks.task.backfill_ebook_metadata.description": "Beriger det ældre efterslæb af e-bøger uden at konkurrere med den planlagte metadatasynkronisering",
   "web.admin.tasks.task.backfill_ebook_metadata.name": "Udfyld metadata for e-bøger",
   "web.admin.tasks.task.backfill_hdr10_plus.description": "Læser det første billede i HDR-video, der blev scannet, før Silo kunne genkende HDR10+, én gang pr. fil, så HDR10+-filer mærkes som HDR10+ i stedet for HDR10.",

@@ -13477,6 +13477,8 @@
   "web.admin.tasks.task.autoscan_poll.name": "Autoscan轮询",
   "web.admin.tasks.task.autoscan_webhook_retry.description": "重试已持久接收的Autoscan webhook投递",
   "web.admin.tasks.task.autoscan_webhook_retry.name": "Autoscan webhook重试",
+  "web.admin.tasks.task.backfill_attachment_bitrate.description": "对于在Silo将内嵌字体排除在比特率计算之外之前扫描的含ASS字幕的MKV文件，重新读取其文件头，使这些文件不会因实际不会串流的比特率而被转码。",
+  "web.admin.tasks.task.backfill_attachment_bitrate.name": "修正含内嵌字体文件的比特率",
   "web.admin.tasks.task.backfill_ebook_metadata.description": "补全旧版电子书积压数据，且不与计划的元数据同步争用资源",
   "web.admin.tasks.task.backfill_ebook_metadata.name": "回填电子书元数据",
   "web.admin.tasks.task.backfill_hdr10_plus.description": "对于在Silo支持检测HDR10+之前扫描的HDR视频，每个文件读取一次首帧，使HDR10+文件被标记为HDR10+而非HDR10。",

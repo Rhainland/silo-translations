@@ -13477,6 +13477,8 @@
   "web.admin.tasks.task.autoscan_poll.name": "Autoscan 폴링",
   "web.admin.tasks.task.autoscan_webhook_retry.description": "안정적으로 수락된 Autoscan 웹훅 전송을 다시 시도해요.",
   "web.admin.tasks.task.autoscan_webhook_retry.name": "Autoscan 웹훅 재시도",
+  "web.admin.tasks.task.backfill_attachment_bitrate.description": "Silo가 내장 글꼴을 비트레이트에서 제외하기 전에 스캔한, ASS 자막이 있는 MKV 파일의 헤더를 다시 읽어, 실제로 스트리밍하지 않는 비트레이트 때문에 트랜스코딩되지 않게 해요.",
+  "web.admin.tasks.task.backfill_attachment_bitrate.name": "내장 글꼴이 있는 파일의 비트레이트 보정",
   "web.admin.tasks.task.backfill_ebook_metadata.description": "예약된 메타데이터 동기화와 경합하지 않고 기존 전자책 백로그의 메타데이터를 보강해요.",
   "web.admin.tasks.task.backfill_ebook_metadata.name": "전자책 메타데이터 보완",
   "web.admin.tasks.task.backfill_hdr10_plus.description": "Silo가 HDR10+를 감지하기 전에 스캔한 HDR 동영상의 첫 프레임을 파일당 한 번 읽어, HDR10+ 파일이 HDR10이 아닌 HDR10+로 표시되게 해요.",

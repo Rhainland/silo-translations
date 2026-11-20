@@ -13477,6 +13477,8 @@
   "web.admin.tasks.task.autoscan_poll.name": "Autoscani küsitlus",
   "web.admin.tasks.task.autoscan_webhook_retry.description": "Proovib uuesti püsivalt vastu võetud Autoscani webhooki edastusi",
   "web.admin.tasks.task.autoscan_webhook_retry.name": "Autoscani webhooki kordus",
+  "web.admin.tasks.task.backfill_attachment_bitrate.description": "Loeb uuesti nende ASS-subtiitritega MKV-failide päise, mis skanniti enne, kui Silo hakkas manustatud fonte bitikiirusest välja jätma, et neid ei transkooditaks bitikiiruse tõttu, millega neid tegelikult ei voogedastata.",
+  "web.admin.tasks.task.backfill_attachment_bitrate.name": "Manustatud fontidega failide bitikiiruse parandamine",
   "web.admin.tasks.task.backfill_ebook_metadata.description": "Täiendab vanade e-raamatute ootejärjekorda metaandmetega, konkureerimata ajastatud metaandmete sünkroonimisega",
   "web.admin.tasks.task.backfill_ebook_metadata.name": "E-raamatute metaandmete tagantjärele täitmine",
   "web.admin.tasks.task.backfill_hdr10_plus.description": "Loeb nende HDR-videote esimese kaadri, mis skanniti enne, kui Silo oskas HDR10+ tuvastada, iga faili kohta üks kord, et HDR10+ failid oleksid tähistatud kui HDR10+, mitte HDR10.",

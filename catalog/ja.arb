@@ -13477,6 +13477,8 @@
   "web.admin.tasks.task.autoscan_poll.name": "Autoscanのポーリング",
   "web.admin.tasks.task.autoscan_webhook_retry.description": "永続的に受け付けたAutoscanのWebhook配信を再試行します",
   "web.admin.tasks.task.autoscan_webhook_retry.name": "AutoscanのWebhook再試行",
+  "web.admin.tasks.task.backfill_attachment_bitrate.description": "Siloが埋め込みフォントをビットレートに含めなくなる前にスキャンされた、ASS字幕を含むMKVファイルのヘッダーを再度読み取り、実際にはストリーミングしないビットレートを理由にトランスコードされないようにします。",
+  "web.admin.tasks.task.backfill_attachment_bitrate.name": "埋め込みフォントを含むファイルのビットレートを補正",
   "web.admin.tasks.task.backfill_ebook_metadata.description": "スケジュールされたメタデータ同期と競合せずに、従来の電子書籍の未処理分を補完します",
   "web.admin.tasks.task.backfill_ebook_metadata.name": "電子書籍メタデータの補完",
   "web.admin.tasks.task.backfill_hdr10_plus.description": "SiloがHDR10+を検出する前にスキャンされたHDR動画の最初のフレームをファイルごとに1回読み取り、HDR10+ファイルがHDR10ではなくHDR10+と表示されるようにします。",

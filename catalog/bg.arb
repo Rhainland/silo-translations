@@ -13477,6 +13477,8 @@
   "web.admin.tasks.task.autoscan_poll.name": "Проверка на Autoscan",
   "web.admin.tasks.task.autoscan_webhook_retry.description": "Опитва отново да обработи надеждно приетите доставки на уебхукове от Autoscan",
   "web.admin.tasks.task.autoscan_webhook_retry.name": "Нов опит за уебхукове на Autoscan",
+  "web.admin.tasks.task.backfill_attachment_bitrate.description": "Прочита отново заглавната част на MKV файловете с ASS субтитри, сканирани преди Silo да изключва вградените шрифтове от битрейта, така че да не се транскодират заради битрейт, който не предават поточно.",
+  "web.admin.tasks.task.backfill_attachment_bitrate.name": "Коригиране на битрейта на файлове с вградени шрифтове",
   "web.admin.tasks.task.backfill_ebook_metadata.description": "Обогатява натрупаните по-стари електронни книги, без да се конкурира с насроченото синхронизиране на метаданни",
   "web.admin.tasks.task.backfill_ebook_metadata.name": "Попълване на метаданни за електронни книги",
   "web.admin.tasks.task.backfill_hdr10_plus.description": "Прочита първия кадър на HDR видеото, сканирано преди Silo да разпознава HDR10+, веднъж за всеки файл, така че файловете с HDR10+ да се обозначават като HDR10+ вместо HDR10.",

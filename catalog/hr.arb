@@ -13477,6 +13477,8 @@
   "web.admin.tasks.task.autoscan_poll.name": "Autoscan provjera",
   "web.admin.tasks.task.autoscan_webhook_retry.description": "Ponovno pokušava trajno prihvaćene isporuke Autoscan webhooka",
   "web.admin.tasks.task.autoscan_webhook_retry.name": "Ponovni pokušaj Autoscan webhooka",
+  "web.admin.tasks.task.backfill_attachment_bitrate.description": "Ponovno čita zaglavlje MKV datoteka s ASS titlovima skeniranih prije nego što je Silo počeo izostavljati ugrađene fontove iz brzine prijenosa, kako se te datoteke ne bi transkodirale zbog brzine prijenosa koja se zapravo ne streama.",
+  "web.admin.tasks.task.backfill_attachment_bitrate.name": "Ispravak brzine prijenosa datoteka s ugrađenim fontovima",
   "web.admin.tasks.task.backfill_ebook_metadata.description": "Obogaćuje stari zaostatak e-knjiga bez natjecanja sa zakazanom sinkronizacijom metapodataka",
   "web.admin.tasks.task.backfill_ebook_metadata.name": "Dopuna metapodataka e-knjiga",
   "web.admin.tasks.task.backfill_hdr10_plus.description": "Čita prvi okvir HDR videozapisa skeniranih prije nego što je Silo prepoznavao HDR10+, jednom po datoteci, kako bi datoteke HDR10+ bile označene kao HDR10+ umjesto HDR10.",

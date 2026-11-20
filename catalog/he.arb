@@ -13477,6 +13477,8 @@
   "web.admin.tasks.task.autoscan_poll.name": "בדיקה תקופתית של Autoscan",
   "web.admin.tasks.task.autoscan_webhook_retry.description": "ניסיון חוזר של משלוחי webhook של Autoscan שהתקבלו ונשמרו",
   "web.admin.tasks.task.autoscan_webhook_retry.name": "ניסיון חוזר ל-webhook של Autoscan",
+  "web.admin.tasks.task.backfill_attachment_bitrate.description": "קריאה חוזרת של כותרות קובצי MKV עם כתוביות ASS שנסרקו לפני ש-Silo הפסיק לכלול גופנים מוטמעים בחישוב קצב הסיביות, כדי שלא תתבצע בהם המרת קידוד בגלל קצב סיביות שהם לא מזרימים בפועל.",
+  "web.admin.tasks.task.backfill_attachment_bitrate.name": "תיקון קצב הסיביות של קבצים עם גופנים מוטמעים",
   "web.admin.tasks.task.backfill_ebook_metadata.description": "העשרת המטא-נתונים של ספרים אלקטרוניים ישנים שהצטברו, בלי להתחרות בסנכרון המטא-נתונים המתוזמן",
   "web.admin.tasks.task.backfill_ebook_metadata.name": "השלמת מטא-נתונים של ספרים אלקטרוניים",
   "web.admin.tasks.task.backfill_hdr10_plus.description": "קריאת הפריים הראשון של סרטוני HDR שנסרקו לפני ש-Silo זיהה HDR10+, פעם אחת לכל קובץ, כדי שקובצי HDR10+ יסומנו HDR10+ ולא HDR10.",

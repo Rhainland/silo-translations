@@ -13477,6 +13477,8 @@
   "web.admin.tasks.task.autoscan_poll.name": "„Autoscan“ apklausa",
   "web.admin.tasks.task.autoscan_webhook_retry.description": "Dar kartą bando pristatyti patikimai priimtus „Autoscan“ webhook pranešimus",
   "web.admin.tasks.task.autoscan_webhook_retry.name": "„Autoscan“ webhook pakartojimas",
+  "web.admin.tasks.task.backfill_attachment_bitrate.description": "Iš naujo perskaito MKV failų su ASS subtitrais antraštę, jei failai nuskaityti anksčiau, nei „Silo“ ėmė neįtraukti įterptų šriftų į bitų spartą, kad jie nebūtų perkoduojami dėl bitų spartos, kurios jie iš tikrųjų netransliuoja.",
+  "web.admin.tasks.task.backfill_attachment_bitrate.name": "Failų su įterptais šriftais bitų spartos taisymas",
   "web.admin.tasks.task.backfill_ebook_metadata.description": "Papildo senų el. knygų sankaupos metaduomenis, kad netrukdytų suplanuotam metaduomenų sinchronizavimui",
   "web.admin.tasks.task.backfill_ebook_metadata.name": "El. knygų metaduomenų papildymas",
   "web.admin.tasks.task.backfill_hdr10_plus.description": "Kartą kiekvienam failui perskaito pirmąjį HDR vaizdo įrašo kadrą, jei įrašas nuskaitytas anksčiau, nei „Silo“ ėmė aptikti HDR10+, kad HDR10+ failai būtų žymimi HDR10+, o ne HDR10.",

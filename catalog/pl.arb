@@ -13477,6 +13477,8 @@
   "web.admin.tasks.task.autoscan_poll.name": "Odpytywanie Autoscan",
   "web.admin.tasks.task.autoscan_webhook_retry.description": "Ponawia trwale przyjęte dostarczenia webhooków Autoscan",
   "web.admin.tasks.task.autoscan_webhook_retry.name": "Ponawianie webhooków Autoscan",
+  "web.admin.tasks.task.backfill_attachment_bitrate.description": "Ponownie odczytuje nagłówek plików MKV z napisami ASS zeskanowanych przed wprowadzeniem w Silo pomijania osadzonych czcionek w przepływności, aby pliki te nie były transkodowane ze względu na przepływność, której w rzeczywistości nie przesyłają.",
+  "web.admin.tasks.task.backfill_attachment_bitrate.name": "Korygowanie przepływności plików z osadzonymi czcionkami",
   "web.admin.tasks.task.backfill_ebook_metadata.description": "Uzupełnia zaległe metadane starszych e-booków bez konkurowania z zaplanowaną synchronizacją metadanych",
   "web.admin.tasks.task.backfill_ebook_metadata.name": "Uzupełnianie metadanych e-booków",
   "web.admin.tasks.task.backfill_hdr10_plus.description": "Odczytuje pierwszą klatkę wideo HDR zeskanowanego przed wprowadzeniem wykrywania HDR10+ w Silo, raz na plik, aby pliki HDR10+ były oznaczone jako HDR10+ zamiast HDR10.",

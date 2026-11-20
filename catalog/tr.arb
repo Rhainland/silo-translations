@@ -13477,6 +13477,8 @@
   "web.admin.tasks.task.autoscan_poll.name": "Autoscan yoklaması",
   "web.admin.tasks.task.autoscan_webhook_retry.description": "Kalıcı olarak kabul edilmiş Autoscan webhook teslimatlarını yeniden dener",
   "web.admin.tasks.task.autoscan_webhook_retry.name": "Autoscan webhook yeniden denemesi",
+  "web.admin.tasks.task.backfill_attachment_bitrate.description": "Silo gömülü yazı tiplerini bit hızına katmamaya başlamadan önce taranmış, ASS altyazılı MKV dosyalarının üst bilgisini yeniden okur; böylece bu dosyaların kodu, akışta kullanılmayan bir bit hızı yüzünden dönüştürülmez.",
+  "web.admin.tasks.task.backfill_attachment_bitrate.name": "Gömülü yazı tipli dosyaların bit hızını düzelt",
   "web.admin.tasks.task.backfill_ebook_metadata.description": "Eski e-kitap birikimini, zamanlanmış meta veri eşitlemesiyle çakışmadan zenginleştirir",
   "web.admin.tasks.task.backfill_ebook_metadata.name": "E-kitap meta verilerini tamamla",
   "web.admin.tasks.task.backfill_hdr10_plus.description": "Silo HDR10+ algılamaya başlamadan önce taranmış HDR videoların ilk karesini dosya başına bir kez okur; böylece HDR10+ dosyalar HDR10 yerine HDR10+ olarak etiketlenir.",

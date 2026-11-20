@@ -13477,6 +13477,8 @@
   "web.admin.tasks.task.autoscan_poll.name": "Interogare Autoscan",
   "web.admin.tasks.task.autoscan_webhook_retry.description": "Reîncearcă livrările de webhook Autoscan acceptate în mod durabil",
   "web.admin.tasks.task.autoscan_webhook_retry.name": "Reîncercare webhook Autoscan",
+  "web.admin.tasks.task.backfill_attachment_bitrate.description": "Recitește antetul fișierelor MKV cu subtitrări ASS scanate înainte ca Silo să excludă fonturile încorporate din rata de biți, astfel încât acestea să nu fie transcodate pentru o rată de biți pe care nu o ating la streaming.",
+  "web.admin.tasks.task.backfill_attachment_bitrate.name": "Corectare rată de biți pentru fișiere cu fonturi încorporate",
   "web.admin.tasks.task.backfill_ebook_metadata.description": "Completează metadatele cărților electronice vechi rămase neprocesate, fără a concura cu sincronizarea programată a metadatelor",
   "web.admin.tasks.task.backfill_ebook_metadata.name": "Completare metadate cărți electronice",
   "web.admin.tasks.task.backfill_hdr10_plus.description": "Citește primul cadru al videoclipurilor HDR scanate înainte ca Silo să detecteze HDR10+, o singură dată per fișier, astfel încât fișierele HDR10+ să fie etichetate HDR10+ în loc de HDR10.",

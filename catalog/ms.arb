@@ -13477,6 +13477,8 @@
   "web.admin.tasks.task.autoscan_poll.name": "Tinjauan Autoscan",
   "web.admin.tasks.task.autoscan_webhook_retry.description": "Mencuba semula penghantaran webhook Autoscan yang telah diterima dan disimpan secara kekal",
   "web.admin.tasks.task.autoscan_webhook_retry.name": "Cuba semula webhook Autoscan",
+  "web.admin.tasks.task.backfill_attachment_bitrate.description": "Membaca semula pengepala fail MKV yang mempunyai sari kata ASS dan diimbas sebelum Silo mengecualikan fon terbenam daripada kadar bit, supaya fail itu tidak ditranskod untuk kadar bit yang sebenarnya tidak distrim.",
+  "web.admin.tasks.task.backfill_attachment_bitrate.name": "Betulkan kadar bit fail yang mempunyai fon terbenam",
   "web.admin.tasks.task.backfill_ebook_metadata.description": "Memperkaya tunggakan e-buku lama tanpa bersaing dengan penyegerakan metadata berjadual",
   "web.admin.tasks.task.backfill_ebook_metadata.name": "Isi semula metadata e-buku",
   "web.admin.tasks.task.backfill_hdr10_plus.description": "Membaca bingkai pertama video HDR yang diimbas sebelum Silo mengesan HDR10+, sekali bagi setiap fail, supaya fail HDR10+ dilabel HDR10+ dan bukan HDR10.",

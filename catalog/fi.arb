@@ -13477,6 +13477,8 @@
   "web.admin.tasks.task.autoscan_poll.name": "Autoscan-kysely",
   "web.admin.tasks.task.autoscan_webhook_retry.description": "Yrittää uudelleen pysyvästi vastaanotettujen Autoscan-webhookien toimitusta",
   "web.admin.tasks.task.autoscan_webhook_retry.name": "Autoscan-webhookin uudelleenyritys",
+  "web.admin.tasks.task.backfill_attachment_bitrate.description": "Lukee uudelleen otsaketiedot MKV-tiedostoista, joissa on ASS-tekstitys ja jotka on skannattu ennen kuin Silo jätti upotetut fontit pois bittinopeudesta, jotta niitä ei transkoodata sellaisen bittinopeuden takia, jota ne eivät suoratoistossa käytä.",
+  "web.admin.tasks.task.backfill_attachment_bitrate.name": "Upotettuja fontteja sisältävien tiedostojen bittinopeuden korjaus",
   "web.admin.tasks.task.backfill_ebook_metadata.description": "Täydentää vanhojen e-kirjojen metatietoja kilpailematta ajoitetun metatietosynkronoinnin kanssa",
   "web.admin.tasks.task.backfill_ebook_metadata.name": "E-kirjojen metatietojen täydennys",
   "web.admin.tasks.task.backfill_hdr10_plus.description": "Lukee kerran tiedostoa kohden ensimmäisen ruudun HDR-videoista, jotka on skannattu ennen kuin Silo tunnisti HDR10+:n, jotta HDR10+-tiedostot merkitään HDR10+:ksi eikä HDR10:ksi.",

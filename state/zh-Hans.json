@@ -80850,6 +80850,18 @@
     "by": "opus",
     "model": "claude-opus-5-5"
   },
+  "web.admin.tasks.task.backfill_attachment_bitrate.description": {
+    "source": "60ed8480238fcd01",
+    "value": "7e7c70c1b22e47f9",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
+  "web.admin.tasks.task.backfill_attachment_bitrate.name": {
+    "source": "3694982608ce1812",
+    "value": "0b2778beab37fd1f",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
   "web.admin.tasks.task.backfill_ebook_metadata.description": {
     "source": "1eb3aed137b26926",
     "value": "36727ac97c3c9308",

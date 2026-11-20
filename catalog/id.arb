@@ -13477,6 +13477,8 @@
   "web.admin.tasks.task.autoscan_poll.name": "Polling Autoscan",
   "web.admin.tasks.task.autoscan_webhook_retry.description": "Mencoba ulang pengiriman webhook Autoscan yang telah diterima dan disimpan secara permanen",
   "web.admin.tasks.task.autoscan_webhook_retry.name": "Coba ulang webhook Autoscan",
+  "web.admin.tasks.task.backfill_attachment_bitrate.description": "Membaca ulang header file MKV dengan subtitel ASS yang dipindai sebelum Silo mengecualikan font tersemat dari bitrate, agar file tersebut tidak ditranskode karena bitrate yang sebenarnya tidak dikirim saat streaming.",
+  "web.admin.tasks.task.backfill_attachment_bitrate.name": "Perbaiki bitrate file dengan font tersemat",
   "web.admin.tasks.task.backfill_ebook_metadata.description": "Melengkapi backlog ebook lama tanpa bersaing dengan sinkronisasi metadata terjadwal",
   "web.admin.tasks.task.backfill_ebook_metadata.name": "Lengkapi metadata ebook",
   "web.admin.tasks.task.backfill_hdr10_plus.description": "Membaca frame pertama video HDR yang dipindai sebelum Silo mendeteksi HDR10+, sekali per file, agar file HDR10+ diberi label HDR10+, bukan HDR10.",

@@ -13477,6 +13477,8 @@
   "web.admin.tasks.task.autoscan_poll.name": "Опрос Autoscan",
   "web.admin.tasks.task.autoscan_webhook_retry.description": "Повторяет надёжно принятые доставки вебхуков Autoscan",
   "web.admin.tasks.task.autoscan_webhook_retry.name": "Повтор вебхуков Autoscan",
+  "web.admin.tasks.task.backfill_attachment_bitrate.description": "Повторно считывает заголовок MKV-файлов с субтитрами ASS, отсканированных до того, как Silo перестал учитывать встроенные шрифты в битрейте, чтобы эти файлы не транскодировались из-за битрейта, который при стриминге на самом деле не передаётся.",
+  "web.admin.tasks.task.backfill_attachment_bitrate.name": "Исправление битрейта файлов со встроенными шрифтами",
   "web.admin.tasks.task.backfill_ebook_metadata.description": "Дополняет метаданные накопившихся старых электронных книг, не конкурируя с плановой синхронизацией метаданных",
   "web.admin.tasks.task.backfill_ebook_metadata.name": "Дозаполнение метаданных электронных книг",
   "web.admin.tasks.task.backfill_hdr10_plus.description": "Считывает первый кадр HDR-видео, отсканированного до того, как Silo стал распознавать HDR10+, по одному разу на файл, чтобы файлы HDR10+ помечались как HDR10+, а не HDR10.",

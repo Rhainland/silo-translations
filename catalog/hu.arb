@@ -13477,6 +13477,8 @@
   "web.admin.tasks.task.autoscan_poll.name": "Autoscan-lekérdezés",
   "web.admin.tasks.task.autoscan_webhook_retry.description": "Újra megkísérli a tartósan elfogadott Autoscan-webhookok kézbesítését",
   "web.admin.tasks.task.autoscan_webhook_retry.name": "Autoscan-webhookok újrapróbálása",
+  "web.admin.tasks.task.backfill_attachment_bitrate.description": "Újra beolvassa azoknak az ASS-feliratot tartalmazó MKV-fájloknak a fejlécét, amelyeket még azelőtt vizsgált át a szerver, hogy a Silo kihagyta volna a beágyazott betűtípusokat a bitsebességből, így a szerver nem kódolja át őket olyan bitsebesség miatt, amely streameléskor nem is jelentkezik.",
+  "web.admin.tasks.task.backfill_attachment_bitrate.name": "Beágyazott betűtípusokat tartalmazó fájlok bitsebességének javítása",
   "web.admin.tasks.task.backfill_ebook_metadata.description": "Kiegészíti a korábbi e-könyvek metaadat-hátralékát anélkül, hogy versenyezne az ütemezett metaadat-szinkronizálással",
   "web.admin.tasks.task.backfill_ebook_metadata.name": "E-könyv-metaadatok pótlása",
   "web.admin.tasks.task.backfill_hdr10_plus.description": "Fájlonként egyszer beolvassa azoknak a HDR-videóknak az első képkockáját, amelyeket még azelőtt vizsgált át a szerver, hogy a Silo felismerte volna a HDR10+ formátumot, így a HDR10+ formátumú fájlok HDR10+, nem pedig HDR10 címkét kapnak.",
