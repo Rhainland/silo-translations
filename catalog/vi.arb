@@ -13506,6 +13506,8 @@
   "web.admin.tasks.task.autoscan_poll.name": "Thăm dò Autoscan",
   "web.admin.tasks.task.autoscan_webhook_retry.description": "Thử lại các lần gửi webhook Autoscan đã được chấp nhận và lưu bền vững",
   "web.admin.tasks.task.autoscan_webhook_retry.name": "Thử lại webhook Autoscan",
+  "web.admin.tasks.task.backfill_attachment_bitrate.description": "Đọc lại phần đầu của các tệp MKV có phụ đề ASS được quét trước khi Silo loại phông chữ nhúng ra khỏi tốc độ bit, để các tệp này không bị chuyển mã vì một tốc độ bit mà chúng không thực sự phát trực tuyến.",
+  "web.admin.tasks.task.backfill_attachment_bitrate.name": "Sửa tốc độ bit của tệp có phông chữ nhúng",
   "web.admin.tasks.task.backfill_ebook_metadata.description": "Bổ sung siêu dữ liệu cho các sách điện tử cũ còn tồn đọng mà không cạnh tranh với tác vụ đồng bộ siêu dữ liệu theo lịch",
   "web.admin.tasks.task.backfill_ebook_metadata.name": "Bổ sung siêu dữ liệu sách điện tử",
   "web.admin.tasks.task.backfill_hdr10_plus.description": "Đọc khung hình đầu tiên của video HDR được quét trước khi Silo phát hiện HDR10+, một lần cho mỗi tệp, để các tệp HDR10+ được gắn nhãn HDR10+ thay vì HDR10.",

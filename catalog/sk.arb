@@ -13506,6 +13506,8 @@
   "web.admin.tasks.task.autoscan_poll.name": "Dopytovanie Autoscan",
   "web.admin.tasks.task.autoscan_webhook_retry.description": "Opakuje doručenia webhookov Autoscan, ktoré boli trvalo prijaté",
   "web.admin.tasks.task.autoscan_webhook_retry.name": "Opakovanie webhookov Autoscan",
+  "web.admin.tasks.task.backfill_attachment_bitrate.description": "Znova prečíta hlavičku súborov MKV s titulkami ASS naskenovaných predtým, ako Silo prestalo započítavať vložené písma do bitovej rýchlosti, aby sa tieto súbory neprekódovávali kvôli bitovej rýchlosti, ktorú pri streamovaní nevyužívajú.",
+  "web.admin.tasks.task.backfill_attachment_bitrate.name": "Oprava bitovej rýchlosti súborov s vloženými písmami",
   "web.admin.tasks.task.backfill_ebook_metadata.description": "Obohacuje nevybavené staršie e-knihy bez toho, aby konkurovala plánovanej synchronizácii metadát",
   "web.admin.tasks.task.backfill_ebook_metadata.name": "Doplnenie metadát e-kníh",
   "web.admin.tasks.task.backfill_hdr10_plus.description": "Prečíta prvý snímok videa HDR naskenovaného predtým, ako Silo začalo rozpoznávať HDR10+, raz pre každý súbor, aby boli súbory HDR10+ označené ako HDR10+ namiesto HDR10.",

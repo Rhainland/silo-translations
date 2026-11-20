@@ -13506,6 +13506,8 @@
   "web.admin.tasks.task.autoscan_poll.name": "Autoscan aptauja",
   "web.admin.tasks.task.autoscan_webhook_retry.description": "Atkārtoti mēģina Autoscan webhook piegādes, kas ir pieņemtas un noturīgi saglabātas",
   "web.admin.tasks.task.autoscan_webhook_retry.name": "Autoscan webhook atkārtošana",
+  "web.admin.tasks.task.backfill_attachment_bitrate.description": "Atkārtoti nolasa galveni MKV failiem ar ASS subtitriem, kas skenēti, pirms Silo sāka neieskaitīt iegultos fontus bitu pārraides ātrumā, lai šie faili netiktu pārkodēti bitu pārraides ātruma dēļ, ko tie nemaz nestraumē.",
+  "web.admin.tasks.task.backfill_attachment_bitrate.name": "Bitu pārraides ātruma labošana failiem ar iegultiem fontiem",
   "web.admin.tasks.task.backfill_ebook_metadata.description": "Papildina vecāko e-grāmatu uzkrājumu ar metadatiem, nekonkurējot ar ieplānoto metadatu sinhronizāciju",
   "web.admin.tasks.task.backfill_ebook_metadata.name": "E-grāmatu metadatu papildināšana",
   "web.admin.tasks.task.backfill_hdr10_plus.description": "Nolasa pirmo kadru HDR video, kas skenēts, pirms Silo atpazina HDR10+, vienreiz katram failam, lai HDR10+ faili tiktu apzīmēti kā HDR10+, nevis HDR10.",

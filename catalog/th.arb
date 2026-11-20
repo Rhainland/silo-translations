@@ -13506,6 +13506,8 @@
   "web.admin.tasks.task.autoscan_poll.name": "การตรวจสอบ Autoscan",
   "web.admin.tasks.task.autoscan_webhook_retry.description": "ลองส่งเว็บฮุก Autoscan ที่รับไว้อย่างถาวรแล้วอีกครั้ง",
   "web.admin.tasks.task.autoscan_webhook_retry.name": "ลองเว็บฮุก Autoscan อีกครั้ง",
+  "web.admin.tasks.task.backfill_attachment_bitrate.description": "อ่านส่วนหัวของไฟล์ MKV ที่มีคำบรรยาย ASS อีกครั้ง สำหรับไฟล์ที่สแกนไว้ก่อนที่ Silo จะเลิกนับฟอนต์ที่ฝังอยู่รวมในบิตเรต เพื่อไม่ให้ต้องแปลงรหัสไฟล์เหล่านี้เพราะบิตเรตที่ไม่ได้ใช้สตรีมจริง",
+  "web.admin.tasks.task.backfill_attachment_bitrate.name": "แก้ไขบิตเรตของไฟล์ที่มีฟอนต์ฝังอยู่",
   "web.admin.tasks.task.backfill_ebook_metadata.description": "เพิ่มข้อมูลให้อีบุ๊กเก่าที่ค้างอยู่ โดยไม่แย่งทรัพยากรกับการซิงค์ข้อมูลเมตาตามกำหนดการ",
   "web.admin.tasks.task.backfill_ebook_metadata.name": "เติมข้อมูลเมตาอีบุ๊กย้อนหลัง",
   "web.admin.tasks.task.backfill_hdr10_plus.description": "อ่านเฟรมแรกของวิดีโอ HDR ที่สแกนไว้ก่อนที่ Silo จะตรวจจับ HDR10+ ได้ ไฟล์ละครั้ง เพื่อให้ไฟล์ HDR10+ มีป้ายกำกับเป็น HDR10+ แทน HDR10",

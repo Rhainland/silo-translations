@@ -13506,6 +13506,8 @@
   "web.admin.tasks.task.autoscan_poll.name": "Autoscan पोल",
   "web.admin.tasks.task.autoscan_webhook_retry.description": "स्थायी रूप से स्वीकार की गई Autoscan वेबहुक डिलीवरी फिर से भेजता है",
   "web.admin.tasks.task.autoscan_webhook_retry.name": "Autoscan वेबहुक रीट्राई",
+  "web.admin.tasks.task.backfill_attachment_bitrate.description": "Silo के बिटरेट से एम्बेड किए गए फ़ॉन्ट बाहर रखने से पहले स्कैन की गई, ASS सबटाइटल वाली MKV फ़ाइलों का हेडर फिर से पढ़ता है, ताकि उन्हें ऐसे बिटरेट के लिए ट्रांसकोड न किया जाए जिस पर वे स्ट्रीम ही नहीं होतीं।",
+  "web.admin.tasks.task.backfill_attachment_bitrate.name": "एम्बेड किए गए फ़ॉन्ट वाली फ़ाइलों का बिटरेट ठीक करना",
   "web.admin.tasks.task.backfill_ebook_metadata.description": "शेड्यूल किए गए मेटाडेटा सिंक में रुकावट डाले बिना पुरानी ई-बुक के बैकलॉग का मेटाडेटा पूरा करता है",
   "web.admin.tasks.task.backfill_ebook_metadata.name": "ई-बुक मेटाडेटा बैकफ़िल",
   "web.admin.tasks.task.backfill_hdr10_plus.description": "Silo के HDR10+ पहचानने से पहले स्कैन किए गए HDR वीडियो का पहला फ़्रेम हर फ़ाइल के लिए एक बार पढ़ता है, ताकि HDR10+ फ़ाइलों पर HDR10 के बजाय HDR10+ का लेबल लगे।",

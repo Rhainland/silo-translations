@@ -13506,6 +13506,8 @@
   "web.admin.tasks.task.autoscan_poll.name": "استطلاع Autoscan",
   "web.admin.tasks.task.autoscan_webhook_retry.description": "إعادة محاولة تسليم webhooks من Autoscan التي قُبلت وحُفظت بشكل دائم",
   "web.admin.tasks.task.autoscan_webhook_retry.name": "إعادة محاولة webhook في Autoscan",
+  "web.admin.tasks.task.backfill_attachment_bitrate.description": "يعيد قراءة ترويسة ملفات MKV ذات ترجمة ASS التي فُحصت قبل أن يستبعد Silo الخطوط المضمّنة من معدل البت، لكي لا يُعاد ترميزها بسبب معدل بت لا تبثّه فعليًا.",
+  "web.admin.tasks.task.backfill_attachment_bitrate.name": "تصحيح معدل البت للملفات ذات الخطوط المضمّنة",
   "web.admin.tasks.task.backfill_ebook_metadata.description": "يُثري الكتب الإلكترونية القديمة المتراكمة دون التنافس مع مزامنة البيانات الوصفية المجدولة",
   "web.admin.tasks.task.backfill_ebook_metadata.name": "استكمال البيانات الوصفية للكتب الإلكترونية",
   "web.admin.tasks.task.backfill_hdr10_plus.description": "يقرأ الإطار الأول من فيديو HDR الذي فُحص قبل أن يكتشف Silo تنسيق HDR10+، مرة واحدة لكل ملف، لكي تُصنَّف ملفات HDR10+ على أنها HDR10+ بدلًا من HDR10.",

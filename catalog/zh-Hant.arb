@@ -13506,6 +13506,8 @@
   "web.admin.tasks.task.autoscan_poll.name": "Autoscan 輪詢",
   "web.admin.tasks.task.autoscan_webhook_retry.description": "重試已持久接受的 Autoscan Webhook 傳遞",
   "web.admin.tasks.task.autoscan_webhook_retry.name": "Autoscan Webhook 重試",
+  "web.admin.tasks.task.backfill_attachment_bitrate.description": "重新讀取 Silo 開始將內嵌字型排除於位元速率之外以前所掃描、含 ASS 字幕的 MKV 檔案標頭，避免這些檔案因串流時不會用到的位元速率而被轉碼。",
+  "web.admin.tasks.task.backfill_attachment_bitrate.name": "修正含內嵌字型檔案的位元速率",
   "web.admin.tasks.task.backfill_ebook_metadata.description": "補充舊有電子書待處理項目的中繼資料，且不與排程的中繼資料同步爭用資源",
   "web.admin.tasks.task.backfill_ebook_metadata.name": "回填電子書中繼資料",
   "web.admin.tasks.task.backfill_hdr10_plus.description": "讀取 Silo 能偵測 HDR10+ 之前所掃描的 HDR 影片第一個影格，每個檔案只讀一次，讓 HDR10+ 檔案標示為 HDR10+ 而非 HDR10。",

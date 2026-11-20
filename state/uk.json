@@ -81034,6 +81034,18 @@
     "by": "opus",
     "model": "claude-opus-5-5"
   },
+  "web.admin.tasks.task.backfill_attachment_bitrate.description": {
+    "source": "60ed8480238fcd01",
+    "value": "007cb20054691de1",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
+  "web.admin.tasks.task.backfill_attachment_bitrate.name": {
+    "source": "3694982608ce1812",
+    "value": "fcb1daa569b87e21",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
   "web.admin.tasks.task.backfill_ebook_metadata.description": {
     "source": "1eb3aed137b26926",
     "value": "17ff16a316aa9368",

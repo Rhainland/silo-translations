@@ -13506,6 +13506,8 @@
   "web.admin.tasks.task.autoscan_poll.name": "Consulta d’Autoscan",
   "web.admin.tasks.task.autoscan_webhook_retry.description": "Torna a intentar els lliuraments de webhooks d’Autoscan acceptats de manera duradora",
   "web.admin.tasks.task.autoscan_webhook_retry.name": "Reintent de webhooks d’Autoscan",
+  "web.admin.tasks.task.backfill_attachment_bitrate.description": "Torna a llegir la capçalera dels fitxers MKV amb subtítols ASS escanejats abans que Silo deixés fora de la taxa de bits els tipus de lletra incrustats, perquè no es transcodifiquin a causa d’una taxa de bits que en realitat no transmeten.",
+  "web.admin.tasks.task.backfill_attachment_bitrate.name": "Correcció de la taxa de bits dels fitxers amb tipus de lletra incrustats",
   "web.admin.tasks.task.backfill_ebook_metadata.description": "Enriqueix els llibres electrònics antics pendents sense competir amb la sincronització programada de metadades",
   "web.admin.tasks.task.backfill_ebook_metadata.name": "Emplenament de metadades de llibres electrònics",
   "web.admin.tasks.task.backfill_hdr10_plus.description": "Llegeix el primer fotograma dels vídeos HDR escanejats abans que Silo detectés HDR10+, un cop per fitxer, perquè els fitxers HDR10+ s’etiquetin com a HDR10+ en lloc d’HDR10.",

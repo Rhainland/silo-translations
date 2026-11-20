@@ -13506,6 +13506,8 @@
   "web.admin.tasks.task.autoscan_poll.name": "Autoscan-polling",
   "web.admin.tasks.task.autoscan_webhook_retry.description": "Probeert duurzaam geaccepteerde Autoscan-webhookleveringen opnieuw af te leveren",
   "web.admin.tasks.task.autoscan_webhook_retry.name": "Autoscan-webhook opnieuw proberen",
+  "web.admin.tasks.task.backfill_attachment_bitrate.description": "Leest opnieuw de header van MKV-bestanden met ASS-ondertitels die zijn gescand voordat Silo ingesloten lettertypen niet meer meetelde in de bitrate, zodat ze niet worden getranscodeerd voor een bitrate die ze niet streamen.",
+  "web.admin.tasks.task.backfill_attachment_bitrate.name": "Bitrate van bestanden met ingesloten lettertypen corrigeren",
   "web.admin.tasks.task.backfill_ebook_metadata.description": "Verrijkt de oude achterstand aan e-books zonder te concurreren met de geplande metadatasynchronisatie",
   "web.admin.tasks.task.backfill_ebook_metadata.name": "E-bookmetadata aanvullen",
   "web.admin.tasks.task.backfill_hdr10_plus.description": "Leest eenmaal per bestand het eerste frame van HDR-video die is gescand voordat Silo HDR10+ herkende, zodat HDR10+-bestanden als HDR10+ worden gelabeld in plaats van HDR10.",

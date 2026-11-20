@@ -13506,6 +13506,8 @@
   "web.admin.tasks.task.autoscan_poll.name": "Έλεγχος Autoscan",
   "web.admin.tasks.task.autoscan_webhook_retry.description": "Νέα προσπάθεια παράδοσης των webhook του Autoscan που έχουν γίνει δεκτά και αποθηκευτεί μόνιμα",
   "web.admin.tasks.task.autoscan_webhook_retry.name": "Νέα προσπάθεια webhook του Autoscan",
+  "web.admin.tasks.task.backfill_attachment_bitrate.description": "Διαβάζει ξανά την κεφαλίδα των αρχείων MKV με υπότιτλους ASS που σαρώθηκαν πριν το Silo αρχίσει να εξαιρεί τις ενσωματωμένες γραμματοσειρές από τον ρυθμό μετάδοσης bit, ώστε να μην διακωδικοποιούνται εξαιτίας ενός ρυθμού μετάδοσης bit που δεν χρησιμοποιούν στη ροή.",
+  "web.admin.tasks.task.backfill_attachment_bitrate.name": "Διόρθωση ρυθμού μετάδοσης bit αρχείων με ενσωματωμένες γραμματοσειρές",
   "web.admin.tasks.task.backfill_ebook_metadata.description": "Εμπλουτίζει τα παλαιότερα ηλεκτρονικά βιβλία που εκκρεμούν χωρίς να ανταγωνίζεται τον προγραμματισμένο συγχρονισμό μεταδεδομένων",
   "web.admin.tasks.task.backfill_ebook_metadata.name": "Συμπλήρωση μεταδεδομένων ηλεκτρονικών βιβλίων",
   "web.admin.tasks.task.backfill_hdr10_plus.description": "Διαβάζει το πρώτο καρέ των βίντεο HDR που σαρώθηκαν πριν από την ανίχνευση του HDR10+ από το Silo, μία φορά ανά αρχείο, ώστε τα αρχεία HDR10+ να επισημαίνονται ως HDR10+ αντί για HDR10.",
