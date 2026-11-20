@@ -112809,6 +112809,20 @@
       "web"
     ]
   },
+  "web.admin.tasks.task.backfill_attachment_bitrate.description": "Re-reads the header of MKV files with ASS subtitles scanned before Silo left embedded fonts out of the bitrate, so they are not transcoded for a bitrate they do not stream.",
+  "@web.admin.tasks.task.backfill_attachment_bitrate.description": {
+    "description": "Web admin, task detail page: description of the scheduled task with id `backfill_attachment_bitrate`. Shown only when the interface language has it; otherwise the server's English description.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.tasks.task.backfill_attachment_bitrate.name": "Correct Bitrate of Files with Embedded Fonts",
+  "@web.admin.tasks.task.backfill_attachment_bitrate.name": {
+    "description": "Web admin, Tasks page and Server activity: name of the scheduled task with id `backfill_attachment_bitrate`. Shown only when the interface language has it; otherwise the server's English name.",
+    "x-platforms": [
+      "web"
+    ]
+  },
   "web.admin.tasks.task.backfill_ebook_metadata.description": "Enriches the legacy ebook backlog without competing with scheduled metadata sync",
   "@web.admin.tasks.task.backfill_ebook_metadata.description": {
     "description": "Web admin, task detail page: description of the scheduled task with id `backfill_ebook_metadata`. Shown only when the interface language has it; otherwise the server's English description.",
