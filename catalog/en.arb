@@ -65306,6 +65306,13 @@
       "web"
     ]
   },
+  "web.admin.common.connectionCheck.result.textAIBilling": "Text AI provider has no available credit, or a usage or spending limit was reached. Check the provider balance and limits, or ChatGPT usage settings.",
+  "@web.admin.common.connectionCheck.result.textAIBilling": {
+    "description": "Web admin, settings pages, connection check result sent by the server: the text AI provider check failed because the provider account is out of credit or reached a usage or spending limit.",
+    "x-platforms": [
+      "web"
+    ]
+  },
   "web.admin.common.connectionCheck.result.textAIConnected": "Text AI connection successful.",
   "@web.admin.common.connectionCheck.result.textAIConnected": {
     "description": "Web admin, settings pages, connection check result sent by the server: the text AI provider check succeeded.",
@@ -65316,6 +65323,81 @@
   "web.admin.common.connectionCheck.result.textAIFailed": "Text AI connection failed. Check the model, reasoning level, service tier, account connection, and provider usage limits.",
   "@web.admin.common.connectionCheck.result.textAIFailed": {
     "description": "Web admin, settings pages, connection check result sent by the server: the text AI provider check failed.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.common.connectionCheck.result.textAIForbidden": "Text AI access was denied. Check that the API key may use this model.",
+  "@web.admin.common.connectionCheck.result.textAIForbidden": {
+    "description": "Web admin, settings pages, connection check result sent by the server: the text AI provider check failed because the provider denied access to the model for this API key.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.common.connectionCheck.result.textAINotFound": "Text AI endpoint or model is unavailable. Check the provider's base URL and the model.",
+  "@web.admin.common.connectionCheck.result.textAINotFound": {
+    "description": "Web admin, settings pages, connection check result sent by the server: the text AI provider check failed because the provider's address or the chosen model was not found.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.common.connectionCheck.result.textAIPlanIneligible": "The connected ChatGPT account can't share its plan usage. Check ChatGPT usage settings, or connect another account.",
+  "@web.admin.common.connectionCheck.result.textAIPlanIneligible": {
+    "description": "Web admin, settings pages, connection check result sent by the server: the text AI provider check failed because the signed-in ChatGPT account's plan can't be used for this.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.common.connectionCheck.result.textAIRateLimited": "Text AI provider is rate limiting requests. Try again later.",
+  "@web.admin.common.connectionCheck.result.textAIRateLimited": {
+    "description": "Web admin, settings pages, connection check result sent by the server: the text AI provider check failed because the provider is limiting how many requests Silo can send.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.common.connectionCheck.result.textAIRejected": "Text AI provider rejected the check request (status {status}). Check the model, reasoning level, and service tier. The server log has the provider's error.",
+  "@web.admin.common.connectionCheck.result.textAIRejected": {
+    "description": "Web admin, settings pages, connection check result sent by the server: the text AI provider check failed because the provider refused the request for another reason. {status}: the HTTP status code the provider returned, a number such as 400.",
+    "placeholders": {
+      "status": {
+        "type": "String"
+      }
+    },
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.common.connectionCheck.result.textAITimedOut": "Text AI connection check timed out. Check provider availability and try again.",
+  "@web.admin.common.connectionCheck.result.textAITimedOut": {
+    "description": "Web admin, settings pages, connection check result sent by the server: the text AI provider check failed because the provider did not answer in time.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.common.connectionCheck.result.textAIUnauthorized": "Text AI provider rejected the credentials. Replace the provider's API key, or sign in with ChatGPT again.",
+  "@web.admin.common.connectionCheck.result.textAIUnauthorized": {
+    "description": "Web admin, settings pages, connection check result sent by the server: the text AI provider check failed because the provider rejected the API key or sign-in.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.common.connectionCheck.result.textAIUnavailable": "Text AI provider is temporarily unavailable. Try again later.",
+  "@web.admin.common.connectionCheck.result.textAIUnavailable": {
+    "description": "Web admin, settings pages, connection check result sent by the server: the text AI provider check failed because the provider is temporarily down.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.common.connectionCheck.result.textAIUnreachable": "Silo could not reach the text AI provider. Check the provider's base URL and that this server can connect to it.",
+  "@web.admin.common.connectionCheck.result.textAIUnreachable": {
+    "description": "Web admin, settings pages, connection check result sent by the server: the text AI provider check failed because Silo could not connect to the provider at all.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.common.connectionCheck.result.textAIUnusableResponse": "Text model returned a response Silo cannot use. Choose another model.",
+  "@web.admin.common.connectionCheck.result.textAIUnusableResponse": {
+    "description": "Web admin, settings pages, connection check result sent by the server: the text AI provider check failed because the model answered in a form Silo can't use.",
     "x-platforms": [
       "web"
     ]
