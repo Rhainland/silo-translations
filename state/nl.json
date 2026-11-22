@@ -46368,8 +46368,8 @@
     "model": "claude-opus-5-5"
   },
   "web.admin.common.connectionCheck.result.textAIForbidden": {
-    "source": "54ec38982c7340a4",
-    "value": "8f52ce21e3843dd7",
+    "source": "b183c18247eee8c7",
+    "value": "4ea25d94bab71382",
     "by": "opus",
     "model": "claude-opus-5-5"
   },
@@ -46388,6 +46388,12 @@
   "web.admin.common.connectionCheck.result.textAIRateLimited": {
     "source": "55082bd7413c6079",
     "value": "b57228b76a21cf7e",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
+  "web.admin.common.connectionCheck.result.textAIRefused": {
+    "source": "bc9b965fd5ec6a80",
+    "value": "d3af8931d99fe9b4",
     "by": "opus",
     "model": "claude-opus-5-5"
   },
