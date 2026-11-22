@@ -132928,6 +132928,21 @@
       }
     }
   },
+  "web.common.activity.subtitle.episodeTitle": "{code} · {title}",
+  "@web.common.activity.subtitle.episodeTitle": {
+    "description": "Web: admin Activity page, admin dashboard Now Playing card, and the household streams panel: line under an episode stream's title, which is the series name. {code}: season and episode code such as S3E13. {title}: the episode's own title.",
+    "x-platforms": [
+      "web"
+    ],
+    "placeholders": {
+      "code": {
+        "type": "String"
+      },
+      "title": {
+        "type": "String"
+      }
+    }
+  },
   "web.common.activity.subtitle.movie": "Movie",
   "@web.common.activity.subtitle.movie": {
     "description": "Web: admin Activity page and the household streams panel: line under a stream's title saying the item is a movie.",
