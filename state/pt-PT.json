@@ -46349,6 +46349,12 @@
     "by": "opus",
     "model": "claude-opus-5-5"
   },
+  "web.admin.common.connectionCheck.result.textAIBilling": {
+    "source": "181533df6afce3ff",
+    "value": "ae6f1366f359dc2b",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
   "web.admin.common.connectionCheck.result.textAIConnected": {
     "source": "97b8e8e52f9af3f7",
     "value": "23c152f8f428f19a",
@@ -46358,6 +46364,66 @@
   "web.admin.common.connectionCheck.result.textAIFailed": {
     "source": "4b9d258e8ae55215",
     "value": "aff0fdc71f70f483",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
+  "web.admin.common.connectionCheck.result.textAIForbidden": {
+    "source": "54ec38982c7340a4",
+    "value": "5986dc8a54bc37c4",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
+  "web.admin.common.connectionCheck.result.textAINotFound": {
+    "source": "fadf57d2fef3fc63",
+    "value": "0ad2d538d9858913",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
+  "web.admin.common.connectionCheck.result.textAIPlanIneligible": {
+    "source": "9b69618a349e9cde",
+    "value": "1c56894abe99c0c4",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
+  "web.admin.common.connectionCheck.result.textAIRateLimited": {
+    "source": "55082bd7413c6079",
+    "value": "578c8a1bb6e72401",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
+  "web.admin.common.connectionCheck.result.textAIRejected": {
+    "source": "d99cd919eff41f75",
+    "value": "9f1a08e536a4afcb",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
+  "web.admin.common.connectionCheck.result.textAITimedOut": {
+    "source": "2fe08fafa00cf457",
+    "value": "a56a5558459a24e5",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
+  "web.admin.common.connectionCheck.result.textAIUnauthorized": {
+    "source": "025fb51eba2983f3",
+    "value": "364f885c6221b7e5",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
+  "web.admin.common.connectionCheck.result.textAIUnavailable": {
+    "source": "31df66b97d5ee9fc",
+    "value": "1ab51e216f113084",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
+  "web.admin.common.connectionCheck.result.textAIUnreachable": {
+    "source": "67948ef2066f4e35",
+    "value": "4fdcca5c7ae769a4",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
+  "web.admin.common.connectionCheck.result.textAIUnusableResponse": {
+    "source": "bced84cf73b6d304",
+    "value": "eb14159bd2e7682b",
     "by": "opus",
     "model": "claude-opus-5-5"
   },
