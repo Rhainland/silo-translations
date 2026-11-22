@@ -65327,9 +65327,9 @@
       "web"
     ]
   },
-  "web.admin.common.connectionCheck.result.textAIForbidden": "Text AI access was denied. Check that the API key may use this model.",
+  "web.admin.common.connectionCheck.result.textAIForbidden": "Text AI access was denied. Check that the API key or ChatGPT account may use this model.",
   "@web.admin.common.connectionCheck.result.textAIForbidden": {
-    "description": "Web admin, settings pages, connection check result sent by the server: the text AI provider check failed because the provider denied access to the model for this API key.",
+    "description": "Web admin, settings pages, connection check result sent by the server: the text AI provider check failed because the provider denied access to the model for this API key or ChatGPT account.",
     "x-platforms": [
       "web"
     ]
@@ -65351,6 +65351,13 @@
   "web.admin.common.connectionCheck.result.textAIRateLimited": "Text AI provider is rate limiting requests. Try again later.",
   "@web.admin.common.connectionCheck.result.textAIRateLimited": {
     "description": "Web admin, settings pages, connection check result sent by the server: the text AI provider check failed because the provider is limiting how many requests Silo can send.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.common.connectionCheck.result.textAIRefused": "Text AI provider refused the check request. Check the model, the reasoning level, and the account's usage settings. The server log has the provider's error.",
+  "@web.admin.common.connectionCheck.result.textAIRefused": {
+    "description": "Web admin, settings pages, connection check result sent by the server: the text AI provider answered the check request but reported in its response that it refused it, so there is no status code to show.",
     "x-platforms": [
       "web"
     ]
