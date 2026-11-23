@@ -79246,6 +79246,36 @@
     "by": "opus",
     "model": "claude-opus-5-5"
   },
+  "web.admin.settings.signIn.page.passwordMinLengthDescription": {
+    "source": "740d202fbdb09729",
+    "value": "95de9b990db908a1",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
+  "web.admin.settings.signIn.page.passwordMinLengthLabel": {
+    "source": "89ed85e973b27f12",
+    "value": "7d09cf83eac2e0c2",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
+  "web.admin.settings.signIn.page.passwordRequireSpecialDescription": {
+    "source": "453ea64978f3c452",
+    "value": "94ef5d549a215b79",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
+  "web.admin.settings.signIn.page.passwordRequireSpecialLabel": {
+    "source": "c4a08367c29d17c7",
+    "value": "eeac12b3170ecf5a",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
+  "web.admin.settings.signIn.page.passwordRequireUppercaseLabel": {
+    "source": "7a83ea0ec0193d3b",
+    "value": "c707988e69c59ee4",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
   "web.admin.settings.signIn.page.passwordResetDescription": {
     "source": "5730c21d8aaa4e09",
     "value": "b34f39499c4eb1b8",
@@ -87106,6 +87136,12 @@
     "by": "opus",
     "model": "claude-opus-5-5"
   },
+  "web.admin.users.setPasswordDialog.shareHint": {
+    "source": "dc0c7ca856ecd5f6",
+    "value": "5d005b8df576f768",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
   "web.admin.users.setPasswordDialog.submit": {
     "source": "6e1393c3ddc6bf89",
     "value": "6a7ac67685278a49",
@@ -88498,9 +88534,27 @@
     "by": "opus",
     "model": "claude-opus-5-5"
   },
+  "web.auth.newPassword.minLengthHint": {
+    "source": "8b323be1c7a02041",
+    "value": "970965b32ca685ee",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
   "web.auth.newPassword.mismatch": {
     "source": "e7ea6f15a15509e8",
     "value": "0a7ac070077a4f5a",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
+  "web.auth.newPassword.needsSpecial": {
+    "source": "9255a6715e2901d6",
+    "value": "581037cfaaeb3d6f",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
+  "web.auth.newPassword.needsUppercase": {
+    "source": "4e4a5a6bdd95d85c",
+    "value": "f41452a03838a843",
     "by": "opus",
     "model": "claude-opus-5-5"
   },
@@ -88513,6 +88567,12 @@
   "web.auth.newPassword.tooShort": {
     "source": "4bec74c02c7a2e0b",
     "value": "fc15bdff0d6c45e7",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
+  "web.auth.newPassword.tooShortMinimum": {
+    "source": "74b3011832414d52",
+    "value": "ea652f0d21385fa8",
     "by": "opus",
     "model": "claude-opus-5-5"
   },

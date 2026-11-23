@@ -110910,6 +110910,41 @@
       "web"
     ]
   },
+  "web.admin.settings.signIn.page.passwordMinLengthDescription": "From 8 to 72 characters. Rules apply when someone chooses or changes a password; passwords already set keep working.",
+  "@web.admin.settings.signIn.page.passwordMinLengthDescription": {
+    "description": "Web admin, Sign-in settings page: description under the Minimum password length field. Also covers the capital-letter and special-character switches below it: existing passwords are not affected.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.settings.signIn.page.passwordMinLengthLabel": "Minimum password length",
+  "@web.admin.settings.signIn.page.passwordMinLengthLabel": {
+    "description": "Web admin, Sign-in settings page: label of the number field that sets the fewest characters a new Silo password may have.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.settings.signIn.page.passwordRequireSpecialDescription": "Any punctuation mark or symbol, such as ! or #. Letters, digits and spaces don’t count.",
+  "@web.admin.settings.signIn.page.passwordRequireSpecialDescription": {
+    "description": "Web admin, Sign-in settings page: description under the Require a special character switch. Keep the examples ! and # as they are.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.settings.signIn.page.passwordRequireSpecialLabel": "Require a special character",
+  "@web.admin.settings.signIn.page.passwordRequireSpecialLabel": {
+    "description": "Web admin, Sign-in settings page: label of the switch that makes new Silo passwords need at least one punctuation mark or symbol.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.settings.signIn.page.passwordRequireUppercaseLabel": "Require a capital letter",
+  "@web.admin.settings.signIn.page.passwordRequireUppercaseLabel": {
+    "description": "Web admin, Sign-in settings page: label of the switch that makes new Silo passwords need at least one capital (uppercase) letter.",
+    "x-platforms": [
+      "web"
+    ]
+  },
   "web.admin.settings.signIn.page.passwordResetDescription": "Adds “Forgot password?” to the sign-in page, so people can get a reset link by email. Needs email and the public URL.",
   "@web.admin.settings.signIn.page.passwordResetDescription": {
     "description": "Web admin, Sign-in settings page: description under the Self-service password reset switch. “Forgot password?” is the link text on the login page.",
@@ -121636,6 +121671,18 @@
       "web"
     ]
   },
+  "web.admin.users.setPasswordDialog.shareHint": "Share it with {username} yourself.",
+  "@web.admin.users.setPasswordDialog.shareHint": {
+    "description": "Web: admin set password dialog (for an account without password sign-in): sentence after the password rules under the password field, reminding the admin to give the new password to the account's owner. {username}: the account's username.",
+    "placeholders": {
+      "username": {
+        "type": "String"
+      }
+    },
+    "x-platforms": [
+      "web"
+    ]
+  },
   "web.admin.users.setPasswordDialog.submit": "Set password",
   "@web.admin.users.setPasswordDialog.submit": {
     "description": "Web: admin set password dialog (for an account without password sign-in): submit button.",
@@ -123641,9 +123688,38 @@
       "web"
     ]
   },
+  "web.auth.newPassword.minLengthHint": "{minimum, plural, one {At least {minimum_text} character.} other {At least {minimum_text} characters.}}",
+  "@web.auth.newPassword.minLengthHint": {
+    "description": "Web sign-up, invitation, password reset and choose-password pages: hint under a new password field giving the server's minimum length; the policy's other rules (web.auth.newPassword.needsUppercase, needsSpecial) may follow it. {minimum}: the shortest allowed password, in characters. {minimum_text}: the same number, as written.",
+    "placeholders": {
+      "minimum": {
+        "type": "int"
+      },
+      "minimum_text": {
+        "type": "String"
+      }
+    },
+    "x-platforms": [
+      "web"
+    ]
+  },
   "web.auth.newPassword.mismatch": "Passwords do not match.",
   "@web.auth.newPassword.mismatch": {
     "description": "Web choose-password, password-reset and admin set-password forms: error when the two new-password fields differ.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.auth.newPassword.needsSpecial": "Include at least one special character, such as ! or #.",
+  "@web.auth.newPassword.needsSpecial": {
+    "description": "Web new-password forms (choose password, password reset, signup, invitation, admin create user, admin set and reset password, Settings → Account): error, and a hint under the new password field, when the server's password policy requires a special character: any punctuation mark or symbol. Keep the examples ! and # as they are.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.auth.newPassword.needsUppercase": "Include at least one capital letter.",
+  "@web.auth.newPassword.needsUppercase": {
+    "description": "Web new-password forms (choose password, password reset, signup, invitation, admin create user, admin set and reset password, Settings → Account): error, and a hint under the new password field, when the server's password policy requires a capital (uppercase) letter.",
     "x-platforms": [
       "web"
     ]
@@ -123658,6 +123734,21 @@
   "web.auth.newPassword.tooShort": "Use at least 8 characters.",
   "@web.auth.newPassword.tooShort": {
     "description": "Web choose-password, password-reset and admin set-password forms: error when the new password is shorter than 8 characters.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.auth.newPassword.tooShortMinimum": "{minimum, plural, one {Use at least {minimum_text} character.} other {Use at least {minimum_text} characters.}}",
+  "@web.auth.newPassword.tooShortMinimum": {
+    "description": "Web new-password forms (choose password, password reset, signup, invitation, first-run setup, admin create user, admin set and reset password, Settings → Account): error when the new password is shorter than the server's minimum length. {minimum}: the shortest allowed password, in characters. {minimum_text}: the same number, as written.",
+    "placeholders": {
+      "minimum": {
+        "type": "int"
+      },
+      "minimum_text": {
+        "type": "String"
+      }
+    },
     "x-platforms": [
       "web"
     ]
