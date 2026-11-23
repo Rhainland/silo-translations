@@ -65447,6 +65447,18 @@
       "web"
     ]
   },
+  "web.admin.common.catalogImportSource.exportJob": "Export job {id}",
+  "@web.admin.common.catalogImportSource.exportJob": {
+    "description": "Web admin, Maintenance page (recent catalog imports and Job History): source of a catalog import that reads a catalog export made on this server. {id}: the export job's ID, a long number.",
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    },
+    "x-platforms": [
+      "web"
+    ]
+  },
   "web.admin.common.connectionCheck.check": "Check Connection",
   "@web.admin.common.connectionCheck.check": {
     "description": "Web admin, settings pages, connection check: default label of the button that tests the connection with the form's current values. Title case.",
