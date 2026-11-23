@@ -121671,6 +121671,18 @@
       "web"
     ]
   },
+  "web.admin.users.setPasswordDialog.shareHint": "Share it with {username} yourself.",
+  "@web.admin.users.setPasswordDialog.shareHint": {
+    "description": "Web: admin set password dialog (for an account without password sign-in): sentence after the password rules under the password field, reminding the admin to give the new password to the account's owner. {username}: the account's username.",
+    "placeholders": {
+      "username": {
+        "type": "String"
+      }
+    },
+    "x-platforms": [
+      "web"
+    ]
+  },
   "web.admin.users.setPasswordDialog.submit": "Set password",
   "@web.admin.users.setPasswordDialog.submit": {
     "description": "Web: admin set password dialog (for an account without password sign-in): submit button.",
