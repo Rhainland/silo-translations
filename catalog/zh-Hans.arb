@@ -7746,6 +7746,7 @@
   "web.admin.common.brandingAssets.markGuidance": "正方形图片，{px}×{px}或更大。其他比例会居中裁剪为正方形，然后以WebP格式按{px}×{px}存储，较小的图片会被放大。PNG、JPEG或WebP，最大{size}。",
   "web.admin.common.brandingAssets.themeGradientCaption": "主题渐变",
   "web.admin.common.brandingAssets.wordmarkGuidance": "宽幅图片，宽度不小于{px}px。以WebP格式存储，宽度上限为{px}px；较窄的图片不会放大。PNG、JPEG或WebP，最大{size}。",
+  "web.admin.common.catalogImportSource.exportJob": "导出作业{id}",
   "web.admin.common.connectionCheck.check": "检查连接",
   "web.admin.common.connectionCheck.checking": "正在检查……",
   "web.admin.common.connectionCheck.failed": "连接检查失败。",

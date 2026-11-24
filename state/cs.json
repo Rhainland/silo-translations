@@ -46475,6 +46475,12 @@
     "by": "opus",
     "model": "claude-opus-5-5"
   },
+  "web.admin.common.catalogImportSource.exportJob": {
+    "source": "a95cfcd20e2a934e",
+    "value": "1879f22723c259bf",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
   "web.admin.common.connectionCheck.check": {
     "source": "f98e8ca5008f271a",
     "value": "a19d5cac687c714c",

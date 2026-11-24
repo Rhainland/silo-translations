@@ -7746,6 +7746,7 @@
   "web.admin.common.brandingAssets.markGuidance": "Štvorcový obrázok s rozmermi {px}×{px} alebo väčší. Iné rozmery sa orežú od stredu na štvorec a potom sa uložia ako WebP s rozmermi presne {px}×{px} – menšie obrázky sa zväčšia. PNG, JPEG alebo WebP do {size}.",
   "web.admin.common.brandingAssets.themeGradientCaption": "Prechod motívu",
   "web.admin.common.brandingAssets.wordmarkGuidance": "Široký obrázok so šírkou aspoň {px} px. Uloží sa ako WebP so šírkou najviac {px} px; užšie obrázky sa nezväčšujú. PNG, JPEG alebo WebP do {size}.",
+  "web.admin.common.catalogImportSource.exportJob": "Úloha exportu {id}",
   "web.admin.common.connectionCheck.check": "Skontrolovať pripojenie",
   "web.admin.common.connectionCheck.checking": "Kontroluje sa…",
   "web.admin.common.connectionCheck.failed": "Kontrola pripojenia zlyhala.",

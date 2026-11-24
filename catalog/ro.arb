@@ -7746,6 +7746,7 @@
   "web.admin.common.brandingAssets.markGuidance": "Imagine pătrată, de cel puțin {px}×{px}. Orice altă imagine se decupează central la un pătrat, apoi se stochează ca WebP la exact {px}×{px} — imaginile mai mici sunt mărite. PNG, JPEG sau WebP de până la {size}.",
   "web.admin.common.brandingAssets.themeGradientCaption": "Gradientul temei",
   "web.admin.common.brandingAssets.wordmarkGuidance": "Imagine lată, de cel puțin {px} px lățime. Se stochează ca WebP cu lățimea limitată la {px} px; imaginile mai înguste nu sunt mărite. PNG, JPEG sau WebP de până la {size}.",
+  "web.admin.common.catalogImportSource.exportJob": "Jobul de export {id}",
   "web.admin.common.connectionCheck.check": "Verificați conexiunea",
   "web.admin.common.connectionCheck.checking": "Se verifică…",
   "web.admin.common.connectionCheck.failed": "Verificarea conexiunii nu a reușit.",

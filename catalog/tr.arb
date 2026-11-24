@@ -7746,6 +7746,7 @@
   "web.admin.common.brandingAssets.markGuidance": "{px}×{px} veya daha büyük kare görsel. Diğer boyutlar kare olacak şekilde ortadan kırpılır, ardından tam olarak {px}×{px} boyutunda WebP olarak saklanır — daha küçük görseller büyütülür. En fazla {size} boyutunda PNG, JPEG veya WebP.",
   "web.admin.common.brandingAssets.themeGradientCaption": "Tema gradyanı",
   "web.admin.common.brandingAssets.wordmarkGuidance": "{px} px veya daha geniş, yatay görsel. En fazla {px} px genişlikte WebP olarak saklanır; daha dar görseller büyütülmez. En fazla {size} boyutunda PNG, JPEG veya WebP.",
+  "web.admin.common.catalogImportSource.exportJob": "Dışa aktarma işi {id}",
   "web.admin.common.connectionCheck.check": "Bağlantıyı kontrol et",
   "web.admin.common.connectionCheck.checking": "Kontrol ediliyor…",
   "web.admin.common.connectionCheck.failed": "Bağlantı kontrolü başarısız oldu.",

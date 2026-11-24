@@ -7746,6 +7746,7 @@
   "web.admin.common.brandingAssets.markGuidance": "Τετράγωνη εικόνα, {px}×{px} ή μεγαλύτερη. Οτιδήποτε άλλο περικόπτεται στο κέντρο σε τετράγωνο και αποθηκεύεται ως WebP σε ακριβώς {px}×{px} – οι μικρότερες εικόνες μεγεθύνονται. PNG, JPEG ή WebP έως {size}.",
   "web.admin.common.brandingAssets.themeGradientCaption": "Διαβάθμιση θέματος",
   "web.admin.common.brandingAssets.wordmarkGuidance": "Φαρδιά εικόνα, πλάτους {px}px ή περισσότερο. Αποθηκεύεται ως WebP με μέγιστο πλάτος {px}px. Οι στενότερες εικόνες δεν μεγεθύνονται. PNG, JPEG ή WebP έως {size}.",
+  "web.admin.common.catalogImportSource.exportJob": "Διεργασία εξαγωγής {id}",
   "web.admin.common.connectionCheck.check": "Έλεγχος σύνδεσης",
   "web.admin.common.connectionCheck.checking": "Έλεγχος…",
   "web.admin.common.connectionCheck.failed": "Ο έλεγχος σύνδεσης απέτυχε.",

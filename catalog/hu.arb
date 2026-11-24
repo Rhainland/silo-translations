@@ -7746,6 +7746,7 @@
   "web.admin.common.brandingAssets.markGuidance": "Négyzetes kép, legalább {px}×{px}. Minden más középre vágva négyzetté alakul, majd WebP formátumban, pontosan {px}×{px} méretben tárolódik — a kisebb képek felnagyítódnak. PNG, JPEG vagy WebP, legfeljebb {size}.",
   "web.admin.common.brandingAssets.themeGradientCaption": "Téma színátmenete",
   "web.admin.common.brandingAssets.wordmarkGuidance": "Széles kép, legalább {px} px széles. WebP formátumban, legfeljebb {px} px szélességben tárolódik; a keskenyebb képek nem lesznek felnagyítva. PNG, JPEG vagy WebP, legfeljebb {size}.",
+  "web.admin.common.catalogImportSource.exportJob": "Exportálási művelet: {id}",
   "web.admin.common.connectionCheck.check": "Kapcsolat ellenőrzése",
   "web.admin.common.connectionCheck.checking": "Ellenőrzés…",
   "web.admin.common.connectionCheck.failed": "A kapcsolat ellenőrzése sikertelen.",

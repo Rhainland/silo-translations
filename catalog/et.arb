@@ -7746,6 +7746,7 @@
   "web.admin.common.brandingAssets.markGuidance": "Ruudukujuline pilt, {px}×{px} või suurem. Muu kujuga pilt kärbitakse keskelt ruuduks ja salvestatakse WebP-vormingus täpselt mõõtmetega {px}×{px} – väiksemat pilti suurendatakse. PNG, JPEG või WebP, kuni {size}.",
   "web.admin.common.brandingAssets.themeGradientCaption": "Teema värviüleminek",
   "web.admin.common.brandingAssets.wordmarkGuidance": "Lai pilt, laius vähemalt {px} px. Salvestatakse WebP-vormingus, laius kuni {px} px; kitsamaid pilte ei suurendata. PNG, JPEG või WebP, kuni {size}.",
+  "web.admin.common.catalogImportSource.exportJob": "Eksporditöö {id}",
   "web.admin.common.connectionCheck.check": "Kontrolli ühendust",
   "web.admin.common.connectionCheck.checking": "Kontrollimine…",
   "web.admin.common.connectionCheck.failed": "Ühenduse kontrollimine ebaõnnestus.",

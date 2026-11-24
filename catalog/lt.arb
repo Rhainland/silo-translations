@@ -7746,6 +7746,7 @@
   "web.admin.common.brandingAssets.markGuidance": "Kvadratinis paveikslėlis, {px}×{px} ar didesnis. Kitokie apkerpami per centrą iki kvadrato ir saugomi kaip WebP, lygiai {px}×{px} – mažesni paveikslėliai padidinami. PNG, JPEG arba WebP iki {size}.",
   "web.admin.common.brandingAssets.themeGradientCaption": "Temos gradientas",
   "web.admin.common.brandingAssets.wordmarkGuidance": "Platus paveikslėlis, {px} px pločio ar platesnis. Saugoma kaip WebP, ne platesnis nei {px} px; siauresni paveikslėliai nedidinami. PNG, JPEG arba WebP iki {size}.",
+  "web.admin.common.catalogImportSource.exportJob": "Eksportavimo darbas {id}",
   "web.admin.common.connectionCheck.check": "Tikrinti ryšį",
   "web.admin.common.connectionCheck.checking": "Tikrinama…",
   "web.admin.common.connectionCheck.failed": "Nepavyko patikrinti ryšio.",

@@ -7746,6 +7746,7 @@
   "web.admin.common.brandingAssets.markGuidance": "Neliön muotoinen kuva, vähintään {px}×{px}. Muut muodot rajataan keskeltä neliöksi ja tallennetaan WebP-muodossa tarkalleen kokoon {px}×{px} – pienemmät kuvat suurennetaan. PNG, JPEG tai WebP, enintään {size}.",
   "web.admin.common.brandingAssets.themeGradientCaption": "Teeman liukuväri",
   "web.admin.common.brandingAssets.wordmarkGuidance": "Leveä kuva, vähintään {px} px leveä. Tallennetaan WebP-muodossa enintään {px} px leveänä; kapeampia kuvia ei suurenneta. PNG, JPEG tai WebP, enintään {size}.",
+  "web.admin.common.catalogImportSource.exportJob": "Vientityö {id}",
   "web.admin.common.connectionCheck.check": "Tarkista yhteys",
   "web.admin.common.connectionCheck.checking": "Tarkistetaan…",
   "web.admin.common.connectionCheck.failed": "Yhteyden tarkistus epäonnistui.",

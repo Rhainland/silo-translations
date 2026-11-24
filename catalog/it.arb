@@ -7746,6 +7746,7 @@
   "web.admin.common.brandingAssets.markGuidance": "Immagine quadrata, {px}×{px} o più grande. Le altre proporzioni vengono ritagliate al centro in un quadrato, poi salvate in WebP esattamente a {px}×{px}: le immagini più piccole vengono ingrandite. PNG, JPEG o WebP fino a {size}.",
   "web.admin.common.brandingAssets.themeGradientCaption": "Sfumatura del tema",
   "web.admin.common.brandingAssets.wordmarkGuidance": "Immagine panoramica, larga almeno {px} px. Salvata in WebP con larghezza massima di {px} px; le immagini più strette non vengono ingrandite. PNG, JPEG o WebP fino a {size}.",
+  "web.admin.common.catalogImportSource.exportJob": "Processo di esportazione {id}",
   "web.admin.common.connectionCheck.check": "Verifica connessione",
   "web.admin.common.connectionCheck.checking": "Verifica…",
   "web.admin.common.connectionCheck.failed": "Verifica della connessione non riuscita.",

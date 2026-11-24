@@ -7746,6 +7746,7 @@
   "web.admin.common.brandingAssets.markGuidance": "Квадратне зображення, {px}×{px} або більше. Інші пропорції обрізаються по центру до квадрата, а потім зберігаються у WebP розміром рівно {px}×{px} – менші зображення збільшуються. PNG, JPEG або WebP до {size}.",
   "web.admin.common.brandingAssets.themeGradientCaption": "Градієнт теми",
   "web.admin.common.brandingAssets.wordmarkGuidance": "Широке зображення, від {px} пікс. завширшки. Зберігається у WebP завширшки не більше {px} пікс.; вужчі зображення не збільшуються. PNG, JPEG або WebP до {size}.",
+  "web.admin.common.catalogImportSource.exportJob": "Операція експорту {id}",
   "web.admin.common.connectionCheck.check": "Перевірити з’єднання",
   "web.admin.common.connectionCheck.checking": "Перевірка…",
   "web.admin.common.connectionCheck.failed": "Не вдалося перевірити з’єднання.",

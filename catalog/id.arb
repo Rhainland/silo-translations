@@ -7746,6 +7746,7 @@
   "web.admin.common.brandingAssets.markGuidance": "Gambar persegi, {px}×{px} atau lebih besar. Gambar lain dipotong di tengah menjadi persegi, lalu disimpan sebagai WebP berukuran tepat {px}×{px} — gambar yang lebih kecil diperbesar. PNG, JPEG, atau WebP hingga {size}.",
   "web.admin.common.brandingAssets.themeGradientCaption": "Gradien tema",
   "web.admin.common.brandingAssets.wordmarkGuidance": "Gambar lebar, {px} px atau lebih lebar. Disimpan sebagai WebP dengan lebar maksimum {px} px; gambar yang lebih sempit tidak diperbesar. PNG, JPEG, atau WebP hingga {size}.",
+  "web.admin.common.catalogImportSource.exportJob": "Pekerjaan ekspor {id}",
   "web.admin.common.connectionCheck.check": "Periksa Koneksi",
   "web.admin.common.connectionCheck.checking": "Memeriksa…",
   "web.admin.common.connectionCheck.failed": "Pemeriksaan koneksi gagal.",

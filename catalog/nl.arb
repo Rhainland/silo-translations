@@ -7746,6 +7746,7 @@
   "web.admin.common.brandingAssets.markGuidance": "Vierkante afbeelding, {px}×{px} of groter. Andere formaten worden vanuit het midden vierkant bijgesneden en daarna opgeslagen als WebP van precies {px}×{px} — kleinere afbeeldingen worden vergroot. PNG, JPEG of WebP tot {size}.",
   "web.admin.common.brandingAssets.themeGradientCaption": "Themaverloop",
   "web.admin.common.brandingAssets.wordmarkGuidance": "Brede afbeelding, {px} px of breder. Opgeslagen als WebP van maximaal {px} px breed; smallere afbeeldingen worden niet vergroot. PNG, JPEG of WebP tot {size}.",
+  "web.admin.common.catalogImportSource.exportJob": "Exportjob {id}",
   "web.admin.common.connectionCheck.check": "Verbinding controleren",
   "web.admin.common.connectionCheck.checking": "Controleren…",
   "web.admin.common.connectionCheck.failed": "Verbindingscontrole mislukt.",

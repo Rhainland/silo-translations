@@ -7746,6 +7746,7 @@
   "web.admin.common.brandingAssets.markGuidance": "{px}×{px} 이상의 정사각형 이미지를 사용하세요. 정사각형이 아니면 가운데를 기준으로 잘린 뒤 정확히 {px}×{px} 크기의 WebP로 저장되고, 더 작은 이미지는 확대돼요. {size} 이하의 PNG, JPEG 또는 WebP 파일을 올릴 수 있어요.",
   "web.admin.common.brandingAssets.themeGradientCaption": "테마 그라데이션",
   "web.admin.common.brandingAssets.wordmarkGuidance": "너비 {px}px 이상의 가로로 긴 이미지를 사용하세요. 최대 너비 {px}px의 WebP로 저장되며, 더 좁은 이미지는 확대하지 않아요. {size} 이하의 PNG, JPEG 또는 WebP 파일을 올릴 수 있어요.",
+  "web.admin.common.catalogImportSource.exportJob": "내보내기 작업 {id}",
   "web.admin.common.connectionCheck.check": "연결 확인",
   "web.admin.common.connectionCheck.checking": "확인 중…",
   "web.admin.common.connectionCheck.failed": "연결을 확인하지 못했어요.",

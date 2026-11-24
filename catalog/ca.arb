@@ -7746,6 +7746,7 @@
   "web.admin.common.brandingAssets.markGuidance": "Imatge quadrada de {px}×{px} o més gran. Qualsevol altra mida es retalla al centre en un quadrat i es desa com a WebP a exactament {px}×{px}; les imatges més petites s’amplien. PNG, JPEG o WebP de fins a {size}.",
   "web.admin.common.brandingAssets.themeGradientCaption": "Degradat del tema",
   "web.admin.common.brandingAssets.wordmarkGuidance": "Imatge panoràmica de {px}px d’amplada o més. Es desa com a WebP amb un màxim de {px}px d’amplada; les imatges més estretes no s’amplien. PNG, JPEG o WebP de fins a {size}.",
+  "web.admin.common.catalogImportSource.exportJob": "Treball d’exportació {id}",
   "web.admin.common.connectionCheck.check": "Comprova la connexió",
   "web.admin.common.connectionCheck.checking": "S’està comprovant…",
   "web.admin.common.connectionCheck.failed": "No s’ha pogut comprovar la connexió.",

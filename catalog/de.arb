@@ -7746,6 +7746,7 @@
   "web.admin.common.brandingAssets.markGuidance": "Quadratisches Bild, {px}×{px} oder größer. Andere Formate werden mittig quadratisch zugeschnitten und dann als WebP in genau {px}×{px} gespeichert – kleinere Bilder werden hochskaliert. PNG, JPEG oder WebP bis {size}.",
   "web.admin.common.brandingAssets.themeGradientCaption": "Design-Verlauf",
   "web.admin.common.brandingAssets.wordmarkGuidance": "Breites Bild, {px} px oder breiter. Wird als WebP mit maximal {px} px Breite gespeichert; schmalere Bilder werden nicht vergrößert. PNG, JPEG oder WebP bis {size}.",
+  "web.admin.common.catalogImportSource.exportJob": "Exportauftrag {id}",
   "web.admin.common.connectionCheck.check": "Verbindung prüfen",
   "web.admin.common.connectionCheck.checking": "Wird geprüft…",
   "web.admin.common.connectionCheck.failed": "Verbindungsprüfung fehlgeschlagen.",

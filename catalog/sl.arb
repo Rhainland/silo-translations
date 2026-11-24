@@ -7746,6 +7746,7 @@
   "web.admin.common.brandingAssets.markGuidance": "Kvadratna slika, {px} × {px} ali večja. Vse drugo se obreže na sredinski kvadrat in shrani kot WebP v velikosti natanko {px} × {px} – manjše slike se povečajo. PNG, JPEG ali WebP do {size}.",
   "web.admin.common.brandingAssets.themeGradientCaption": "Preliv teme",
   "web.admin.common.brandingAssets.wordmarkGuidance": "Široka slika, široka {px} px ali več. Shrani se kot WebP, širok največ {px} px; ožje slike se ne povečajo. PNG, JPEG ali WebP do {size}.",
+  "web.admin.common.catalogImportSource.exportJob": "Posel izvoza {id}",
   "web.admin.common.connectionCheck.check": "Preveri povezavo",
   "web.admin.common.connectionCheck.checking": "Preverjanje …",
   "web.admin.common.connectionCheck.failed": "Preverjanje povezave ni uspelo.",

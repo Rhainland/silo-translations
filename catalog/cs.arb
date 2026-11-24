@@ -7746,6 +7746,7 @@
   "web.admin.common.brandingAssets.markGuidance": "Čtvercová grafika, {px}×{px} nebo větší. Jiný poměr stran se ořízne od středu na čtverec a uloží jako WebP přesně v rozměru {px}×{px} — menší grafika se zvětší. PNG, JPEG nebo WebP do {size}.",
   "web.admin.common.brandingAssets.themeGradientCaption": "Přechod motivu",
   "web.admin.common.brandingAssets.wordmarkGuidance": "Široká grafika, šířka {px} px nebo více. Uloží se jako WebP se šířkou nejvýše {px} px; užší obrázky se nezvětšují. PNG, JPEG nebo WebP do {size}.",
+  "web.admin.common.catalogImportSource.exportJob": "Úloha exportu {id}",
   "web.admin.common.connectionCheck.check": "Ověřit připojení",
   "web.admin.common.connectionCheck.checking": "Ověřování…",
   "web.admin.common.connectionCheck.failed": "Ověření připojení selhalo.",
