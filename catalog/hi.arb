@@ -7750,6 +7750,7 @@
   "web.admin.common.brandingAssets.markGuidance": "स्क्वेयर आर्टवर्क, {px}×{px} या उससे बड़ा। बाकी सबको बीच से स्क्वेयर में क्रॉप किया जाता है, फिर ठीक {px}×{px} की WebP के रूप में स्टोर किया जाता है — छोटे आर्टवर्क को बड़ा किया जाता है। {size} तक की PNG, JPEG या WebP फ़ाइल।",
   "web.admin.common.brandingAssets.themeGradientCaption": "थीम ग्रेडिएंट",
   "web.admin.common.brandingAssets.wordmarkGuidance": "चौड़ा आर्टवर्क, {px}px या उससे चौड़ा। अधिकतम {px}px चौड़ाई वाली WebP के रूप में स्टोर किया जाता है; कम चौड़ी इमेज बड़ी नहीं की जातीं। {size} तक की PNG, JPEG या WebP फ़ाइल।",
+  "web.admin.common.catalogImportSource.exportJob": "एक्सपोर्ट जॉब {id}",
   "web.admin.common.connectionCheck.check": "कनेक्शन जाँचें",
   "web.admin.common.connectionCheck.checking": "जाँच हो रही है…",
   "web.admin.common.connectionCheck.failed": "कनेक्शन की जाँच विफल रही।",

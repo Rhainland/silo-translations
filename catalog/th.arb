@@ -7750,6 +7750,7 @@
   "web.admin.common.brandingAssets.markGuidance": "ภาพทรงสี่เหลี่ยมจัตุรัส ขนาด {px}×{px} ขึ้นไป ภาพสัดส่วนอื่นจะถูกครอบตัดตรงกลางเป็นสี่เหลี่ยมจัตุรัส แล้วจัดเก็บเป็น WebP ขนาด {px}×{px} พอดี ภาพที่เล็กกว่าจะขยายขึ้น PNG JPEG หรือ WebP ขนาดไม่เกิน {size}",
   "web.admin.common.brandingAssets.themeGradientCaption": "ไล่สีของธีม",
   "web.admin.common.brandingAssets.wordmarkGuidance": "ภาพแนวกว้าง กว้าง {px}px ขึ้นไป จัดเก็บเป็น WebP กว้างไม่เกิน {px}px ภาพที่แคบกว่าจะไม่ขยาย PNG JPEG หรือ WebP ขนาดไม่เกิน {size}",
+  "web.admin.common.catalogImportSource.exportJob": "งานส่งออก {id}",
   "web.admin.common.connectionCheck.check": "ตรวจสอบการเชื่อมต่อ",
   "web.admin.common.connectionCheck.checking": "กำลังตรวจสอบ…",
   "web.admin.common.connectionCheck.failed": "ตรวจสอบการเชื่อมต่อไม่สำเร็จ",

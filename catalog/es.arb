@@ -7750,6 +7750,7 @@
   "web.admin.common.brandingAssets.markGuidance": "Imagen cuadrada de {px}×{px} o más. Cualquier otra se recorta al centro en forma cuadrada y se guarda como WebP de exactamente {px}×{px}; las imágenes más pequeñas se amplían. PNG, JPEG o WebP de hasta {size}.",
   "web.admin.common.brandingAssets.themeGradientCaption": "Degradado del tema",
   "web.admin.common.brandingAssets.wordmarkGuidance": "Imagen panorámica de {px}px de ancho o más. Se guarda como WebP con un máximo de {px}px de ancho; las imágenes más estrechas no se amplían. PNG, JPEG o WebP de hasta {size}.",
+  "web.admin.common.catalogImportSource.exportJob": "Trabajo de exportación {id}",
   "web.admin.common.connectionCheck.check": "Comprobar conexión",
   "web.admin.common.connectionCheck.checking": "Comprobando...",
   "web.admin.common.connectionCheck.failed": "No se pudo comprobar la conexión.",

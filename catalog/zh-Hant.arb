@@ -7750,6 +7750,7 @@
   "web.admin.common.brandingAssets.markGuidance": "正方形圖片，{px}×{px} 以上。其他比例會從中央裁切為正方形，再儲存為剛好 {px}×{px} 的 WebP；較小的圖片會放大。PNG、JPEG 或 WebP，最大 {size}。",
   "web.admin.common.brandingAssets.themeGradientCaption": "主題漸層",
   "web.admin.common.brandingAssets.wordmarkGuidance": "寬幅圖片，寬度 {px}px 以上。會儲存為寬度上限 {px}px 的 WebP；較窄的圖片不會放大。PNG、JPEG 或 WebP，最大 {size}。",
+  "web.admin.common.catalogImportSource.exportJob": "匯出作業 {id}",
   "web.admin.common.connectionCheck.check": "檢查連線",
   "web.admin.common.connectionCheck.checking": "正在檢查……",
   "web.admin.common.connectionCheck.failed": "連線檢查失敗。",

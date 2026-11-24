@@ -7750,6 +7750,7 @@
   "web.admin.common.brandingAssets.markGuidance": "{px}×{px}以上の正方形の画像。正方形でない画像は中央で正方形にトリミングされ、ちょうど{px}×{px}のWebPとして保存されます。小さい画像は拡大されます。PNG、JPEG、WebP（{size}まで）。",
   "web.admin.common.brandingAssets.themeGradientCaption": "テーマのグラデーション",
   "web.admin.common.brandingAssets.wordmarkGuidance": "幅{px}px以上の横長の画像。幅{px}pxまでのWebPとして保存されます。幅の狭い画像は拡大されません。PNG、JPEG、WebP（{size}まで）。",
+  "web.admin.common.catalogImportSource.exportJob": "エクスポートジョブ{id}",
   "web.admin.common.connectionCheck.check": "接続を確認",
   "web.admin.common.connectionCheck.checking": "確認中…",
   "web.admin.common.connectionCheck.failed": "接続を確認できませんでした。",

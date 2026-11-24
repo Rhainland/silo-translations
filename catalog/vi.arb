@@ -7750,6 +7750,7 @@
   "web.admin.common.brandingAssets.markGuidance": "Ảnh vuông, từ {px}×{px} trở lên. Ảnh không vuông sẽ được cắt giữa thành hình vuông, rồi lưu dưới dạng WebP đúng {px}×{px} — ảnh nhỏ hơn sẽ được phóng to. PNG, JPEG hoặc WebP, tối đa {size}.",
   "web.admin.common.brandingAssets.themeGradientCaption": "Dải màu của chủ đề",
   "web.admin.common.brandingAssets.wordmarkGuidance": "Ảnh ngang, rộng từ {px}px trở lên. Được lưu dưới dạng WebP, rộng tối đa {px}px; ảnh hẹp hơn không được phóng to. PNG, JPEG hoặc WebP, tối đa {size}.",
+  "web.admin.common.catalogImportSource.exportJob": "Công việc xuất {id}",
   "web.admin.common.connectionCheck.check": "Kiểm tra kết nối",
   "web.admin.common.connectionCheck.checking": "Đang kiểm tra…",
   "web.admin.common.connectionCheck.failed": "Kiểm tra kết nối không thành công.",

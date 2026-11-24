@@ -7750,6 +7750,7 @@
   "web.admin.common.brandingAssets.markGuidance": "Image carrée, {px}×{px} ou plus. Toute autre image est recadrée au centre en carré, puis stockée en WebP à exactement {px}×{px} — les images plus petites sont agrandies. PNG, JPEG ou WebP jusqu’à {size}.",
   "web.admin.common.brandingAssets.themeGradientCaption": "Dégradé du thème",
   "web.admin.common.brandingAssets.wordmarkGuidance": "Image large, {px} px de large ou plus. Stockée en WebP, limitée à {px} px de large ; les images plus étroites ne sont pas agrandies. PNG, JPEG ou WebP jusqu’à {size}.",
+  "web.admin.common.catalogImportSource.exportJob": "Travail d’export {id}",
   "web.admin.common.connectionCheck.check": "Vérifier la connexion",
   "web.admin.common.connectionCheck.checking": "Vérification…",
   "web.admin.common.connectionCheck.failed": "Échec de la vérification de la connexion.",

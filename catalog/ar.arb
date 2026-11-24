@@ -7750,6 +7750,7 @@
   "web.admin.common.brandingAssets.markGuidance": "صورة مربعة بمقاس {px}×{px} أو أكبر. أي صورة أخرى تُقص من المنتصف إلى مربع، ثم تُخزَّن بتنسيق WebP بمقاس {px}×{px} تمامًا، وتُكبَّر الصور الأصغر. PNG أو JPEG أو WebP حتى {size}.",
   "web.admin.common.brandingAssets.themeGradientCaption": "تدرّج السمة",
   "web.admin.common.brandingAssets.wordmarkGuidance": "صورة عريضة بعرض {px}px أو أكثر. تُخزَّن بتنسيق WebP بعرض أقصاه {px}px؛ ولا تُكبَّر الصور الأضيق. PNG أو JPEG أو WebP حتى {size}.",
+  "web.admin.common.catalogImportSource.exportJob": "عملية التصدير {id}",
   "web.admin.common.connectionCheck.check": "فحص الاتصال",
   "web.admin.common.connectionCheck.checking": "جارٍ الفحص...",
   "web.admin.common.connectionCheck.failed": "فشل فحص الاتصال.",

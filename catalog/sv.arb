@@ -7750,6 +7750,7 @@
   "web.admin.common.brandingAssets.markGuidance": "Kvadratisk bild, {px}×{px} eller större. Andra format beskärs centrerat till en kvadrat och lagras sedan som WebP med exakt {px}×{px} – mindre bilder skalas upp. PNG, JPEG eller WebP på högst {size}.",
   "web.admin.common.brandingAssets.themeGradientCaption": "Temats gradient",
   "web.admin.common.brandingAssets.wordmarkGuidance": "Bred bild, {px} px eller bredare. Lagras som WebP med högst {px} px bredd; smalare bilder förstoras inte. PNG, JPEG eller WebP på högst {size}.",
+  "web.admin.common.catalogImportSource.exportJob": "Exportjobb {id}",
   "web.admin.common.connectionCheck.check": "Kontrollera anslutning",
   "web.admin.common.connectionCheck.checking": "Kontrollerar…",
   "web.admin.common.connectionCheck.failed": "Anslutningskontrollen misslyckades.",

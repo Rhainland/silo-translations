@@ -7750,6 +7750,7 @@
   "web.admin.common.brandingAssets.markGuidance": "Kvadrātveida attēls, {px}×{px} vai lielāks. Citi attēli tiek apgriezti līdz kvadrātam no centra un pēc tam saglabāti WebP formātā tieši {px}×{px} izmērā – mazāki attēli tiek palielināti. PNG, JPEG vai WebP līdz {size}.",
   "web.admin.common.brandingAssets.themeGradientCaption": "Motīva krāsu pāreja",
   "web.admin.common.brandingAssets.wordmarkGuidance": "Plats attēls, {px} px vai platāks. Tiek saglabāts WebP formātā ar maksimālo platumu {px} px; šaurāki attēli netiek palielināti. PNG, JPEG vai WebP līdz {size}.",
+  "web.admin.common.catalogImportSource.exportJob": "Eksporta darbs {id}",
   "web.admin.common.connectionCheck.check": "Pārbaudīt savienojumu",
   "web.admin.common.connectionCheck.checking": "Notiek pārbaude…",
   "web.admin.common.connectionCheck.failed": "Savienojuma pārbaude neizdevās.",

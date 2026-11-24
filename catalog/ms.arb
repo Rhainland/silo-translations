@@ -7750,6 +7750,7 @@
   "web.admin.common.brandingAssets.markGuidance": "Karya seni segi empat sama, {px}×{px} atau lebih besar. Imej lain dipangkas di tengah menjadi segi empat sama, kemudian disimpan sebagai WebP pada tepat {px}×{px} — imej yang lebih kecil dibesarkan. PNG, JPEG atau WebP sehingga {size}.",
   "web.admin.common.brandingAssets.themeGradientCaption": "Kecerunan tema",
   "web.admin.common.brandingAssets.wordmarkGuidance": "Karya seni lebar, {px}px atau lebih lebar. Disimpan sebagai WebP dengan lebar maksimum {px}px; imej yang lebih sempit tidak dibesarkan. PNG, JPEG atau WebP sehingga {size}.",
+  "web.admin.common.catalogImportSource.exportJob": "Kerja eksport {id}",
   "web.admin.common.connectionCheck.check": "Semak Sambungan",
   "web.admin.common.connectionCheck.checking": "Menyemak…",
   "web.admin.common.connectionCheck.failed": "Semakan sambungan gagal.",

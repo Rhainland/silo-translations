@@ -7750,6 +7750,7 @@
   "web.admin.common.brandingAssets.markGuidance": "Квадратно изображение, {px}×{px} или по-голямо. Всяко друго се изрязва от центъра до квадрат и се съхранява като WebP точно с размер {px}×{px} – по-малките изображения се увеличават. PNG, JPEG или WebP до {size}.",
   "web.admin.common.brandingAssets.themeGradientCaption": "Градиент на темата",
   "web.admin.common.brandingAssets.wordmarkGuidance": "Широко изображение, {px}px или по-широко. Съхранява се като WebP с ширина до {px}px; по-тесните изображения не се увеличават. PNG, JPEG или WebP до {size}.",
+  "web.admin.common.catalogImportSource.exportJob": "Задание за експортиране {id}",
   "web.admin.common.connectionCheck.check": "Проверка на връзката",
   "web.admin.common.connectionCheck.checking": "Проверява се…",
   "web.admin.common.connectionCheck.failed": "Проверката на връзката е неуспешна.",

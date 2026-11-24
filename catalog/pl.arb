@@ -7750,6 +7750,7 @@
   "web.admin.common.brandingAssets.markGuidance": "Kwadratowa grafika, {px}×{px} lub większa. Inne proporcje są przycinane od środka do kwadratu, a następnie zapisywane jako WebP w rozmiarze dokładnie {px}×{px} — mniejsze grafiki są powiększane. PNG, JPEG lub WebP do {size}.",
   "web.admin.common.brandingAssets.themeGradientCaption": "Gradient motywu",
   "web.admin.common.brandingAssets.wordmarkGuidance": "Szeroka grafika o szerokości co najmniej {px} px. Zapisywana jako WebP o szerokości maks. {px} px; węższe obrazy nie są powiększane. PNG, JPEG lub WebP do {size}.",
+  "web.admin.common.catalogImportSource.exportJob": "Zlecenie eksportu {id}",
   "web.admin.common.connectionCheck.check": "Sprawdź połączenie",
   "web.admin.common.connectionCheck.checking": "Sprawdzanie…",
   "web.admin.common.connectionCheck.failed": "Nie udało się sprawdzić połączenia.",

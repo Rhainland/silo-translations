@@ -7750,6 +7750,7 @@
   "web.admin.common.brandingAssets.markGuidance": "Imagem quadrada, com {px}×{px} ou mais. Qualquer outro formato é recortado ao centro para um quadrado e depois guardado como WebP com exatamente {px}×{px} — as imagens mais pequenas são ampliadas. PNG, JPEG ou WebP até {size}.",
   "web.admin.common.brandingAssets.themeGradientCaption": "Gradiente do tema",
   "web.admin.common.brandingAssets.wordmarkGuidance": "Imagem larga, com {px} px ou mais de largura. Guardada como WebP com um máximo de {px} px de largura; as imagens mais estreitas não são ampliadas. PNG, JPEG ou WebP até {size}.",
+  "web.admin.common.catalogImportSource.exportJob": "Trabalho de exportação {id}",
   "web.admin.common.connectionCheck.check": "Verificar ligação",
   "web.admin.common.connectionCheck.checking": "A verificar…",
   "web.admin.common.connectionCheck.failed": "A verificação da ligação falhou.",

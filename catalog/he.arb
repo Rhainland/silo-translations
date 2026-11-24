@@ -7750,6 +7750,7 @@
   "web.admin.common.brandingAssets.markGuidance": "איור ריבועי, {px}×{px} ומעלה. כל יחס אחר נחתך מהמרכז לריבוע, ואז נשמר כ-WebP בגודל {px}×{px} בדיוק – איור קטן יותר מוגדל. PNG, JPEG או WebP בגודל של עד {size}.",
   "web.admin.common.brandingAssets.themeGradientCaption": "מעבר הצבעים של ערכת הנושא",
   "web.admin.common.brandingAssets.wordmarkGuidance": "איור רחב, ברוחב {px}px ומעלה. נשמר כ-WebP ברוחב של עד {px}px; תמונות צרות יותר לא מוגדלות. PNG, JPEG או WebP בגודל של עד {size}.",
+  "web.admin.common.catalogImportSource.exportJob": "עבודת ייצוא {id}",
   "web.admin.common.connectionCheck.check": "בדיקת החיבור",
   "web.admin.common.connectionCheck.checking": "מתבצעת בדיקה…",
   "web.admin.common.connectionCheck.failed": "בדיקת החיבור נכשלה.",

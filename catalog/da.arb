@@ -7750,6 +7750,7 @@
   "web.admin.common.brandingAssets.markGuidance": "Kvadratisk grafik, {px}×{px} eller større. Alt andet beskæres centreret til et kvadrat og gemmes derefter som WebP i præcis {px}×{px} — mindre grafik opskaleres. PNG, JPEG eller WebP på op til {size}.",
   "web.admin.common.brandingAssets.themeGradientCaption": "Temagradient",
   "web.admin.common.brandingAssets.wordmarkGuidance": "Bred grafik, {px} px eller bredere. Gemmes som WebP med en maksimal bredde på {px} px; smallere billeder forstørres ikke. PNG, JPEG eller WebP på op til {size}.",
+  "web.admin.common.catalogImportSource.exportJob": "Eksportjob {id}",
   "web.admin.common.connectionCheck.check": "Tjek forbindelse",
   "web.admin.common.connectionCheck.checking": "Tjekker…",
   "web.admin.common.connectionCheck.failed": "Forbindelsestjekket mislykkedes.",
