@@ -61885,9 +61885,8 @@
   },
   "web.admin.insights.subtitle": {
     "source": "8da6b850af7e1703",
-    "value": "dd4df0c6b6a58cfc",
-    "by": "opus",
-    "model": "claude-opus-5-5"
+    "value": "96fd0653bab0555f",
+    "by": "human"
   },
   "web.admin.insights.tabs.activity": {
     "source": "bf52de649aab5aff",
@@ -84523,9 +84522,8 @@
   },
   "web.admin.shell.nav.page.insights.description": {
     "source": "477131eb044ee888",
-    "value": "d49bf18731d12592",
-    "by": "opus",
-    "model": "claude-opus-5-5"
+    "value": "95ac0871e6090199",
+    "by": "human"
   },
   "web.admin.shell.nav.page.insights.label": {
     "source": "47406bc3403aae37",
@@ -95948,6 +95946,18 @@
   "web.collections.details.descriptionLabel": {
     "source": "b2b1a4a5debb179a",
     "value": "1744233af5843f5c",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
+  "web.collections.details.hideWatched": {
+    "source": "6ccc868566fca120",
+    "value": "8d8c7580f890c4b2",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
+  "web.collections.details.hideWatchedHelp": {
+    "source": "70b6dbbf6a276034",
+    "value": "0c577bd6ad5346a2",
     "by": "opus",
     "model": "claude-opus-5-5"
   },
