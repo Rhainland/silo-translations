@@ -17926,6 +17926,7 @@
   "web.item.editMetadata.genres": "Žanrai",
   "web.item.editMetadata.imdbRating": "IMDb įvertinimas",
   "web.item.editMetadata.lastAirDate": "Paskutinio rodymo data",
+  "web.item.editMetadata.lockField": "Užrakinti lauką „{field}“",
   "web.item.editMetadata.locked": "užrakinta",
   "web.item.editMetadata.lockedCount": "Užrakinta: {count}",
   "web.item.editMetadata.lockedTitle": "Užrakinta – spustelėkite, kad atrakintumėte",

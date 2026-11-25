@@ -17926,6 +17926,7 @@
   "web.item.editMetadata.genres": "ז׳אנרים",
   "web.item.editMetadata.imdbRating": "דירוג IMDb",
   "web.item.editMetadata.lastAirDate": "תאריך השידור האחרון",
+  "web.item.editMetadata.lockField": "נעילת השדה {field}",
   "web.item.editMetadata.locked": "נעול",
   "web.item.editMetadata.lockedCount": "נעולים: {count}",
   "web.item.editMetadata.lockedTitle": "נעול – יש ללחוץ לביטול הנעילה",

@@ -150542,6 +150542,18 @@
       "web"
     ]
   },
+  "web.item.editMetadata.lockField": "Lock {field}",
+  "@web.item.editMetadata.lockField": {
+    "description": "Web: screen reader name of a field's lock toggle in Edit Metadata; the toggle reports pressed while the field is locked, so refreshes keep its value. {field}: the field's label, such as Title or Overview.",
+    "placeholders": {
+      "field": {
+        "type": "String"
+      }
+    },
+    "x-platforms": [
+      "web"
+    ]
+  },
   "web.item.editMetadata.locked": "locked",
   "@web.item.editMetadata.locked": {
     "description": "Web: small lowercase label next to the lock icon of a locked field in Edit Metadata.",

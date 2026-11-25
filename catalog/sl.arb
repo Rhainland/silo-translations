@@ -17926,6 +17926,7 @@
   "web.item.editMetadata.genres": "Žanri",
   "web.item.editMetadata.imdbRating": "Ocena IMDb",
   "web.item.editMetadata.lastAirDate": "Datum zadnjega predvajanja",
+  "web.item.editMetadata.lockField": "Zakleni polje {field}",
   "web.item.editMetadata.locked": "zaklenjeno",
   "web.item.editMetadata.lockedCount": "Zaklenjeno: {count}",
   "web.item.editMetadata.lockedTitle": "Zaklenjeno – kliknite, da odklenete",

@@ -17926,6 +17926,7 @@
   "web.item.editMetadata.genres": "Türler",
   "web.item.editMetadata.imdbRating": "IMDb puanı",
   "web.item.editMetadata.lastAirDate": "Son yayın tarihi",
+  "web.item.editMetadata.lockField": "{field} alanını kilitle",
   "web.item.editMetadata.locked": "kilitli",
   "web.item.editMetadata.lockedCount": "{count} kilitli",
   "web.item.editMetadata.lockedTitle": "Kilitli — kilidi açmak için tıklayın",

@@ -17926,6 +17926,7 @@
   "web.item.editMetadata.genres": "Genres",
   "web.item.editMetadata.imdbRating": "IMDb-Bewertung",
   "web.item.editMetadata.lastAirDate": "Letzte Ausstrahlung",
+  "web.item.editMetadata.lockField": "{field} sperren",
   "web.item.editMetadata.locked": "gesperrt",
   "web.item.editMetadata.lockedCount": "{count} gesperrt",
   "web.item.editMetadata.lockedTitle": "Gesperrt – zum Entsperren klicken",

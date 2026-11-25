@@ -17926,6 +17926,7 @@
   "web.item.editMetadata.genres": "Είδη",
   "web.item.editMetadata.imdbRating": "Βαθμολογία IMDb",
   "web.item.editMetadata.lastAirDate": "Ημερομηνία τελευταίας προβολής",
+  "web.item.editMetadata.lockField": "Κλείδωμα του πεδίου «{field}»",
   "web.item.editMetadata.locked": "κλειδωμένο",
   "web.item.editMetadata.lockedCount": "Κλειδωμένα: {count}",
   "web.item.editMetadata.lockedTitle": "Κλειδωμένο – κάντε κλικ για ξεκλείδωμα",

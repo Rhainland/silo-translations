@@ -17926,6 +17926,7 @@
   "web.item.editMetadata.genres": "Genre",
   "web.item.editMetadata.imdbRating": "Penarafan IMDb",
   "web.item.editMetadata.lastAirDate": "Tarikh siaran terakhir",
+  "web.item.editMetadata.lockField": "Kunci {field}",
   "web.item.editMetadata.locked": "dikunci",
   "web.item.editMetadata.lockedCount": "{count} dikunci",
   "web.item.editMetadata.lockedTitle": "Dikunci — klik untuk membuka kunci",

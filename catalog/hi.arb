@@ -17926,6 +17926,7 @@
   "web.item.editMetadata.genres": "शैलियाँ",
   "web.item.editMetadata.imdbRating": "IMDb रेटिंग",
   "web.item.editMetadata.lastAirDate": "आखिरी प्रसारण की तारीख",
+  "web.item.editMetadata.lockField": "{field} लॉक करें",
   "web.item.editMetadata.locked": "लॉक",
   "web.item.editMetadata.lockedCount": "{count} लॉक किए गए",
   "web.item.editMetadata.lockedTitle": "लॉक है — अनलॉक करने के लिए क्लिक करें",

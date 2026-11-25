@@ -17926,6 +17926,7 @@
   "web.item.editMetadata.genres": "Genuri",
   "web.item.editMetadata.imdbRating": "Evaluare IMDb",
   "web.item.editMetadata.lastAirDate": "Data ultimei difuzări",
+  "web.item.editMetadata.lockField": "Blocați câmpul {field}",
   "web.item.editMetadata.locked": "blocat",
   "web.item.editMetadata.lockedCount": "Blocate: {count}",
   "web.item.editMetadata.lockedTitle": "Blocat — dați clic pentru deblocare",

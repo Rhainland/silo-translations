@@ -17926,6 +17926,7 @@
   "web.item.editMetadata.genres": "ジャンル",
   "web.item.editMetadata.imdbRating": "IMDb評価",
   "web.item.editMetadata.lastAirDate": "最終放送日",
+  "web.item.editMetadata.lockField": "{field}をロック",
   "web.item.editMetadata.locked": "ロック中",
   "web.item.editMetadata.lockedCount": "{count}件ロック中",
   "web.item.editMetadata.lockedTitle": "ロック中 — クリックしてロック解除",

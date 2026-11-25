@@ -17926,6 +17926,7 @@
   "web.item.editMetadata.genres": "Žánry",
   "web.item.editMetadata.imdbRating": "Hodnocení IMDb",
   "web.item.editMetadata.lastAirDate": "Datum posledního vysílání",
+  "web.item.editMetadata.lockField": "Uzamknout pole {field}",
   "web.item.editMetadata.locked": "uzamčeno",
   "web.item.editMetadata.lockedCount": "Uzamčeno: {count}",
   "web.item.editMetadata.lockedTitle": "Uzamčeno – kliknutím odemknete",

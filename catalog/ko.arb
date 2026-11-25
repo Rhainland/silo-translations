@@ -17926,6 +17926,7 @@
   "web.item.editMetadata.genres": "장르",
   "web.item.editMetadata.imdbRating": "IMDb 평점",
   "web.item.editMetadata.lastAirDate": "마지막 방영일",
+  "web.item.editMetadata.lockField": "{field} 잠금",
   "web.item.editMetadata.locked": "잠김",
   "web.item.editMetadata.lockedCount": "{count}개 잠김",
   "web.item.editMetadata.lockedTitle": "잠김 — 클릭하여 잠금 해제",

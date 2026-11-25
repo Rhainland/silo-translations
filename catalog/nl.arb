@@ -17926,6 +17926,7 @@
   "web.item.editMetadata.genres": "Genres",
   "web.item.editMetadata.imdbRating": "IMDb-beoordeling",
   "web.item.editMetadata.lastAirDate": "Laatste uitzenddatum",
+  "web.item.editMetadata.lockField": "{field} vergrendelen",
   "web.item.editMetadata.locked": "vergrendeld",
   "web.item.editMetadata.lockedCount": "{count} vergrendeld",
   "web.item.editMetadata.lockedTitle": "Vergrendeld — klik om te ontgrendelen",

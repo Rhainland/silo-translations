@@ -17926,6 +17926,7 @@
   "web.item.editMetadata.genres": "Gèneres",
   "web.item.editMetadata.imdbRating": "Valoració d’IMDb",
   "web.item.editMetadata.lastAirDate": "Data de l’última emissió",
+  "web.item.editMetadata.lockField": "Bloqueja el camp {field}",
   "web.item.editMetadata.locked": "bloquejat",
   "web.item.editMetadata.lockedCount": "Bloquejats: {count}",
   "web.item.editMetadata.lockedTitle": "Bloquejat — fes clic per desbloquejar",
