@@ -17926,6 +17926,7 @@
   "web.item.editMetadata.genres": "الأنواع",
   "web.item.editMetadata.imdbRating": "تقييم IMDb",
   "web.item.editMetadata.lastAirDate": "تاريخ آخر عرض",
+  "web.item.editMetadata.lockField": "قفل {field}",
   "web.item.editMetadata.locked": "مقفل",
   "web.item.editMetadata.lockedCount": "المقفلة: {count}",
   "web.item.editMetadata.lockedTitle": "مقفل — انقر لإلغاء القفل",

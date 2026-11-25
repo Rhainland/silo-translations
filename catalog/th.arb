@@ -17926,6 +17926,7 @@
   "web.item.editMetadata.genres": "ประเภท",
   "web.item.editMetadata.imdbRating": "คะแนน IMDb",
   "web.item.editMetadata.lastAirDate": "วันที่ออกอากาศครั้งล่าสุด",
+  "web.item.editMetadata.lockField": "ล็อกช่อง {field}",
   "web.item.editMetadata.locked": "ล็อกแล้ว",
   "web.item.editMetadata.lockedCount": "ล็อกแล้ว {count} รายการ",
   "web.item.editMetadata.lockedTitle": "ล็อกแล้ว — คลิกเพื่อปลดล็อก",

@@ -17926,6 +17926,7 @@
   "web.item.editMetadata.genres": "Žanrid",
   "web.item.editMetadata.imdbRating": "IMDb hinnang",
   "web.item.editMetadata.lastAirDate": "Viimane eetrikuupäev",
+  "web.item.editMetadata.lockField": "Lukusta väli {field}",
   "web.item.editMetadata.locked": "lukustatud",
   "web.item.editMetadata.lockedCount": "Lukustatud: {count}",
   "web.item.editMetadata.lockedTitle": "Lukustatud – klõpsake avamiseks",

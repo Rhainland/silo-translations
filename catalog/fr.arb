@@ -17926,6 +17926,7 @@
   "web.item.editMetadata.genres": "Genres",
   "web.item.editMetadata.imdbRating": "Note IMDb",
   "web.item.editMetadata.lastAirDate": "Date de dernière diffusion",
+  "web.item.editMetadata.lockField": "Verrouiller {field}",
   "web.item.editMetadata.locked": "verrouillé",
   "web.item.editMetadata.lockedCount": "Verrouillés : {count}",
   "web.item.editMetadata.lockedTitle": "Verrouillé — cliquez pour déverrouiller",

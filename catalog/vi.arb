@@ -17926,6 +17926,7 @@
   "web.item.editMetadata.genres": "Thể loại",
   "web.item.editMetadata.imdbRating": "Đánh giá IMDb",
   "web.item.editMetadata.lastAirDate": "Ngày phát sóng cuối cùng",
+  "web.item.editMetadata.lockField": "Khóa {field}",
   "web.item.editMetadata.locked": "đã khóa",
   "web.item.editMetadata.lockedCount": "{count} trường đã khóa",
   "web.item.editMetadata.lockedTitle": "Đã khóa — nhấp để mở khóa",

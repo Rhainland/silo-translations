@@ -17926,6 +17926,7 @@
   "web.item.editMetadata.genres": "Sjangre",
   "web.item.editMetadata.imdbRating": "IMDb-vurdering",
   "web.item.editMetadata.lastAirDate": "Siste sendedato",
+  "web.item.editMetadata.lockField": "Lås {field}",
   "web.item.editMetadata.locked": "låst",
   "web.item.editMetadata.lockedCount": "{count} låst",
   "web.item.editMetadata.lockedTitle": "Låst – klikk for å låse opp",

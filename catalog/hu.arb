@@ -17926,6 +17926,7 @@
   "web.item.editMetadata.genres": "Műfajok",
   "web.item.editMetadata.imdbRating": "IMDb-értékelés",
   "web.item.editMetadata.lastAirDate": "Utolsó adás dátuma",
+  "web.item.editMetadata.lockField": "Zárolás: {field}",
   "web.item.editMetadata.locked": "zárolva",
   "web.item.editMetadata.lockedCount": "Zárolva: {count}",
   "web.item.editMetadata.lockedTitle": "Zárolva — kattintson a feloldáshoz",

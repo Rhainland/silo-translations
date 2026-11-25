@@ -17926,6 +17926,7 @@
   "web.item.editMetadata.genres": "Lajityypit",
   "web.item.editMetadata.imdbRating": "IMDb-arvio",
   "web.item.editMetadata.lastAirDate": "Viimeinen esityspäivä",
+  "web.item.editMetadata.lockField": "Lukitse kenttä {field}",
   "web.item.editMetadata.locked": "lukittu",
   "web.item.editMetadata.lockedCount": "Lukittuja: {count}",
   "web.item.editMetadata.lockedTitle": "Lukittu – avaa lukitus napsauttamalla",

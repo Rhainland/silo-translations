@@ -107555,6 +107555,12 @@
     "by": "opus",
     "model": "claude-opus-5-5"
   },
+  "web.item.editMetadata.lockField": {
+    "source": "43b47b46cd6fea9e",
+    "value": "1685a01dae8092fa",
+    "by": "opus",
+    "model": "claude-opus-5-5"
+  },
   "web.item.editMetadata.locked": {
     "source": "88e4a5d84c322eb1",
     "value": "0a1457c0422b1651",

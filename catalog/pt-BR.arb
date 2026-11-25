@@ -17926,6 +17926,7 @@
   "web.item.editMetadata.genres": "Gêneros",
   "web.item.editMetadata.imdbRating": "Avaliação no IMDb",
   "web.item.editMetadata.lastAirDate": "Data da última exibição",
+  "web.item.editMetadata.lockField": "Bloquear {field}",
   "web.item.editMetadata.locked": "bloqueado",
   "web.item.editMetadata.lockedCount": "Bloqueados: {count}",
   "web.item.editMetadata.lockedTitle": "Bloqueado — clique para desbloquear",

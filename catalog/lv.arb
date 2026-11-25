@@ -17926,6 +17926,7 @@
   "web.item.editMetadata.genres": "Žanri",
   "web.item.editMetadata.imdbRating": "IMDb vērtējums",
   "web.item.editMetadata.lastAirDate": "Pēdējās pārraides datums",
+  "web.item.editMetadata.lockField": "Bloķēt lauku „{field}”",
   "web.item.editMetadata.locked": "bloķēts",
   "web.item.editMetadata.lockedCount": "Bloķēti: {count}",
   "web.item.editMetadata.lockedTitle": "Bloķēts – noklikšķiniet, lai atbloķētu",

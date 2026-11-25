@@ -17926,6 +17926,7 @@
   "web.item.editMetadata.genres": "Жанрове",
   "web.item.editMetadata.imdbRating": "Оценка в IMDb",
   "web.item.editMetadata.lastAirDate": "Дата на последно излъчване",
+  "web.item.editMetadata.lockField": "Заключване на полето {field}",
   "web.item.editMetadata.locked": "заключено",
   "web.item.editMetadata.lockedCount": "Заключени: {count}",
   "web.item.editMetadata.lockedTitle": "Заключено – щракнете за отключване",

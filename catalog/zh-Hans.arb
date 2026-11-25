@@ -17926,6 +17926,7 @@
   "web.item.editMetadata.genres": "类型",
   "web.item.editMetadata.imdbRating": "IMDb评分",
   "web.item.editMetadata.lastAirDate": "最后播出日期",
+  "web.item.editMetadata.lockField": "锁定{field}",
   "web.item.editMetadata.locked": "已锁定",
   "web.item.editMetadata.lockedCount": "已锁定{count}项",
   "web.item.editMetadata.lockedTitle": "已锁定——点击解锁",

@@ -17926,6 +17926,7 @@
   "web.item.editMetadata.genres": "Genre",
   "web.item.editMetadata.imdbRating": "Rating IMDb",
   "web.item.editMetadata.lastAirDate": "Tanggal tayang terakhir",
+  "web.item.editMetadata.lockField": "Kunci {field}",
   "web.item.editMetadata.locked": "terkunci",
   "web.item.editMetadata.lockedCount": "{count} terkunci",
   "web.item.editMetadata.lockedTitle": "Terkunci — klik untuk membuka kunci",

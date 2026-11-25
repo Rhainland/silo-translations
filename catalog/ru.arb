@@ -17926,6 +17926,7 @@
   "web.item.editMetadata.genres": "Жанры",
   "web.item.editMetadata.imdbRating": "Рейтинг IMDb",
   "web.item.editMetadata.lastAirDate": "Дата последнего выхода в эфир",
+  "web.item.editMetadata.lockField": "Заблокировать поле «{field}»",
   "web.item.editMetadata.locked": "заблокировано",
   "web.item.editMetadata.lockedCount": "Заблокировано: {count}",
   "web.item.editMetadata.lockedTitle": "Заблокировано — нажмите, чтобы разблокировать",

@@ -17926,6 +17926,7 @@
   "web.item.editMetadata.genres": "Жанри",
   "web.item.editMetadata.imdbRating": "Оцінка IMDb",
   "web.item.editMetadata.lastAirDate": "Дата останнього ефіру",
+  "web.item.editMetadata.lockField": "Заблокувати поле «{field}»",
   "web.item.editMetadata.locked": "заблоковано",
   "web.item.editMetadata.lockedCount": "Заблоковано: {count}",
   "web.item.editMetadata.lockedTitle": "Заблоковано – натисніть, щоб розблокувати",
