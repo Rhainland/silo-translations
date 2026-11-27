@@ -68929,6 +68929,64 @@
       "web"
     ]
   },
+  "web.admin.common.libraryEditor.metadata.episodeOrder": "Episode order",
+  "@web.admin.common.libraryEditor.metadata.episodeOrder": {
+    "description": "Web admin, library editor dialog, Metadata section (TV libraries): label of the choice between the TVDB and TMDB episode order.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.common.libraryEditor.metadata.episodeOrderChange": "Saving a new order refreshes the library's shows and renumbers their episodes. Watch history stays with each episode.",
+  "@web.admin.common.libraryEditor.metadata.episodeOrderChange": {
+    "description": "Web admin, library editor dialog, under Episode order, shown after the admin picks a different order than the saved one.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.common.libraryEditor.metadata.episodeOrderFallback": "When {provider} has no episodes for a show, Silo uses {other}'s order instead.",
+  "@web.admin.common.libraryEditor.metadata.episodeOrderFallback": {
+    "description": "Web admin, library editor dialog, under Episode order. {provider} is the chosen metadata provider (TVDB or TMDB); {other} is the other one.",
+    "placeholders": {
+      "provider": {
+        "type": "String"
+      },
+      "other": {
+        "type": "String"
+      }
+    },
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.common.libraryEditor.metadata.episodeOrderHelp": "Which provider's seasons and episode numbers this library's shows follow. File names are read in this order.",
+  "@web.admin.common.libraryEditor.metadata.episodeOrderHelp": {
+    "description": "Web admin, library editor dialog: explanation under the Episode order label.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.common.libraryEditor.metadata.episodeOrderNoFallback": "{other} is turned off for episodes, so a show {provider} doesn't know keeps the numbers from its file names.",
+  "@web.admin.common.libraryEditor.metadata.episodeOrderNoFallback": {
+    "description": "Web admin, library editor dialog, under Episode order, when the other provider is disabled for episodes. {provider} is the chosen metadata provider (TVDB or TMDB); {other} is the other one.",
+    "placeholders": {
+      "other": {
+        "type": "String"
+      },
+      "provider": {
+        "type": "String"
+      }
+    },
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.admin.common.libraryEditor.metadata.episodeOrderOverride": "Any show can override this from its page: Manage → Episode order.",
+  "@web.admin.common.libraryEditor.metadata.episodeOrderOverride": {
+    "description": "Web admin, library editor dialog, under Episode order. Manage → Episode order names a menu path on a show's page.",
+    "x-platforms": [
+      "web"
+    ]
+  },
   "web.admin.common.libraryEditor.metadata.language": "Metadata Language",
   "@web.admin.common.libraryEditor.metadata.language": {
     "description": "Web admin, library editor dialog: label of the library's metadata language picker.",
