@@ -152250,18 +152250,6 @@
       "web"
     ]
   },
-  "web.item.arrangeSeasons.metaNote": "Season details come from {provider} by season number. Move this season and it takes the details of its new number; a custom title or description stays with it. Change the poster on the season's page after saving.",
-  "@web.item.arrangeSeasons.metaNote": {
-    "description": "Web, season arranger: note under the season details. {provider} is TVDB or TMDB.",
-    "placeholders": {
-      "provider": {
-        "type": "String"
-      }
-    },
-    "x-platforms": [
-      "web"
-    ]
-  },
   "web.item.arrangeSeasons.metaNoteSeasons": "Season details come from {provider} by season number. Move this season and it takes the details of its new number; a custom title, description or poster stays with it.",
   "@web.item.arrangeSeasons.metaNoteSeasons": {
     "description": "Web, season arranger: note under the season details. {provider} is TVDB or TMDB.",
@@ -152409,18 +152397,6 @@
       "web"
     ]
   },
-  "web.item.arrangeSeasons.season": "Season {number}",
-  "@web.item.arrangeSeasons.season": {
-    "description": "Web, season arranger: name of a season by its number.",
-    "placeholders": {
-      "number": {
-        "type": "String"
-      }
-    },
-    "x-platforms": [
-      "web"
-    ]
-  },
   "web.item.arrangeSeasons.seasonCount": "{count, plural, one {# season} other {# seasons}}",
   "@web.item.arrangeSeasons.seasonCount": {
     "description": "Web, season arranger: number of seasons in the summary and toasts.",
@@ -152482,13 +152458,6 @@
         "type": "String"
       }
     },
-    "x-platforms": [
-      "web"
-    ]
-  },
-  "web.item.arrangeSeasons.specials": "Specials",
-  "@web.item.arrangeSeasons.specials": {
-    "description": "Web, season arranger: name of season 0.",
     "x-platforms": [
       "web"
     ]
@@ -153770,18 +153739,6 @@
       "web"
     ]
   },
-  "web.item.episodeOrder.preview.season": "Season {number}",
-  "@web.item.episodeOrder.preview.season": {
-    "description": "Web, Episode order dialog: name of a regular season in the preview.",
-    "placeholders": {
-      "number": {
-        "type": "String"
-      }
-    },
-    "x-platforms": [
-      "web"
-    ]
-  },
   "web.item.episodeOrder.preview.seasonPicker": "Season to preview",
   "@web.item.episodeOrder.preview.seasonPicker": {
     "description": "Web, Episode order dialog: accessible name of the season picker in the preview.",
@@ -153797,13 +153754,6 @@
         "type": "int"
       }
     },
-    "x-platforms": [
-      "web"
-    ]
-  },
-  "web.item.episodeOrder.preview.specials": "Specials",
-  "@web.item.episodeOrder.preview.specials": {
-    "description": "Web, Episode order dialog: name of season 0 in the preview.",
     "x-platforms": [
       "web"
     ]
