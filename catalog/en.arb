@@ -153481,6 +153481,21 @@
       "web"
     ]
   },
+  "web.item.episodeOrder.namedOrder": "{provider} “{order}”",
+  "@web.item.episodeOrder.namedOrder": {
+    "description": "Web, episode order summary and season arranger: a provider's named episode order, for example TMDB “Story Arcs”. {provider} is TVDB or TMDB; {order} is the order's name from the provider.",
+    "placeholders": {
+      "provider": {
+        "type": "String"
+      },
+      "order": {
+        "type": "String"
+      }
+    },
+    "x-platforms": [
+      "web"
+    ]
+  },
   "web.item.episodeOrder.order.episodes": "{count, plural, one {# episode} other {# episodes}}",
   "@web.item.episodeOrder.order.episodes": {
     "description": "Web, Episode order dialog: episode count of an episode order in the Order picker.",
@@ -153764,6 +153779,21 @@
     "placeholders": {
       "count": {
         "type": "int"
+      }
+    },
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.item.episodeOrder.providerOrder": "{provider} {order}",
+  "@web.item.episodeOrder.providerOrder": {
+    "description": "Web, episode order summary and season arranger: a provider's default order, for example TVDB aired order. {provider} is TVDB or TMDB; {order} is aired order or default order.",
+    "placeholders": {
+      "provider": {
+        "type": "String"
+      },
+      "order": {
+        "type": "String"
       }
     },
     "x-platforms": [
