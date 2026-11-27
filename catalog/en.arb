@@ -142857,6 +142857,13 @@
       "web"
     ]
   },
+  "web.detail.actions.episodeOrder": "Episode order",
+  "@web.detail.actions.episodeOrder": {
+    "description": "Web, series page: Manage menu entry that opens the Episode order dialog (admins and metadata curators).",
+    "x-platforms": [
+      "web"
+    ]
+  },
   "web.detail.actions.favorite": "Favorite",
   "@web.detail.actions.favorite": {
     "description": "Web: tooltip of the heart button on a detail page; clicking adds the title to favorites.",
@@ -152743,6 +152750,641 @@
   "web.item.editPerson.title": "Edit Person Metadata",
   "@web.item.editPerson.title": {
     "description": "Web: title of the dialog where a curator edits a cast or crew member's details.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.item.episodeOrder.airedOrder": "aired order",
+  "@web.item.episodeOrder.airedOrder": {
+    "description": "Web, series page: the episode order summary for TVDB's default order, after the provider name (TVDB aired order).",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.item.episodeOrder.applied": "Reordering {title}",
+  "@web.item.episodeOrder.applied": {
+    "description": "Web, toast after saving an episode order. {title} is the show's title.",
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    },
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.item.episodeOrder.appliedBody": "Silo is renumbering the episodes. Watch history moves with each episode.",
+  "@web.item.episodeOrder.appliedBody": {
+    "description": "Web, toast after saving an episode order: explanation.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.item.episodeOrder.apply": "Apply order",
+  "@web.item.episodeOrder.apply": {
+    "description": "Web, Episode order dialog: button that saves the order.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.item.episodeOrder.change": "Change",
+  "@web.item.episodeOrder.change": {
+    "description": "Web, series page: link next to the episode order summary that opens the Episode order dialog.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.item.episodeOrder.conflict": "Someone else changed this show's episode order. Reopen the dialog to see it.",
+  "@web.item.episodeOrder.conflict": {
+    "description": "Web, toast when the episode order was changed by someone else since the dialog opened.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.item.episodeOrder.defaultOrder": "default order",
+  "@web.item.episodeOrder.defaultOrder": {
+    "description": "Web, series page: the episode order summary for a provider's default order, after the provider name (TMDB default order).",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.item.episodeOrder.description": "Choose which provider order Silo uses for this show and how its seasons are laid out.",
+  "@web.item.episodeOrder.description": {
+    "description": "Web, Episode order dialog: description read by screen readers.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.item.episodeOrder.files.fit": "{matched} of {total} files",
+  "@web.item.episodeOrder.files.fit": {
+    "description": "Web, Episode order dialog: next to a file naming option, how many of the show's files it places.",
+    "placeholders": {
+      "matched": {
+        "type": "String"
+      },
+      "total": {
+        "type": "String"
+      }
+    },
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.item.episodeOrder.files.fitsAll": "Places every file",
+  "@web.item.episodeOrder.files.fitsAll": {
+    "description": "Web, Episode order dialog: mark next to a file naming option that places every file of the show.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.item.episodeOrder.files.help": "How Silo reads file names: S02E05 is season 2, episode 5 of this order. Each episode then goes where the order above puts it.",
+  "@web.item.episodeOrder.files.help": {
+    "description": "Web, Episode order dialog: help under Files are named in. S02E05 is an example file name part and stays as is.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.item.episodeOrder.files.label": "Files are named in",
+  "@web.item.episodeOrder.files.label": {
+    "description": "Web, Episode order dialog: label of the choice of the order the show's file names follow.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.item.episodeOrder.files.suggestion": "Your files look like {order}",
+  "@web.item.episodeOrder.files.suggestion": {
+    "description": "Web, Episode order dialog: suggestion of the file naming that places the most files. {order} is TVDB aired order or TMDB seasons.",
+    "placeholders": {
+      "order": {
+        "type": "String"
+      }
+    },
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.item.episodeOrder.files.tmdb": "TMDB seasons",
+  "@web.item.episodeOrder.files.tmdb": {
+    "description": "Web, Episode order dialog: file naming option, TMDB's default seasons.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.item.episodeOrder.files.tvdb": "TVDB aired order",
+  "@web.item.episodeOrder.files.tvdb": {
+    "description": "Web, Episode order dialog: file naming option, TVDB's default (aired) order.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.item.episodeOrder.files.useSuggestion": "Use it",
+  "@web.item.episodeOrder.files.useSuggestion": {
+    "description": "Web, Episode order dialog: button that applies the suggested file naming.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.item.episodeOrder.footer": "Watch history, progress and ratings stay with each episode. Files on disk are never renamed or moved.",
+  "@web.item.episodeOrder.footer": {
+    "description": "Web, Episode order dialog: note in the footer.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.item.episodeOrder.kind.absolute": "Absolute",
+  "@web.item.episodeOrder.kind.absolute": {
+    "description": "Web, Episode order dialog: kind of an episode order (one continuous numbering), in the Order picker.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.item.episodeOrder.kind.aired": "Aired",
+  "@web.item.episodeOrder.kind.aired": {
+    "description": "Web, Episode order dialog: kind of an episode order, in the Order picker.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.item.episodeOrder.kind.alternate": "Alternate",
+  "@web.item.episodeOrder.kind.alternate": {
+    "description": "Web, Episode order dialog: kind of an episode order (any other order), in the Order picker.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.item.episodeOrder.kind.digital": "Digital",
+  "@web.item.episodeOrder.kind.digital": {
+    "description": "Web, Episode order dialog: kind of an episode order (digital release order), in the Order picker.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.item.episodeOrder.kind.dvd": "DVD",
+  "@web.item.episodeOrder.kind.dvd": {
+    "description": "Web, Episode order dialog: kind of an episode order (DVD order), in the Order picker.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.item.episodeOrder.kind.production": "Production",
+  "@web.item.episodeOrder.kind.production": {
+    "description": "Web, Episode order dialog: kind of an episode order (production order), in the Order picker.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.item.episodeOrder.kind.storyArc": "Story arcs",
+  "@web.item.episodeOrder.kind.storyArc": {
+    "description": "Web, Episode order dialog: kind of an episode order (seasons by story arc), in the Order picker.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.item.episodeOrder.kind.tv": "TV",
+  "@web.item.episodeOrder.kind.tv": {
+    "description": "Web, Episode order dialog: kind of an episode order (TV broadcast order), in the Order picker.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.item.episodeOrder.layout.absolute": "Absolute",
+  "@web.item.episodeOrder.layout.absolute": {
+    "description": "Web, Episode order dialog: layout option that numbers every episode in one season.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.item.episodeOrder.layout.absoluteBody": "One season, episodes numbered from 1 in this order. Specials stay separate.",
+  "@web.item.episodeOrder.layout.absoluteBody": {
+    "description": "Web, Episode order dialog: explanation of the Absolute layout option.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.item.episodeOrder.layout.label": "Season layout",
+  "@web.item.episodeOrder.layout.label": {
+    "description": "Web, Episode order dialog: label of the choice between the order's seasons and one absolute season.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.item.episodeOrder.layout.seasons": "Seasons from the order",
+  "@web.item.episodeOrder.layout.seasons": {
+    "description": "Web, Episode order dialog: layout option that keeps the order's seasons.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.item.episodeOrder.layout.seasonsBody": "Keeps the seasons as {provider} lists them in this order.",
+  "@web.item.episodeOrder.layout.seasonsBody": {
+    "description": "Web, Episode order dialog: explanation of the Seasons from the order option. {provider} is TVDB or TMDB.",
+    "placeholders": {
+      "provider": {
+        "type": "String"
+      }
+    },
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.item.episodeOrder.order.episodes": "{count, plural, one {# episode} other {# episodes}}",
+  "@web.item.episodeOrder.order.episodes": {
+    "description": "Web, Episode order dialog: episode count of an episode order in the Order picker.",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    },
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.item.episodeOrder.order.failed": "Couldn't load this provider's orders. Try again later.",
+  "@web.item.episodeOrder.order.failed": {
+    "description": "Web, Episode order dialog: shown when listing the provider's episode orders failed.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.item.episodeOrder.order.help": "Where seasons, episode numbers and titles come from.",
+  "@web.item.episodeOrder.order.help": {
+    "description": "Web, Episode order dialog: help under the Order picker.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.item.episodeOrder.order.helpLibrary": "Pick TVDB or TMDB above to choose another order.",
+  "@web.item.episodeOrder.order.helpLibrary": {
+    "description": "Web, Episode order dialog: help under the Order picker while the show follows the library default.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.item.episodeOrder.order.label": "Order",
+  "@web.item.episodeOrder.order.label": {
+    "description": "Web, Episode order dialog: label of the picker of the provider's episode orders (aired, DVD, absolute…).",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.item.episodeOrder.order.seasons": "{count, plural, one {# season} other {# seasons}}",
+  "@web.item.episodeOrder.order.seasons": {
+    "description": "Web, Episode order dialog: season count of an episode order in the Order picker.",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    },
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.item.episodeOrder.order.unsupported": "This provider's plugin offers only its default order.",
+  "@web.item.episodeOrder.order.unsupported": {
+    "description": "Web, Episode order dialog: shown when the provider's plugin cannot list other episode orders.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.item.episodeOrder.preview.colEpisode": "Episode",
+  "@web.item.episodeOrder.preview.colEpisode": {
+    "description": "Web, Episode order dialog: preview column header for the episode title.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.item.episodeOrder.preview.colFile": "File on disk",
+  "@web.item.episodeOrder.preview.colFile": {
+    "description": "Web, Episode order dialog: preview column header for the file linked to the episode.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.item.episodeOrder.preview.colFileNumber": "File no.",
+  "@web.item.episodeOrder.preview.colFileNumber": {
+    "description": "Web, Episode order dialog: preview column header for the season and episode number a file name gives the episode.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.item.episodeOrder.preview.colNumber": "No.",
+  "@web.item.episodeOrder.preview.colNumber": {
+    "description": "Web, Episode order dialog: preview column header for the episode number.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.item.episodeOrder.preview.empty": "Neither TVDB nor TMDB has episodes for this show, so it keeps the numbers from its file names.",
+  "@web.item.episodeOrder.preview.empty": {
+    "description": "Web, Episode order dialog: shown when no provider has episodes for the show.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.item.episodeOrder.preview.episodes": "{count, plural, one {# episode} other {# episodes}}",
+  "@web.item.episodeOrder.preview.episodes": {
+    "description": "Web, Episode order dialog: number of episodes in the preview.",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    },
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.item.episodeOrder.preview.failed": "Couldn't load the preview. Check that the metadata providers are reachable.",
+  "@web.item.episodeOrder.preview.failed": {
+    "description": "Web, Episode order dialog: shown when loading the preview failed.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.item.episodeOrder.preview.fallback": "{provider} has no episodes for this show, so it follows {other}.",
+  "@web.item.episodeOrder.preview.fallback": {
+    "description": "Web, Episode order dialog: shown when the chosen provider has no episodes and the other provider numbers the show. {provider} and {other} are TVDB or TMDB.",
+    "placeholders": {
+      "provider": {
+        "type": "String"
+      },
+      "other": {
+        "type": "String"
+      }
+    },
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.item.episodeOrder.preview.files": "{matched}/{total} files placed",
+  "@web.item.episodeOrder.preview.files": {
+    "description": "Web, Episode order dialog: how many of the show's files the previewed order places.",
+    "placeholders": {
+      "matched": {
+        "type": "String"
+      },
+      "total": {
+        "type": "String"
+      }
+    },
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.item.episodeOrder.preview.help": "How {title} will look after you apply. Each row is an episode in its new place, with the file Silo links to it.",
+  "@web.item.episodeOrder.preview.help": {
+    "description": "Web, Episode order dialog: explanation under Preview. {title} is the show's title.",
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    },
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.item.episodeOrder.preview.loading": "Loading the preview…",
+  "@web.item.episodeOrder.preview.loading": {
+    "description": "Web, Episode order dialog: shown while the preview loads from the providers.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.item.episodeOrder.preview.moreEpisodes": "and {count, plural, one {# more episode} other {# more episodes}}",
+  "@web.item.episodeOrder.preview.moreEpisodes": {
+    "description": "Web, Episode order dialog: last preview row when a long season is cut short.",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    },
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.item.episodeOrder.preview.moreFiles": "{names} and {count, plural, one {# more} other {# more}}",
+  "@web.item.episodeOrder.preview.moreFiles": {
+    "description": "Web, Episode order dialog: a list of file names cut short. {names} is up to three file names; count is how many more there are.",
+    "placeholders": {
+      "names": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    },
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.item.episodeOrder.preview.notOnDisk": "Not on disk",
+  "@web.item.episodeOrder.preview.notOnDisk": {
+    "description": "Web, Episode order dialog: preview row for an episode without a file.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.item.episodeOrder.preview.onDisk": "{count} on disk",
+  "@web.item.episodeOrder.preview.onDisk": {
+    "description": "Web, Episode order dialog: in the season picker, how many of the season's episodes have a file.",
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    },
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.item.episodeOrder.preview.readAs": "Read files as {order}",
+  "@web.item.episodeOrder.preview.readAs": {
+    "description": "Web, Episode order dialog: button that switches Files are named in to the order that places more files. {order} is TVDB aired order or TMDB seasons.",
+    "placeholders": {
+      "order": {
+        "type": "String"
+      }
+    },
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.item.episodeOrder.preview.season": "Season {number}",
+  "@web.item.episodeOrder.preview.season": {
+    "description": "Web, Episode order dialog: name of a regular season in the preview.",
+    "placeholders": {
+      "number": {
+        "type": "String"
+      }
+    },
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.item.episodeOrder.preview.seasonPicker": "Season to preview",
+  "@web.item.episodeOrder.preview.seasonPicker": {
+    "description": "Web, Episode order dialog: accessible name of the season picker in the preview.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.item.episodeOrder.preview.seasons": "{count, plural, one {# season} other {# seasons}}",
+  "@web.item.episodeOrder.preview.seasons": {
+    "description": "Web, Episode order dialog: number of regular seasons in the preview.",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    },
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.item.episodeOrder.preview.specials": "Specials",
+  "@web.item.episodeOrder.preview.specials": {
+    "description": "Web, Episode order dialog: name of season 0 in the preview.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.item.episodeOrder.preview.title": "Preview",
+  "@web.item.episodeOrder.preview.title": {
+    "description": "Web, Episode order dialog: heading of the preview pane.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.item.episodeOrder.preview.unmatchedBody": "{files} name episodes this order doesn't have. They stay unplaced until the file naming or the order changes.",
+  "@web.item.episodeOrder.preview.unmatchedBody": {
+    "description": "Web, Episode order dialog: warning text. {files} is a list of up to three file names, maybe followed by how many more.",
+    "placeholders": {
+      "files": {
+        "type": "String"
+      }
+    },
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.item.episodeOrder.preview.unmatchedTitle": "{count, plural, one {# file doesn't fit this order} other {# files don't fit this order}}",
+  "@web.item.episodeOrder.preview.unmatchedTitle": {
+    "description": "Web, Episode order dialog: warning title when files name episodes the order does not have.",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    },
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.item.episodeOrder.saveFailed": "Couldn't save the episode order.",
+  "@web.item.episodeOrder.saveFailed": {
+    "description": "Web, toast when saving an episode order failed.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.item.episodeOrder.source.label": "Episode data from",
+  "@web.item.episodeOrder.source.label": {
+    "description": "Web, Episode order dialog: label above the choice of library default, TVDB or TMDB.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.item.episodeOrder.source.library": "Library default · {provider}",
+  "@web.item.episodeOrder.source.library": {
+    "description": "Web, Episode order dialog: option to follow the library's episode order. {provider} is TVDB or TMDB.",
+    "placeholders": {
+      "provider": {
+        "type": "String"
+      }
+    },
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.item.episodeOrder.source.libraryBody": "Uses {provider}'s default order, and {other} when {provider} has no episodes for this show.",
+  "@web.item.episodeOrder.source.libraryBody": {
+    "description": "Web, Episode order dialog: explanation of the library default option. {provider} and {other} are TVDB or TMDB.",
+    "placeholders": {
+      "provider": {
+        "type": "String"
+      },
+      "other": {
+        "type": "String"
+      }
+    },
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.item.episodeOrder.source.tmdbBody": "Default seasons or one of TMDB's episode groups.",
+  "@web.item.episodeOrder.source.tmdbBody": {
+    "description": "Web, Episode order dialog: explanation of the TMDB option.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.item.episodeOrder.source.tvdbBody": "Aired, DVD, absolute or alternate order (TVDB season types).",
+  "@web.item.episodeOrder.source.tvdbBody": {
+    "description": "Web, Episode order dialog: explanation of the TVDB option.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.item.episodeOrder.summary": "Episode order: {summary}",
+  "@web.item.episodeOrder.summary": {
+    "description": "Web, series page (admins and curators): note naming the show's episode order. {summary} is for example TVDB DVD Order · Absolute.",
+    "placeholders": {
+      "summary": {
+        "type": "String"
+      }
+    },
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.item.episodeOrder.summaryAbsolute": "{order} · Absolute",
+  "@web.item.episodeOrder.summaryAbsolute": {
+    "description": "Web, series page: the episode order summary with the absolute layout. {order} names the order.",
+    "placeholders": {
+      "order": {
+        "type": "String"
+      }
+    },
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.item.episodeOrder.summaryFiles": "{order} · files named in {files}",
+  "@web.item.episodeOrder.summaryFiles": {
+    "description": "Web, series page: the episode order summary when the files are named in another provider's order. {order} names the order; {files} is TVDB aired order or TMDB seasons.",
+    "placeholders": {
+      "order": {
+        "type": "String"
+      },
+      "files": {
+        "type": "String"
+      }
+    },
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.item.episodeOrder.summaryLibrary": "{summary} (library default)",
+  "@web.item.episodeOrder.summaryLibrary": {
+    "description": "Web, series page: the episode order summary when the show follows its library. {summary} names the order.",
+    "placeholders": {
+      "summary": {
+        "type": "String"
+      }
+    },
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.item.episodeOrder.title": "Episode order",
+  "@web.item.episodeOrder.title": {
+    "description": "Web, Episode order dialog: title.",
     "x-platforms": [
       "web"
     ]
