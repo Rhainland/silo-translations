@@ -152495,6 +152495,13 @@
       "web"
     ]
   },
+  "web.item.arrangeSeasons.startOverBody": "Your changes are lost, and the seasons start again from the order you picked.",
+  "@web.item.arrangeSeasons.startOverBody": {
+    "description": "Body of the confirmation shown before starting the season arranger over from another order discards unsaved changes.",
+    "x-platforms": [
+      "web"
+    ]
+  },
   "web.item.arrangeSeasons.startOverOption": "{provider} · {order}",
   "@web.item.arrangeSeasons.startOverOption": {
     "description": "Web, season arranger: an option of Start over from. {provider} is TVDB or TMDB; {order} is the order's name.",
