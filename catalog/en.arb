@@ -152390,7 +152390,7 @@
       "web"
     ]
   },
-  "web.item.arrangeSeasons.savedBody": "Silo is renumbering the episodes. Watch history moves with each episode.",
+  "web.item.arrangeSeasons.savedBody": "Silo is renumbering the episodes. Watch history stays with each episode.",
   "@web.item.arrangeSeasons.savedBody": {
     "description": "Web, toast after saving arranged seasons: explanation.",
     "x-platforms": [
@@ -153276,7 +153276,7 @@
       "web"
     ]
   },
-  "web.item.episodeOrder.appliedBody": "Silo is renumbering the episodes. Watch history moves with each episode.",
+  "web.item.episodeOrder.appliedBody": "Silo is renumbering the episodes. Watch history stays with each episode.",
   "@web.item.episodeOrder.appliedBody": {
     "description": "Web, toast after saving an episode order: explanation.",
     "x-platforms": [
@@ -153325,15 +153325,15 @@
       "web"
     ]
   },
-  "web.item.episodeOrder.files.fit": "{matched} of {total} files",
+  "web.item.episodeOrder.files.fit": "{matched} of {total, plural, one {# file} other {# files}}",
   "@web.item.episodeOrder.files.fit": {
     "description": "Web, Episode order dialog: next to a file naming option, how many of the show's files it places.",
     "placeholders": {
       "matched": {
-        "type": "String"
+        "type": "int"
       },
       "total": {
-        "type": "String"
+        "type": "int"
       }
     },
     "x-platforms": [
@@ -153613,7 +153613,7 @@
       "web"
     ]
   },
-  "web.item.episodeOrder.preview.empty": "Neither TVDB nor TMDB has episodes for this show, so it keeps the numbers from its file names.",
+  "web.item.episodeOrder.preview.empty": "Neither TVDB nor TMDB returned episodes for this show, so it keeps the numbers from its file names.",
   "@web.item.episodeOrder.preview.empty": {
     "description": "Web, Episode order dialog: shown when no provider has episodes for the show.",
     "x-platforms": [
@@ -153654,15 +153654,15 @@
       "web"
     ]
   },
-  "web.item.episodeOrder.preview.files": "{matched}/{total} files placed",
+  "web.item.episodeOrder.preview.files": "{matched}/{total, plural, one {# file} other {# files}} placed",
   "@web.item.episodeOrder.preview.files": {
     "description": "Web, Episode order dialog: how many of the show's files the previewed order places.",
     "placeholders": {
       "matched": {
-        "type": "String"
+        "type": "int"
       },
       "total": {
-        "type": "String"
+        "type": "int"
       }
     },
     "x-platforms": [
@@ -153772,10 +153772,13 @@
       "web"
     ]
   },
-  "web.item.episodeOrder.preview.unmatchedBody": "{files} name episodes this order doesn't have. They stay unplaced until the file naming or the order changes.",
+  "web.item.episodeOrder.preview.unmatchedBody": "{count, plural, one {{files} names an episode this order doesn't have. It stays} other {{files} name episodes this order doesn't have. They stay}} unplaced until the file naming or the order changes.",
   "@web.item.episodeOrder.preview.unmatchedBody": {
-    "description": "Web, Episode order dialog: warning text. {files} is a list of up to three file names, maybe followed by how many more.",
+    "description": "Web, Episode order dialog: warning text. {files} is a list of up to three file names, maybe followed by how many more; {count} is how many files that is.",
     "placeholders": {
+      "count": {
+        "type": "int"
+      },
       "files": {
         "type": "String"
       }
