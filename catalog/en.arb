@@ -152262,6 +152262,18 @@
       "web"
     ]
   },
+  "web.item.arrangeSeasons.metaNoteSeasons": "Season details come from {provider} by season number. Move this season and it takes the details of its new number; a custom title, description or poster stays with it.",
+  "@web.item.arrangeSeasons.metaNoteSeasons": {
+    "description": "Web, season arranger: note under the season details. {provider} is TVDB or TMDB.",
+    "placeholders": {
+      "provider": {
+        "type": "String"
+      }
+    },
+    "x-platforms": [
+      "web"
+    ]
+  },
   "web.item.arrangeSeasons.moveTo": "Move to…",
   "@web.item.arrangeSeasons.moveTo": {
     "description": "Web, season arranger: picker that moves the selected episodes to another season.",
@@ -152315,6 +152327,48 @@
   "web.item.arrangeSeasons.placedAutomatically": "Placed automatically",
   "@web.item.arrangeSeasons.placedAutomatically": {
     "description": "Web, season arranger: marks an episode that is new since the seasons were saved and was added to the last season.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.item.arrangeSeasons.posterAdded": "Poster added",
+  "@web.item.arrangeSeasons.posterAdded": {
+    "description": "Web, season arranger: toast after a poster upload. It is saved with the seasons.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.item.arrangeSeasons.posterFailed": "Couldn't upload the poster. Use a JPEG, PNG or WebP image of at most 10 MB.",
+  "@web.item.arrangeSeasons.posterFailed": {
+    "description": "Web, season arranger: toast when a poster upload failed.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.item.arrangeSeasons.posterNone": "No poster",
+  "@web.item.arrangeSeasons.posterNone": {
+    "description": "Web, season arranger: badge on a season without a poster.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.item.arrangeSeasons.posterRemove": "Remove",
+  "@web.item.arrangeSeasons.posterRemove": {
+    "description": "Web, season arranger: button that removes the season's uploaded poster when the provider has none.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.item.arrangeSeasons.posterReplace": "Replace",
+  "@web.item.arrangeSeasons.posterReplace": {
+    "description": "Web, season arranger: button that replaces the season's uploaded poster.",
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.item.arrangeSeasons.posterUpload": "Upload poster",
+  "@web.item.arrangeSeasons.posterUpload": {
+    "description": "Web, season arranger: button that uploads a poster for the selected season.",
     "x-platforms": [
       "web"
     ]
