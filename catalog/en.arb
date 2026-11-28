@@ -142829,9 +142829,9 @@
       }
     }
   },
-  "web.detail.actions.arrangeShow": "Arrange Show",
-  "@web.detail.actions.arrangeShow": {
-    "description": "Web, series page: Manage menu entry that opens the Arrange show dialog, where the show's episode order and season layout are chosen and seasons arranged (admins and metadata curators).",
+  "web.detail.actions.arrangeSeries": "Arrange Series",
+  "@web.detail.actions.arrangeSeries": {
+    "description": "Web, series page: Manage menu entry that opens the Arrange series dialog, where the series' episode order and season layout are chosen and seasons arranged (admins and metadata curators).",
     "x-platforms": [
       "web"
     ]
@@ -153275,7 +153275,7 @@
       "web"
     ]
   },
-  "web.item.episodeOrder.basedOn": "Based on",
+  "web.item.episodeOrder.basedOn": "Base order",
   "@web.item.episodeOrder.basedOn": {
     "description": "Web, episode order dialog: caption of the order picker in the Custom layout, where the order is what the arranged seasons start from.",
     "x-platforms": [
@@ -153289,7 +153289,7 @@
       "web"
     ]
   },
-  "web.item.episodeOrder.conflict": "Someone else changed this show's episode order. Reopen the dialog to see it.",
+  "web.item.episodeOrder.conflict": "Someone else changed this series' episode order. Reopen the dialog to see it.",
   "@web.item.episodeOrder.conflict": {
     "description": "Web, toast when the episode order was changed by someone else since the dialog opened.",
     "x-platforms": [
@@ -153303,16 +153303,16 @@
       "web"
     ]
   },
-  "web.item.episodeOrder.description": "Choose which provider order Silo uses for this show and how its seasons are laid out.",
+  "web.item.episodeOrder.description": "Choose which provider order Silo uses for this series and how its seasons are laid out.",
   "@web.item.episodeOrder.description": {
     "description": "Web, Episode order dialog: description read by screen readers.",
     "x-platforms": [
       "web"
     ]
   },
-  "web.item.episodeOrder.files.fit": "{matched} of {total, plural, one {# file} other {# files}}",
+  "web.item.episodeOrder.files.fit": "{matched}/{total} matched",
   "@web.item.episodeOrder.files.fit": {
-    "description": "Web, Episode order dialog: next to a file naming option, how many of the show's files it places.",
+    "description": "Web, Episode order dialog: next to a file naming option, how many of the show's files its episode numbers match, for example 12/14 matched.",
     "placeholders": {
       "matched": {
         "type": "int"
@@ -153325,21 +153325,21 @@
       "web"
     ]
   },
-  "web.item.episodeOrder.files.fitsAll": "Places every file",
+  "web.item.episodeOrder.files.fitsAll": "All files matched",
   "@web.item.episodeOrder.files.fitsAll": {
-    "description": "Web, Episode order dialog: mark next to a file naming option that places every file of the show.",
+    "description": "Web, Episode order dialog: mark next to a file naming option whose episode numbers match every file of the show.",
     "x-platforms": [
       "web"
     ]
   },
   "web.item.episodeOrder.files.help": "How Silo reads file names: S02E05 is season 2, episode 5 of this order. Each episode then goes where the order above puts it.",
   "@web.item.episodeOrder.files.help": {
-    "description": "Web, Episode order dialog: help under Files are named in. S02E05 is an example file name part and stays as is.",
+    "description": "Web, Episode order dialog: help under File naming. S02E05 is an example file name part and stays as is.",
     "x-platforms": [
       "web"
     ]
   },
-  "web.item.episodeOrder.files.label": "Files are named in",
+  "web.item.episodeOrder.files.label": "File naming",
   "@web.item.episodeOrder.files.label": {
     "description": "Web, Episode order dialog: label of the choice of the order the show's file names follow.",
     "x-platforms": [
@@ -153598,7 +153598,7 @@
       "web"
     ]
   },
-  "web.item.episodeOrder.preview.empty": "Neither TVDB nor TMDB returned episodes for this show, so it keeps the numbers from its file names.",
+  "web.item.episodeOrder.preview.empty": "Neither TVDB nor TMDB returned episodes for this series, so it keeps the numbers from its file names.",
   "@web.item.episodeOrder.preview.empty": {
     "description": "Web, Episode order dialog: shown when no provider has episodes for the show.",
     "x-platforms": [
@@ -153624,7 +153624,7 @@
       "web"
     ]
   },
-  "web.item.episodeOrder.preview.fallback": "{provider} has no episodes for this show, so it follows {other}.",
+  "web.item.episodeOrder.preview.fallback": "{provider} has no episodes for this series, so it follows {other}.",
   "@web.item.episodeOrder.preview.fallback": {
     "description": "Web, Episode order dialog: shown when the chosen provider has no episodes and the other provider numbers the show. {provider} and {other} are TVDB or TMDB.",
     "placeholders": {
@@ -153639,7 +153639,7 @@
       "web"
     ]
   },
-  "web.item.episodeOrder.preview.files": "{matched}/{total, plural, one {# file} other {# files}} placed",
+  "web.item.episodeOrder.preview.files": "{matched}/{total, plural, one {# file} other {# files}} matched",
   "@web.item.episodeOrder.preview.files": {
     "description": "Web, Episode order dialog: how many of the show's files the previewed order places.",
     "placeholders": {
@@ -153709,7 +153709,7 @@
   },
   "web.item.episodeOrder.preview.readAs": "Read files as {order}",
   "@web.item.episodeOrder.preview.readAs": {
-    "description": "Web, Episode order dialog: button that switches Files are named in to the order that places more files. {order} is TVDB aired order or TMDB seasons.",
+    "description": "Web, Episode order dialog: button that switches File naming to the order that places more files. {order} is TVDB aired order or TMDB seasons.",
     "placeholders": {
       "order": {
         "type": "String"
@@ -153787,9 +153787,9 @@
       "web"
     ]
   },
-  "web.item.episodeOrder.source.label": "Episode data from",
+  "web.item.episodeOrder.source.label": "Source",
   "@web.item.episodeOrder.source.label": {
-    "description": "Web, Episode order dialog: label above the choice of library default, TVDB or TMDB.",
+    "description": "Web, Episode order dialog: label above the choice of library default, TVDB or TMDB: where the episode data comes from.",
     "x-platforms": [
       "web"
     ]
@@ -153806,7 +153806,7 @@
       "web"
     ]
   },
-  "web.item.episodeOrder.source.libraryBody": "Uses {provider}'s default order, and {other} when {provider} has no episodes for this show.",
+  "web.item.episodeOrder.source.libraryBody": "Uses {provider}'s default order, and {other} when {provider} has no episodes for this series.",
   "@web.item.episodeOrder.source.libraryBody": {
     "description": "Web, Episode order dialog: explanation of the library default option. {provider} and {other} are TVDB or TMDB.",
     "placeholders": {
@@ -153837,7 +153837,7 @@
   },
   "web.item.episodeOrder.summary": "Episode order: {summary}",
   "@web.item.episodeOrder.summary": {
-    "description": "Web, series page (admins and curators): note naming the show's episode order. {summary} is for example TVDB DVD Order · Absolute.",
+    "description": "Web, series page (admins and curators): note naming the series' episode order. {summary} is for example TVDB DVD Order · Absolute.",
     "placeholders": {
       "summary": {
         "type": "String"
@@ -153898,9 +153898,9 @@
       "web"
     ]
   },
-  "web.item.episodeOrder.title": "Arrange show",
+  "web.item.episodeOrder.title": "Arrange series",
   "@web.item.episodeOrder.title": {
-    "description": "Web, series page: title of the Arrange show dialog, which picks the episode order and season layout and arranges seasons.",
+    "description": "Web, series page: title of the Arrange series dialog, which picks the episode order and season layout and arranges seasons.",
     "x-platforms": [
       "web"
     ]
