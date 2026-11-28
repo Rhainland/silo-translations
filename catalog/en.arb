@@ -142829,9 +142829,9 @@
       }
     }
   },
-  "web.detail.actions.arrangeSeasons": "Arrange seasons",
-  "@web.detail.actions.arrangeSeasons": {
-    "description": "Web, series page: Manage menu entry that opens the season arranger (admins and metadata curators).",
+  "web.detail.actions.arrangeShow": "Arrange Show",
+  "@web.detail.actions.arrangeShow": {
+    "description": "Web, series page: Manage menu entry that opens the Arrange show dialog, where the show's episode order and season layout are chosen and seasons arranged (admins and metadata curators).",
     "x-platforms": [
       "web"
     ]
@@ -142860,13 +142860,6 @@
   "web.detail.actions.editMetadata": "Edit Metadata",
   "@web.detail.actions.editMetadata": {
     "description": "Web: admin or curator action in the Manage submenu of a detail page's More menu; opens the metadata editor for this item.",
-    "x-platforms": [
-      "web"
-    ]
-  },
-  "web.detail.actions.episodeOrder": "Episode order",
-  "@web.detail.actions.episodeOrder": {
-    "description": "Web, series page: Manage menu entry that opens the Episode order dialog (admins and metadata curators).",
     "x-platforms": [
       "web"
     ]
@@ -152488,31 +152481,16 @@
       "web"
     ]
   },
-  "web.item.arrangeSeasons.startOver": "Start over from…",
+  "web.item.arrangeSeasons.startOver": "Start over",
   "@web.item.arrangeSeasons.startOver": {
-    "description": "Web, season arranger: picker that rebuilds the seasons from an episode order.",
+    "description": "Web, episode order dialog, Custom layout: button that rebuilds the arranged seasons from the order the arrangement is based on.",
     "x-platforms": [
       "web"
     ]
   },
-  "web.item.arrangeSeasons.startOverBody": "Your changes are lost, and the seasons start again from the order you picked.",
+  "web.item.arrangeSeasons.startOverBody": "Your changes are lost, and the seasons start again from the order.",
   "@web.item.arrangeSeasons.startOverBody": {
-    "description": "Body of the confirmation shown before starting the season arranger over from another order discards unsaved changes.",
-    "x-platforms": [
-      "web"
-    ]
-  },
-  "web.item.arrangeSeasons.startOverOption": "{provider} · {order}",
-  "@web.item.arrangeSeasons.startOverOption": {
-    "description": "Web, season arranger: an option of Start over from. {provider} is TVDB or TMDB; {order} is the order's name.",
-    "placeholders": {
-      "provider": {
-        "type": "String"
-      },
-      "order": {
-        "type": "String"
-      }
-    },
+    "description": "Body of the confirmation shown before starting the season arranger over, or switching it to another order, discards unsaved changes.",
     "x-platforms": [
       "web"
     ]
@@ -153297,6 +153275,13 @@
       "web"
     ]
   },
+  "web.item.episodeOrder.basedOn": "Based on",
+  "@web.item.episodeOrder.basedOn": {
+    "description": "Web, episode order dialog: caption of the order picker in the Custom layout, where the order is what the arranged seasons start from.",
+    "x-platforms": [
+      "web"
+    ]
+  },
   "web.item.episodeOrder.change": "Change",
   "@web.item.episodeOrder.change": {
     "description": "Web, series page: link next to the episode order summary that opens the Episode order dialog.",
@@ -153471,9 +153456,9 @@
       "web"
     ]
   },
-  "web.item.episodeOrder.layout.custom": "Custom seasons",
+  "web.item.episodeOrder.layout.custom": "Custom",
   "@web.item.episodeOrder.layout.custom": {
-    "description": "Web, Episode order dialog: layout option for seasons the admin arranges.",
+    "description": "Web, episode order dialog: layout switch option where the admin arranges the seasons by hand.",
     "x-platforms": [
       "web"
     ]
@@ -153492,9 +153477,9 @@
       "web"
     ]
   },
-  "web.item.episodeOrder.layout.seasons": "Seasons from the order",
+  "web.item.episodeOrder.layout.seasons": "Seasons",
   "@web.item.episodeOrder.layout.seasons": {
-    "description": "Web, Episode order dialog: layout option that keeps the order's seasons.",
+    "description": "Web, episode order dialog: layout switch option that keeps the seasons as the order lists them.",
     "x-platforms": [
       "web"
     ]
@@ -153669,18 +153654,6 @@
       "web"
     ]
   },
-  "web.item.episodeOrder.preview.help": "How {title} will look after you apply. Each row is an episode in its new place, with the file Silo links to it.",
-  "@web.item.episodeOrder.preview.help": {
-    "description": "Web, Episode order dialog: explanation under Preview. {title} is the show's title.",
-    "placeholders": {
-      "title": {
-        "type": "String"
-      }
-    },
-    "x-platforms": [
-      "web"
-    ]
-  },
   "web.item.episodeOrder.preview.loading": "Loading the preview…",
   "@web.item.episodeOrder.preview.loading": {
     "description": "Web, Episode order dialog: shown while the preview loads from the providers.",
@@ -153746,13 +153719,6 @@
       "web"
     ]
   },
-  "web.item.episodeOrder.preview.seasonPicker": "Season to preview",
-  "@web.item.episodeOrder.preview.seasonPicker": {
-    "description": "Web, Episode order dialog: accessible name of the season picker in the preview.",
-    "x-platforms": [
-      "web"
-    ]
-  },
   "web.item.episodeOrder.preview.seasons": "{count, plural, one {# season} other {# seasons}}",
   "@web.item.episodeOrder.preview.seasons": {
     "description": "Web, Episode order dialog: number of regular seasons in the preview.",
@@ -153761,13 +153727,6 @@
         "type": "int"
       }
     },
-    "x-platforms": [
-      "web"
-    ]
-  },
-  "web.item.episodeOrder.preview.title": "Preview",
-  "@web.item.episodeOrder.preview.title": {
-    "description": "Web, Episode order dialog: heading of the preview pane.",
     "x-platforms": [
       "web"
     ]
@@ -153810,6 +153769,13 @@
         "type": "String"
       }
     },
+    "x-platforms": [
+      "web"
+    ]
+  },
+  "web.item.episodeOrder.readOnlyHint": "To move episodes, split seasons or rename them, arrange the seasons yourself.",
+  "@web.item.episodeOrder.readOnlyHint": {
+    "description": "Web, episode order dialog: note above the read-only Seasons and Absolute layouts, next to the Arrange seasons button that switches to the Custom layout.",
     "x-platforms": [
       "web"
     ]
@@ -153932,9 +153898,9 @@
       "web"
     ]
   },
-  "web.item.episodeOrder.title": "Episode order",
+  "web.item.episodeOrder.title": "Arrange show",
   "@web.item.episodeOrder.title": {
-    "description": "Web, Episode order dialog: title.",
+    "description": "Web, series page: title of the Arrange show dialog, which picks the episode order and season layout and arranges seasons.",
     "x-platforms": [
       "web"
     ]
