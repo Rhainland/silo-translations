@@ -152495,13 +152495,6 @@
       "web"
     ]
   },
-  "web.item.arrangeSeasons.title": "Arrange seasons",
-  "@web.item.arrangeSeasons.title": {
-    "description": "Web, season arranger dialog: title.",
-    "x-platforms": [
-      "web"
-    ]
-  },
   "web.item.arrangeSeasons.titleLabel": "Title",
   "@web.item.arrangeSeasons.titleLabel": {
     "description": "Web, season arranger: label of the season title field.",
@@ -153346,18 +153339,6 @@
       "web"
     ]
   },
-  "web.item.episodeOrder.files.suggestion": "Your files look like {order}",
-  "@web.item.episodeOrder.files.suggestion": {
-    "description": "Web, Episode order dialog: suggestion of the file naming that places the most files. {order} is TVDB aired order or TMDB seasons.",
-    "placeholders": {
-      "order": {
-        "type": "String"
-      }
-    },
-    "x-platforms": [
-      "web"
-    ]
-  },
   "web.item.episodeOrder.files.tmdb": "TMDB seasons",
   "@web.item.episodeOrder.files.tmdb": {
     "description": "Web, Episode order dialog: file naming option, TMDB's default seasons.",
@@ -153368,13 +153349,6 @@
   "web.item.episodeOrder.files.tvdb": "TVDB aired order",
   "@web.item.episodeOrder.files.tvdb": {
     "description": "Web, Episode order dialog: file naming option, TVDB's default (aired) order.",
-    "x-platforms": [
-      "web"
-    ]
-  },
-  "web.item.episodeOrder.files.useSuggestion": "Use it",
-  "@web.item.episodeOrder.files.useSuggestion": {
-    "description": "Web, Episode order dialog: button that applies the suggested file naming.",
     "x-platforms": [
       "web"
     ]
@@ -153570,49 +153544,9 @@
       "web"
     ]
   },
-  "web.item.episodeOrder.preview.colEpisode": "Episode",
-  "@web.item.episodeOrder.preview.colEpisode": {
-    "description": "Web, Episode order dialog: preview column header for the episode title.",
-    "x-platforms": [
-      "web"
-    ]
-  },
-  "web.item.episodeOrder.preview.colFile": "File on disk",
-  "@web.item.episodeOrder.preview.colFile": {
-    "description": "Web, Episode order dialog: preview column header for the file linked to the episode.",
-    "x-platforms": [
-      "web"
-    ]
-  },
-  "web.item.episodeOrder.preview.colFileNumber": "File no.",
-  "@web.item.episodeOrder.preview.colFileNumber": {
-    "description": "Web, Episode order dialog: preview column header for the season and episode number a file name gives the episode.",
-    "x-platforms": [
-      "web"
-    ]
-  },
-  "web.item.episodeOrder.preview.colNumber": "No.",
-  "@web.item.episodeOrder.preview.colNumber": {
-    "description": "Web, Episode order dialog: preview column header for the episode number.",
-    "x-platforms": [
-      "web"
-    ]
-  },
   "web.item.episodeOrder.preview.empty": "Neither TVDB nor TMDB returned episodes for this series, so it keeps the numbers from its file names.",
   "@web.item.episodeOrder.preview.empty": {
     "description": "Web, Episode order dialog: shown when no provider has episodes for the show.",
-    "x-platforms": [
-      "web"
-    ]
-  },
-  "web.item.episodeOrder.preview.episodes": "{count, plural, one {# episode} other {# episodes}}",
-  "@web.item.episodeOrder.preview.episodes": {
-    "description": "Web, Episode order dialog: number of episodes in the preview.",
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    },
     "x-platforms": [
       "web"
     ]
@@ -153661,18 +153595,6 @@
       "web"
     ]
   },
-  "web.item.episodeOrder.preview.moreEpisodes": "and {count, plural, one {# more episode} other {# more episodes}}",
-  "@web.item.episodeOrder.preview.moreEpisodes": {
-    "description": "Web, Episode order dialog: last preview row when a long season is cut short.",
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    },
-    "x-platforms": [
-      "web"
-    ]
-  },
   "web.item.episodeOrder.preview.moreFiles": "{names} and {count, plural, one {# more} other {# more}}",
   "@web.item.episodeOrder.preview.moreFiles": {
     "description": "Web, Episode order dialog: a list of file names cut short. {names} is up to three file names; count is how many more there are.",
@@ -153684,13 +153606,6 @@
         "type": "int"
       }
     },
-    "x-platforms": [
-      "web"
-    ]
-  },
-  "web.item.episodeOrder.preview.notOnDisk": "Not on disk",
-  "@web.item.episodeOrder.preview.notOnDisk": {
-    "description": "Web, Episode order dialog: preview row for an episode without a file.",
     "x-platforms": [
       "web"
     ]
@@ -153713,18 +153628,6 @@
     "placeholders": {
       "order": {
         "type": "String"
-      }
-    },
-    "x-platforms": [
-      "web"
-    ]
-  },
-  "web.item.episodeOrder.preview.seasons": "{count, plural, one {# season} other {# seasons}}",
-  "@web.item.episodeOrder.preview.seasons": {
-    "description": "Web, Episode order dialog: number of regular seasons in the preview.",
-    "placeholders": {
-      "count": {
-        "type": "int"
       }
     },
     "x-platforms": [
